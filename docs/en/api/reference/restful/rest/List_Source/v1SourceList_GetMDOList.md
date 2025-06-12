@@ -26,8 +26,8 @@ Get the MDO list items for "Source" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Source/MDOItems?flat=False
-GET /api/v1/List/Source/MDOItems?query=vel
+GET /api/v1/List/Source/MDOItems?flat=True
+GET /api/v1/List/Source/MDOItems?query=sint
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Source/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 877,
-    "Name": "Kilback-Parker",
-    "ToolTip": "Cupiditate consequatur ratione quia.",
+    "Id": 595,
+    "Name": "Rosenbaum, Hilpert and Little",
+    "ToolTip": "Alias omnis non ea eum nihil.",
     "Deleted": false,
-    "Rank": 340,
-    "Type": "ipsum",
+    "Rank": 626,
+    "Type": "quos",
     "ChildItems": [
       {
-        "Id": 472,
-        "Name": "Raynor, Cruickshank and Weissnat",
-        "ToolTip": "Eligendi labore.",
-        "Deleted": true,
-        "Rank": 144,
-        "Type": "similique",
+        "Id": 853,
+        "Name": "Mann-Thompson",
+        "ToolTip": "Error error voluptas.",
+        "Deleted": false,
+        "Rank": 30,
+        "Type": "aut",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "praesentium",
-        "ColorBlock": 625,
-        "ExtraInfo": "et",
-        "StyleHint": "ipsa",
-        "FullName": "Elisa Wisoky",
+        "IconHint": "cum",
+        "ColorBlock": 582,
+        "ExtraInfo": "voluptas",
+        "StyleHint": "laudantium",
+        "FullName": "Katrina Farrell",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 628
+            "FieldType": "System.String",
+            "FieldLength": 719
           }
         }
       }
     ],
-    "IconHint": "nihil",
-    "ColorBlock": 480,
-    "ExtraInfo": "modi",
-    "StyleHint": "eligendi",
-    "FullName": "Imogene Burnice Hartmann DDS",
+    "IconHint": "animi",
+    "ColorBlock": 546,
+    "ExtraInfo": "ut",
+    "StyleHint": "et",
+    "FullName": "Felix Robel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 375
+        "FieldLength": 137
       }
     }
   }

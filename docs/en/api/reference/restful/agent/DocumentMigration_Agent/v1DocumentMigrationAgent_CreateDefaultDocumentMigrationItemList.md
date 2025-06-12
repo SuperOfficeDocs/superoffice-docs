@@ -61,7 +61,7 @@ OK
 POST /api/v1/Agents/DocumentMigration/CreateDefaultDocumentMigrationItemList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -71,29 +71,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 317,
-  "NumDocumentsAlreadyMigrated": 495,
+  "NumDocumentsOmitted": 289,
+  "NumDocumentsAlreadyMigrated": 701,
   "Documents": [
     {
-      "DocumentId": 689,
-      "ContactId": 944,
-      "PersonId": 392,
-      "SaleId": 499,
-      "ProjectId": 855,
-      "DocTmplId": 38,
-      "AssociateId": 998,
-      "UserGroupId": 87,
-      "VisibleForId": 684
+      "DocumentId": 188,
+      "ContactId": 835,
+      "PersonId": 917,
+      "SaleId": 949,
+      "ProjectId": 348,
+      "DocTmplId": 39,
+      "AssociateId": 392,
+      "UserGroupId": 540,
+      "VisibleForId": 992
     }
   ],
   "Associates": [
     {
-      "AssociateId": 139,
-      "EmailAddress": "murray@turcotte.co.uk"
+      "AssociateId": 721,
+      "EmailAddress": "brandt@cronagraham.com"
     },
     {
-      "AssociateId": 139,
-      "EmailAddress": "murray@turcotte.co.uk"
+      "AssociateId": 721,
+      "EmailAddress": "brandt@cronagraham.com"
     }
   ]
 }

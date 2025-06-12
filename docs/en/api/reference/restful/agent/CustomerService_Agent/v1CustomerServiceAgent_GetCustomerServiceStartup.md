@@ -68,7 +68,7 @@ OK
 POST /api/v1/Agents/CustomerService/GetCustomerServiceStartup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -78,28 +78,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TimezoneEnabled": false,
-  "TZOffset": 538,
-  "RecaptchaSiteKey": "dolorum",
+  "TimezoneEnabled": true,
+  "TZOffset": 388,
+  "RecaptchaSiteKey": "esse",
   "SelectedPreferences": [
     {
       "Level": "Database",
-      "RawValue": "ex",
+      "RawValue": "natus",
       "Specification": null,
-      "DisplayValue": "dolores",
-      "DisplayTooltip": "delectus",
+      "DisplayValue": "quia",
+      "DisplayTooltip": "et",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 216,
-      "PrefDescId": 419,
-      "TableName": "Douglas-Beer",
-      "UserPreferenceId": 938,
+      "TargetId": 494,
+      "PrefDescId": 914,
+      "TableName": "Rempel Group",
+      "UserPreferenceId": 192,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 773
+          "FieldLength": 276
         }
       }
     }
@@ -109,7 +109,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 283
+      "FieldLength": 188
     }
   }
 }

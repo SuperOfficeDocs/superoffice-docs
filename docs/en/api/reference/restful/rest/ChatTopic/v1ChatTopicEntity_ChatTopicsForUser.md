@@ -87,7 +87,7 @@ OK
 GET /api/v1/ChatTopic/ForCurrentUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -98,22 +98,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatTopicId": 952,
-    "Name": "Muller, Smitham and Wiza",
-    "Description": "Upgradable 6th generation productivity",
-    "WelcomeMessage": "iste",
+    "ChatTopicId": 212,
+    "Name": "Torp LLC",
+    "Description": "Balanced homogeneous protocol",
+    "WelcomeMessage": "magni",
     "Language": null,
-    "LastAccept": "2017-12-23T16:32:47.2633305+01:00",
-    "SecondsPrAccept": 957,
-    "AlertRecipient": "sequi",
+    "LastAccept": "2023-09-30T17:54:08.0543344+02:00",
+    "SecondsPrAccept": 258,
+    "AlertRecipient": "assumenda",
     "AlertTemplate": null,
     "CollectConsent": false,
-    "BadgeHeader": "et",
+    "BadgeHeader": "voluptatum",
     "CustomQueueTextEnabled": false,
-    "CustomQueueText": "perferendis",
-    "WarnNewChatMinutes": 181,
-    "WarnManagerNewChatMinutes": 191,
-    "TicketEnabled": false,
+    "CustomQueueText": "perspiciatis",
+    "WarnNewChatMinutes": 853,
+    "WarnManagerNewChatMinutes": 68,
+    "TicketEnabled": true,
     "TicketCategory": null,
     "TicketPriority": null,
     "OpeningHoursEnabled": false,
@@ -122,19 +122,19 @@ Content-Type: application/json; charset=utf-8
     "BotEnabled": false,
     "BotSettings": null,
     "OfflineCollectConsent": false,
-    "WarnChatMessageMinutes": 788,
-    "WarnManagerChatMessageMinutes": 470,
-    "UseQueueOfflineForm": true,
-    "OfflineFormTimeLimit": 439,
-    "OfflineFormQueueLength": 59,
+    "WarnChatMessageMinutes": 261,
+    "WarnManagerChatMessageMinutes": 915,
+    "UseQueueOfflineForm": false,
+    "OfflineFormTimeLimit": 336,
+    "OfflineFormQueueLength": 652,
     "WidgetEnableRating": false,
-    "WidgetRatingText": "illum",
+    "WidgetRatingText": "unde",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 223
+        "FieldType": "System.String",
+        "FieldLength": 633
       }
     }
   }

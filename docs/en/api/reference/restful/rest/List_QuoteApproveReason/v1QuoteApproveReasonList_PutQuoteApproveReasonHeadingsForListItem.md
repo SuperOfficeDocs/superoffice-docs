@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 481,
-    "Name": "Kunde, Cummerata and Kirlin",
-    "ToolTip": "Rem aut beatae.",
+    "Id": 530,
+    "Name": "Wolff Group",
+    "ToolTip": "Et saepe ad adipisci vel nisi.",
     "Deleted": false,
-    "Rank": 623,
-    "Type": "temporibus",
-    "ColorBlock": 776,
-    "IconHint": "aut",
+    "Rank": 847,
+    "Type": "facere",
+    "ColorBlock": 963,
+    "IconHint": "adipisci",
     "Selected": false,
-    "LastChanged": "2022-04-20T16:32:48.8682307+02:00",
+    "LastChanged": "2007-12-26T17:54:09.0074197+01:00",
     "ChildItems": [
       {
-        "Id": 777,
-        "Name": "Kertzmann, Bernhard and Hessel",
-        "ToolTip": "Enim debitis esse quis vel.",
-        "Deleted": true,
-        "Rank": 228,
-        "Type": "animi",
-        "ColorBlock": 995,
-        "IconHint": "laudantium",
+        "Id": 374,
+        "Name": "Dibbert-Smitham",
+        "ToolTip": "Est sed vel accusamus et voluptas.",
+        "Deleted": false,
+        "Rank": 405,
+        "Type": "beatae",
+        "ColorBlock": 211,
+        "IconHint": "possimus",
         "Selected": false,
-        "LastChanged": "2006-11-06T16:32:48.8682307+01:00",
+        "LastChanged": "2017-02-14T17:54:09.0074197+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "odit",
-        "StyleHint": "vel",
-        "Hidden": true,
-        "FullName": "Hortense Quitzon"
+        "ExtraInfo": "tenetur",
+        "StyleHint": "alias",
+        "Hidden": false,
+        "FullName": "Bert Mosciski PhD"
       }
     ],
-    "ExtraInfo": "consequatur",
-    "StyleHint": "qui",
-    "Hidden": false,
-    "FullName": "Dr. Virginia Brionna Orn"
+    "ExtraInfo": "libero",
+    "StyleHint": "minima",
+    "Hidden": true,
+    "FullName": "Dayana Rodriguez"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 589,
-    "Name": "Boyle-Skiles",
-    "ToolTip": "Dolorem quam ex molestiae.",
+    "Id": 884,
+    "Name": "Aufderhar Inc and Sons",
+    "ToolTip": "Aut consectetur error ex autem itaque qui.",
     "Deleted": true,
-    "Rank": 136,
-    "Type": "ipsam",
-    "ColorBlock": 667,
-    "IconHint": "eveniet",
+    "Rank": 312,
+    "Type": "praesentium",
+    "ColorBlock": 489,
+    "IconHint": "nobis",
     "Selected": false,
-    "LastChanged": "1997-12-20T16:32:48.8682307+01:00",
+    "LastChanged": "2017-10-20T17:54:09.0074197+02:00",
     "ChildItems": [
       {
-        "Id": 53,
-        "Name": "Rohan-Schiller",
-        "ToolTip": "Illo incidunt et ut enim non debitis quo.",
+        "Id": 357,
+        "Name": "Johnson Group",
+        "ToolTip": "Nihil nulla odio autem velit voluptas consequatur eum.",
         "Deleted": true,
-        "Rank": 754,
-        "Type": "sit",
-        "ColorBlock": 603,
-        "IconHint": "nihil",
-        "Selected": true,
-        "LastChanged": "2023-10-04T16:32:48.8682307+02:00",
+        "Rank": 726,
+        "Type": "dolor",
+        "ColorBlock": 273,
+        "IconHint": "non",
+        "Selected": false,
+        "LastChanged": "2022-10-07T17:54:09.0074197+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consectetur",
-        "StyleHint": "rerum",
-        "Hidden": false,
-        "FullName": "Ms. Camren Kailee Hilll DDS",
+        "ExtraInfo": "est",
+        "StyleHint": "ducimus",
+        "Hidden": true,
+        "FullName": "Dr. Dannie Christop Pfannerstill Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 294
+            "FieldType": "System.String",
+            "FieldLength": 162
           }
         }
       }
     ],
-    "ExtraInfo": "vitae",
-    "StyleHint": "veritatis",
-    "Hidden": true,
-    "FullName": "Ines Borer",
+    "ExtraInfo": "enim",
+    "StyleHint": "qui",
+    "Hidden": false,
+    "FullName": "Katheryn Wolf II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 846
+        "FieldLength": 445
       }
     }
   }

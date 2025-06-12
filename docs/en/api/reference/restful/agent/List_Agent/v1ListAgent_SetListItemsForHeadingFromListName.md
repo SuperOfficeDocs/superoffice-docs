@@ -67,17 +67,17 @@ No Content
 POST /api/v1/Agents/List/SetListItemsForHeadingFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Skiles Group",
-  "HeadingId": 198,
+  "UdListDefinitionName": "Zieme, Gottlieb and Champlin",
+  "HeadingId": 710,
   "ListItemIds": [
-    964,
-    224
+    102,
+    694
   ],
-  "Enable": true
+  "Enable": false
 }
 ```
 

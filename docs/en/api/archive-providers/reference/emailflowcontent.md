@@ -120,13 +120,14 @@ Lists all email flow content
 |shipment/emailFlow/workflowAssociate/contactName| *None* |Owner - Owning company: Name of the company the user belongs to|  |
 |shipment/emailFlow/workflowAssociate/contactDepartment| *None* |Owner - Owning department: Name of the department at the company the user belongs to|  |
 |shipment/emailFlow/workflowAssociate/usergroup| *None* |Owner - Primary group: The user's primary user group|  |
+|shipment/emailFlow/workflowAssociate/usergroupId| *None* |Owner - Group ID: The user's primary user group|  |
 |shipment/emailFlow/workflowAssociate/contactFullName| *None* |Owner - Owner: Name and department of the company the user belongs to|  |
 |shipment/emailFlow/workflowAssociate/contactCategory| *None* |Owner - Category: Category|  |
-|shipment/emailFlow/workflowAssociate/role| *None* |Owner - Role: Role|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|shipment/emailFlow/workflowAssociate/role| *None* |Owner - Role: Role|  |
 |shipment/emailFlow/workflowAssociate/assocName| *None* |Owner - User ID: User ID|  |
 |shipment/emailFlow/workflowAssociate/assocTooltip| *None* |Owner - Description: Description|  |
 |shipment/emailFlow/workflowAssociate/assocType| *None* |Owner - Type: Type of user: associate, external user, system user, anonymous account|  |
@@ -194,6 +195,7 @@ Lists all email flow content
 |shipment/project/projectAssociate/contactName| *None* |Owning company: Name of the company the user belongs to|  |
 |shipment/project/projectAssociate/contactDepartment| *None* |Owning department: Name of the department at the company the user belongs to|  |
 |shipment/project/projectAssociate/usergroup| *None* |Primary group: The user's primary user group|  |
+|shipment/project/projectAssociate/usergroupId| *None* |Group ID: The user's primary user group|  |
 |shipment/project/projectAssociate/contactFullName| *None* |Owner: Name and department of the company the user belongs to|  |
 |shipment/project/projectAssociate/contactCategory| *None* |Category: Category|  |
 |shipment/project/projectAssociate/role| *None* |Role : Role|  |
@@ -225,12 +227,12 @@ Lists all email flow content
 |shipment/project/projectUdef/SuperOffice:9| *None* |page1saleandmarketing|  |
 |shipment/project/projectUdef/SuperOffice:10| *None* |page1saleandadmin|  |
 |shipment/project/NumberOfActivities| *None* |Number of activities|  |
-|shipment/project/NumberOfActivitiesInPeriod| *None* |Number of activities in last 90 days|  |
-|shipment/project/NumberOfNotCompletedActivities| *None* |Number of non-completed activities|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|shipment/project/NumberOfActivitiesInPeriod| *None* |Number of activities in last 90 days|  |
+|shipment/project/NumberOfNotCompletedActivities| *None* |Number of non-completed activities|  |
 |shipment/project/NumberOfNotCompletedActivitiesInPeriod| *None* |Number of non-completed activities in last 90 days|  |
 |shipment/project/LastActivity| *None* |Date of last activity|  |
 |shipment/project/LastCompletedActivity| *None* |Date of last completed activity|  |
@@ -259,7 +261,7 @@ Lists all email flow content
 ## Sample
 
 ```http!
-GET /api/v1/archive/EmailFlowContent?$select=shipment/mailingSubscriptionType,shipment/emailFlow/startOnlyOnce,shipment/emailFlow/workflowAssociate/otherGroups
+GET /api/v1/archive/EmailFlowContent?$select=shipment/project/projectAssociate/role,shipment/emailFlow/workflowEnrolledCount,shipment/emailFlow/workflowAssociate/otherGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/List/GetLocalizedTextList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,18 +86,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageId": 931,
-    "ResourceId": 812,
-    "Text": "sint",
+    "LanguageId": 574,
+    "ResourceId": 311,
+    "Text": "in",
     "Type": "Column",
-    "LocalizedTextId": 1001,
-    "IsBuiltIn": true,
+    "LocalizedTextId": 762,
+    "IsBuiltIn": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 348
+        "FieldType": "System.String",
+        "FieldLength": 60
       }
     }
   }

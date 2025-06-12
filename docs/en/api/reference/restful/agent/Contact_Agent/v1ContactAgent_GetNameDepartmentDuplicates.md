@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Contact/GetNameDepartmentDuplicates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Reilly Group",
+  "Name": "Schiller-Morar",
   "Department": ""
 }
 ```
@@ -95,17 +95,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Roob Group",
-    "SoPrimaryKey": 849,
-    "EntryName": "Witting-Reynolds",
-    "EntryIdentifier": "sequi",
-    "RuleDisplayName": "Luettgen-Balistreri",
+    "RuleName": "Kemmer, Jakubowski and Ward",
+    "SoPrimaryKey": 374,
+    "EntryName": "Boyer-Hettinger",
+    "EntryIdentifier": "neque",
+    "RuleDisplayName": "Murphy-Langosh",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 734
+        "FieldType": "System.Int32",
+        "FieldLength": 450
       }
     }
   }

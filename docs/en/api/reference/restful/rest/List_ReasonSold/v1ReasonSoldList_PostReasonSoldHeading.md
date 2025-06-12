@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ReasonSold/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 539,
-  "Name": "Feil-Streich",
-  "Tooltip": "unde",
+  "HeadingId": 572,
+  "Name": "Hayes Group",
+  "Tooltip": "et",
   "Deleted": true,
-  "Rank": 42,
-  "UdListDefinitionId": 563
+  "Rank": 511,
+  "UdListDefinitionId": 416
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 599,
-  "Name": "Herzog LLC",
-  "Tooltip": "et",
+  "HeadingId": 172,
+  "Name": "Skiles-Gibson",
+  "Tooltip": "eum",
   "Deleted": true,
-  "Rank": 427,
-  "UdListDefinitionId": 256,
+  "Rank": 882,
+  "UdListDefinitionId": 371,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 356
+      "FieldType": "System.String",
+      "FieldLength": 641
     }
   }
 }

@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Position/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 734,
-    "Name": "Stracke-Denesik",
-    "ToolTip": "Omnis inventore excepturi dicta quia.",
+    "Id": 20,
+    "Name": "Walsh LLC",
+    "ToolTip": "Et voluptatem rerum eum.",
     "Deleted": false,
-    "Rank": 371,
-    "Type": "sint",
-    "ColorBlock": 460,
-    "IconHint": "voluptas",
-    "Selected": true,
-    "LastChanged": "2004-01-12T16:32:48.7588803+01:00",
+    "Rank": 970,
+    "Type": "provident",
+    "ColorBlock": 986,
+    "IconHint": "voluptate",
+    "Selected": false,
+    "LastChanged": "2021-10-26T17:54:08.9605465+02:00",
     "ChildItems": [
       {
-        "Id": 872,
-        "Name": "Rau-Gerlach",
-        "ToolTip": "Soluta ea dicta dolore.",
+        "Id": 590,
+        "Name": "Schneider, Rodriguez and Harvey",
+        "ToolTip": "Ducimus debitis sapiente vitae corporis.",
         "Deleted": false,
-        "Rank": 783,
-        "Type": "aut",
-        "ColorBlock": 970,
-        "IconHint": "neque",
+        "Rank": 215,
+        "Type": "occaecati",
+        "ColorBlock": 184,
+        "IconHint": "dolorem",
         "Selected": false,
-        "LastChanged": "2020-08-26T16:32:48.7588803+02:00",
+        "LastChanged": "2007-05-09T17:54:08.9605465+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "non",
-        "StyleHint": "repellat",
-        "Hidden": true,
-        "FullName": "Rick Watsica",
+        "ExtraInfo": "asperiores",
+        "StyleHint": "aut",
+        "Hidden": false,
+        "FullName": "Haylie Bins",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 763
+            "FieldLength": 328
           }
         }
       }
     ],
-    "ExtraInfo": "iste",
-    "StyleHint": "est",
-    "Hidden": false,
-    "FullName": "Mr. Brook Ortiz",
+    "ExtraInfo": "nulla",
+    "StyleHint": "optio",
+    "Hidden": true,
+    "FullName": "Garland Brown Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 374
+        "FieldLength": 207
       }
     }
   }

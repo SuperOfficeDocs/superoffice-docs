@@ -98,7 +98,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": true
+  "IncludeDeleted": false
 }
 ```
 
@@ -110,53 +110,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleTypeId": 338,
-    "Name": "Kuhic LLC",
-    "Tooltip": "corrupti",
-    "Rank": 542,
+    "SaleTypeId": 164,
+    "Name": "Carroll-Gerhold",
+    "Tooltip": "est",
+    "Rank": 1000,
     "DurationUnit": "Century",
-    "SaleDuration": 26,
-    "SaleTypeCatId": 642,
+    "SaleDuration": 581,
+    "SaleTypeCatId": 803,
     "Deleted": false,
-    "HasGuide": true,
-    "HasStakeholders": true,
+    "HasGuide": false,
+    "HasStakeholders": false,
     "IsAutoAdvance": false,
-    "AllowQuoteAlternatives": false,
-    "DefaultQuoteValidity": 53,
-    "QuoteLinesTemplate": 260,
-    "ConfirmationLinesTemplate": 107,
+    "AllowQuoteAlternatives": true,
+    "DefaultQuoteValidity": 534,
+    "QuoteLinesTemplate": 726,
+    "ConfirmationLinesTemplate": 383,
     "MaxDiscountPercentSet": false,
     "MinEarningPercentSet": false,
-    "MaxDiscountPercent": 673,
-    "MinEarningPercent": 987,
-    "GroupQuoteLinesBy": 852,
-    "SortGroupLinesBy": 409,
+    "MaxDiscountPercent": 782,
+    "MinEarningPercent": 58,
+    "GroupQuoteLinesBy": 270,
+    "SortGroupLinesBy": 878,
     "Stages": [
       {
-        "Id": 274,
-        "Name": "Goyette Group",
-        "ToolTip": "Aut provident similique quis sint.",
-        "Deleted": true,
-        "Rank": 309,
-        "Type": "sed",
-        "ColorBlock": 486,
-        "IconHint": "non",
+        "Id": 581,
+        "Name": "Mertz-Schmitt",
+        "ToolTip": "Architecto ut ex architecto voluptates error sed.",
+        "Deleted": false,
+        "Rank": 316,
+        "Type": "iusto",
+        "ColorBlock": 238,
+        "IconHint": "veniam",
         "Selected": false,
-        "LastChanged": "2005-07-06T16:32:39.226996+02:00",
+        "LastChanged": "2004-06-27T17:54:03.2108272+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "et",
-        "Hidden": true,
-        "FullName": "Mavis Treutel",
+        "ExtraInfo": "fuga",
+        "StyleHint": "qui",
+        "Hidden": false,
+        "FullName": "Randy Stamm",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 868
+            "FieldLength": 297
           }
         }
       }
@@ -166,7 +166,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 693
+        "FieldLength": 88
       }
     }
   }

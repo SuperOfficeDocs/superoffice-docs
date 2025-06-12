@@ -87,7 +87,7 @@ OK
 POST /api/v1/ChatSession/Pickup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -97,29 +97,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 113,
-  "TopicId": 447,
+  "ChatSessionId": 5,
+  "TopicId": 861,
   "User": null,
   "Person": null,
-  "CustomerAlias": "sint",
-  "CustomerHost": "voluptatem",
-  "CustomerName": "Hessel LLC",
-  "CustomerEmail": "madelynn.friesen@fay.ca",
-  "CustomerPhone": "1-463-130-1656",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Rice-Smith",
+  "CustomerAlias": "ab",
+  "CustomerHost": "et",
+  "CustomerName": "Mosciski, Rau and Russel",
+  "CustomerEmail": "leopold@binslubowitz.uk",
+  "CustomerPhone": "573.072.1208",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Dooley Inc and Sons",
   "Status": "Closed",
-  "FirstMessage": "sunt",
-  "LastMessage": "laudantium",
-  "WhenRequested": "2005-02-23T16:32:47.2273851+01:00",
-  "WhenStarted": "2018-12-08T16:32:47.2273851+01:00",
-  "WhenEnded": "2006-08-28T16:32:47.2273851+02:00",
-  "WhenIdle": "2010-04-09T16:32:47.2273851+02:00",
-  "WhenFetched": "2001-03-29T16:32:47.2273851+02:00",
-  "SessionKey": "vero",
-  "InitialQueuePos": 580,
-  "AlertLevel": 187,
-  "Rank": 694,
+  "FirstMessage": "modi",
+  "LastMessage": "sit",
+  "WhenRequested": "2005-11-07T17:54:08.038717+01:00",
+  "WhenStarted": "2013-04-29T17:54:08.038717+02:00",
+  "WhenEnded": "2002-10-12T17:54:08.038717+02:00",
+  "WhenIdle": "2013-12-04T17:54:08.038717+01:00",
+  "WhenFetched": "2017-04-04T17:54:08.038717+02:00",
+  "SessionKey": "illo",
+  "InitialQueuePos": 160,
+  "AlertLevel": 43,
+  "Rank": 596,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -127,13 +127,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 751,
+  "Rating": 30,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 51
+      "FieldLength": 935
     }
   }
 }

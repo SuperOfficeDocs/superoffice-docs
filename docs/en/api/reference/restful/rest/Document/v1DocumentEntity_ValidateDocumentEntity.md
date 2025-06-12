@@ -91,77 +91,77 @@ OK
 POST /api/v1/Document/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 515,
+  "DocumentId": 268,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "saepe",
-  "Header": "et",
-  "Name": "Schmitt, Moen and Brekke",
-  "OurRef": "non",
-  "YourRef": "velit",
-  "CreatedDate": "2003-10-20T16:32:47.5089608+02:00",
-  "UpdatedDate": "2003-02-12T16:32:47.5089608+01:00",
-  "Description": "Profit-focused explicit complexity",
+  "Attention": "doloribus",
+  "Header": "atque",
+  "Name": "Emard-Beatty",
+  "OurRef": "culpa",
+  "YourRef": "est",
+  "CreatedDate": "2015-04-21T17:54:08.2418376+02:00",
+  "UpdatedDate": "2023-02-04T17:54:08.2418376+01:00",
+  "Description": "Configurable intermediate concept",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2015-04-02T16:32:47.5245817+02:00",
-  "ExternalRef": "sed",
+  "Date": "2009-06-04T17:54:08.2418376+02:00",
+  "ExternalRef": "et",
   "Completed": "Completed",
-  "ActiveLinks": 424,
+  "ActiveLinks": 200,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Waelchi-Daugherty",
-      "Id": 839,
-      "Description": "Quality-focused 24 hour standardization",
-      "ExtraInfo": "et",
-      "LinkId": 403
+      "EntityName": "Parker Group",
+      "Id": 769,
+      "Description": "Adaptive zero defect software",
+      "ExtraInfo": "sed",
+      "LinkId": 765
     },
     {
-      "EntityName": "Waelchi-Daugherty",
-      "Id": 839,
-      "Description": "Quality-focused 24 hour standardization",
-      "ExtraInfo": "et",
-      "LinkId": 403
+      "EntityName": "Parker Group",
+      "Id": 769,
+      "Description": "Adaptive zero defect software",
+      "ExtraInfo": "sed",
+      "LinkId": 765
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 675,
-  "Snum": 885,
+  "SuggestedDocumentId": 646,
+  "Snum": 504,
   "UserDefinedFields": {
-    "SuperOffice:1": "465429976",
-    "SuperOffice:2": "Deja Stiedemann"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "Miss Mable Fanny Gottlieb Sr."
   },
   "ExtraFields": {
-    "ExtraFields1": "non",
-    "ExtraFields2": "est"
+    "ExtraFields1": "accusantium",
+    "ExtraFields2": "perspiciatis"
   },
   "CustomFields": {
-    "CustomFields1": "nihil",
-    "CustomFields2": "perferendis"
+    "CustomFields1": "ad",
+    "CustomFields2": "et"
   },
-  "PublishEventDate": "2005-09-22T16:32:47.5245817+02:00",
-  "PublishTo": "2001-07-28T16:32:47.5245817+02:00",
-  "PublishFrom": "1999-02-10T16:32:47.5245817+01:00",
+  "PublishEventDate": "2013-05-23T17:54:08.2418376+02:00",
+  "PublishTo": "2003-06-22T17:54:08.2418376+02:00",
+  "PublishFrom": "2005-08-03T17:54:08.2418376+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 454,
+      "VisibleId": 333,
       "Visibility": "All",
-      "DisplayValue": "at"
+      "DisplayValue": "dolorum"
     },
     {
-      "VisibleId": 454,
+      "VisibleId": 333,
       "Visibility": "All",
-      "DisplayValue": "at"
+      "DisplayValue": "dolorum"
     }
   ]
 }
@@ -174,7 +174,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "quaerat",
-  "2": "nesciunt"
+  "1": "aut",
+  "2": "iure"
 }
 ```

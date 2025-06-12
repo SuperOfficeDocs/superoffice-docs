@@ -79,7 +79,7 @@ ProjectEntity found.
 GET /api/v1/Project/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,30 +89,30 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 334,
-  "Name": "Nikolaus LLC",
-  "Description": "Universal needs-based system engine",
+  "ProjectId": 273,
+  "Name": "Quitzon, Schulist and Borer",
+  "Description": "De-engineered system-worthy complexity",
   "URL": "http://www.example.com/",
-  "Type": "in",
-  "AssociateId": 339,
-  "AssociateFullName": "Mrs. Royal Kuhlman",
-  "TypeId": 381,
-  "Updated": "2020-12-17T16:32:47.7432816+01:00",
-  "StatusId": 780,
-  "Status": "non",
-  "TextId": 252,
-  "PublishTo": "2015-02-02T16:32:47.7432816+01:00",
-  "PublishFrom": "2022-02-10T16:32:47.7432816+01:00",
+  "Type": "sint",
+  "AssociateId": 562,
+  "AssociateFullName": "Eleanore Teagan Pfannerstill DVM",
+  "TypeId": 603,
+  "Updated": "1999-05-28T17:54:08.4136991+02:00",
+  "StatusId": 554,
+  "Status": "praesentium",
+  "TextId": 960,
+  "PublishTo": "2020-10-14T17:54:08.4136991+02:00",
+  "PublishFrom": "2022-12-27T17:54:08.4136991+01:00",
   "IsPublished": false,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "1053775",
-  "ActiveErpLinks": 827,
+  "ProjectNumber": "871437",
+  "ActiveErpLinks": 985,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 160
+      "FieldLength": 778
     }
   }
 }

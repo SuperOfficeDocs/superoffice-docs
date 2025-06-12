@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/LegalBase/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 711,
-    "Name": "Schumm Group",
-    "ToolTip": "Minus rerum delectus non deleniti voluptatem.",
+    "Id": 220,
+    "Name": "Bode, Howell and Stanton",
+    "ToolTip": "Aliquam praesentium.",
     "Deleted": true,
-    "Rank": 236,
-    "Type": "quibusdam",
-    "ColorBlock": 654,
-    "IconHint": "voluptate",
+    "Rank": 886,
+    "Type": "iure",
+    "ColorBlock": 238,
+    "IconHint": "doloribus",
     "Selected": false,
-    "LastChanged": "2019-07-20T16:32:48.6963928+02:00",
+    "LastChanged": "2018-04-23T17:54:08.9292989+02:00",
     "ChildItems": [
       {
-        "Id": 637,
-        "Name": "Daugherty Group",
-        "ToolTip": "Voluptatem iste eum molestiae blanditiis asperiores quae aperiam.",
-        "Deleted": true,
-        "Rank": 644,
-        "Type": "recusandae",
-        "ColorBlock": 735,
-        "IconHint": "nobis",
+        "Id": 594,
+        "Name": "Gusikowski, Pfannerstill and Davis",
+        "ToolTip": "Eaque incidunt deserunt consequatur.",
+        "Deleted": false,
+        "Rank": 884,
+        "Type": "itaque",
+        "ColorBlock": 143,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2015-05-06T16:32:48.6963928+02:00",
+        "LastChanged": "2007-09-23T17:54:08.9292989+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "debitis",
-        "StyleHint": "similique",
-        "Hidden": false,
-        "FullName": "Modesta Schneider Jr."
+        "ExtraInfo": "quidem",
+        "StyleHint": "sit",
+        "Hidden": true,
+        "FullName": "Taryn Greenfelder"
       }
     ],
-    "ExtraInfo": "cumque",
-    "StyleHint": "suscipit",
+    "ExtraInfo": "delectus",
+    "StyleHint": "amet",
     "Hidden": false,
-    "FullName": "Lisa Dietrich"
+    "FullName": "Opal Kuvalis PhD"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 83,
-    "Name": "Kilback, McLaughlin and Schmitt",
-    "ToolTip": "Voluptas et provident.",
+    "Id": 577,
+    "Name": "Thiel-Hills",
+    "ToolTip": "Vitae omnis consectetur et.",
     "Deleted": false,
-    "Rank": 71,
-    "Type": "deleniti",
-    "ColorBlock": 161,
-    "IconHint": "voluptate",
+    "Rank": 791,
+    "Type": "et",
+    "ColorBlock": 877,
+    "IconHint": "laudantium",
     "Selected": true,
-    "LastChanged": "1999-01-09T16:32:48.6963928+01:00",
+    "LastChanged": "2020-10-27T17:54:08.9292989+01:00",
     "ChildItems": [
       {
-        "Id": 495,
-        "Name": "Pollich, Barton and Lueilwitz",
-        "ToolTip": "Aut distinctio itaque quos.",
-        "Deleted": false,
-        "Rank": 218,
-        "Type": "aut",
-        "ColorBlock": 648,
-        "IconHint": "voluptatem",
+        "Id": 156,
+        "Name": "Grimes-Dare",
+        "ToolTip": "At totam aliquam soluta est numquam necessitatibus cumque.",
+        "Deleted": true,
+        "Rank": 753,
+        "Type": "molestiae",
+        "ColorBlock": 758,
+        "IconHint": "dolores",
         "Selected": false,
-        "LastChanged": "2021-02-06T16:32:48.6963928+01:00",
+        "LastChanged": "2006-12-24T17:54:08.9292989+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cupiditate",
-        "StyleHint": "vel",
+        "ExtraInfo": "repellendus",
+        "StyleHint": "commodi",
         "Hidden": false,
-        "FullName": "Carolyne Ignacio Ziemann PhD",
+        "FullName": "Roscoe Mann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 914
+            "FieldLength": 213
           }
         }
       }
     ],
-    "ExtraInfo": "voluptas",
-    "StyleHint": "accusantium",
+    "ExtraInfo": "provident",
+    "StyleHint": "accusamus",
     "Hidden": false,
-    "FullName": "Michele Kulas",
+    "FullName": "Mr. Tanner Aurelie Konopelski IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 21
+        "FieldLength": 253
       }
     }
   }

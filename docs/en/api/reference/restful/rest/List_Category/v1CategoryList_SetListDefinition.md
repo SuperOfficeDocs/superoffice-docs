@@ -88,15 +88,15 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 358,
-  "Name": "Gusikowski-Treutel",
-  "Tooltip": "laborum",
+  "Id": 654,
+  "Name": "Turcotte LLC",
+  "Tooltip": "distinctio",
   "Deleted": false,
-  "Rank": 963,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Rank": 454,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "laborum",
+  "ListType": "sapiente",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 502,
-  "Name": "Parisian, Boyle and Lesch",
-  "Tooltip": "excepturi",
-  "Deleted": true,
-  "Rank": 764,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Id": 14,
+  "Name": "Orn, Mayer and Fahey",
+  "Tooltip": "delectus",
+  "Deleted": false,
+  "Rank": 969,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "enim",
-  "InUseByUserDefinedFields": false,
+  "ListType": "quae",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 397
+      "FieldType": "System.Int32",
+      "FieldLength": 358
     }
   }
 }

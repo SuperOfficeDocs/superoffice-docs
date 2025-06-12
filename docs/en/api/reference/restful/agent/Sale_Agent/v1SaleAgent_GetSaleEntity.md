@@ -26,7 +26,7 @@ Gets a SaleEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Sale/GetSaleEntity?saleEntityId=4
+POST /api/v1/Agents/Sale/GetSaleEntity?saleEntityId=656
 POST /api/v1/Agents/Sale/GetSaleEntity?$select=name,department,category/id
 ```
 
@@ -110,7 +110,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -126,7 +126,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "reprehenderit",
+  "SaleText": "assumenda",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -135,113 +135,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2024-10-27T16:32:39.8364779+01:00",
-  "Amount": 8511.944,
-  "SaleId": 314,
-  "Earning": 10596.054,
-  "EarningPercent": 12203.796,
-  "Heading": "ut",
-  "Number": "1472717",
-  "Probability": 521,
-  "CreatedDate": "2008-08-31T16:32:39.8364779+02:00",
-  "UpdatedDate": "2000-03-16T16:32:39.8364779+01:00",
+  "Saledate": "2023-12-20T17:54:03.5701847+01:00",
+  "Amount": 25316.451999999997,
+  "SaleId": 547,
+  "Earning": 18722.516,
+  "EarningPercent": 11862.19,
+  "Heading": "quia",
+  "Number": "1356912",
+  "Probability": 323,
+  "CreatedDate": "2024-11-23T17:54:03.5701847+01:00",
+  "UpdatedDate": "2005-04-14T17:54:03.5701847+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 269,
+  "ActiveLinks": 316,
   "Links": [
     {
-      "EntityName": "Schuster Inc and Sons",
-      "Id": 163,
-      "Description": "Business-focused clear-thinking hardware",
-      "ExtraInfo": "voluptatem",
-      "LinkId": 359,
+      "EntityName": "Rau-Conroy",
+      "Id": 740,
+      "Description": "Persistent logistical definition",
+      "ExtraInfo": "at",
+      "LinkId": 515,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 91
+          "FieldLength": 989
         }
       }
     }
   ],
-  "NextDueDate": "2014-11-24T16:32:39.8364779+01:00",
-  "Postit": "unde",
+  "NextDueDate": "2003-12-10T17:54:03.5701847+01:00",
+  "Postit": "repellat",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2007-07-21T16:32:39.8364779+02:00",
+  "ReopenDate": "2001-03-10T17:54:03.5701847+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Yost, Abbott and Bernier",
-      "Comment": "excepturi",
-      "StakeholderRoleId": 745,
-      "CountryId": 933,
-      "PersonId": 302,
-      "EmailDescription": "moriah@spencerbarton.ca",
-      "EmailId": 272,
-      "EmailAddress": "myra_schaefer@parker.biz",
-      "PhoneId": 108,
-      "ContactName": "Little-Sauer",
-      "ContactId": 908,
-      "SaleId": 776,
-      "Mrmrs": "dignissimos",
-      "Firstname": "Emmanuel",
-      "MiddleName": "Rogahn Inc and Sons",
-      "Lastname": "Goodwin",
-      "SaleStakeholderId": 355,
-      "Rank": 468,
-      "Phone": "(250)558-3542 x93379",
+      "StakeholderRoleName": "Swift-Moen",
+      "Comment": "porro",
+      "StakeholderRoleId": 27,
+      "CountryId": 997,
+      "PersonId": 979,
+      "EmailDescription": "johnson@yundt.ca",
+      "EmailId": 213,
+      "EmailAddress": "hester_collins@dickens.info",
+      "PhoneId": 924,
+      "ContactName": "Greenfelder-Berge",
+      "ContactId": 203,
+      "SaleId": 401,
+      "Mrmrs": "nisi",
+      "Firstname": "Unique",
+      "MiddleName": "Lynch, Baumbach and Hammes",
+      "Lastname": "Maggio",
+      "SaleStakeholderId": 647,
+      "Rank": 875,
+      "Phone": "759-480-4891",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 903
+          "FieldLength": 981
         }
       }
     }
   ],
-  "ActiveErpLinks": 207,
+  "ActiveErpLinks": 138,
   "UserDefinedFields": {
-    "SuperOffice:1": "442188634",
-    "SuperOffice:2": "Enoch Moore"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "Ms. Jewel Hessel Sr."
   },
   "ExtraFields": {
-    "ExtraFields1": "earum",
-    "ExtraFields2": "sapiente"
+    "ExtraFields1": "corrupti",
+    "ExtraFields2": "dolores"
   },
   "CustomFields": {
-    "CustomFields1": "velit",
-    "CustomFields2": "exercitationem"
+    "CustomFields1": "autem",
+    "CustomFields2": "corrupti"
   },
-  "PublishEventDate": "2011-12-06T16:32:39.8520956+01:00",
-  "PublishTo": "2024-12-07T16:32:39.8520956+01:00",
-  "PublishFrom": "2007-05-02T16:32:39.8520956+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2021-05-09T17:54:03.5701847+02:00",
+  "PublishTo": "2021-10-11T17:54:03.5701847+02:00",
+  "PublishFrom": "2013-01-25T17:54:03.5701847+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 29,
+      "VisibleId": 5,
       "Visibility": "All",
-      "DisplayValue": "veritatis",
+      "DisplayValue": "rerum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 342
+          "FieldLength": 553
         }
       }
     },
     {
-      "VisibleId": 29,
+      "VisibleId": 5,
       "Visibility": "All",
-      "DisplayValue": "veritatis",
+      "DisplayValue": "rerum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 342
+          "FieldLength": 553
         }
       }
     }
@@ -251,7 +251,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 4
+      "FieldLength": 748
     }
   }
 }

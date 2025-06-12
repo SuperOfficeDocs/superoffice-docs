@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProjectType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 483,
-  "Name": "Bayer, Toy and Glover",
-  "Tooltip": "et",
+  "Id": 538,
+  "Name": "Wisoky LLC",
+  "Tooltip": "ut",
   "Deleted": false,
-  "UdListDefinitionId": 249,
-  "Rank": 559,
+  "UdListDefinitionId": 797,
+  "Rank": 683,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 17
+      "FieldType": "System.String",
+      "FieldLength": 631
     }
   }
 }

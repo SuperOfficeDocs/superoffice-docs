@@ -77,13 +77,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 349,
-  "Name": "Weber-Waters",
-  "Tooltip": "minus",
-  "Rank": 98,
-  "DoctmplId": 291,
-  "Header": "tenetur",
-  "OurRef": "velit",
+  "SuggestedDocumentId": 780,
+  "Name": "Tromp-Renner",
+  "Tooltip": "fuga",
+  "Rank": 981,
+  "DoctmplId": 950,
+  "Header": "voluptas",
+  "OurRef": "maiores",
   "Deleted": false,
   "DocTmpl": null,
   "ProjectTypeStatusLink": null,
@@ -93,7 +93,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 990
+      "FieldLength": 942
     }
   }
 }

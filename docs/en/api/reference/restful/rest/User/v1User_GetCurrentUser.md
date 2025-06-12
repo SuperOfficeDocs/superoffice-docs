@@ -81,7 +81,7 @@ OK
 GET /api/v1/User/current
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -91,14 +91,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 815,
-  "Name": "Jerde, Ziemann and Leuschke",
-  "Rank": 253,
-  "Tooltip": "quos",
+  "AssociateId": 339,
+  "Name": "Beer-Murphy",
+  "Rank": 485,
+  "Tooltip": "eum",
   "LicenseOwners": [
     {
-      "Name": "Lebsack Group",
-      "Description": "Managed systematic customer loyalty",
+      "Name": "Waters Inc and Sons",
+      "Description": "Innovative fault-tolerant orchestration",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -112,13 +112,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 759
+          "FieldLength": 708
         }
       }
     },
     {
-      "Name": "Lebsack Group",
-      "Description": "Managed systematic customer loyalty",
+      "Name": "Waters Inc and Sons",
+      "Description": "Innovative fault-tolerant orchestration",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -132,7 +132,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 759
+          "FieldLength": 708
         }
       }
     }
@@ -141,110 +141,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "eveniet",
-      "Tooltip": "laudantium",
-      "Id": 223,
-      "Rank": 574,
+      "Value": "soluta",
+      "Tooltip": "facere",
+      "Id": 382,
+      "Rank": 685,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 339
+          "FieldType": "System.Int32",
+          "FieldLength": 233
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2009-01-08T16:32:48.4620775+01:00",
-  "Lastlogout": "2003-10-13T16:32:48.4620775+02:00",
-  "EjUserId": 475,
-  "RequestSignature": "officia",
+  "Lastlogin": "2018-01-13T17:54:08.7574316+01:00",
+  "Lastlogout": "2015-04-08T17:54:08.7574316+02:00",
+  "EjUserId": 726,
+  "RequestSignature": "quos",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
-  "IsOnTravel": false,
+  "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "consequuntur",
-      "DisplayValue": "nostrum",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 619
-        }
-      }
-    },
-    {
-      "Type": null,
-      "Value": "consequuntur",
-      "DisplayValue": "nostrum",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 619
-        }
-      }
-    }
-  ],
-  "UserName": "Gerhold, Ritchie and Lubowitz",
-  "TicketCategories": [
-    {
-      "Id": 392,
-      "Name": "Heidenreich, Williamson and Swift",
-      "ToolTip": "Sit dolorem dolorem eos sed.",
-      "Deleted": true,
-      "Rank": 142,
-      "Type": "consectetur",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "ad",
-      "ColorBlock": 98,
-      "ExtraInfo": "eum",
-      "StyleHint": "velit",
-      "FullName": "Dr. Braxton Oswald Price PhD",
+      "Value": "aut",
+      "DisplayValue": "quibusdam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 462
+          "FieldLength": 401
         }
       }
-    }
-  ],
-  "NickName": "Deckow-McLaughlin",
-  "WaitingForApproval": false,
-  "ExtraFields": {
-    "ExtraFields1": "occaecati",
-    "ExtraFields2": "libero"
-  },
-  "CustomFields": {
-    "CustomFields1": "ullam",
-    "CustomFields2": "tempora"
-  },
-  "PostSaveCommands": [
+    },
     {
-      "Name": "Armstrong-Zulauf",
-      "DisplayName": "Heller, Botsford and Grady",
-      "Description": "Enhanced dedicated portal",
-      "ToolTip": "Quisquam dolores velit sit.",
-      "Actions": "Implicit",
-      "ActionData": "dolor",
+      "Type": null,
+      "Value": "aut",
+      "DisplayValue": "quibusdam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 261
+          "FieldType": "System.Int32",
+          "FieldLength": 401
+        }
+      }
+    }
+  ],
+  "UserName": "Cummerata Group",
+  "TicketCategories": [
+    {
+      "Id": 285,
+      "Name": "Crona-Willms",
+      "ToolTip": "Voluptates velit mollitia mollitia.",
+      "Deleted": false,
+      "Rank": 901,
+      "Type": "est",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "dolor",
+      "ColorBlock": 363,
+      "ExtraInfo": "corrupti",
+      "StyleHint": "error",
+      "FullName": "Zachariah Labadie",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 231
+        }
+      }
+    }
+  ],
+  "NickName": "Langworth Group",
+  "WaitingForApproval": true,
+  "ExtraFields": {
+    "ExtraFields1": "sint",
+    "ExtraFields2": "iure"
+  },
+  "CustomFields": {
+    "CustomFields1": "quisquam",
+    "CustomFields2": "dicta"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Cartwright, Renner and Feeney",
+      "DisplayName": "Ratke Inc and Sons",
+      "Description": "Stand-alone analyzing system engine",
+      "ToolTip": "Voluptas voluptas.",
+      "Actions": "Implicit",
+      "ActionData": "non",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 307
         }
       }
     }
@@ -254,7 +254,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 575
+      "FieldLength": 799
     }
   }
 }

@@ -25,7 +25,7 @@ Can be sorted and further filtered using OData conventions:
 OData returns XML or JSON carriers depending on the HTTP Accept header.
 
 
-Calls the Archive service using the "SaleActivities" archive provider.
+Calls the Archive service using the "SaleActivity" archive provider.
 
 
 ## Filter Operators: ##
@@ -74,12 +74,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Sale/{id}/Activities?$select=name,department,category/id
 GET /api/v1/Sale/{id}/Activities?$filter=name begins 'S'
 GET /api/v1/Sale/{id}/Activities?$orderBy=name asc
-GET /api/v1/Sale/{id}/Activities?$entities=incidunt
-GET /api/v1/Sale/{id}/Activities?$top=348
-GET /api/v1/Sale/{id}/Activities?$skip=733
+GET /api/v1/Sale/{id}/Activities?$entities=beatae
+GET /api/v1/Sale/{id}/Activities?$top=808
+GET /api/v1/Sale/{id}/Activities?$skip=672
 GET /api/v1/Sale/{id}/Activities?$mode=Full
 GET /api/v1/Sale/{id}/Activities?$options=GrandTotal=true
-GET /api/v1/Sale/{id}/Activities?$context=et
+GET /api/v1/Sale/{id}/Activities?$context=hic
 GET /api/v1/Sale/{id}/Activities?$format=JSON
 GET /api/v1/Sale/{id}/Activities?$jsonSafe=True
 GET /api/v1/Sale/{id}/Activities?$output=Display
@@ -123,7 +123,7 @@ OK
 GET /api/v1/Sale/{id}/Activities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -134,19 +134,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "dolores",
+  "odata.nextLink": "exercitationem",
   "value": [
     {
-      "PrimaryKey": 4228,
-      "EntityName": "person",
-      "personId": 4228,
-      "fullName": "Stefanie Kris"
+      "PrimaryKey": 9566,
+      "EntityName": "sale",
+      "saleId": 9566,
+      "contactId": 7542,
+      "name": "Marquardt LLC"
     },
     {
-      "PrimaryKey": 1097,
-      "EntityName": "person",
-      "personId": 1097,
-      "fullName": "Marcos Lesch"
+      "PrimaryKey": 2803,
+      "EntityName": "sale",
+      "saleId": 2803,
+      "contactId": 1616,
+      "name": "Kub LLC"
     }
   ]
 }

@@ -25,7 +25,7 @@ Deletes the ProjectEntity
 | ProjectEntityId | int32 | **Required** The id of the ProjectEntity to be deleted. |
 
 ```http
-POST /api/v1/Agents/Project/DeleteProjectEntity?ProjectEntityId=305
+POST /api/v1/Agents/Project/DeleteProjectEntity?ProjectEntityId=927
 ```
 
 
@@ -56,7 +56,7 @@ No Content
 POST /api/v1/Agents/Project/DeleteProjectEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response

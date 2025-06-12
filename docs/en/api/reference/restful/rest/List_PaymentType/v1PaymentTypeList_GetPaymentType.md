@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/PaymentType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 90,
-  "Name": "Schuppe Group",
-  "Tooltip": "illo",
+  "Id": 370,
+  "Name": "Wisozk, Bogan and Koch",
+  "Tooltip": "delectus",
   "Deleted": false,
-  "UdListDefinitionId": 1002,
-  "Rank": 128,
+  "UdListDefinitionId": 179,
+  "Rank": 295,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 893
+      "FieldLength": 434
     }
   }
 }

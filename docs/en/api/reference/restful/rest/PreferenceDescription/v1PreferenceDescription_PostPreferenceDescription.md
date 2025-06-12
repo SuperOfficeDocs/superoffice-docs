@@ -110,28 +110,28 @@ OK
 POST /api/v1/PreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 321,
-  "Section": "optio",
-  "Key": "amet",
-  "Name": "Roberts Group",
+  "PrefDescId": 768,
+  "Section": "assumenda",
+  "Key": "repudiandae",
+  "Name": "Zieme, Kshlerin and Mayer",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Proactive scalable capacity",
+  "Description": "Managed disintermediate conglomeration",
   "IsBuiltin": false,
-  "TableName": "Veum, Weimann and Hauck",
-  "UserDefinedListId": 478,
-  "Rank": 180,
-  "SubGroup": "distinctio",
-  "MinLevel": 358,
-  "MaxValue": 474,
-  "MinValue": 784,
-  "RequiredLicense": "fugiat"
+  "TableName": "Carroll, Larson and Torphy",
+  "UserDefinedListId": 562,
+  "Rank": 957,
+  "SubGroup": "qui",
+  "MinLevel": 163,
+  "MaxValue": 483,
+  "MinValue": 72,
+  "RequiredLicense": "laboriosam"
 }
 ```
 
@@ -142,30 +142,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 954,
-  "Section": "dolore",
-  "Key": "quam",
-  "Name": "Jacobi-Keebler",
+  "PrefDescId": 173,
+  "Section": "sapiente",
+  "Key": "veniam",
+  "Name": "Jerde, Auer and Haley",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Cross-group bandwidth-monitored superstructure",
+  "Description": "Networked full-range Graphical User Interface",
   "IsBuiltin": true,
-  "TableName": "Nolan, Brakus and Hickle",
-  "UserDefinedListId": 655,
-  "Rank": 449,
-  "SubGroup": "nostrum",
-  "MinLevel": 232,
-  "MaxValue": 122,
-  "MinValue": 405,
-  "RequiredLicense": "deserunt",
+  "TableName": "Schulist Inc and Sons",
+  "UserDefinedListId": 449,
+  "Rank": 441,
+  "SubGroup": "nulla",
+  "MinLevel": 521,
+  "MaxValue": 111,
+  "MinValue": 219,
+  "RequiredLicense": "qui",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 707
+      "FieldType": "System.String",
+      "FieldLength": 997
     }
   },
   "_Links": {

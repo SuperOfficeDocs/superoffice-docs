@@ -26,8 +26,8 @@ Get the MDO list items for "ProductFamily" - with headings and filtering by user
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProductFamily/MDOItems?flat=False
-GET /api/v1/List/ProductFamily/MDOItems?query=veritatis
+GET /api/v1/List/ProductFamily/MDOItems?flat=True
+GET /api/v1/List/ProductFamily/MDOItems?query=maiores
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ProductFamily/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 500,
-    "Name": "Ondricka-Bartoletti",
-    "ToolTip": "Enim nesciunt ex maiores odit sed.",
-    "Deleted": false,
-    "Rank": 210,
-    "Type": "eligendi",
+    "Id": 700,
+    "Name": "Borer-Langworth",
+    "ToolTip": "Occaecati quas velit voluptas quisquam hic.",
+    "Deleted": true,
+    "Rank": 805,
+    "Type": "aliquam",
     "ChildItems": [
       {
-        "Id": 71,
-        "Name": "Kulas-Senger",
-        "ToolTip": "Aut cumque laborum.",
-        "Deleted": true,
-        "Rank": 203,
-        "Type": "incidunt",
+        "Id": 442,
+        "Name": "Gleichner-Lowe",
+        "ToolTip": "Ut et ipsa deserunt ut quaerat non aperiam.",
+        "Deleted": false,
+        "Rank": 801,
+        "Type": "pariatur",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "mollitia",
-        "ColorBlock": 893,
-        "ExtraInfo": "velit",
-        "StyleHint": "voluptate",
-        "FullName": "Keara Ondricka",
+        "IconHint": "et",
+        "ColorBlock": 822,
+        "ExtraInfo": "vel",
+        "StyleHint": "facilis",
+        "FullName": "Frederik Block",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 44
+            "FieldLength": 432
           }
         }
       }
     ],
-    "IconHint": "qui",
-    "ColorBlock": 307,
-    "ExtraInfo": "quae",
-    "StyleHint": "magni",
-    "FullName": "Zoe Enrico Blick Jr.",
+    "IconHint": "consequatur",
+    "ColorBlock": 570,
+    "ExtraInfo": "repellendus",
+    "StyleHint": "est",
+    "FullName": "Mrs. Cordia Chadrick Torphy",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 657
+        "FieldType": "System.Int32",
+        "FieldLength": 961
       }
     }
   }

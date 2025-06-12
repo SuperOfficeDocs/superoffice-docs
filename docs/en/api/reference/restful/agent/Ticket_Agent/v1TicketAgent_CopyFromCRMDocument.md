@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Ticket/CopyFromCRMDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 978
+  "DocumentId": 169
 }
 ```
 
@@ -95,20 +95,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 105,
-  "Name": "Kemmer Group",
-  "ContentType": "cumque",
-  "AttSize": 510,
-  "InlineImage": false,
-  "ContentId": "quas",
-  "AuthKey": "id",
+  "AttachmentId": 214,
+  "Name": "Dare, Dare and Kris",
+  "ContentType": "repudiandae",
+  "AttSize": 410,
+  "InlineImage": true,
+  "ContentId": "ipsum",
+  "AuthKey": "est",
   "IsSafeFileExtension": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 57
+      "FieldLength": 390
     }
   }
 }

@@ -103,15 +103,15 @@ OK
 POST /api/v1/Agents/User/CreateDefaultUserFromUserTypeAndCredential
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "UserType": "AnonymousAssociate",
-  "ContactId": 88,
-  "CredentialType": "sed",
-  "CredentialValue": "labore",
-  "CredentialDisplayValue": "saepe"
+  "ContactId": 674,
+  "CredentialType": "architecto",
+  "CredentialValue": "tempore",
+  "CredentialDisplayValue": "sint"
 }
 ```
 
@@ -122,14 +122,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 335,
-  "Name": "Bernhard LLC",
-  "Rank": 372,
-  "Tooltip": "exercitationem",
+  "AssociateId": 610,
+  "Name": "Zieme Inc and Sons",
+  "Rank": 242,
+  "Tooltip": "voluptatem",
   "LicenseOwners": [
     {
-      "Name": "Daugherty, Bernhard and Jaskolski",
-      "Description": "Open-architected analyzing benchmark",
+      "Name": "Moore, Herzog and Cole",
+      "Description": "Multi-lateral mission-critical synergy",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -142,14 +142,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 370
+          "FieldType": "System.String",
+          "FieldLength": 759
         }
       }
     },
     {
-      "Name": "Daugherty, Bernhard and Jaskolski",
-      "Description": "Open-architected analyzing benchmark",
+      "Name": "Moore, Herzog and Cole",
+      "Description": "Multi-lateral mission-critical synergy",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -162,8 +162,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 370
+          "FieldType": "System.String",
+          "FieldLength": 759
         }
       }
     }
@@ -172,110 +172,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "ducimus",
-      "Tooltip": "aut",
-      "Id": 650,
-      "Rank": 915,
-      "Deleted": true,
+      "Value": "consequuntur",
+      "Tooltip": "et",
+      "Id": 695,
+      "Rank": 682,
+      "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 237
+          "FieldLength": 676
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2006-11-06T16:32:40.4144684+01:00",
-  "Lastlogout": "2011-04-23T16:32:40.4144684+02:00",
-  "EjUserId": 909,
-  "RequestSignature": "officiis",
+  "Lastlogin": "2005-05-29T17:54:03.8514214+02:00",
+  "Lastlogout": "2018-12-05T17:54:03.8514214+01:00",
+  "EjUserId": 951,
+  "RequestSignature": "molestiae",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
-  "IsOnTravel": true,
+  "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "sit",
-      "DisplayValue": "ullam",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 84
-        }
-      }
-    },
-    {
-      "Type": null,
-      "Value": "sit",
-      "DisplayValue": "ullam",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 84
-        }
-      }
-    }
-  ],
-  "UserName": "Lakin, Harvey and Bogisich",
-  "TicketCategories": [
-    {
-      "Id": 182,
-      "Name": "Prohaska-Gorczany",
-      "ToolTip": "Aut est facere cupiditate.",
-      "Deleted": false,
-      "Rank": 164,
-      "Type": "magni",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "dolorem",
-      "ColorBlock": 357,
-      "ExtraInfo": "nulla",
-      "StyleHint": "doloribus",
-      "FullName": "Jacques Torp",
+      "Value": "ut",
+      "DisplayValue": "nesciunt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 606
+          "FieldLength": 744
+        }
+      }
+    },
+    {
+      "Type": null,
+      "Value": "ut",
+      "DisplayValue": "nesciunt",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 744
         }
       }
     }
   ],
-  "NickName": "Schinner, Sanford and Hirthe",
-  "WaitingForApproval": false,
-  "ExtraFields": {
-    "ExtraFields1": "qui",
-    "ExtraFields2": "alias"
-  },
-  "CustomFields": {
-    "CustomFields1": "dicta",
-    "CustomFields2": "ut"
-  },
-  "PostSaveCommands": [
+  "UserName": "Hudson-Rath",
+  "TicketCategories": [
     {
-      "Name": "Corkery-Volkman",
-      "DisplayName": "Turcotte Group",
-      "Description": "Secured analyzing workforce",
-      "ToolTip": "Sit eum dolor at molestiae magni amet at.",
-      "Actions": "Implicit",
-      "ActionData": "sed",
+      "Id": 324,
+      "Name": "Kreiger Group",
+      "ToolTip": "Facilis enim officia veritatis quod quasi rerum at.",
+      "Deleted": false,
+      "Rank": 912,
+      "Type": "voluptatem",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "harum",
+      "ColorBlock": 537,
+      "ExtraInfo": "dolorem",
+      "StyleHint": "et",
+      "FullName": "Dr. Alec Dejuan Schinner IV",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 533
+          "FieldLength": 463
+        }
+      }
+    }
+  ],
+  "NickName": "Jast LLC",
+  "WaitingForApproval": true,
+  "ExtraFields": {
+    "ExtraFields1": "ut",
+    "ExtraFields2": "dolores"
+  },
+  "CustomFields": {
+    "CustomFields1": "minima",
+    "CustomFields2": "deserunt"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Mayer Inc and Sons",
+      "DisplayName": "Feil LLC",
+      "Description": "Balanced interactive success",
+      "ToolTip": "Voluptatem eum non aliquam.",
+      "Actions": "Implicit",
+      "ActionData": "quos",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 999
         }
       }
     }
@@ -284,8 +284,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 201
+      "FieldType": "System.Int32",
+      "FieldLength": 991
     }
   }
 }

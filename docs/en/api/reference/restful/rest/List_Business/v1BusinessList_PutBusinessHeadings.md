@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Business/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 764,
-    "Name": "Windler, Hudson and Tremblay",
-    "Tooltip": "voluptatem",
+    "HeadingId": 150,
+    "Name": "Kihn, Friesen and Okuneva",
+    "Tooltip": "quis",
     "Deleted": false,
-    "Rank": 449,
-    "UdListDefinitionId": 185
+    "Rank": 691,
+    "UdListDefinitionId": 208
   },
   {
-    "HeadingId": 764,
-    "Name": "Windler, Hudson and Tremblay",
-    "Tooltip": "voluptatem",
+    "HeadingId": 150,
+    "Name": "Kihn, Friesen and Okuneva",
+    "Tooltip": "quis",
     "Deleted": false,
-    "Rank": 449,
-    "UdListDefinitionId": 185
+    "Rank": 691,
+    "UdListDefinitionId": 208
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 410,
-    "Name": "O'Reilly LLC",
-    "Tooltip": "itaque",
+    "HeadingId": 571,
+    "Name": "Friesen LLC",
+    "Tooltip": "rem",
     "Deleted": false,
-    "Rank": 216,
-    "UdListDefinitionId": 862,
+    "Rank": 869,
+    "UdListDefinitionId": 504,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 778
+        "FieldType": "System.Int32",
+        "FieldLength": 38
       }
     }
   }

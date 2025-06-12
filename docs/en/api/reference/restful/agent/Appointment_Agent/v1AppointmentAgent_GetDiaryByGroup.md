@@ -130,15 +130,15 @@ OK
 POST /api/v1/Agents/Appointment/GetDiaryByGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GroupId": 251,
-  "GroupType": 455,
-  "StartTime": "2013-04-04T16:32:37.6490324+02:00",
-  "EndTime": "2004-05-08T16:32:37.6490324+02:00",
-  "Count": 617
+  "GroupId": 27,
+  "GroupType": 174,
+  "StartTime": "2000-11-23T17:54:02.3827433+01:00",
+  "EndTime": "2008-03-18T17:54:02.3827433+01:00",
+  "Count": 219
 }
 ```
 
@@ -150,66 +150,66 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 82,
-    "StartDate": "1998-03-28T16:32:37.6490324+01:00",
-    "EndDate": "2014-03-28T16:32:37.6490324+01:00",
+    "AppointmentId": 987,
+    "StartDate": "2007-03-02T17:54:02.3827433+01:00",
+    "EndDate": "2007-07-25T17:54:02.3827433+02:00",
     "Type": "BookingForChecklist",
-    "Task": "corporis",
-    "AssociateFullName": "Prof. Ofelia Schultz MD",
-    "ContactName": "Marks LLC",
-    "Description": "Seamless real-time firmware",
-    "PersonFullName": "Mr. Maureen Paucek",
-    "PersonId": 421,
-    "ContactId": 756,
-    "ProjectId": 884,
-    "ProjectName": "Zulauf, Torp and Nolan",
+    "Task": "aliquam",
+    "AssociateFullName": "Mr. Norbert Kelly Nienow Jr.",
+    "ContactName": "Murray LLC",
+    "Description": "Re-contextualized zero administration local area network",
+    "PersonFullName": "Araceli Anna Feest Jr.",
+    "PersonId": 437,
+    "ContactId": 112,
+    "ProjectId": 106,
+    "ProjectName": "Robel, Monahan and Hagenes",
     "IsPublished": true,
-    "AssociateId": 179,
-    "ColorIndex": 317,
+    "AssociateId": 31,
+    "ColorIndex": 198,
     "IsFree": false,
-    "HasAlarm": true,
-    "IsAlldayEvent": true,
+    "HasAlarm": false,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 415,
-    "PriorityName": "Dach Inc and Sons",
+    "PriorityId": 992,
+    "PriorityName": "Thompson, Roob and Champlin",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": true,
+    "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "1998-10-22T16:32:37.6490324+02:00",
+    "ActiveDate": "2003-03-14T17:54:02.3827433+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "1999-09-28T16:32:37.6490324+02:00",
-    "RecurringEndDate": "2014-02-08T16:32:37.6490324+01:00",
-    "MotherId": 624,
-    "AssignedBy": 582,
-    "AssignedByFullName": "Prof. Rae Cartwright II",
+    "RecurringStartDate": "2024-01-05T17:54:02.3827433+01:00",
+    "RecurringEndDate": "2009-08-25T17:54:02.3827433+02:00",
+    "MotherId": 989,
+    "AssignedBy": 870,
+    "AssignedByFullName": "Mrs. Vaughn Seth Collier PhD",
     "RejectReason": "",
-    "Location": "et",
-    "AlarmLeadTime": "incidunt",
-    "SaleId": 764,
-    "SaleName": "Lueilwitz-Howell",
-    "AssociateName": "Bednar-Marvin",
-    "CreatedDate": "2025-04-17T16:32:37.6490324+02:00",
-    "CreatedBy": "dicta",
-    "CreatedByFullName": "Dr. Anya Emmerich",
-    "CreatedByAssociateId": 689,
+    "Location": "nihil",
+    "AlarmLeadTime": "est",
+    "SaleId": 298,
+    "SaleName": "Hand-Rempel",
+    "AssociateName": "Altenwerth Inc and Sons",
+    "CreatedDate": "2020-10-09T17:54:02.3827433+02:00",
+    "CreatedBy": "non",
+    "CreatedByFullName": "Willow Carroll",
+    "CreatedByAssociateId": 968,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 689,
-    "Title": "quis",
-    "Agenda": "illum",
-    "InternalNotes": "doloribus",
+    "PreferredTZLocation": 77,
+    "Title": "aliquid",
+    "Agenda": "quia",
+    "InternalNotes": "dolore",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 317
+        "FieldLength": 244
       }
     }
   }

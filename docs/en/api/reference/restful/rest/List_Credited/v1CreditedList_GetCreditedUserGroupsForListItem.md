@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Credited/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 837,
-    "Name": "Jerde, Wilderman and Hudson",
-    "ToolTip": "Placeat esse beatae culpa suscipit et est et.",
+    "Id": 415,
+    "Name": "Murray LLC",
+    "ToolTip": "Voluptas accusantium voluptas aspernatur eligendi et accusantium voluptas.",
     "Deleted": false,
-    "Rank": 187,
-    "Type": "voluptate",
-    "ColorBlock": 118,
-    "IconHint": "sed",
+    "Rank": 239,
+    "Type": "consequatur",
+    "ColorBlock": 812,
+    "IconHint": "mollitia",
     "Selected": false,
-    "LastChanged": "1998-09-07T16:32:48.6182885+02:00",
+    "LastChanged": "2015-08-30T17:54:08.8824262+02:00",
     "ChildItems": [
       {
-        "Id": 456,
-        "Name": "Kassulke, Ruecker and Lueilwitz",
-        "ToolTip": "Placeat quod reiciendis consequatur nesciunt ut enim totam.",
+        "Id": 452,
+        "Name": "O'Reilly-Bradtke",
+        "ToolTip": "Corporis dignissimos sunt quas.",
         "Deleted": false,
-        "Rank": 282,
-        "Type": "minus",
-        "ColorBlock": 527,
-        "IconHint": "qui",
-        "Selected": true,
-        "LastChanged": "2022-10-27T16:32:48.6182885+02:00",
+        "Rank": 120,
+        "Type": "expedita",
+        "ColorBlock": 229,
+        "IconHint": "nemo",
+        "Selected": false,
+        "LastChanged": "2005-05-06T17:54:08.8824262+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iste",
-        "StyleHint": "voluptates",
-        "Hidden": true,
-        "FullName": "Elenora Legros",
+        "ExtraInfo": "omnis",
+        "StyleHint": "consectetur",
+        "Hidden": false,
+        "FullName": "Elaina Ernser",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 239
+            "FieldLength": 276
           }
         }
       }
     ],
-    "ExtraInfo": "ipsa",
-    "StyleHint": "deleniti",
+    "ExtraInfo": "iste",
+    "StyleHint": "officiis",
     "Hidden": false,
-    "FullName": "Randy Bridie Bosco DVM",
+    "FullName": "Ashley Gorczany",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 207
+        "FieldLength": 162
       }
     }
   }

@@ -81,12 +81,12 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionForFind
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Morar-Emmerich",
-  "TypicalSearchId": 500
+  "EntityName": "Fadel-Mueller",
+  "TypicalSearchId": 191
 }
 ```
 
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Ernser, Gerhold and Graham",
-  "SelectionId": 638,
-  "CanSaveAsSelection": true,
-  "MainHeading": "praesentium",
-  "FilterScreenHeading": "eos",
-  "SelectionEntityHeading": "dignissimos",
+  "ProviderName": "Auer LLC",
+  "SelectionId": 878,
+  "CanSaveAsSelection": false,
+  "MainHeading": "tempora",
+  "FilterScreenHeading": "maiores",
+  "SelectionEntityHeading": "modi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 930
+      "FieldType": "System.Int32",
+      "FieldLength": 782
     }
   }
 }

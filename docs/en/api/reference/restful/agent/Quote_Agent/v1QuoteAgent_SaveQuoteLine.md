@@ -121,7 +121,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -136,88 +136,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 668,
-  "ERPQuoteLineKey": "voluptas",
-  "QuoteAlternativeId": 816,
-  "ERPProductKey": "animi",
+  "QuoteLineId": 54,
+  "ERPQuoteLineKey": "quis",
+  "QuoteAlternativeId": 346,
+  "ERPProductKey": "libero",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 25930.716,
-  "DeliveredQuantity": 27547.86,
-  "Rank": 277,
-  "Name": "Lang-Roob",
-  "Description": "Universal coherent focus group",
-  "Code": "et",
-  "QuantityUnit": "excepturi",
-  "PriceUnit": "vel",
-  "ItemNumber": "612176",
+  "Quantity": 12934.018,
+  "DeliveredQuantity": 16136.966,
+  "Rank": 10,
+  "Name": "Tromp Group",
+  "Description": "Persevering dynamic system engine",
+  "Code": "aut",
+  "QuantityUnit": "magnam",
+  "PriceUnit": "animi",
+  "ItemNumber": "1533128",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "inventore",
-  "ProductTypeKey": "voluptatem",
-  "Supplier": "repudiandae",
-  "SupplierCode": "delectus",
-  "Thumbnail": "enim",
-  "VATInfo": "ducimus",
-  "VAT": 3676.182,
-  "UnitCost": 4873.37,
-  "UnitMinimumPrice": 2325.428,
-  "UnitListPrice": 1303.744,
+  "ProductFamilyKey": "sequi",
+  "ProductTypeKey": "voluptates",
+  "Supplier": "doloremque",
+  "SupplierCode": "nisi",
+  "Thumbnail": "qui",
+  "VATInfo": "aut",
+  "VAT": 15748.35,
+  "UnitCost": 20067.002,
+  "UnitMinimumPrice": 25159.752,
+  "UnitListPrice": 25203.628,
   "ExtraInfo": [
     {
-      "Name": "Batz LLC",
-      "Value": "possimus",
+      "Name": "Torphy-Schulist",
+      "Value": "neque",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 523
+          "FieldLength": 53
         }
       }
     },
     {
-      "Name": "Batz LLC",
-      "Value": "possimus",
+      "Name": "Torphy-Schulist",
+      "Value": "neque",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 523
+          "FieldLength": 53
         }
       }
     }
   ],
-  "RawExtraInfo": "ad",
-  "IsSubscription": false,
-  "SubscriptionUnit": "quo",
-  "SubscriptionQuantity": 17895.14,
-  "SubscriptionStart": "2003-10-25T16:32:39.74275+02:00",
-  "ERPDiscountPercent": 21010.336,
-  "ERPDiscountAmount": 19763.004,
-  "DiscountPercent": 868.11799999999994,
-  "DiscountAmount": 20333.392,
+  "RawExtraInfo": "et",
+  "IsSubscription": true,
+  "SubscriptionUnit": "ad",
+  "SubscriptionQuantity": 15184.23,
+  "SubscriptionStart": "2018-06-13T17:54:03.5389365+02:00",
+  "ERPDiscountPercent": 17074.032,
+  "ERPDiscountAmount": 30559.634,
+  "DiscountPercent": 1347.62,
+  "DiscountAmount": 8994.58,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 2131.12,
-  "EarningAmount": 12075.302,
-  "SubTotal": 24116.13,
-  "TotalPrice": 18305.694,
-  "Rights": "reprehenderit",
-  "Rule": "voluptas",
-  "ExtraField1": "ea",
-  "ExtraField2": "incidunt",
-  "ExtraField3": "iusto",
-  "ExtraField4": "non",
-  "ExtraField5": "velit",
+  "EarningPercent": 14704.728,
+  "EarningAmount": 14754.872,
+  "SubTotal": 26109.354,
+  "TotalPrice": 15306.456,
+  "Rights": "soluta",
+  "Rule": "unde",
+  "ExtraField1": "quo",
+  "ExtraField2": "quia",
+  "ExtraField3": "quia",
+  "ExtraField4": "magni",
+  "ExtraField5": "illo",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 840
+      "FieldType": "System.String",
+      "FieldLength": 629
     }
   }
 }

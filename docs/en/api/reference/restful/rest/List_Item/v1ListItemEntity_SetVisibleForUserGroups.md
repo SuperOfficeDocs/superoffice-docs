@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/{udListDefinitionId}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 496,
-    "Name": "Haley-Kuphal",
-    "ToolTip": "Sint quas voluptas cumque neque sint.",
+    "Id": 186,
+    "Name": "Effertz LLC",
+    "ToolTip": "Ea illum sunt optio ad.",
     "Deleted": false,
-    "Rank": 403,
-    "Type": "voluptatem",
-    "ColorBlock": 487,
-    "IconHint": "nisi",
+    "Rank": 640,
+    "Type": "voluptates",
+    "ColorBlock": 697,
+    "IconHint": "sed",
     "Selected": false,
-    "LastChanged": "1999-04-14T16:32:48.4933163+02:00",
+    "LastChanged": "2013-11-23T17:54:08.7730557+01:00",
     "ChildItems": [
       {
-        "Id": 508,
-        "Name": "Daugherty, Watsica and Rohan",
-        "ToolTip": "Magni omnis placeat veniam dolor voluptatem eaque.",
-        "Deleted": true,
-        "Rank": 740,
-        "Type": "nihil",
-        "ColorBlock": 916,
-        "IconHint": "natus",
+        "Id": 656,
+        "Name": "Monahan Group",
+        "ToolTip": "Quia aut.",
+        "Deleted": false,
+        "Rank": 700,
+        "Type": "nesciunt",
+        "ColorBlock": 782,
+        "IconHint": "consequatur",
         "Selected": false,
-        "LastChanged": "2011-06-20T16:32:48.4933163+02:00",
+        "LastChanged": "1998-01-23T17:54:08.7730557+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "labore",
-        "StyleHint": "harum",
-        "Hidden": true,
-        "FullName": "Humberto Pfannerstill"
+        "ExtraInfo": "quis",
+        "StyleHint": "repellendus",
+        "Hidden": false,
+        "FullName": "Sean Hills"
       }
     ],
-    "ExtraInfo": "explicabo",
-    "StyleHint": "sit",
-    "Hidden": false,
-    "FullName": "Roel Green"
+    "ExtraInfo": "non",
+    "StyleHint": "atque",
+    "Hidden": true,
+    "FullName": "Petra D'Amore MD"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 762,
-    "Name": "Bogisich LLC",
-    "ToolTip": "Est qui harum quas recusandae impedit.",
+    "Id": 554,
+    "Name": "Lindgren-Bogan",
+    "ToolTip": "Eum consequuntur.",
     "Deleted": false,
-    "Rank": 634,
-    "Type": "quis",
-    "ColorBlock": 812,
-    "IconHint": "autem",
-    "Selected": true,
-    "LastChanged": "2010-10-20T16:32:48.4933163+02:00",
+    "Rank": 364,
+    "Type": "alias",
+    "ColorBlock": 140,
+    "IconHint": "provident",
+    "Selected": false,
+    "LastChanged": "2018-10-07T17:54:08.7730557+02:00",
     "ChildItems": [
       {
-        "Id": 482,
-        "Name": "Dach Inc and Sons",
-        "ToolTip": "Vitae ipsam et optio facere possimus sunt voluptatem.",
-        "Deleted": false,
-        "Rank": 586,
-        "Type": "officiis",
-        "ColorBlock": 337,
-        "IconHint": "non",
+        "Id": 319,
+        "Name": "Mohr Inc and Sons",
+        "ToolTip": "Tenetur et nulla cumque molestiae officia.",
+        "Deleted": true,
+        "Rank": 623,
+        "Type": "quis",
+        "ColorBlock": 144,
+        "IconHint": "voluptatem",
         "Selected": true,
-        "LastChanged": "2011-08-02T16:32:48.4933163+02:00",
+        "LastChanged": "2014-10-09T17:54:08.7730557+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "neque",
-        "StyleHint": "sunt",
-        "Hidden": false,
-        "FullName": "Junius Mosciski",
+        "ExtraInfo": "id",
+        "StyleHint": "odit",
+        "Hidden": true,
+        "FullName": "Halie Koss DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 934
+            "FieldLength": 542
           }
         }
       }
     ],
-    "ExtraInfo": "molestiae",
-    "StyleHint": "eius",
+    "ExtraInfo": "commodi",
+    "StyleHint": "maxime",
     "Hidden": true,
-    "FullName": "Mr. Armando Trisha Effertz",
+    "FullName": "Dr. Patsy Ryley Rowe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 644
+        "FieldLength": 665
       }
     }
   }

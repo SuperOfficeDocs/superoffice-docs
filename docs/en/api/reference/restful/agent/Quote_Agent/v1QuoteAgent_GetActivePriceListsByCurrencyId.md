@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetActivePriceListsByCurrencyId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 977,
-  "CurrencyId": 101
+  "QuoteConnectionId": 392,
+  "CurrencyId": 272
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 568,
-    "ERPPriceListKey": "officia",
-    "QuoteConnectionId": 804,
-    "Name": "Morissette LLC",
-    "Description": "De-engineered reciprocal instruction set",
-    "Currency": "voluptas",
-    "CurrencyName": "Crist LLC",
-    "ValidFrom": "1998-03-11T16:32:39.7271263+01:00",
-    "ValidTo": "2002-11-14T16:32:39.7271263+01:00",
-    "IsActive": false,
+    "PriceListId": 902,
+    "ERPPriceListKey": "voluptas",
+    "QuoteConnectionId": 516,
+    "Name": "Hickle, Gleichner and Kshlerin",
+    "Description": "Total non-volatile local area network",
+    "Currency": "ab",
+    "CurrencyName": "Monahan LLC",
+    "ValidFrom": "2011-08-28T17:54:03.5233118+02:00",
+    "ValidTo": "2016-11-28T17:54:03.5233118+01:00",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 511
+        "FieldLength": 436
       }
     }
   }

@@ -12,16 +12,16 @@ so.envir: onsite
 
 Service methods defined on <see cref='T:ITimeZoneAgent'>TimeZoneAgent</see> that can trigger server-side event scripts.
 
-* [CheckNewTimeZoneDataAvailable](checknewtimezonedataavailable.md)
-* [DeleteTimeZones](deletetimezones.md)
-* [GetBaseTimeZoneId](getbasetimezoneid.md)
-* [GetDefaultTimeZoneInformation](getdefaulttimezoneinformation.md)
-* [GetDefaultTimeZonePreference](getdefaulttimezonepreference.md)
-* [InitializeTimeZoneData](initializetimezonedata.md)
-* [SetActiveTimeZoneRow](setactivetimezonerow.md)
-* [SetActiveTimeZonesByFilter](setactivetimezonesbyfilter.md)
-* [SetBaseTimeZoneId](setbasetimezoneid.md)
-* [TimeOfLastTimeZoneUpdate](timeoflasttimezoneupdate.md)
-* [ToggleActiveTimeZoneRow](toggleactivetimezonerow.md)
-* [UpdateTimeZoneData](updatetimezonedata.md)
+* [CheckNewTimeZoneDataAvailableAsync](checknewtimezonedataavailableasync.md)
+* [DeleteTimeZonesAsync](deletetimezonesasync.md)
+* [GetBaseTimeZoneIdAsync](getbasetimezoneidasync.md)
+* [GetDefaultTimeZoneInformationAsync](getdefaulttimezoneinformationasync.md)
+* [GetDefaultTimeZonePreferenceAsync](getdefaulttimezonepreferenceasync.md)
+* [InitializeTimeZoneDataAsync](initializetimezonedataasync.md)
+* [SetActiveTimeZoneRowAsync](setactivetimezonerowasync.md)
+* [SetActiveTimeZonesByFilterAsync](setactivetimezonesbyfilterasync.md)
+* [SetBaseTimeZoneIdAsync](setbasetimezoneidasync.md)
+* [TimeOfLastTimeZoneUpdateAsync](timeoflasttimezoneupdateasync.md)
+* [ToggleActiveTimeZoneRowAsync](toggleactivetimezonerowasync.md)
+* [UpdateTimeZoneDataAsync](updatetimezonedataasync.md)
 

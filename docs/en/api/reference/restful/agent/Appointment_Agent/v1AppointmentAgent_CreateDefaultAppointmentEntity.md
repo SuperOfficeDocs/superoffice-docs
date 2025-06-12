@@ -116,7 +116,7 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -130,121 +130,121 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2007-04-29T16:32:37.836689+02:00",
-  "AppointmentId": 665,
-  "Description": "Object-based attitude-oriented contingency",
-  "Title": "unde",
-  "Agenda": "et",
-  "InternalNotes": "rem",
-  "StartDate": "2017-11-01T16:32:37.836689+01:00",
-  "EndDate": "2019-05-26T16:32:37.836689+02:00",
+  "CreatedDate": "2012-06-03T17:54:02.4139909+02:00",
+  "AppointmentId": 682,
+  "Description": "Configurable transitional Graphical User Interface",
+  "Title": "qui",
+  "Agenda": "non",
+  "InternalNotes": "eum",
+  "StartDate": "2008-03-19T17:54:02.4139909+01:00",
+  "EndDate": "2019-09-05T17:54:02.4139909+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 293,
+  "MotherId": 273,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2004-03-11T16:32:37.836689+01:00",
+  "UpdatedDate": "2004-08-16T17:54:02.4139909+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 449,
+  "ActiveLinks": 717,
   "Links": [
     {
-      "EntityName": "Corkery-Kuhn",
-      "Id": 318,
-      "Description": "Secured dynamic knowledge user",
-      "ExtraInfo": "corporis",
-      "LinkId": 788,
+      "EntityName": "Okuneva Group",
+      "Id": 364,
+      "Description": "Integrated motivating firmware",
+      "ExtraInfo": "blanditiis",
+      "LinkId": 534,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 567
+          "FieldType": "System.Int32",
+          "FieldLength": 189
         }
       }
     }
   ],
-  "AlarmLeadTime": "doloribus",
-  "HasAlarm": true,
-  "ColorIndex": 79,
-  "IsFree": false,
-  "IsAlldayEvent": false,
-  "LagTime": "quaerat",
-  "LeadTime": "occaecati",
-  "Location": "occaecati",
-  "RejectCounter": 145,
+  "AlarmLeadTime": "consectetur",
+  "HasAlarm": false,
+  "ColorIndex": 266,
+  "IsFree": true,
+  "IsAlldayEvent": true,
+  "LagTime": "atque",
+  "LeadTime": "voluptatem",
+  "Location": "quia",
+  "RejectCounter": 854,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 482,
-      "PersonId": 52,
-      "ContactId": 968,
-      "EmailId": 480,
-      "SendEmail": true,
+      "AssociateId": 586,
+      "PersonId": 959,
+      "ContactId": 403,
+      "EmailId": 107,
+      "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "mason@feeney.uk",
-      "Description": "Expanded bandwidth-monitored secured line"
+      "EmailAddress": "jensen@johnston.co.uk",
+      "Description": "Open-architected cohesive parallelism"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2004-05-24T16:32:37.836689+02:00",
-  "HasConflict": true,
+  "ActiveDate": "2002-09-24T17:54:02.4139909+02:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 194,
+  "PreferredTZLocation": 217,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 702,
-  "IsMileStone": false,
+  "SuggestedAppointmentId": 60,
+  "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "saepe",
+  "CentralserviceVideomeetId": "suscipit",
   "UserDefinedFields": {
-    "SuperOffice:1": "Dr. Sandrine Harber V",
-    "SuperOffice:2": "True"
+    "SuperOffice:1": "Filomena Konopelski",
+    "SuperOffice:2": "788072451"
   },
   "ExtraFields": {
-    "ExtraFields1": "ipsam",
-    "ExtraFields2": "molestiae"
+    "ExtraFields1": "voluptatem",
+    "ExtraFields2": "autem"
   },
   "CustomFields": {
-    "CustomFields1": "est",
-    "CustomFields2": "aut"
+    "CustomFields1": "omnis",
+    "CustomFields2": "laboriosam"
   },
-  "PublishEventDate": "2005-11-06T16:32:37.836689+01:00",
-  "PublishTo": "2012-08-09T16:32:37.836689+02:00",
-  "PublishFrom": "2018-05-22T16:32:37.836689+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2010-04-06T17:54:02.4139909+02:00",
+  "PublishTo": "2011-11-11T17:54:02.4139909+01:00",
+  "PublishFrom": "2016-01-11T17:54:02.4139909+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 166,
+      "VisibleId": 136,
       "Visibility": "All",
-      "DisplayValue": "unde",
+      "DisplayValue": "nostrum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 820
+          "FieldLength": 649
         }
       }
     },
     {
-      "VisibleId": 166,
+      "VisibleId": 136,
       "Visibility": "All",
-      "DisplayValue": "unde",
+      "DisplayValue": "nostrum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 820
+          "FieldLength": 649
         }
       }
     }
@@ -254,7 +254,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 753
+      "FieldLength": 955
     }
   }
 }

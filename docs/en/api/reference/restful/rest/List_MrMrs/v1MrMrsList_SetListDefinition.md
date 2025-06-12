@@ -89,14 +89,14 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 326,
-  "Name": "Bartell-Koss",
-  "Tooltip": "consequatur",
-  "Deleted": true,
-  "Rank": 636,
+  "Name": "Hermann LLC",
+  "Tooltip": "non",
+  "Deleted": false,
+  "Rank": 798,
   "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "voluptas",
+  "ListType": "eligendi",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 209,
-  "Name": "King Group",
-  "Tooltip": "maiores",
+  "Id": 956,
+  "Name": "Stiedemann-McGlynn",
+  "Tooltip": "magni",
   "Deleted": false,
-  "Rank": 947,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Rank": 189,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "et",
-  "InUseByUserDefinedFields": false,
+  "ListType": "corporis",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 99
+      "FieldLength": 922
     }
   }
 }

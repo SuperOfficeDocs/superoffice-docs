@@ -87,16 +87,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 534,
-  "Name": "Reinger-Hintz",
+  "ScreenChooserId": 634,
+  "Name": "Simonis-Roberts",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "est",
-  "Source": "a",
-  "Registered": "2020-08-19T16:32:38.5552758+02:00",
-  "RegisteredAssociateId": 189,
-  "Updated": "2010-02-11T16:32:38.5552758+01:00",
-  "UpdatedAssociateId": 576
+  "UniqueIdentifier": "sit",
+  "Source": "sed",
+  "Registered": "2003-08-05T17:54:02.9139671+02:00",
+  "RegisteredAssociateId": 179,
+  "Updated": "2011-01-15T17:54:02.9139671+01:00",
+  "UpdatedAssociateId": 472
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 451,
-  "Name": "Zboncak-Turcotte",
+  "ScreenChooserId": 882,
+  "Name": "Hand-Schroeder",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "doloribus",
-  "Source": "minima",
-  "Registered": "2011-03-28T16:32:38.5552758+02:00",
-  "RegisteredAssociateId": 155,
-  "Updated": "2005-09-29T16:32:38.5552758+02:00",
-  "UpdatedAssociateId": 272,
+  "Enabled": true,
+  "UniqueIdentifier": "quae",
+  "Source": "recusandae",
+  "Registered": "2003-11-08T17:54:02.9139671+01:00",
+  "RegisteredAssociateId": 934,
+  "Updated": "2000-04-16T17:54:02.9139671+02:00",
+  "UpdatedAssociateId": 664,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 183
+      "FieldLength": 287
     }
   }
 }

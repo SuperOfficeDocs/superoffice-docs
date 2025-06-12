@@ -27,7 +27,7 @@ Get the MDO list items for "PaymentType" - with headings and filtering by user g
 
 ```http
 GET /api/v1/List/PaymentType/MDOItems?flat=False
-GET /api/v1/List/PaymentType/MDOItems?query=at
+GET /api/v1/List/PaymentType/MDOItems?query=vero
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 19,
-    "Name": "Marquardt-Connelly",
-    "ToolTip": "In officia reprehenderit vel.",
-    "Deleted": false,
-    "Rank": 362,
-    "Type": "atque",
+    "Id": 740,
+    "Name": "Schamberger, Klein and Emard",
+    "ToolTip": "Eum commodi et quisquam.",
+    "Deleted": true,
+    "Rank": 389,
+    "Type": "quia",
     "ChildItems": [
       {
-        "Id": 386,
-        "Name": "Hessel, Bechtelar and Mraz",
-        "ToolTip": "Est saepe.",
-        "Deleted": false,
-        "Rank": 475,
-        "Type": "voluptas",
+        "Id": 991,
+        "Name": "Denesik, Harber and Jenkins",
+        "ToolTip": "Sunt nisi dolorem.",
+        "Deleted": true,
+        "Rank": 361,
+        "Type": "recusandae",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "saepe",
-        "ColorBlock": 19,
-        "ExtraInfo": "earum",
-        "StyleHint": "rerum",
-        "FullName": "Bianka Macejkovic",
+        "IconHint": "et",
+        "ColorBlock": 619,
+        "ExtraInfo": "accusantium",
+        "StyleHint": "optio",
+        "FullName": "Ken Ruecker",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 660
+            "FieldType": "System.String",
+            "FieldLength": 314
           }
         }
       }
     ],
-    "IconHint": "est",
-    "ColorBlock": 833,
-    "ExtraInfo": "vitae",
-    "StyleHint": "velit",
-    "FullName": "Jamar Block",
+    "IconHint": "facere",
+    "ColorBlock": 62,
+    "ExtraInfo": "recusandae",
+    "StyleHint": "non",
+    "FullName": "Prof. Morgan Wisozk",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 143
+        "FieldType": "System.String",
+        "FieldLength": 780
       }
     }
   }

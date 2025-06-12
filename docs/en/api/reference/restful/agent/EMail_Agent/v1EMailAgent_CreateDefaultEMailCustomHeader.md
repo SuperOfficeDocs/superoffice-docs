@@ -61,7 +61,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailCustomHeader
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -71,17 +71,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Lebsack-Schoen",
+  "Name": "Streich, Skiles and Hodkiewicz",
   "Values": [
-    "nemo",
-    "quod"
+    "officia",
+    "molestiae"
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 813
+      "FieldLength": 764
     }
   }
 }

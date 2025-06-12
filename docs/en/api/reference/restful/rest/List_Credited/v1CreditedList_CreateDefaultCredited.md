@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Credited/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 824,
-  "Name": "Ondricka LLC",
-  "Tooltip": "minima",
+  "Id": 225,
+  "Name": "Littel LLC",
+  "Tooltip": "tempore",
   "Deleted": false,
-  "UdListDefinitionId": 238,
-  "Rank": 391,
+  "UdListDefinitionId": 455,
+  "Rank": 385,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 132
+      "FieldType": "System.Int32",
+      "FieldLength": 694
     }
   }
 }

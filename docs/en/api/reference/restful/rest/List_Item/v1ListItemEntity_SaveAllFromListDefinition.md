@@ -77,25 +77,25 @@ OK
 PUT /api/v1/List/{udListDefinitionId}/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 735,
-    "Name": "Crist-Runolfsdottir",
-    "Tooltip": "harum",
+    "Id": 41,
+    "Name": "McGlynn LLC",
+    "Tooltip": "ullam",
     "Deleted": false,
-    "UdListDefinitionId": 879,
-    "Rank": 989
+    "UdListDefinitionId": 738,
+    "Rank": 283
   },
   {
-    "Id": 735,
-    "Name": "Crist-Runolfsdottir",
-    "Tooltip": "harum",
+    "Id": 41,
+    "Name": "McGlynn LLC",
+    "Tooltip": "ullam",
     "Deleted": false,
-    "UdListDefinitionId": 879,
-    "Rank": 989
+    "UdListDefinitionId": 738,
+    "Rank": 283
   }
 ]
 ```
@@ -108,18 +108,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 625,
-    "Name": "Doyle Inc and Sons",
-    "Tooltip": "autem",
-    "Deleted": true,
-    "UdListDefinitionId": 601,
-    "Rank": 408,
+    "Id": 978,
+    "Name": "Kuphal Group",
+    "Tooltip": "tempore",
+    "Deleted": false,
+    "UdListDefinitionId": 444,
+    "Rank": 528,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 761
+        "FieldType": "System.Int32",
+        "FieldLength": 97
       }
     }
   }

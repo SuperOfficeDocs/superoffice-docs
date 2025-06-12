@@ -105,11 +105,11 @@ OK
 POST /api/v1/Agents/Chat/ResetChatSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 257
+  "ChatSessionId": 562
 }
 ```
 
@@ -120,43 +120,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 333,
-  "TopicId": 309,
+  "ChatSessionId": 720,
+  "TopicId": 717,
   "User": null,
   "Person": null,
-  "CustomerAlias": "voluptate",
-  "CustomerHost": "tempora",
-  "CustomerName": "Grant-Runte",
-  "CustomerEmail": "emiliano@hartmannwalter.name",
-  "CustomerPhone": "910-845-8920",
+  "CustomerAlias": "et",
+  "CustomerHost": "eius",
+  "CustomerName": "Kling, Collins and Volkman",
+  "CustomerEmail": "general@adams.us",
+  "CustomerPhone": "(817)665-7499 x040",
   "CustomerConsented": true,
-  "CustomerCompanyName": "Little Group",
+  "CustomerCompanyName": "Pfeffer Inc and Sons",
   "Status": "Closed",
-  "FirstMessage": "non",
-  "LastMessage": "qui",
-  "WhenRequested": "2006-04-17T16:32:38.336574+02:00",
-  "WhenStarted": "2003-11-09T16:32:38.336574+01:00",
-  "WhenEnded": "2023-04-14T16:32:38.336574+02:00",
-  "WhenIdle": "1999-11-16T16:32:38.336574+01:00",
-  "WhenFetched": "2024-08-06T16:32:38.336574+02:00",
-  "SessionKey": "labore",
-  "InitialQueuePos": 902,
-  "AlertLevel": 793,
-  "Rank": 957,
+  "FirstMessage": "est",
+  "LastMessage": "voluptate",
+  "WhenRequested": "2006-12-29T17:54:02.7421006+01:00",
+  "WhenStarted": "2019-12-17T17:54:02.7421006+01:00",
+  "WhenEnded": "2017-05-24T17:54:02.7421006+02:00",
+  "WhenIdle": "2021-05-24T17:54:02.7421006+02:00",
+  "WhenFetched": "1999-11-09T17:54:02.7421006+01:00",
+  "SessionKey": "quis",
+  "InitialQueuePos": 369,
+  "AlertLevel": 282,
+  "Rank": 433,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 671,
+  "ChatbotIsActive": true,
+  "Rating": 780,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 611
+      "FieldType": "System.Int32",
+      "FieldLength": 504
     }
   }
 }

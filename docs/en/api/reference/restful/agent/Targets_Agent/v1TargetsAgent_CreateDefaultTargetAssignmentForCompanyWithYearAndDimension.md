@@ -86,8 +86,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Year": 198,
-  "TargetDimensionId": 224
+  "Year": 730,
+  "TargetDimensionId": 98
 }
 ```
 
@@ -99,24 +99,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 929,
+    "TargetAssignmentInfoId": 376,
     "Values": [
-      804,
-      98
+      852,
+      912
     ],
     "Locked": true,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 461,
-    "DimensionListItemDisplayName": "Considine, Anderson and Sawayn",
+    "DimensionListItem": 557,
+    "DimensionListItemDisplayName": "Jerde, Schaden and Schamberger",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 672
+        "FieldType": "System.String",
+        "FieldLength": 315
       }
     }
   }

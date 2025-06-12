@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Batch/GetSystemBatchTaskInfosByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Stiedemann LLC"
+  "TaskName": "Kuhn, Gottlieb and Langworth"
 }
 ```
 
@@ -110,37 +110,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 299,
-    "Name": "Leannon, Quitzon and Gerhold",
-    "AssociateId": 557,
-    "DetailsTable": 437,
-    "DetailsRecord": 715,
+    "Id": 410,
+    "Name": "Mertz Group",
+    "AssociateId": 61,
+    "DetailsTable": 718,
+    "DetailsRecord": 907,
     "IsSystemTask": false,
-    "IsInternalTask": true,
+    "IsInternalTask": false,
     "ParameterObject": {
       "ParameterObject1": "et",
-      "ParameterObject2": "fugiat"
+      "ParameterObject2": "accusamus"
     },
-    "LastStarted": "2021-09-15T16:32:38.1959817+02:00",
-    "Created": "2011-11-16T16:32:38.1959817+01:00",
-    "StartCount": 13,
-    "DatabaseSerialNumber": "1418526",
-    "Context": "voluptatem",
-    "Result": "iure",
+    "LastStarted": "2023-12-11T17:54:02.6639794+01:00",
+    "Created": "2025-02-09T17:54:02.6639794+01:00",
+    "StartCount": 401,
+    "DatabaseSerialNumber": "1284716",
+    "Context": "perferendis",
+    "Result": "culpa",
     "State": "All",
-    "Description": "Streamlined eco-centric secured line",
-    "Response": "dolores",
-    "Request": "quae",
-    "ProgressDescription": "Team-oriented logistical collaboration",
-    "ProgressPercent": 514,
-    "FileName": "O'Kon, Johnston and Emmerich",
+    "Description": "Cross-platform tertiary standardization",
+    "Response": "perferendis",
+    "Request": "aut",
+    "ProgressDescription": "Upgradable 4th generation info-mediaries",
+    "ProgressPercent": 129,
+    "FileName": "Boyle-Kilback",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 716
+        "FieldType": "System.Int32",
+        "FieldLength": 738
       }
     }
   }

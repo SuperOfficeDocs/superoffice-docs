@@ -99,38 +99,38 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 ContactRelationEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 11 Mar 2001 16:32:47 G3T
+Last-Modified: Thu, 17 Apr 2014 17:54:08 G4T
 
 {
-  "SourceContactId": 540,
-  "SourcePersonId": 541,
-  "DestinationContactId": 367,
-  "DestinationPersonId": 806,
-  "RelationId": 490,
-  "Comment": "quae",
-  "RelationDefinitionId": 747,
-  "Reversed": 23,
-  "UpdatedDate": "2001-03-11T16:32:47.3996115+01:00",
-  "CreatedDate": "2017-11-07T16:32:47.3996115+01:00",
+  "SourceContactId": 296,
+  "SourcePersonId": 368,
+  "DestinationContactId": 423,
+  "DestinationPersonId": 746,
+  "RelationId": 724,
+  "Comment": "ut",
+  "RelationDefinitionId": 552,
+  "Reversed": 111,
+  "UpdatedDate": "2014-04-17T17:54:08.1324619+02:00",
+  "CreatedDate": "2001-07-19T17:54:08.1324619+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Hills Inc and Sons",
-  "SourcePersonName": "Wehner-Osinski",
-  "DestinationContactName": "O'Kon Inc and Sons",
-  "DestinationPersonName": "Swift-O'Keefe",
-  "ActiveText": "nobis",
-  "PassiveText": "est",
+  "SourceContactName": "Rice, Reilly and Wilderman",
+  "SourcePersonName": "Kris, Brekke and Hackett",
+  "DestinationContactName": "Hamill-Harris",
+  "DestinationPersonName": "Hodkiewicz-Hintz",
+  "ActiveText": "sunt",
+  "PassiveText": "sunt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 535
+      "FieldType": "System.String",
+      "FieldLength": 271
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

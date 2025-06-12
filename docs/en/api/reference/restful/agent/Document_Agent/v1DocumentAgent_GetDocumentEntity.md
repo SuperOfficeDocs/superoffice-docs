@@ -26,7 +26,7 @@ Gets a DocumentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Document/GetDocumentEntity?documentEntityId=126
+POST /api/v1/Agents/Document/GetDocumentEntity?documentEntityId=697
 POST /api/v1/Agents/Document/GetDocumentEntity?$select=name,department,category/id
 ```
 
@@ -110,88 +110,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 329,
+  "DocumentId": 32,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "explicabo",
-  "Header": "ipsam",
-  "Name": "Gutkowski Group",
-  "OurRef": "ipsum",
-  "YourRef": "aut",
-  "CreatedDate": "2014-10-26T16:32:38.8208385+01:00",
-  "UpdatedDate": "1998-07-03T16:32:38.8208385+02:00",
-  "Description": "Integrated contextually-based projection",
+  "Attention": "velit",
+  "Header": "repellendus",
+  "Name": "Gleichner-Kovacek",
+  "OurRef": "ut",
+  "YourRef": "deleniti",
+  "CreatedDate": "2015-12-21T17:54:02.9920879+01:00",
+  "UpdatedDate": "2001-09-02T17:54:02.9920879+02:00",
+  "Description": "Visionary fault-tolerant help-desk",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2007-05-19T16:32:38.8364322+02:00",
-  "ExternalRef": "aut",
+  "Date": "2000-08-08T17:54:02.9920879+02:00",
+  "ExternalRef": "et",
   "Completed": "Completed",
-  "ActiveLinks": 164,
+  "ActiveLinks": 274,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Spinka, Donnelly and Lind",
-      "Id": 168,
-      "Description": "Progressive executive conglomeration",
-      "ExtraInfo": "sit",
-      "LinkId": 123,
+      "EntityName": "Mosciski Group",
+      "Id": 151,
+      "Description": "Balanced foreground ability",
+      "ExtraInfo": "reprehenderit",
+      "LinkId": 303,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 115
+          "FieldLength": 502
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 30,
-  "Snum": 930,
+  "SuggestedDocumentId": 771,
+  "Snum": 442,
   "UserDefinedFields": {
-    "SuperOffice:1": "Charlotte Wiza",
-    "SuperOffice:2": "True"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "qui",
-    "ExtraFields2": "omnis"
+    "ExtraFields1": "sequi",
+    "ExtraFields2": "vero"
   },
   "CustomFields": {
-    "CustomFields1": "perspiciatis",
-    "CustomFields2": "mollitia"
+    "CustomFields1": "sint",
+    "CustomFields2": "et"
   },
-  "PublishEventDate": "2023-05-29T16:32:38.8364322+02:00",
-  "PublishTo": "2009-11-17T16:32:38.8364322+01:00",
-  "PublishFrom": "2019-08-19T16:32:38.8364322+02:00",
+  "PublishEventDate": "2017-08-12T17:54:02.9920879+02:00",
+  "PublishTo": "2011-06-30T17:54:02.9920879+02:00",
+  "PublishFrom": "2004-08-28T17:54:02.9920879+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 643,
+      "VisibleId": 697,
       "Visibility": "All",
-      "DisplayValue": "eum",
+      "DisplayValue": "fugiat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 233
+          "FieldLength": 481
         }
       }
     },
     {
-      "VisibleId": 643,
+      "VisibleId": 697,
       "Visibility": "All",
-      "DisplayValue": "eum",
+      "DisplayValue": "fugiat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 233
+          "FieldLength": 481
         }
       }
     }
@@ -201,7 +201,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 64
+      "FieldLength": 930
     }
   }
 }

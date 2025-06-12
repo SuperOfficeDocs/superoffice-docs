@@ -89,18 +89,18 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 499,
-  "Name": "Haag Inc and Sons",
-  "Description": "Virtual radical product",
+  "ReportLabelLayoutId": 246,
+  "Name": "Sauer, Botsford and Padberg",
+  "Description": "Face to face bandwidth-monitored emulation",
   "Orientation": "Landscape",
-  "PaperWidth": 830,
-  "PaperHeight": 1001,
-  "LeftMargin": 984,
-  "RightMargin": 917,
-  "TopMargin": 210,
-  "BottomMargin": 616,
-  "CountColumns": 660,
-  "CountRows": 644
+  "PaperWidth": 478,
+  "PaperHeight": 602,
+  "LeftMargin": 44,
+  "RightMargin": 977,
+  "TopMargin": 978,
+  "BottomMargin": 886,
+  "CountColumns": 849,
+  "CountRows": 86
 }
 ```
 
@@ -111,24 +111,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 854,
-  "Name": "Abshire Inc and Sons",
-  "Description": "Triple-buffered contextually-based hierarchy",
+  "ReportLabelLayoutId": 975,
+  "Name": "Hoeger, Fay and Torphy",
+  "Description": "User-centric cohesive protocol",
   "Orientation": "Landscape",
-  "PaperWidth": 579,
-  "PaperHeight": 852,
-  "LeftMargin": 231,
-  "RightMargin": 109,
-  "TopMargin": 422,
-  "BottomMargin": 655,
-  "CountColumns": 534,
-  "CountRows": 471,
+  "PaperWidth": 536,
+  "PaperHeight": 698,
+  "LeftMargin": 714,
+  "RightMargin": 605,
+  "TopMargin": 100,
+  "BottomMargin": 440,
+  "CountColumns": 363,
+  "CountRows": 788,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 470
+      "FieldType": "System.String",
+      "FieldLength": 766
     }
   }
 }

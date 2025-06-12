@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/Document/GetDocumentList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -100,32 +100,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 133,
-    "Attention": "nihil",
-    "Header": "dolorem",
-    "Name": "Wuckert Inc and Sons",
-    "OurRef": "cupiditate",
-    "YourRef": "eos",
-    "Description": "Profit-focused zero tolerance contingency",
-    "DocumentTemplate": "voluptatem",
-    "IsPublished": false,
-    "PersonId": 970,
-    "PersonFullName": "Lawrence Stanton Jr.",
-    "AssociateFullName": "Prof. Arjun Carleton Runte PhD",
-    "ContactId": 402,
-    "ContactName": "Schneider-Jerde",
-    "ProjectId": 585,
-    "ProjectName": "Kovacek, Schmeler and Cummerata",
-    "AssociateId": 814,
-    "Snum": 68,
-    "SaleId": 785,
-    "SaleName": "Kertzmann LLC",
+    "DocumentId": 464,
+    "Attention": "enim",
+    "Header": "nisi",
+    "Name": "Auer, Spencer and Price",
+    "OurRef": "sit",
+    "YourRef": "debitis",
+    "Description": "Triple-buffered disintermediate implementation",
+    "DocumentTemplate": "accusamus",
+    "IsPublished": true,
+    "PersonId": 64,
+    "PersonFullName": "Ashleigh Walsh",
+    "AssociateFullName": "Alba Langworth",
+    "ContactId": 889,
+    "ContactName": "Kuphal LLC",
+    "ProjectId": 744,
+    "ProjectName": "Roberts, Parisian and Mosciski",
+    "AssociateId": 724,
+    "Snum": 503,
+    "SaleId": 739,
+    "SaleName": "Terry, Schowalter and Abernathy",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 946
+        "FieldLength": 599
       }
     }
   }

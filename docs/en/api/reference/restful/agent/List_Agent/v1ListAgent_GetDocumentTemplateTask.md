@@ -61,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-### Response body: Task
+### Response body: SoTask
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/List/GetDocumentTemplateTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 742
+  "DocumentTemplateId": 952
 }
 ```
 
@@ -92,15 +92,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 262,
-  "Value": "sequi",
-  "Tooltip": "voluptas",
+  "Id": 371,
+  "Value": "alias",
+  "Tooltip": "fugiat",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 595
+      "FieldType": "System.String",
+      "FieldLength": 786
     }
   }
 }

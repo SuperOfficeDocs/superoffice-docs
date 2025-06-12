@@ -26,8 +26,8 @@ Get the MDO list items for "Category" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Category/MDOItems?flat=False
-GET /api/v1/List/Category/MDOItems?query=asperiores
+GET /api/v1/List/Category/MDOItems?flat=True
+GET /api/v1/List/Category/MDOItems?query=aut
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 259,
-    "Name": "Harber, Goyette and Rolfson",
-    "ToolTip": "Voluptatem sed sint nulla laudantium sequi id voluptas.",
+    "Id": 105,
+    "Name": "Aufderhar, Gleason and Fritsch",
+    "ToolTip": "Iusto animi quos voluptas accusamus.",
     "Deleted": false,
-    "Rank": 429,
-    "Type": "aut",
+    "Rank": 669,
+    "Type": "saepe",
     "ChildItems": [
       {
-        "Id": 25,
-        "Name": "Kozey-Schmeler",
-        "ToolTip": "Voluptatem consequatur ut.",
+        "Id": 424,
+        "Name": "Bartoletti-Kertzmann",
+        "ToolTip": "Illo dolore neque accusantium dolor aut.",
         "Deleted": true,
-        "Rank": 774,
-        "Type": "voluptatum",
+        "Rank": 535,
+        "Type": "veniam",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quasi",
-        "ColorBlock": 612,
-        "ExtraInfo": "sed",
-        "StyleHint": "exercitationem",
-        "FullName": "Josefina Stiedemann",
+        "IconHint": "repellat",
+        "ColorBlock": 629,
+        "ExtraInfo": "reiciendis",
+        "StyleHint": "accusamus",
+        "FullName": "Jodie Torp III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 299
+            "FieldType": "System.Int32",
+            "FieldLength": 107
           }
         }
       }
     ],
-    "IconHint": "aut",
-    "ColorBlock": 805,
-    "ExtraInfo": "officia",
-    "StyleHint": "nisi",
-    "FullName": "Mrs. Torey Marguerite Spencer V",
+    "IconHint": "ratione",
+    "ColorBlock": 978,
+    "ExtraInfo": "in",
+    "StyleHint": "et",
+    "FullName": "Prof. Jarod Cartwright",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 447
+        "FieldType": "System.String",
+        "FieldLength": 812
       }
     }
   }

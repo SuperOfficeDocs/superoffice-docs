@@ -87,11 +87,11 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableSimpleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Franecki-D'Amore"
+  "Name": "Botsford-Rogahn"
 }
 ```
 
@@ -103,56 +103,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 600,
-    "Name": "Ondricka-Cummings",
-    "ToolTip": "Vero sed veniam a.",
-    "Deleted": true,
-    "Rank": 149,
-    "Type": "dignissimos",
-    "ColorBlock": 915,
-    "IconHint": "ut",
-    "Selected": true,
-    "LastChanged": "1999-05-09T16:32:39.3519666+02:00",
+    "Id": 886,
+    "Name": "Nienow, Steuber and Tremblay",
+    "ToolTip": "Qui eos repellendus molestiae quas.",
+    "Deleted": false,
+    "Rank": 508,
+    "Type": "porro",
+    "ColorBlock": 180,
+    "IconHint": "pariatur",
+    "Selected": false,
+    "LastChanged": "2020-12-18T17:54:03.3358211+01:00",
     "ChildItems": [
       {
-        "Id": 236,
-        "Name": "Yost, Tromp and Raynor",
-        "ToolTip": "Tempora molestias explicabo.",
-        "Deleted": true,
-        "Rank": 283,
-        "Type": "quo",
-        "ColorBlock": 70,
-        "IconHint": "sunt",
-        "Selected": false,
-        "LastChanged": "2010-07-21T16:32:39.3519666+02:00",
+        "Id": 628,
+        "Name": "VonRueden, Ruecker and Orn",
+        "ToolTip": "Odio blanditiis quam eligendi itaque.",
+        "Deleted": false,
+        "Rank": 17,
+        "Type": "nemo",
+        "ColorBlock": 675,
+        "IconHint": "quos",
+        "Selected": true,
+        "LastChanged": "2002-09-01T17:54:03.3358211+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "in",
-        "Hidden": false,
-        "FullName": "Annette Predovic",
+        "ExtraInfo": "et",
+        "StyleHint": "magni",
+        "Hidden": true,
+        "FullName": "Hudson Mayert",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 791
+            "FieldType": "System.Int32",
+            "FieldLength": 446
           }
         }
       }
     ],
-    "ExtraInfo": "perspiciatis",
-    "StyleHint": "sint",
+    "ExtraInfo": "rerum",
+    "StyleHint": "recusandae",
     "Hidden": false,
-    "FullName": "Rickie Schoen",
+    "FullName": "Alessandra Reynolds",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 447
+        "FieldType": "System.String",
+        "FieldLength": 971
       }
     }
   }

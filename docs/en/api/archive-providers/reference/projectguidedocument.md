@@ -198,6 +198,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/person/personUdef/SuperOffice:10|string|page1marketingonly| x |
 |documentInstance/person/personUdef/SuperOffice:11|string|page1adminonly| x |
 |documentInstance/person/personExtra/x\_person\_integer|int|Extra Integer: Custom person integer| x |
+|documentInstance/person/personExtra/x\_person\_hidden\_integer|int|Extra hidden integer: Custom integer field that is hidden| x |
 |documentInstance/person/personExtra/x\_person\_float|decimal|Extra float: Custom float field| x |
 |documentInstance/person/personExtra/x\_person\_longtext|string|Extra Long Text: Custom long text field on person, keep HTML tags. Simple input, not text area. Default value = 'Hello there'| x |
 |documentInstance/person/personExtra/x\_person\_date|date|Extra date: Custom date field on person. Default value = 28.03.2019| x |
@@ -229,13 +230,14 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/person/personAssociate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |documentInstance/person/personAssociate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
 |documentInstance/person/personAssociate/associateDbId|associate|ID| x |
-|documentInstance/person/personAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|documentInstance/person/personAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |documentInstance/person/personAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |documentInstance/person/personAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|documentInstance/person/personAssociate/usergroupId|int|Group ID: The user's primary user group| x |
 |documentInstance/person/personAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |documentInstance/person/personAssociate/contactCategory|listAny|Category: Category| x |
 |documentInstance/person/personAssociate/role|listAny|Role : Role| x |
@@ -268,6 +270,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/person/correspondingAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |documentInstance/person/correspondingAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |documentInstance/person/correspondingAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|documentInstance/person/correspondingAssociate/usergroupId|int|Group ID: The user's primary user group| x |
 |documentInstance/person/correspondingAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |documentInstance/person/correspondingAssociate/contactCategory|listAny|Category: Category| x |
 |documentInstance/person/correspondingAssociate/role|listAny|Role : Role| x |
@@ -331,13 +334,13 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/contact/contactFax/formattedNumber|string|Fax - Phone: Displays phone number|  |
 |documentInstance/contact/contactFax/description|string|Fax - Description: Phone number description| x |
 |documentInstance/contact/searchPhone/formattedNumber|string|Searchphone - Phone: Displays phone number|  |
-|documentInstance/contact/searchPhone/description|string|Searchphone - Description: Phone number description| x |
-|documentInstance/contact/email/emailProtocol|string|Protocol: E-mail protocol, such as SMTP| x |
-|documentInstance/contact/email/emailAddress|string|E-mail| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|documentInstance/contact/searchPhone/description|string|Searchphone - Description: Phone number description| x |
+|documentInstance/contact/email/emailProtocol|string|Protocol: E-mail protocol, such as SMTP| x |
+|documentInstance/contact/email/emailAddress|string|E-mail| x |
 |documentInstance/contact/email/emailDescription|string|Description| x |
 |documentInstance/contact/email/emailId|int|ID| x |
 |documentInstance/contact/email/emailLastSent|datetime|Last sent: The date and time an e-mail was last sent to this address| x |
@@ -394,6 +397,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/contact/contactAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |documentInstance/contact/contactAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |documentInstance/contact/contactAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|documentInstance/contact/contactAssociate/usergroupId|int|Group ID: The user's primary user group| x |
 |documentInstance/contact/contactAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |documentInstance/contact/contactAssociate/contactCategory|listAny|Category: Category| x |
 |documentInstance/contact/contactAssociate/role|listAny|Role : Role| x |
@@ -429,19 +433,20 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/contact/contactUdef/SuperOffice:12|listAny|Udlist one: Static tooltip for udlist one| x |
 |documentInstance/contact/contactUdef/SuperOffice:13|listAny|Udlist two: Static tooltip for udlist two| x |
 |documentInstance/contact/contactExtra/x\_contact\_integer|int|Extra Integer: Custom integer field| x |
+|documentInstance/contact/contactExtra/x\_contact\_hidden\_integer|int|Extra hidden integer: Custom integer field - hidden| x |
 |documentInstance/contact/contactExtra/x\_contact\_default\_integer|int|Extra Default Integer: Custom integer field with default value 123.| x |
 |documentInstance/contact/contactExtra/x\_contact\_float|decimal|Extra Float: Custom float field with 3 decimals| x |
 |documentInstance/contact/contactExtra/x\_contact\_longtext|string|Extra LongText: Custom long text field. DO not keep HTML. 3 Line text area editor| x |
 |documentInstance/contact/contactExtra/x\_contact\_dropdown|listAny|Extra Long Dropdown: Custom long text field with dropdown: Volvo, Saab, etc.| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |documentInstance/contact/contactExtra/x\_contact\_date|date|Extra date: Custom date field. User current as default.| x |
 |documentInstance/contact/contactExtra/x\_contact\_datetime|datetime|Extra DateTime: Custom Date Time field. No default value. External| x |
 |documentInstance/contact/contactExtra/x\_contact\_time| *None* |Extra time: Custom time field.| x |
 |documentInstance/contact/contactExtra/x\_contact\_boolean|bool|Extra boolean: Custom boolean field.| x |
 |documentInstance/contact/contactExtra/x\_contact\_timespan|timeSpan|Extra timespan: Custom timespan field. Hours and minutes in 10 units| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |documentInstance/contact/contactExtra/x\_contact\_shorttext|string|Extra short text: Custom short text field. Keep HTML tags.| x |
 |documentInstance/contact/contactExtra/x\_contact\_short\_dropdown|listAny|Extra short dropdown: Custom short text with dropdown list. Red, Green or Blue or Purple. External.| x |
 |documentInstance/contact/contactExtra/x\_contact\_contact\_relation|stringorPK|Extra Company: Custom company relation. Do not show one-to-many relations. Show function buttons| x |
@@ -523,6 +528,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/project/projectAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |documentInstance/project/projectAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |documentInstance/project/projectAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|documentInstance/project/projectAssociate/usergroupId|int|Group ID: The user's primary user group| x |
 |documentInstance/project/projectAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |documentInstance/project/projectAssociate/contactCategory|listAny|Category: Category| x |
 |documentInstance/project/projectAssociate/role|listAny|Role : Role| x |
@@ -536,16 +542,16 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/project/projectAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |documentInstance/project/projectAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
 |documentInstance/project/projectAssociate/isActive|bool|Active: Is this user active, and should be able to log in?| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |documentInstance/project/projectAssociate/isActiveText|bool|Active status: Is this user active, and should be able to log in?| x |
 |documentInstance/project/projectAssociate/portraitThumbnail| *None* |Person image: Person image|  |
 |documentInstance/project/projectAssociate/otherGroups|userGroup|Other groups: Other groups|  |
 |documentInstance/project/projectAssociate/userName|string|User name: User name| x |
 |documentInstance/project/projectAssociate/personEmail|string|E-mail| x |
 |documentInstance/project/projectAssociate/locationAddress|string|Location: Location| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |documentInstance/project/projectAssociate/isLocation|bool|Is a location: Is a location| x |
 |documentInstance/project/projectUdef/SuperOffice:1|string|projectshorttext| x |
 |documentInstance/project/projectUdef/SuperOffice:2|string|projectlongtext| x |
@@ -593,6 +599,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/associate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |documentInstance/associate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |documentInstance/associate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|documentInstance/associate/usergroupId|int|Group ID: The user's primary user group| x |
 |documentInstance/associate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |documentInstance/associate/contactCategory|listAny|Category: Category| x |
 |documentInstance/associate/role|listAny|Role : Role| x |
@@ -639,6 +646,10 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/sale/updatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
 |documentInstance/sale/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
 |documentInstance/sale/registeredBy|associate|Registered by: The user who registered the data| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |documentInstance/sale/registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
 |documentInstance/sale/registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
 |documentInstance/sale/currencyId|int|Currency ID: The currency list item ID| x |
@@ -646,10 +657,6 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/sale/credited|listAny|Credited: The user to be credited with the sale| x |
 |documentInstance/sale/lossReason|listAny|Reason (lost: The reason for losing the sale| x |
 |documentInstance/sale/source|listAny|Source: The source (lead) of the sale| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |documentInstance/sale/competitor|listAny|Competitor: The competitor who won the sale| x |
 |documentInstance/sale/heading|stringorPK|Sale: The name of the sale| x |
 |documentInstance/sale/amount|decimal|Amount: The gross sales total| x |
@@ -698,6 +705,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/sale/associate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |documentInstance/sale/associate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |documentInstance/sale/associate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|documentInstance/sale/associate/usergroupId|int|Group ID: The user's primary user group| x |
 |documentInstance/sale/associate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |documentInstance/sale/associate/contactCategory|listAny|Category: Category| x |
 |documentInstance/sale/associate/role|listAny|Role : Role| x |
@@ -732,7 +740,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectGuideDocument?$select=documentInstance/person/personExtra/x_person_priority_relation,documentInstance/contact/contactExtra/x_contact_time,documentInstance/person/correspondingAssociate/contactId
+GET /api/v1/archive/ProjectGuideDocument?$select=documentInstance/person/correspondingAssociate/contactFullName,documentInstance/person/correspondingAssociate/isLocation,documentInstance/contact/phone/formattedNumber,documentInstance/project/projectAssociate/simultaneousEjUser,documentInstance/associate/ejUserId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

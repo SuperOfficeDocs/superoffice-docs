@@ -114,7 +114,7 @@ SelectionEntity found.
 GET /api/v1/Selection/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -122,73 +122,73 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 SelectionEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 11 Aug 2013 16:32:48 G8T
+Last-Modified: Mon, 06 Nov 2006 17:54:08 G11T
 
 {
-  "Description": "Expanded analyzing process improvement",
-  "Postit": "eum",
+  "Description": "Persevering grid-enabled installation",
+  "Postit": "hic",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 681,
-  "IncludePerson": 241,
+  "GroupIdx": 806,
+  "IncludePerson": 14,
   "MemberCount": 99.99,
-  "Name": "Altenwerth-Mueller",
-  "PostitTextId": 237,
-  "CreatedDate": "2012-04-26T16:32:48.0713331+02:00",
-  "SelectionId": 202,
-  "SoundEx": "omnis",
-  "Source": 906,
-  "TextId": 761,
-  "UpdatedDate": "2013-08-11T16:32:48.0713331+02:00",
-  "UpdatedCount": 612,
-  "Visibility": 395,
+  "Name": "Collier, Stark and Ritchie",
+  "PostitTextId": 285,
+  "CreatedDate": "2015-06-10T17:54:08.5386928+02:00",
+  "SelectionId": 187,
+  "SoundEx": "accusantium",
+  "Source": 391,
+  "TextId": 972,
+  "UpdatedDate": "2006-11-06T17:54:08.5386928+01:00",
+  "UpdatedCount": 815,
+  "Visibility": 779,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 207,
-  "TargetTableName": "Nicolas-Murray",
+  "CompanyUnique": true,
+  "TargetTableNumber": 392,
+  "TargetTableName": "Gleichner Group",
   "Completed": true,
-  "LeftSelectionId": 354,
-  "RightSelectionId": 882,
+  "LeftSelectionId": 686,
+  "RightSelectionId": 827,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Smitham, Balistreri and Kutch",
-  "ShadowProviderName": "Little Inc and Sons",
-  "ChartKey": "iure",
-  "LastLoaded": "2017-02-11T16:32:48.0713331+01:00",
-  "LastLoadedBy": 403,
+  "MainProviderName": "Heathcote, Pacocha and Lockman",
+  "ShadowProviderName": "Berge Inc and Sons",
+  "ChartKey": "delectus",
+  "LastLoaded": "2014-04-24T17:54:08.5386928+02:00",
+  "LastLoadedBy": 154,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2001-07-23T16:32:48.0713331+02:00",
-  "LastMembershipChangeBy": 768,
+  "LastMembershipChange": "2020-07-12T17:54:08.5386928+02:00",
+  "LastMembershipChangeBy": 697,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "laboriosam",
-  "MemberTabHeading": "deserunt",
-  "MailingsProviderName": "Barton, Gutkowski and Schuster",
-  "DashboardTileDefinitionId": 219,
+  "MainHeading": "voluptas",
+  "MemberTabHeading": "repellat",
+  "MailingsProviderName": "Bashirian-Monahan",
+  "DashboardTileDefinitionId": 359,
   "VisibleFor": [
     {
-      "VisibleId": 912,
+      "VisibleId": 356,
       "Visibility": "All",
-      "DisplayValue": "perspiciatis",
+      "DisplayValue": "dolorem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 716
+          "FieldLength": 805
         }
       }
     },
     {
-      "VisibleId": 912,
+      "VisibleId": 356,
       "Visibility": "All",
-      "DisplayValue": "perspiciatis",
+      "DisplayValue": "dolorem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 716
+          "FieldLength": 805
         }
       }
     }
@@ -197,8 +197,8 @@ Last-Modified: Sun, 11 Aug 2013 16:32:48 G8T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 595
+      "FieldType": "System.String",
+      "FieldLength": 642
     }
   },
   "_Links": {

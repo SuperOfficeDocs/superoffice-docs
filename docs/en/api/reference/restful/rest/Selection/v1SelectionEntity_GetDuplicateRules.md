@@ -58,7 +58,7 @@ OK
 GET /api/v1/Selection/DuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -69,30 +69,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Botsford, Rowe and Brown",
-    "DisplayName": "Schaden-Kuvalis",
-    "DisplayTooltip": "inventore",
-    "IsActive": true,
+    "Name": "Predovic, Altenwerth and Steuber",
+    "DisplayName": "West Group",
+    "DisplayTooltip": "quia",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 306
+        "FieldType": "System.String",
+        "FieldLength": 667
       }
     }
   },
   {
-    "Name": "Botsford, Rowe and Brown",
-    "DisplayName": "Schaden-Kuvalis",
-    "DisplayTooltip": "inventore",
-    "IsActive": true,
+    "Name": "Predovic, Altenwerth and Steuber",
+    "DisplayName": "West Group",
+    "DisplayTooltip": "quia",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 306
+        "FieldType": "System.String",
+        "FieldLength": 667
       }
     }
   }

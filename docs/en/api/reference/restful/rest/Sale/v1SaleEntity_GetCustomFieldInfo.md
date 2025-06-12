@@ -83,18 +83,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Considine LLC",
-  "DisplayName": "Jones-Bergnaum",
-  "Description": "Synchronised optimizing strategy",
-  "ShortLabel": "maxime",
+  "FieldName": "Krajcik Group",
+  "DisplayName": "Witting Inc and Sons",
+  "Description": "Triple-buffered national neural-net",
+  "ShortLabel": "in",
   "HideLabel": false,
   "HideField": false,
-  "IsIndexed": false,
-  "IsMandatory": true,
-  "IsReadOnly": false,
+  "IsIndexed": true,
+  "IsMandatory": false,
+  "IsReadOnly": true,
   "IsExternal": false,
-  "IsDisplayField": false,
-  "Rank": 101,
-  "TemplateVariableName": "Roberts-Krajcik"
+  "IsDisplayField": true,
+  "Rank": 828,
+  "TemplateVariableName": "Crona-Runte"
 }
 ```

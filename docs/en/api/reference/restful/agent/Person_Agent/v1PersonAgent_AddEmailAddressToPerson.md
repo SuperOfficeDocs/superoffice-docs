@@ -66,13 +66,13 @@ No Content
 POST /api/v1/Agents/Person/AddEmailAddressToPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 496,
-  "EmailAddress": "giles.morar@considine.com",
-  "SetAsPrimaryEmail": false
+  "PersonId": 438,
+  "EmailAddress": "jeanne@schmeler.us",
+  "SetAsPrimaryEmail": true
 }
 ```
 

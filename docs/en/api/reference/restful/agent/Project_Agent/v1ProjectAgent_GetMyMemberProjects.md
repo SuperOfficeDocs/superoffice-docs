@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/Project/GetMyMemberProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -93,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 301,
-    "Name": "Trantow-Rutherford",
-    "Description": "Switchable content-based instruction set",
+    "ProjectId": 608,
+    "Name": "Wyman-Sipes",
+    "Description": "Open-source directional benchmark",
     "URL": "http://www.example.com/",
-    "Type": "optio",
-    "AssociateId": 508,
-    "AssociateFullName": "Maria Conroy",
-    "TypeId": 583,
-    "Updated": "2019-06-07T16:32:39.6490177+02:00",
-    "StatusId": 534,
-    "Status": "occaecati",
-    "TextId": 944,
-    "PublishTo": "2000-12-22T16:32:39.6490177+01:00",
-    "PublishFrom": "2015-06-17T16:32:39.6490177+02:00",
+    "Type": "aliquam",
+    "AssociateId": 722,
+    "AssociateFullName": "Modesta Carroll",
+    "TypeId": 895,
+    "Updated": "2024-12-23T17:54:03.4920634+01:00",
+    "StatusId": 379,
+    "Status": "ut",
+    "TextId": 664,
+    "PublishTo": "2012-03-14T17:54:03.4920634+01:00",
+    "PublishFrom": "1998-08-06T17:54:03.4920634+02:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1449442",
-    "ActiveErpLinks": 887,
+    "ProjectNumber": "794607",
+    "ActiveErpLinks": 311,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 9
+        "FieldType": "System.Int32",
+        "FieldLength": 102
       }
     }
   }

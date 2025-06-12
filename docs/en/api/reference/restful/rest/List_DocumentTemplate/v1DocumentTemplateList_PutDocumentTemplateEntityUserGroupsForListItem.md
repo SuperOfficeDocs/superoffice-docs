@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DocumentTemplate/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 747,
-    "Name": "Gislason Group",
-    "ToolTip": "Aperiam repellat perspiciatis quam eum quae minima distinctio.",
-    "Deleted": true,
-    "Rank": 500,
-    "Type": "reprehenderit",
-    "ColorBlock": 999,
-    "IconHint": "debitis",
+    "Id": 554,
+    "Name": "Price LLC",
+    "ToolTip": "Ut sint quisquam.",
+    "Deleted": false,
+    "Rank": 709,
+    "Type": "sequi",
+    "ColorBlock": 217,
+    "IconHint": "autem",
     "Selected": true,
-    "LastChanged": "2006-03-03T16:32:48.6807732+01:00",
+    "LastChanged": "2015-06-03T17:54:08.9136741+02:00",
     "ChildItems": [
       {
-        "Id": 88,
-        "Name": "Wolff, Wolff and Ferry",
-        "ToolTip": "Et ullam aut cumque odit.",
-        "Deleted": true,
-        "Rank": 787,
-        "Type": "consequuntur",
-        "ColorBlock": 527,
-        "IconHint": "et",
+        "Id": 171,
+        "Name": "Terry-Grant",
+        "ToolTip": "Eum autem deleniti sed quae fugiat nihil dolore.",
+        "Deleted": false,
+        "Rank": 935,
+        "Type": "quas",
+        "ColorBlock": 877,
+        "IconHint": "cum",
         "Selected": false,
-        "LastChanged": "1998-06-19T16:32:48.6807732+02:00",
+        "LastChanged": "2020-03-05T17:54:08.9136741+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "error",
-        "StyleHint": "accusamus",
-        "Hidden": false,
-        "FullName": "Tia Daugherty"
+        "ExtraInfo": "dolorum",
+        "StyleHint": "recusandae",
+        "Hidden": true,
+        "FullName": "Mattie Wyman"
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "ut",
+    "ExtraInfo": "unde",
+    "StyleHint": "vero",
     "Hidden": false,
-    "FullName": "Erna Satterfield"
+    "FullName": "Mr. Delta Kiehn"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 164,
-    "Name": "Farrell, Parisian and Cummings",
-    "ToolTip": "Natus deleniti dolorem quibusdam.",
-    "Deleted": false,
-    "Rank": 717,
-    "Type": "rem",
-    "ColorBlock": 70,
-    "IconHint": "expedita",
+    "Id": 104,
+    "Name": "Bednar, West and O'Conner",
+    "ToolTip": "Temporibus eaque.",
+    "Deleted": true,
+    "Rank": 29,
+    "Type": "et",
+    "ColorBlock": 564,
+    "IconHint": "aut",
     "Selected": true,
-    "LastChanged": "2013-03-11T16:32:48.6807732+01:00",
+    "LastChanged": "2002-04-29T17:54:08.9136741+02:00",
     "ChildItems": [
       {
-        "Id": 426,
-        "Name": "Boyle-Howe",
-        "ToolTip": "Est fugit libero laudantium.",
-        "Deleted": true,
-        "Rank": 394,
-        "Type": "ut",
-        "ColorBlock": 806,
-        "IconHint": "qui",
+        "Id": 7,
+        "Name": "Waelchi Inc and Sons",
+        "ToolTip": "Quia ipsa repellendus repudiandae earum.",
+        "Deleted": false,
+        "Rank": 390,
+        "Type": "iusto",
+        "ColorBlock": 592,
+        "IconHint": "rerum",
         "Selected": true,
-        "LastChanged": "2020-03-29T16:32:48.6807732+02:00",
+        "LastChanged": "2017-12-25T17:54:08.9136741+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "similique",
-        "StyleHint": "aut",
+        "ExtraInfo": "ipsam",
+        "StyleHint": "nisi",
         "Hidden": true,
-        "FullName": "Miss Aileen Mossie Boehm",
+        "FullName": "Miss Derick Andreane Witting",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 608
+            "FieldType": "System.String",
+            "FieldLength": 825
           }
         }
       }
     ],
-    "ExtraInfo": "quaerat",
-    "StyleHint": "commodi",
+    "ExtraInfo": "reprehenderit",
+    "StyleHint": "quaerat",
     "Hidden": true,
-    "FullName": "Miss Denis Quitzon",
+    "FullName": "Rico Abshire III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 203
+        "FieldLength": 418
       }
     }
   }

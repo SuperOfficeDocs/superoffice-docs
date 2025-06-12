@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/Appointment/CalculateDays
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -99,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 78,
-  "StartDate": "2022-01-03T16:32:37.9304176+01:00",
-  "EndDate": "2022-08-23T16:32:37.9304176+02:00",
-  "RecurrenceCounter": 331,
+  "RecurrenceId": 290,
+  "StartDate": "2016-02-03T17:54:02.5236144+01:00",
+  "EndDate": "2025-04-24T17:54:02.5236144+02:00",
+  "RecurrenceCounter": 676,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -111,18 +111,18 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2001-07-15T16:32:37.9304176+02:00",
-      "IsConflict": true,
-      "Description": "Customer-focused asynchronous task-force",
-      "DescriptionStyleHint": "Open-source local software",
-      "Tooltip": "saepe"
+      "Date": "2017-07-10T17:54:02.5236144+02:00",
+      "IsConflict": false,
+      "Description": "Enhanced even-keeled instruction set",
+      "DescriptionStyleHint": "Multi-layered holistic implementation",
+      "Tooltip": "qui"
     },
     {
-      "Date": "2001-07-15T16:32:37.9304176+02:00",
-      "IsConflict": true,
-      "Description": "Customer-focused asynchronous task-force",
-      "DescriptionStyleHint": "Open-source local software",
-      "Tooltip": "saepe"
+      "Date": "2017-07-10T17:54:02.5236144+02:00",
+      "IsConflict": false,
+      "Description": "Enhanced even-keeled instruction set",
+      "DescriptionStyleHint": "Multi-layered holistic implementation",
+      "Tooltip": "qui"
     }
   ],
   "IsRecurrence": true

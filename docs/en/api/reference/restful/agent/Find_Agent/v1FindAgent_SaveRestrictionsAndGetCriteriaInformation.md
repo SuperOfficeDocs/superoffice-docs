@@ -86,20 +86,20 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "et",
-  "ProviderName": "Ziemann-Miller",
+  "StorageType": "tempora",
+  "ProviderName": "Larson-Bruen",
   "StorageKey": "et",
   "Restrictions": [
     {
-      "Name": "Stiedemann-Abernathy",
-      "Operator": "odit",
+      "Name": "Ondricka Inc and Sons",
+      "Operator": "dolores",
       "Values": [
-        "tempora",
-        "qui"
+        "eaque",
+        "provident"
       ],
       "DisplayValues": [
-        "odit",
-        "qui"
+        "dignissimos",
+        "facilis"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -107,14 +107,14 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 878,
+      "InterParenthesis": 913,
       "InterOperator": "And",
-      "UniqueHash": 949
+      "UniqueHash": 33
     }
   ],
   "StaticColumns": [
-    "sit",
-    "quia"
+    "rerum",
+    "aut"
   ]
 }
 ```
@@ -128,15 +128,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Will, Gorczany and Bednar",
-      "Operator": "placeat",
+      "Name": "Schroeder Group",
+      "Operator": "nihil",
       "Values": [
-        "aspernatur",
-        "et"
+        "nemo",
+        "sit"
       ],
       "DisplayValues": [
-        "sunt",
-        "nemo"
+        "esse",
+        "ut"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -144,65 +144,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 767,
+      "InterParenthesis": 782,
       "InterOperator": "And",
-      "UniqueHash": 916
+      "UniqueHash": 453
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Hagenes LLC",
-      "DisplayTooltip": "quos",
+      "DisplayName": "Fisher LLC",
+      "DisplayTooltip": "perferendis",
       "DisplayType": "natus",
       "CanOrderBy": false,
-      "Name": "McDermott, Walter and Wunsch",
+      "Name": "Corkery, Crist and Ryan",
       "CanRestrictBy": false,
-      "RestrictionType": "quo",
-      "RestrictionListName": "Heller, Beahan and Kertzmann",
-      "IsVisible": true,
-      "ExtraInfo": "quod",
-      "Width": "doloremque",
-      "IconHint": "quibusdam",
-      "HeadingIconHint": "incidunt"
+      "RestrictionType": "consequatur",
+      "RestrictionListName": "Jerde-Bednar",
+      "IsVisible": false,
+      "ExtraInfo": "odit",
+      "Width": "debitis",
+      "IconHint": "animi",
+      "HeadingIconHint": "ipsum"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Stokes Inc and Sons",
-      "PrimaryKey": 476,
+      "EntityName": "Ruecker Group",
+      "PrimaryKey": 744,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "maiores",
-          "TooltipHint": "quia",
-          "LinkHint": "est"
+          "DisplayValue": "autem",
+          "TooltipHint": "distinctio",
+          "LinkHint": "culpa"
         }
       },
-      "LinkHint": "laudantium",
-      "StyleHint": "sed",
+      "LinkHint": "iusto",
+      "StyleHint": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 813
+          "FieldType": "System.String",
+          "FieldLength": 951
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Crist-Olson",
-      "Description": "Ergonomic reciprocal framework",
-      "Rank": 18,
+      "Name": "Keeling-Lehner",
+      "Description": "Profit-focused demand-driven time-frame",
+      "Rank": 846,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Crist-Olson",
-      "Description": "Ergonomic reciprocal framework",
-      "Rank": 18,
+      "Name": "Keeling-Lehner",
+      "Description": "Profit-focused demand-driven time-frame",
+      "Rank": 846,
       "Restrictions": [
         {},
         {}
@@ -214,7 +214,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 378
+      "FieldLength": 778
     }
   }
 }

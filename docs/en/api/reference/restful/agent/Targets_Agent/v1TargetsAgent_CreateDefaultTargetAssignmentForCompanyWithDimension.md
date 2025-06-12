@@ -85,7 +85,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 144
+  "TargetDimensionId": 940
 }
 ```
 
@@ -97,24 +97,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 932,
+    "TargetAssignmentInfoId": 173,
     "Values": [
-      360,
-      853
+      236,
+      923
     ],
     "Locked": false,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 555,
-    "DimensionListItemDisplayName": "Quitzon-Kemmer",
+    "DimensionListItem": 528,
+    "DimensionListItemDisplayName": "Armstrong Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 152
+        "FieldLength": 959
       }
     }
   }

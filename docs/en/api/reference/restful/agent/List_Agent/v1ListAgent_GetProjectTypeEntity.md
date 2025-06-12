@@ -26,7 +26,7 @@ Gets a ProjectTypeEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetProjectTypeEntity?projectTypeEntityId=300
+POST /api/v1/Agents/List/GetProjectTypeEntity?projectTypeEntityId=899
 POST /api/v1/Agents/List/GetProjectTypeEntity?$select=name,department,category/id
 ```
 
@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/List/GetProjectTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,41 +86,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 347,
-  "Name": "Marvin LLC",
-  "Tooltip": "perspiciatis",
-  "Rank": 244,
+  "ProjTypeId": 982,
+  "Name": "Boyle-Senger",
+  "Tooltip": "at",
+  "Rank": 396,
   "DurationUnit": "Century",
-  "ProjectDuration": 976,
+  "ProjectDuration": 573,
   "Deleted": false,
   "HasGuide": false,
-  "IsAutoAdvance": true,
+  "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 356,
-      "Name": "Dickinson Inc and Sons",
-      "ToolTip": "Illum voluptas error.",
-      "Deleted": false,
-      "Rank": 485,
-      "Type": "minus",
-      "ColorBlock": 405,
-      "IconHint": "autem",
-      "Selected": true,
-      "LastChanged": "2015-07-30T16:32:39.226996+02:00",
+      "Id": 119,
+      "Name": "Reynolds, Feeney and Kohler",
+      "ToolTip": "Officiis sapiente rerum distinctio a aut.",
+      "Deleted": true,
+      "Rank": 725,
+      "Type": "vitae",
+      "ColorBlock": 856,
+      "IconHint": "id",
+      "Selected": false,
+      "LastChanged": "2003-12-08T17:54:03.1952029+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quod",
+      "ExtraInfo": "veritatis",
       "StyleHint": "quia",
-      "Hidden": true,
-      "FullName": "Prof. Kavon Pollich",
+      "Hidden": false,
+      "FullName": "Prof. Nikita Emely Buckridge PhD",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 256
+          "FieldLength": 666
         }
       }
     }
@@ -130,7 +130,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 434
+      "FieldLength": 51
     }
   }
 }

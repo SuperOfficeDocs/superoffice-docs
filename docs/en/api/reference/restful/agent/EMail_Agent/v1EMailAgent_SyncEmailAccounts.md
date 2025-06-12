@@ -10,7 +10,10 @@ generated: true
 POST /api/v1/Agents/EMail/SyncEmailAccounts
 ```
 
-Start syncing of the given accounts
+Start syncing of the given accounts, from mail server to SuperOffice database cache.
+
+
+Only one of these API calls may run at a time. If one is already active, we return after 1 (one) second, with no indication that the sync was not really started. This is a way to throttle sync'ing to avoid making the mail servers angry at us. &lt;br/&gt; There is an &lt;b&gt;additional&lt;/b&gt; level of throttling within the implementation as well, limiting us to a maximum of 10 tasks, regardless of how many associates are to to be sync'ed. The outer, API-level lock is released when all those tasks are done.
 
 
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
@@ -66,20 +69,20 @@ No Content
 POST /api/v1/Agents/EMail/SyncEmailAccounts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "SyncUserAccounts": [
     {
-      "AccountId": 883,
-      "AssociateName": "Stokes Group",
-      "AssociateId": 23
+      "AccountId": 507,
+      "AssociateName": "Walker LLC",
+      "AssociateId": 874
     },
     {
-      "AccountId": 883,
-      "AssociateName": "Stokes Group",
-      "AssociateId": 23
+      "AccountId": 507,
+      "AssociateName": "Walker LLC",
+      "AssociateId": 874
     }
   ]
 }

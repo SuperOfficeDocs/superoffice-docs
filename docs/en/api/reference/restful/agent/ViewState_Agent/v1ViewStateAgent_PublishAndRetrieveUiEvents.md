@@ -83,30 +83,30 @@ OK
 POST /api/v1/Agents/ViewState/PublishAndRetrieveUiEvents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LatestKnownEventId": 220,
+  "LatestKnownEventId": 564,
   "PublishEvents": [
     {
-      "EventId": 995,
-      "EventName": "Rowe Group",
-      "EntityType": "odit",
-      "EntityKey": 644,
-      "AssociateId": 516,
-      "AssociateName": "Murray-Boyer",
-      "EventDateTime": "2008-09-24T16:32:40.5238179+02:00"
+      "EventId": 616,
+      "EventName": "Stehr-Klein",
+      "EntityType": "qui",
+      "EntityKey": 690,
+      "AssociateId": 224,
+      "AssociateName": "Schumm Group",
+      "EventDateTime": "2021-01-14T17:54:03.9139184+01:00"
     }
   ],
   "Metrics": [
     {
-      "Name": "Vandervort-Thompson",
-      "Value": 306
+      "Name": "Ferry-Hartmann",
+      "Value": 474
     },
     {
-      "Name": "Vandervort-Thompson",
-      "Value": 306
+      "Name": "Ferry-Hartmann",
+      "Value": 474
     }
   ]
 }
@@ -120,19 +120,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EventId": 687,
-    "EventName": "Gibson-Schmidt",
-    "EntityType": "nostrum",
-    "EntityKey": 312,
-    "AssociateId": 928,
-    "AssociateName": "Gislason-Wolff",
-    "EventDateTime": "2008-06-07T16:32:40.5238179+02:00",
+    "EventId": 761,
+    "EventName": "Wyman Group",
+    "EntityType": "dolorem",
+    "EntityKey": 13,
+    "AssociateId": 508,
+    "AssociateName": "Mueller, Vandervort and Weimann",
+    "EventDateTime": "2005-07-22T17:54:03.9139184+02:00",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 498
+        "FieldType": "System.Int32",
+        "FieldLength": 782
       }
     }
   }

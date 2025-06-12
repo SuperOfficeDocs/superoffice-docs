@@ -93,23 +93,23 @@ OK
 PUT /api/v1/Contact/{contactId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 337,
-  "BlobSize": 631,
-  "Description": "Re-engineered full-range core",
-  "ExtraInfo": "ad",
+  "BlobId": 607,
+  "BlobSize": 36,
+  "Description": "Seamless foreground strategy",
+  "ExtraInfo": "in",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "quia",
-  "OriginalSize": 977,
-  "CreatedDate": "2016-04-09T16:32:47.2746087+02:00",
-  "UpdatedDate": "2018-03-28T16:32:47.2746087+02:00",
+  "MimeType": "repellat",
+  "OriginalSize": 607,
+  "CreatedDate": "2016-04-22T17:54:08.0699594+02:00",
+  "UpdatedDate": "2018-08-17T17:54:08.0699594+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "dolores"
+  "ConceptualType": "incidunt"
 }
 ```
 
@@ -120,25 +120,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 40,
-  "BlobSize": 30,
-  "Description": "Customer-focused disintermediate customer loyalty",
-  "ExtraInfo": "veritatis",
-  "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "et",
-  "OriginalSize": 185,
-  "CreatedDate": "2013-05-10T16:32:47.2746087+02:00",
-  "UpdatedDate": "2008-08-19T16:32:47.2746087+02:00",
+  "BlobId": 944,
+  "BlobSize": 261,
+  "Description": "Focused leading edge solution",
+  "ExtraInfo": "non",
+  "IsEncrypted": true,
+  "IsZipped": true,
+  "MimeType": "impedit",
+  "OriginalSize": 856,
+  "CreatedDate": "2007-08-10T17:54:08.0699594+02:00",
+  "UpdatedDate": "2000-04-28T17:54:08.0699594+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "et",
+  "ConceptualType": "distinctio",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 460
+      "FieldLength": 97
     }
   }
 }

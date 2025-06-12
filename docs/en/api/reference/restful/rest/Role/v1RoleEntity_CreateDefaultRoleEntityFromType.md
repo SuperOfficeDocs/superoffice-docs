@@ -75,7 +75,7 @@ OK
 GET /api/v1/Role/{type}/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,15 +86,15 @@ Content-Type: application/json; charset=utf-8
 
 {
   "RoleId": 893,
-  "Name": "Schulist Group",
-  "Tooltip": "accusamus",
+  "Name": "Mueller-Lowe",
+  "Tooltip": "deserunt",
   "RoleType": "Anonymous",
-  "Deleted": 255,
-  "Rank": 859,
-  "Created": "2000-12-06T16:32:47.7745258+01:00",
-  "UseCategories": 96,
+  "Deleted": 949,
+  "Rank": 842,
+  "Created": "2014-04-05T17:54:08.4293225+02:00",
+  "UseCategories": 773,
   "CreatedBy": null,
-  "Updated": "2000-06-02T16:32:47.7745258+02:00",
+  "Updated": "2022-05-23T17:54:08.4293225+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -102,7 +102,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 711
+      "FieldLength": 954
     }
   }
 }

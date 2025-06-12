@@ -43,20 +43,20 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-### Response body: SystemEventEntity
+### Response body: TimeZoneData
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| SystemEventId | int32 | Primary key |
-| Scope | string | 1 = system-wide, 2= database, 3 = group, 4 = user |
-| Eta | date-time | Estimated Time of Arrival, i.e., when will this event finish? |
-| Eventkey | string | Event key, predefined in code |
-| Eventmess | string | Message to be shown, entered by administrator |
-| ExtraInfo | int32 | Extra information (area id for prototype rebuild, etc) |
-| Owner | int32 | 0, 0, group_id, assoc id (see over) |
-| UpdatedCount | int32 | Number of updates made to this record |
-| Registered | date-time | Registered when  in UTC. |
-| ActivatedBy | Associate | The associate that first created the SystemEvent. |
+| SystemEventId | int32 |  |
+| Scope | string |  |
+| Eta | date-time |  |
+| Eventkey | string |  |
+| Eventmess | string |  |
+| ExtraInfo | int32 |  |
+| Owner | int32 |  |
+| UpdatedCount | int32 |  |
+| Registered | date-time |  |
+| ActivatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the Associate Agent. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/Configuration/CreateDefaultSystemEventEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 598,
+  "SystemEventId": 822,
   "Scope": "Database",
-  "Eta": "2002-05-01T16:32:38.3678168+02:00",
-  "Eventkey": "cumque",
-  "Eventmess": "veniam",
-  "ExtraInfo": 313,
-  "Owner": 418,
-  "UpdatedCount": 659,
-  "Registered": "2000-04-12T16:32:38.3678168+02:00",
+  "Eta": "2005-06-16T17:54:02.8202276+02:00",
+  "Eventkey": "voluptates",
+  "Eventmess": "et",
+  "ExtraInfo": 818,
+  "Owner": 155,
+  "UpdatedCount": 64,
+  "Registered": "2021-03-28T17:54:02.8202276+02:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 1001
+      "FieldType": "System.String",
+      "FieldLength": 898
     }
   }
 }

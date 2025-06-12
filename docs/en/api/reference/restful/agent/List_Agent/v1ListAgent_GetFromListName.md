@@ -83,8 +83,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 549,
-  "UdListDefinitionName": "Jones Group"
+  "Id": 742,
+  "UdListDefinitionName": "Stiedemann, Bartoletti and Gerlach"
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 249,
-  "Name": "Reichel, Dooley and Cole",
-  "Tooltip": "aliquam",
-  "Deleted": true,
-  "UdListDefinitionId": 973,
-  "Rank": 32,
+  "Id": 860,
+  "Name": "Denesik Group",
+  "Tooltip": "dolore",
+  "Deleted": false,
+  "UdListDefinitionId": 688,
+  "Rank": 429,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 846
+      "FieldType": "System.Int32",
+      "FieldLength": 987
     }
   }
 }

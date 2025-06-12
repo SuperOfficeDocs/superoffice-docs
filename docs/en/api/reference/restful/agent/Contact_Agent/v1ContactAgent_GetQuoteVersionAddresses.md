@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Contact/GetQuoteVersionAddresses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 209
+  "QuoteVersionId": 117
 }
 ```
 
@@ -96,41 +96,41 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Wgs84Latitude": 25667.46,
-    "Wgs84Longitude": 22887.602,
+    "Wgs84Latitude": 21743.692,
+    "Wgs84Longitude": 23479.928,
     "LocalizedAddress": [
       [
         {
-          "Name": "Schinner Inc and Sons",
-          "Value": "eos",
-          "Tooltip": "maiores",
-          "Label": "hic",
-          "ValueLength": 582,
-          "AddressType": "quia",
+          "Name": "Ondricka Inc and Sons",
+          "Value": "suscipit",
+          "Tooltip": "enim",
+          "Label": "corporis",
+          "ValueLength": 636,
+          "AddressType": "est",
           "TableRight": null,
           "FieldProperties": {
             "fieldName": {
               "FieldRight": null,
-              "FieldType": "System.Int32",
-              "FieldLength": 178
+              "FieldType": "System.String",
+              "FieldLength": 266
             }
           }
         }
       ],
       [
         {
-          "Name": "Koepp Group",
-          "Value": "consequatur",
-          "Tooltip": "laborum",
-          "Label": "et",
-          "ValueLength": 235,
-          "AddressType": "non",
+          "Name": "Balistreri Group",
+          "Value": "aliquam",
+          "Tooltip": "perspiciatis",
+          "Label": "recusandae",
+          "ValueLength": 654,
+          "AddressType": "voluptas",
           "TableRight": null,
           "FieldProperties": {
             "fieldName": {
               "FieldRight": null,
-              "FieldType": "System.String",
-              "FieldLength": 62
+              "FieldType": "System.Int32",
+              "FieldLength": 99
             }
           }
         }
@@ -138,13 +138,13 @@ Content-Type: application/json; charset=utf-8
     ],
     "Street": null,
     "Postal": null,
-    "Formatted": "voluptatem",
+    "Formatted": "ea",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 595
+        "FieldLength": 42
       }
     }
   }

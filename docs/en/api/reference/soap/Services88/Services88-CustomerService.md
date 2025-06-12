@@ -312,63 +312,6 @@ title: Services88.CustomerServiceAgent WSDL
           </xs:sequence>
         </xs:complexType>
       </xs:element>
-      <xs:element name="CreateDefaultSmsConfig">
-        <xs:complexType>
-          <xs:sequence />
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="CreateDefaultSmsConfigResponse">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:SmsConfig" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:complexType name="SmsConfig">
-        <xs:complexContent mixed="false">
-          <xs:extension base="tns:Carrier">
-            <xs:sequence>
-              <xs:element minOccurs="0" name="DefaultSmsCountry" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="NetServerSmsProvider" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="NsPluginSender" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="NsPluginConfig" nillable="true" type="tns:StringDictionary" />
-            </xs:sequence>
-          </xs:extension>
-        </xs:complexContent>
-      </xs:complexType>
-      <xs:element name="SmsConfig" nillable="true" type="tns:SmsConfig" />
-      <xs:complexType name="StringDictionary">
-        <xs:annotation>
-          <xs:appinfo>
-            <IsDictionary xmlns="http://schemas.microsoft.com/2003/10/Serialization/">true</IsDictionary>
-          </xs:appinfo>
-        </xs:annotation>
-        <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="StringKeyValuePair">
-            <xs:complexType>
-              <xs:sequence>
-                <xs:element name="Key" nillable="true" type="xs:string" />
-                <xs:element name="Value" nillable="true" type="xs:string" />
-              </xs:sequence>
-            </xs:complexType>
-          </xs:element>
-        </xs:sequence>
-      </xs:complexType>
-      <xs:element name="StringDictionary" nillable="true" type="tns:StringDictionary" />
-      <xs:element name="SaveSmsConfig">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="SmsConfig" nillable="true" type="tns:SmsConfig" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="SaveSmsConfigResponse">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:SmsConfig" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
       <xs:element name="DeleteChatSessions">
         <xs:complexType>
           <xs:sequence>
@@ -1559,6 +1502,24 @@ title: Services88.CustomerServiceAgent WSDL
         </xs:complexContent>
       </xs:complexType>
       <xs:element name="EventData" nillable="true" type="tns:EventData" />
+      <xs:complexType name="StringDictionary">
+        <xs:annotation>
+          <xs:appinfo>
+            <IsDictionary xmlns="http://schemas.microsoft.com/2003/10/Serialization/">true</IsDictionary>
+          </xs:appinfo>
+        </xs:annotation>
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="StringKeyValuePair">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Key" nillable="true" type="xs:string" />
+                <xs:element name="Value" nillable="true" type="xs:string" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="StringDictionary" nillable="true" type="tns:StringDictionary" />
       <xs:element name="ExecuteEventHandlersResponse">
         <xs:complexType>
           <xs:sequence>
@@ -1776,6 +1737,19 @@ title: Services88.CustomerServiceAgent WSDL
           </xs:sequence>
         </xs:complexType>
       </xs:element>
+      <xs:complexType name="SmsConfig">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:Carrier">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="DefaultSmsCountry" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="NetServerSmsProvider" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="NsPluginSender" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="NsPluginConfig" nillable="true" type="tns:StringDictionary" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="SmsConfig" nillable="true" type="tns:SmsConfig" />
       <xs:element name="TestSmtpServer">
         <xs:complexType>
           <xs:sequence>
@@ -2197,40 +2171,6 @@ title: Services88.CustomerServiceAgent WSDL
     <wsdl:part name="parameters" element="tns:SaveMailboxEntityResponse" />
   </wsdl:message>
   <wsdl:message name="SaveMailboxEntityResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="CreateDefaultSmsConfigRequest">
-    <wsdl:part name="parameters" element="tns:CreateDefaultSmsConfig" />
-  </wsdl:message>
-  <wsdl:message name="CreateDefaultSmsConfigRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="CreateDefaultSmsConfigResponse">
-    <wsdl:part name="parameters" element="tns:CreateDefaultSmsConfigResponse" />
-  </wsdl:message>
-  <wsdl:message name="CreateDefaultSmsConfigResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="SaveSmsConfigRequest">
-    <wsdl:part name="parameters" element="tns:SaveSmsConfig" />
-  </wsdl:message>
-  <wsdl:message name="SaveSmsConfigRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="SaveSmsConfigResponse">
-    <wsdl:part name="parameters" element="tns:SaveSmsConfigResponse" />
-  </wsdl:message>
-  <wsdl:message name="SaveSmsConfigResponse_Headers">
     <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
     <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
@@ -2852,14 +2792,6 @@ title: Services88.CustomerServiceAgent WSDL
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/SaveMailboxEntity" name="SaveMailboxEntityRequest" message="tns:SaveMailboxEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/SaveMailboxEntityResponse" name="SaveMailboxEntityResponse" message="tns:SaveMailboxEntityResponse" />
     </wsdl:operation>
-    <wsdl:operation name="CreateDefaultSmsConfig">
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/CreateDefaultSmsConfig" name="CreateDefaultSmsConfigRequest" message="tns:CreateDefaultSmsConfigRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/CreateDefaultSmsConfigResponse" name="CreateDefaultSmsConfigResponse" message="tns:CreateDefaultSmsConfigResponse" />
-    </wsdl:operation>
-    <wsdl:operation name="SaveSmsConfig">
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/SaveSmsConfig" name="SaveSmsConfigRequest" message="tns:SaveSmsConfigRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/SaveSmsConfigResponse" name="SaveSmsConfigResponse" message="tns:SaveSmsConfigResponse" />
-    </wsdl:operation>
     <wsdl:operation name="DeleteChatSessions">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/DeleteChatSessions" name="DeleteChatSessionsRequest" message="tns:DeleteChatSessionsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/DeleteChatSessionsResponse" name="DeleteChatSessionsResponse" message="tns:DeleteChatSessionsResponse" />
@@ -3080,38 +3012,6 @@ title: Services88.CustomerServiceAgent WSDL
         <soap:header message="tns:SaveMailboxEntityResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:SaveMailboxEntityResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:SaveMailboxEntityResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="CreateDefaultSmsConfig">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/CreateDefaultSmsConfig" style="document" />
-      <wsdl:input name="CreateDefaultSmsConfigRequest">
-        <soap:header message="tns:CreateDefaultSmsConfigRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:CreateDefaultSmsConfigRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:CreateDefaultSmsConfigRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="CreateDefaultSmsConfigResponse">
-        <soap:header message="tns:CreateDefaultSmsConfigResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:CreateDefaultSmsConfigResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:CreateDefaultSmsConfigResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:CreateDefaultSmsConfigResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="SaveSmsConfig">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/SaveSmsConfig" style="document" />
-      <wsdl:input name="SaveSmsConfigRequest">
-        <soap:header message="tns:SaveSmsConfigRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:SaveSmsConfigRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:SaveSmsConfigRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="SaveSmsConfigResponse">
-        <soap:header message="tns:SaveSmsConfigResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:SaveSmsConfigResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:SaveSmsConfigResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:SaveSmsConfigResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>

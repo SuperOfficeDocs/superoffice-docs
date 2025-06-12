@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Selection/GetDuplicates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Corwin-Skiles"
+  "Name": "Cronin, Stracke and McKenzie"
 }
 ```
 
@@ -93,17 +93,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Conn-Pacocha",
-    "SoPrimaryKey": 306,
-    "EntryName": "Ankunding Inc and Sons",
-    "EntryIdentifier": "nihil",
-    "RuleDisplayName": "Bruen Inc and Sons",
+    "RuleName": "Oberbrunner, Farrell and Rutherford",
+    "SoPrimaryKey": 217,
+    "EntryName": "Willms-Stokes",
+    "EntryIdentifier": "quidem",
+    "RuleDisplayName": "Bechtelar LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 795
+        "FieldLength": 382
       }
     }
   }

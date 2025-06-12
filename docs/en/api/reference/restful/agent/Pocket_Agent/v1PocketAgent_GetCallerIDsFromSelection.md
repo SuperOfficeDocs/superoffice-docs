@@ -75,12 +75,12 @@ OK
 POST /api/v1/Agents/Pocket/GetCallerIDsFromSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 823,
-  "LastHash": "minus"
+  "SelectionId": 434,
+  "LastHash": "eos"
 }
 ```
 
@@ -91,16 +91,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CallerIDHash": "perspiciatis",
+  "CallerIDHash": "et",
   "CallerIDs": [
     {
       "PhoneNumber": 99.99,
-      "DialInPrefix": 453,
-      "PersonId": 218,
-      "PersonName": "Crist Group",
-      "Mrmrs": "libero",
-      "ContactId": 614,
-      "ContactName": "Lueilwitz-Koss"
+      "DialInPrefix": 19,
+      "PersonId": 678,
+      "PersonName": "Brekke-Hickle",
+      "Mrmrs": "ut",
+      "ContactId": 9,
+      "ContactName": "Harris, Steuber and Watsica"
     }
   ]
 }

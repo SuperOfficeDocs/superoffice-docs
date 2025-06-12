@@ -70,13 +70,13 @@ OK
 POST /api/v1/Agents/Selection/ExportSelectionMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 649,
-  "TemplateName": "Kihn, McKenzie and Halvorson",
-  "UseContacts": true
+  "SelectionId": 391,
+  "TemplateName": "Huels, Terry and Dicki",
+  "UseContacts": false
 }
 ```
 

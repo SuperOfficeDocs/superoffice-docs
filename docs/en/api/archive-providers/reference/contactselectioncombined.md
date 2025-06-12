@@ -121,11 +121,12 @@ Implementation of the provider for the combined selection
 |contactAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |contactAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |contactAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
-|contactAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
+|contactAssociate/usergroupId|int|Group ID: The user's primary user group| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contactAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |contactAssociate/contactCategory|listAny|Category: Category| x |
 |contactAssociate/role|listAny|Role : Role| x |
 |contactAssociate/assocName|associate|User ID : User ID| x |
@@ -160,6 +161,7 @@ Implementation of the provider for the combined selection
 |contactUdef/SuperOffice:12|listAny|Udlist one: Static tooltip for udlist one| x |
 |contactUdef/SuperOffice:13|listAny|Udlist two: Static tooltip for udlist two| x |
 |contactExtra/x\_contact\_integer|int|Extra Integer: Custom integer field| x |
+|contactExtra/x\_contact\_hidden\_integer|int|Extra hidden integer: Custom integer field - hidden| x |
 |contactExtra/x\_contact\_default\_integer|int|Extra Default Integer: Custom integer field with default value 123.| x |
 |contactExtra/x\_contact\_float|decimal|Extra Float: Custom float field with 3 decimals| x |
 |contactExtra/x\_contact\_longtext|string|Extra LongText: Custom long text field. DO not keep HTML. 3 Line text area editor| x |
@@ -224,12 +226,12 @@ Implementation of the provider for the combined selection
 |sourceRelation/updatedBy| *None* |Source - Updated by: The user who last updated the data|  |
 |sourceRelation/updatedByFullName| *None* |Source - Updated by - Full name: The user who last updated the data|  |
 |sourceRelation/updatedDate| *None* |Source - Updated: The date/time the data was last updated in UTC.|  |
-|sourceRelation/registeredBy| *None* |Source - Registered by: The user who registered the data|  |
-|sourceRelation/registeredByFullName| *None* |Source - Registered by - Full name: The user who registered the data|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|sourceRelation/registeredBy| *None* |Source - Registered by: The user who registered the data|  |
+|sourceRelation/registeredByFullName| *None* |Source - Registered by - Full name: The user who registered the data|  |
 |sourceRelation/registeredDate| *None* |Source - Registered date: The date/time the data was registered in UTC.|  |
 |sourceRelation/contactSource| *None* |Source - Source: Source (Company)|  |
 |sourceRelation/contactDeleted| *None* |Source - Deleted: Deleted|  |
@@ -328,12 +330,12 @@ Implementation of the provider for the combined selection
 |sale/visibleFor| *None* |Visible for|  |
 |sale/sale/textId| *None* |Text ID|  |
 |sale/sale/description| *None* |Text: Displays the text entered in the description field|  |
-|sale/salePublish/isPublished| *None* |Published: Displays an icon indicating if the project or sale has been published|  |
-|sale/salePublish/publishedFrom| *None* |From date: Start date for publishing. The record will not be visible prior to this date|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|sale/salePublish/isPublished| *None* |Published: Displays an icon indicating if the project or sale has been published|  |
+|sale/salePublish/publishedFrom| *None* |From date: Start date for publishing. The record will not be visible prior to this date|  |
 |sale/salePublish/publishedTo| *None* |To date: End date for publishing. The record will not be visible after this date|  |
 |sale/salePublish/publishedBy| *None* |Published by: Published by|  |
 |sale/associate/firstName| *None* |First name: Displays the contact's first name|  |
@@ -348,6 +350,7 @@ Implementation of the provider for the combined selection
 |sale/associate/contactName| *None* |Owning company: Name of the company the user belongs to|  |
 |sale/associate/contactDepartment| *None* |Owning department: Name of the department at the company the user belongs to|  |
 |sale/associate/usergroup| *None* |Primary group: The user's primary user group|  |
+|sale/associate/usergroupId| *None* |Group ID: The user's primary user group|  |
 |sale/associate/contactFullName| *None* |Owner: Name and department of the company the user belongs to|  |
 |sale/associate/contactCategory| *None* |Category: Category|  |
 |sale/associate/role| *None* |Role : Role|  |
@@ -431,13 +434,13 @@ Implementation of the provider for the combined selection
 |appointment/appointmentUdef/SuperOffice:5| *None* |followupunlimiteddate|  |
 |appointment/appointmentUdef/SuperOffice:6| *None* |followupcheckbox|  |
 |appointment/appointmentUdef/SuperOffice:7| *None* |followupdropdownlistbox|  |
-|appointment/appointmentUdef/SuperOffice:8| *None* |followupdecimal|  |
-|appointment/associate/firstName| *None* |First name: Displays the contact's first name|  |
-|appointment/associate/lastName| *None* |Last name: Displays the contact's last name|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|appointment/appointmentUdef/SuperOffice:8| *None* |followupdecimal|  |
+|appointment/associate/firstName| *None* |First name: Displays the contact's first name|  |
+|appointment/associate/lastName| *None* |Last name: Displays the contact's last name|  |
 |appointment/associate/middleName| *None* |Middle Name : Displays the contact's middle name.|  |
 |appointment/associate/fullName| *None* |Full name: Displays full name of user (first, middle, last - according to settings)|  |
 |appointment/associate/contactId| *None* |Company ID: Database ID of the company the user belongs to|  |
@@ -448,6 +451,7 @@ Implementation of the provider for the combined selection
 |appointment/associate/contactName| *None* |Owning company: Name of the company the user belongs to|  |
 |appointment/associate/contactDepartment| *None* |Owning department: Name of the department at the company the user belongs to|  |
 |appointment/associate/usergroup| *None* |Primary group: The user's primary user group|  |
+|appointment/associate/usergroupId| *None* |Group ID: The user's primary user group|  |
 |appointment/associate/contactFullName| *None* |Owner: Name and department of the company the user belongs to|  |
 |appointment/associate/contactCategory| *None* |Category: Category|  |
 |appointment/associate/role| *None* |Role : Role|  |
@@ -527,21 +531,22 @@ Implementation of the provider for the combined selection
 |document/associate/contactName| *None* |Owning company: Name of the company the user belongs to|  |
 |document/associate/contactDepartment| *None* |Owning department: Name of the department at the company the user belongs to|  |
 |document/associate/usergroup| *None* |Primary group: The user's primary user group|  |
+|document/associate/usergroupId| *None* |Group ID: The user's primary user group|  |
 |document/associate/contactFullName| *None* |Owner: Name and department of the company the user belongs to|  |
 |document/associate/contactCategory| *None* |Category: Category|  |
 |document/associate/role| *None* |Role : Role|  |
 |document/associate/assocName| *None* |User ID : User ID|  |
 |document/associate/assocTooltip| *None* |Description : Description|  |
 |document/associate/assocType| *None* |Type: Type of user: associate, external user, system user, anonymous account|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |document/associate/ejUserId| *None* |Service user ID: The database ID of a Service user|  |
 |document/associate/simultaneousEjUser| *None* |Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
 |document/associate/ejDisplayName| *None* |Nick name: User's nick name in Service|  |
 |document/associate/ejStatus| *None* |Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |document/associate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in|  |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |document/associate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in|  |
 |document/associate/isActive| *None* |Active: Is this user active, and should be able to log in?|  |
 |document/associate/isActiveText| *None* |Active status: Is this user active, and should be able to log in?|  |
@@ -622,6 +627,7 @@ Implementation of the provider for the combined selection
 |personUdef/SuperOffice:10|string|page1marketingonly| x |
 |personUdef/SuperOffice:11|string|page1adminonly| x |
 |personExtra/x\_person\_integer|int|Extra Integer: Custom person integer| x |
+|personExtra/x\_person\_hidden\_integer|int|Extra hidden integer: Custom integer field that is hidden| x |
 |personExtra/x\_person\_float|decimal|Extra float: Custom float field| x |
 |personExtra/x\_person\_longtext|string|Extra Long Text: Custom long text field on person, keep HTML tags. Simple input, not text area. Default value = 'Hello there'| x |
 |personExtra/x\_person\_date|date|Extra date: Custom date field on person. Default value = 28.03.2019| x |
@@ -636,16 +642,16 @@ Implementation of the provider for the combined selection
 |personExtra/x\_person\_priority\_relation|listAny|Extra priority relation: Custom person-priority relation| x |
 |personExtra/x\_person\_request\_relation|stringorPK|Extra request relation: Request relation on contact| x |
 |personExtra/x\_person\_appointment\_relation|stringorPK|Extra appointment relation: Appointment relation on person| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |personExtra/x\_person\_contact\_relation|stringorPK|Extra company relation: Company relation on contact| x |
 |personExtra/y\_rental/id|int|Rental - id: Displays the row's primary key (y\_rental)| x |
 |personExtra/y\_rental/x\_start|date|Rental - Start rental| x |
 |personExtra/y\_rental/x\_end|date|Rental - End| x |
 |personExtra/y\_rental/x\_amount|int|Rental - Amount: Number to rent. Default = 1| x |
 |personExtra/y\_rental/x\_contact|stringorPK|Rental - Renter: Company that rents equipment| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |personExtra/y\_rental/y\_equipment/x\_name|string|Rental - Equipment - Name: Equpment name custom field. Cannot be null., show in table| x |
 |personExtra/y\_car/id|int|Car - id: Displays the row's primary key (y\_car)| x |
 |isMailingRecipient|bool|Is mailing recipient: isMailingRecipient| x |
@@ -740,16 +746,16 @@ Implementation of the provider for the combined selection
 |personSourceRelation/isProjectMember| *None* |Source - Is project member: This person is a project member|  |
 |personSourceRelation/isStakeholder| *None* |Source - Is stakeholder: This person is a sale stakeholder|  |
 |personSourceRelation/updatedByWorkflow| *None* |Source - Updated by flow: Updated by flow|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |personSourceRelation/whenUpdatedByWorkflow| *None* |Source - When updated by flow: When updated by flow|  |
 |personSourceRelation/createdByForm| *None* |Source - Created by form: Created by form|  |
 |personSourceRelation/restrictionContactId| *None* |Source - Company ID: Database ID of company to fetch relations for|  |
 |personSourceRelation/restrictionPersonId| *None* |Source - Company ID: Database ID of company to fetch relations for|  |
 |personSourceRelation/who| *None* |Source - Full name: Full name of company/contact|  |
 |personSourceRelation/personPersonRelation| *None* |Source - Contact-to-contact relation: Name of relation, not taking into account the relation direction|  |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |personTargetRelation/personId| *None* |Target - DB ID: Displays the database ID of a contact|  |
 |personTargetRelation/firstName| *None* |Target - First name: Displays the contact's first name|  |
 |personTargetRelation/lastName| *None* |Target - Last name: Displays the contact's last name|  |
@@ -818,6 +824,7 @@ Implementation of the provider for the combined selection
 |personAssociate/contactName| *None* |Owning company: Name of the company the user belongs to|  |
 |personAssociate/contactDepartment| *None* |Owning department: Name of the department at the company the user belongs to|  |
 |personAssociate/usergroup| *None* |Primary group: The user's primary user group|  |
+|personAssociate/usergroupId| *None* |Group ID: The user's primary user group|  |
 |personAssociate/contactFullName| *None* |Owner: Name and department of the company the user belongs to|  |
 |personAssociate/contactCategory| *None* |Category: Category|  |
 |personAssociate/role| *None* |Role : Role|  |
@@ -843,6 +850,10 @@ Implementation of the provider for the combined selection
 |correspondingAssociate/middleName| *None* |Middle Name : Displays the contact's middle name.|  |
 |correspondingAssociate/fullName| *None* |Full name: Displays full name of user (first, middle, last - according to settings)|  |
 |correspondingAssociate/contactId| *None* |Company ID: Database ID of the company the user belongs to|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |correspondingAssociate/personId| *None* |Contact ID: Database ID of the contact row|  |
 |correspondingAssociate/mrMrs| *None* |Mr/Ms: Displays whether the contact is addressed as Mr or Ms|  |
 |correspondingAssociate/title| *None* |Title: Displays whether the contact is addressed as Mr or Ms|  |
@@ -850,10 +861,7 @@ Implementation of the provider for the combined selection
 |correspondingAssociate/contactName| *None* |Owning company: Name of the company the user belongs to|  |
 |correspondingAssociate/contactDepartment| *None* |Owning department: Name of the department at the company the user belongs to|  |
 |correspondingAssociate/usergroup| *None* |Primary group: The user's primary user group|  |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
+|correspondingAssociate/usergroupId| *None* |Group ID: The user's primary user group|  |
 |correspondingAssociate/contactFullName| *None* |Owner: Name and department of the company the user belongs to|  |
 |correspondingAssociate/contactCategory| *None* |Category: Category|  |
 |correspondingAssociate/role| *None* |Role : Role|  |
@@ -937,6 +945,7 @@ Implementation of the provider for the combined selection
 |request/createdBy/contactName| *None* |Created by - Owning company: Name of the company the user belongs to|  |
 |request/createdBy/contactDepartment| *None* |Created by - Owning department: Name of the department at the company the user belongs to|  |
 |request/createdBy/usergroup| *None* |Created by - Primary group: The user's primary user group|  |
+|request/createdBy/usergroupId| *None* |Created by - Group ID: The user's primary user group|  |
 |request/createdBy/contactFullName| *None* |Created by - Owner: Name and department of the company the user belongs to|  |
 |request/createdBy/contactCategory| *None* |Created by - Category: Category|  |
 |request/createdBy/role| *None* |Created by - Role: Role|  |
@@ -945,6 +954,10 @@ Implementation of the provider for the combined selection
 |request/createdBy/assocType| *None* |Created by - Type: Type of user: associate, external user, system user, anonymous account|  |
 |request/createdBy/ejUserId| *None* |Created by - Service user ID: The database ID of a Service user|  |
 |request/createdBy/simultaneousEjUser| *None* |Created by - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |request/createdBy/ejDisplayName| *None* |Created by - Nick name: User's nick name in Service|  |
 |request/createdBy/ejStatus| *None* |Created by - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |request/createdBy/credentialType| *None* |Created by - Auth. type: What type of credentials to use when this user logs in|  |
@@ -954,10 +967,6 @@ Implementation of the provider for the combined selection
 |request/createdBy/portraitThumbnail| *None* |Created by - Person image: Person image|  |
 |request/createdBy/otherGroups| *None* |Created by - Other groups: Other groups|  |
 |request/createdBy/userName| *None* |Created by - User name: User name|  |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |request/createdBy/personEmail| *None* |Created by - E-mail|  |
 |request/createdBy/locationAddress| *None* |Created by - Location: Location|  |
 |request/createdBy/isLocation| *None* |Created by - Is a location: Is a location|  |
@@ -973,6 +982,7 @@ Implementation of the provider for the combined selection
 |request/ownedBy/contactName| *None* |Owner - Owning company: Name of the company the user belongs to|  |
 |request/ownedBy/contactDepartment| *None* |Owner - Owning department: Name of the department at the company the user belongs to|  |
 |request/ownedBy/usergroup| *None* |Owner - Primary group: The user's primary user group|  |
+|request/ownedBy/usergroupId| *None* |Owner - Group ID: The user's primary user group|  |
 |request/ownedBy/contactFullName| *None* |Owner - Owner: Name and department of the company the user belongs to|  |
 |request/ownedBy/contactCategory| *None* |Owner - Category: Category|  |
 |request/ownedBy/role| *None* |Owner - Role: Role|  |
@@ -1003,6 +1013,7 @@ Implementation of the provider for the combined selection
 |request/extra/x\_ticket\_timespan| *None* |Extra timespan: Custom timespan field on Request. Default = 1 hr 25 minutes. Show in props|  |
 |request/extra/x\_ticket\_short\_text| *None* |Extra short text: Custom short text field on Request. Do not keep HTML tags. Display on new request|  |
 |request/extra/x\_ticket\_shorttext\_list| *None* |Extra Dropdown: Custom short text with list for Request Pink, Orange, Yellow, Polkadot|  |
+|request/extra/x\_ticket\_timestamp| *None* |Extra timestamp: Custom date time field on ticket with default = current date + time. Field cannot change. Hide field|  |
 |request/extra/x\_ticket\_project\_relation| *None* |Extra project: Custom project relation on Request|  |
 |request/extra/x\_ticket\_faq| *None* |Extra FAQ Relation|  |
 |request/extra/x\_ticket\_category\_relation| *None* |Extra category relation: Category relation on request|  |
@@ -1047,6 +1058,10 @@ Implementation of the provider for the combined selection
 |projectMembers/projectAssociate/middleName| *None* |Middle Name : Displays the contact's middle name.|  |
 |projectMembers/projectAssociate/fullName| *None* |Full name: Displays full name of user (first, middle, last - according to settings)|  |
 |projectMembers/projectAssociate/contactId| *None* |Company ID: Database ID of the company the user belongs to|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |projectMembers/projectAssociate/personId| *None* |Contact ID: Database ID of the contact row|  |
 |projectMembers/projectAssociate/mrMrs| *None* |Mr/Ms: Displays whether the contact is addressed as Mr or Ms|  |
 |projectMembers/projectAssociate/title| *None* |Title: Displays whether the contact is addressed as Mr or Ms|  |
@@ -1054,14 +1069,11 @@ Implementation of the provider for the combined selection
 |projectMembers/projectAssociate/contactName| *None* |Owning company: Name of the company the user belongs to|  |
 |projectMembers/projectAssociate/contactDepartment| *None* |Owning department: Name of the department at the company the user belongs to|  |
 |projectMembers/projectAssociate/usergroup| *None* |Primary group: The user's primary user group|  |
+|projectMembers/projectAssociate/usergroupId| *None* |Group ID: The user's primary user group|  |
 |projectMembers/projectAssociate/contactFullName| *None* |Owner: Name and department of the company the user belongs to|  |
 |projectMembers/projectAssociate/contactCategory| *None* |Category: Category|  |
 |projectMembers/projectAssociate/role| *None* |Role : Role|  |
 |projectMembers/projectAssociate/assocName| *None* |User ID : User ID|  |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |projectMembers/projectAssociate/assocTooltip| *None* |Description : Description|  |
 |projectMembers/projectAssociate/assocType| *None* |Type: Type of user: associate, external user, system user, anonymous account|  |
 |projectMembers/projectAssociate/ejUserId| *None* |Service user ID: The database ID of a Service user|  |
@@ -1150,6 +1162,10 @@ Implementation of the provider for the combined selection
 |personAppointment/suggestedAppointmentId| *None* |Follow-up ID (suggestion: The database ID of a follow-up that originates in a suggestion|  |
 |personAppointment/completedDate| *None* |Completed date: Displays the actual date a follow-up/sale was marked as completed|  |
 |personAppointment/isMilestone| *None* |Milestone: Shows whether or not the follow-ups in this row are milestones|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |personAppointment/invitedPersonId| *None* |ID of invited person: appointment.invitedpersonid record - utility for rd|  |
 |personAppointment/recordTypeText| *None* |Activity type: The type of the activity (appointment, phone call, etc)|  |
 |personAppointment/joinVideomeetUrl| *None* |Video meeting URL: URL for joining the video meeting|  |
@@ -1162,10 +1178,6 @@ Implementation of the provider for the combined selection
 |personAppointment/appointmentPublish/publishedBy| *None* |Published by: Published by|  |
 |personAppointment/appointmentUdef/SuperOffice:1| *None* |followupshorttext|  |
 |personAppointment/appointmentUdef/SuperOffice:2| *None* |followuplongtext|  |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |personAppointment/appointmentUdef/SuperOffice:3| *None* |followupnumber|  |
 |personAppointment/appointmentUdef/SuperOffice:4| *None* |followupdate|  |
 |personAppointment/appointmentUdef/SuperOffice:5| *None* |followupunlimiteddate|  |
@@ -1184,6 +1196,7 @@ Implementation of the provider for the combined selection
 |personAppointment/associate/contactName| *None* |Owning company: Name of the company the user belongs to|  |
 |personAppointment/associate/contactDepartment| *None* |Owning department: Name of the department at the company the user belongs to|  |
 |personAppointment/associate/usergroup| *None* |Primary group: The user's primary user group|  |
+|personAppointment/associate/usergroupId| *None* |Group ID: The user's primary user group|  |
 |personAppointment/associate/contactFullName| *None* |Owner: Name and department of the company the user belongs to|  |
 |personAppointment/associate/contactCategory| *None* |Category: Category|  |
 |personAppointment/associate/role| *None* |Role : Role|  |
@@ -1217,7 +1230,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactSelectionCombined?$select=countryId,searchPhone/formattedNumber,restrictionAddress/state,contactAssociate/personId,saintIntention
+GET /api/v1/archive/ContactSelectionCombined?$select=deletedDate,postAddress/line2,contactExtra/x_contact_request_relation,sale/registeredByFullName,appointment/appointment/titleHtml
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -28,7 +28,7 @@ Gets a UserInfo object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/User/GetUserInfo?userInfoId=712
+POST /api/v1/Agents/User/GetUserInfo?userInfoId=761
 POST /api/v1/Agents/User/GetUserInfo?$select=name,department,category/id
 ```
 
@@ -83,7 +83,7 @@ OK
 POST /api/v1/Agents/User/GetUserInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -93,30 +93,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Deleted": false,
-  "UserInfoId": 444,
-  "UserName": "Metz Group",
-  "PersonId": 924,
-  "Rank": 524,
-  "Tooltip": "modi",
-  "UserGroupId": 970,
-  "EjUserId": 426,
+  "Deleted": true,
+  "UserInfoId": 850,
+  "UserName": "Gaylord, Feest and Medhurst",
+  "PersonId": 40,
+  "Rank": 841,
+  "Tooltip": "et",
+  "UserGroupId": 58,
+  "EjUserId": 187,
   "UserType": "AnonymousAssociate",
   "GrantedLicenses": [
-    "quia",
-    "eligendi"
+    "sit",
+    "reprehenderit"
   ],
   "CanLogon": false,
-  "RoleName": "Jacobi Group",
-  "RoleTooltip": "iste",
-  "UserGroupName": "Gutmann, Dickens and King",
-  "UserGroupTooltip": "animi",
+  "RoleName": "Cremin LLC",
+  "RoleTooltip": "nobis",
+  "UserGroupName": "Spinka-West",
+  "UserGroupTooltip": "explicabo",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 238
+      "FieldLength": 480
     }
   }
 }

@@ -107,7 +107,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 69
+  "DocumentId": 711
 }
 ```
 
@@ -120,147 +120,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 422,
-      "ContactName": "Bins, Leffler and Russel",
-      "PersonId": 819,
-      "PersonName": "Bogisich, Reinger and Glover",
-      "AssociateId": 890,
-      "Address": "ratione",
-      "EmailId": 78,
+      "ContactId": 585,
+      "ContactName": "Lowe-Muller",
+      "PersonId": 440,
+      "PersonName": "Howell Inc and Sons",
+      "AssociateId": 312,
+      "Address": "cumque",
+      "EmailId": 723,
       "DuplicatePersonIds": [
-        101,
-        333
+        607,
+        251
       ],
-      "Name": "Batz, Morar and Herman",
+      "Name": "Will, Heathcote and Gleichner",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 198
+          "FieldType": "System.String",
+          "FieldLength": 831
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 520,
-      "ContactName": "Feil-Rowe",
-      "PersonId": 770,
-      "PersonName": "Wuckert Inc and Sons",
-      "AssociateId": 843,
-      "Address": "et",
-      "EmailId": 447,
+      "ContactId": 796,
+      "ContactName": "Blick, Kreiger and Murazik",
+      "PersonId": 718,
+      "PersonName": "Ritchie-Hudson",
+      "AssociateId": 145,
+      "Address": "quasi",
+      "EmailId": 319,
       "DuplicatePersonIds": [
-        723,
-        259
+        947,
+        918
       ],
-      "Name": "Stracke-Howell",
+      "Name": "Trantow, Kertzmann and Kulas",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 200
+          "FieldLength": 220
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 328,
-      "ContactName": "Hackett, Hand and Keeling",
-      "PersonId": 219,
-      "PersonName": "Graham, Toy and Hills",
-      "AssociateId": 366,
-      "Address": "velit",
-      "EmailId": 851,
+      "ContactId": 117,
+      "ContactName": "Grady LLC",
+      "PersonId": 382,
+      "PersonName": "Schaden-Tromp",
+      "AssociateId": 846,
+      "Address": "est",
+      "EmailId": 560,
       "DuplicatePersonIds": [
-        860,
-        661
+        682,
+        394
       ],
-      "Name": "Boehm-Kozey",
+      "Name": "Schowalter-Lindgren",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 442
+          "FieldLength": 659
         }
       }
     }
   ],
-  "Subject": "debitis",
-  "HTMLBody": "dolor",
+  "Subject": "assumenda",
+  "HTMLBody": "aliquam",
   "From": null,
-  "Sent": "2000-11-03T16:32:39.0395385+01:00",
-  "Size": 919,
+  "Sent": "2002-08-27T17:54:03.1014579+02:00",
+  "Size": 822,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "aut",
-  "PlainBody": "distinctio",
+  "MessageID": "eius",
+  "PlainBody": "ipsum",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 950,
+  "ServerId": 15,
   "Attachments": [
     {
-      "Description": "Multi-layered incremental info-mediaries",
-      "Filename": "blanditiis",
-      "Size": 878,
-      "Type": "veritatis",
-      "Encoding": "nam",
-      "Id": "vitae",
-      "Disposition": "quisquam",
-      "IsSafeFileExtension": false,
+      "Description": "Switchable background interface",
+      "Filename": "magnam",
+      "Size": 259,
+      "Type": "debitis",
+      "Encoding": "inventore",
+      "Id": "sit",
+      "Disposition": "quia",
+      "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 404
+          "FieldLength": 179
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Becker-Wyman",
+      "Name": "Waters Group",
       "Values": [
-        "corporis",
-        "pariatur"
+        "possimus",
+        "est"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 596
+          "FieldType": "System.String",
+          "FieldLength": 13
         }
       }
     },
     {
-      "Name": "Becker-Wyman",
+      "Name": "Waters Group",
       "Values": [
-        "corporis",
-        "pariatur"
+        "possimus",
+        "est"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 596
+          "FieldType": "System.String",
+          "FieldLength": 13
         }
       }
     }
   ],
-  "FolderName": "Howell Group",
-  "EmailItemId": 506,
-  "AccountId": 566,
-  "ReceivedAt": "2018-07-13T16:32:39.0395385+02:00",
+  "FolderName": "Balistreri-McGlynn",
+  "EmailItemId": 57,
+  "AccountId": 814,
+  "ReceivedAt": "2024-08-10T17:54:03.1014579+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2019-02-12T16:32:39.0395385+01:00",
+  "RepliedAt": "2013-02-05T17:54:03.1014579+01:00",
   "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -268,8 +268,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 715
+      "FieldType": "System.String",
+      "FieldLength": 11
     }
   }
 }

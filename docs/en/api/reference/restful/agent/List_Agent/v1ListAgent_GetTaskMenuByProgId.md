@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/List/GetTaskMenuByProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "asperiores"
+  "ProgId": "aperiam"
 }
 ```
 
@@ -101,26 +101,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskMenuId": 49,
-  "Name": "Von, Carter and Weissnat",
-  "Tooltip": "aut",
-  "TableName": "Braun Inc and Sons",
-  "Area": "maxime",
+  "TaskMenuId": 918,
+  "Name": "Howe-Rempel",
+  "Tooltip": "quisquam",
+  "TableName": "Hand LLC",
+  "Area": "est",
   "UrlOrSoprotocol": "http://www.example.com/",
   "TaskType": "CrmScript",
-  "CrmScriptId": 921,
+  "CrmScriptId": 873,
   "ShowInClient": "Mobile",
   "ArchiveBehaviour": "InArchives",
-  "Rank": 824,
+  "Rank": 506,
   "Encoding": "ANSI",
-  "ProgId": "quibusdam",
+  "ProgId": "nesciunt",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 508
+      "FieldLength": 910
     }
   }
 }

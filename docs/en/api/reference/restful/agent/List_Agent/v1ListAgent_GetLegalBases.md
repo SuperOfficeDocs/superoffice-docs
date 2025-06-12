@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/List/GetLegalBases
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 360,
-    "Name": "Hamill-Tremblay",
-    "Tooltip": "repudiandae",
-    "Rank": 259,
-    "Key": "occaecati",
-    "Deleted": true,
+    "LegalBaseId": 905,
+    "Name": "Koss LLC",
+    "Tooltip": "quae",
+    "Rank": 484,
+    "Key": "dolorem",
+    "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 362
+        "FieldType": "System.String",
+        "FieldLength": 466
       }
     }
   }

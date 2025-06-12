@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Import/CreateDefaultImportLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountColumns": 888
+  "CountColumns": 915
 }
 ```
 
@@ -93,19 +93,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Values": [
-    "amet",
-    "culpa"
+    "aliquid",
+    "dolores"
   ],
-  "Selected": false,
+  "Selected": true,
   "Operation": "ContactAdded",
   "Type": "Contact",
-  "ExternalKey": "quibusdam",
+  "ExternalKey": "est",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 354
+      "FieldType": "System.Int32",
+      "FieldLength": 827
     }
   }
 }

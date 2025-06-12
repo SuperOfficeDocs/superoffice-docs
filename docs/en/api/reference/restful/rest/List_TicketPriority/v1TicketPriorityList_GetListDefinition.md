@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/TicketPriority
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 518,
-  "Name": "Harber-Yost",
-  "Tooltip": "odio",
+  "Id": 633,
+  "Name": "Littel-Hoppe",
+  "Tooltip": "amet",
   "Deleted": true,
-  "Rank": 748,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Rank": 810,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "omnis",
-  "InUseByUserDefinedFields": false,
+  "ListType": "consequatur",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 920
+      "FieldType": "System.String",
+      "FieldLength": 516
     }
   },
   "_Links": {

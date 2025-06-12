@@ -113,18 +113,18 @@ PreferenceDescriptionLine  updated.
 PATCH /api/v1/PreferenceDescriptionLine/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "atque",
+    "path": "dolores",
     "value": {}
   },
   {
     "op": "add",
-    "path": "atque",
+    "path": "dolores",
     "value": {}
   }
 ]
@@ -137,18 +137,18 @@ HTTP/1.1 200 PreferenceDescriptionLine  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 870,
-  "PrefDescId": 588,
-  "PrefValue": "tempora",
-  "PrefShowValue": "quae",
-  "Description": "Down-sized zero tolerance success",
+  "PrefDescLineId": 187,
+  "PrefDescId": 461,
+  "PrefValue": "incidunt",
+  "PrefShowValue": "temporibus",
+  "Description": "Advanced real-time database",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 429
+      "FieldLength": 441
     }
   },
   "_Links": {

@@ -27,7 +27,7 @@ Get the MDO list items for "ConsentPurpose" - with headings and filtering by use
 
 ```http
 GET /api/v1/List/ConsentPurpose/MDOItems?flat=False
-GET /api/v1/List/ConsentPurpose/MDOItems?query=rerum
+GET /api/v1/List/ConsentPurpose/MDOItems?query=consequatur
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 563,
-    "Name": "Von Group",
-    "ToolTip": "Iusto et eveniet possimus corporis animi accusamus.",
+    "Id": 404,
+    "Name": "Beatty-Kunze",
+    "ToolTip": "Quia quia laborum velit sit ut.",
     "Deleted": false,
-    "Rank": 24,
-    "Type": "quis",
+    "Rank": 465,
+    "Type": "quasi",
     "ChildItems": [
       {
-        "Id": 865,
-        "Name": "Runolfsdottir-Corkery",
-        "ToolTip": "Ut dolore ex voluptatem molestias perspiciatis dolor aut.",
+        "Id": 476,
+        "Name": "Barrows, O'Conner and Harber",
+        "ToolTip": "Accusamus quo ea quo voluptas quos veritatis reiciendis.",
         "Deleted": true,
-        "Rank": 461,
-        "Type": "excepturi",
+        "Rank": 188,
+        "Type": "consequatur",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "corrupti",
-        "ColorBlock": 483,
-        "ExtraInfo": "recusandae",
-        "StyleHint": "esse",
-        "FullName": "Nikko Braun",
+        "IconHint": "dolores",
+        "ColorBlock": 478,
+        "ExtraInfo": "non",
+        "StyleHint": "qui",
+        "FullName": "Mrs. Noemie Lonie Tremblay I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 47
+            "FieldLength": 414
           }
         }
       }
     ],
-    "IconHint": "rem",
-    "ColorBlock": 23,
-    "ExtraInfo": "recusandae",
-    "StyleHint": "consequatur",
-    "FullName": "Miss Jonathan Nicolas",
+    "IconHint": "nihil",
+    "ColorBlock": 549,
+    "ExtraInfo": "sed",
+    "StyleHint": "illo",
+    "FullName": "Dr. Isobel Modesto Nienow",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 889
+        "FieldLength": 868
       }
     }
   }

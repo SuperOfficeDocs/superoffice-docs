@@ -93,34 +93,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 271,
-  "Name": "Tillman Group",
-  "Tooltip": "cum",
-  "Deleted": true,
-  "Rank": 458,
+  "WebPanelId": 740,
+  "Name": "Ebert-Gulgowski",
+  "Tooltip": "aut",
+  "Deleted": false,
+  "Rank": 373,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
-  "OnSatellite": false,
+  "OnCentral": true,
+  "OnSatellite": true,
   "OnTravel": false,
   "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": true,
+  "OnSalesMarketingPocket": true,
+  "ShowInMenuBar": false,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": true,
-  "WindowName": "Rempel-Schulist",
+  "ShowInStatusBar": false,
+  "WindowName": "Kemmer, King and Crooks",
   "Url": "http://www.example.com/",
-  "ProgId": "odio",
-  "Icon": 759,
-  "AlwaysReloadOnShow": false,
+  "ProgId": "aut",
+  "Icon": 220,
+  "AlwaysReloadOnShow": true,
   "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 164
+      "FieldLength": 206
     }
   }
 }

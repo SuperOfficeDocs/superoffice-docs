@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/Selection/GetDynamicSelectionCriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 43
+  "SelectionId": 153
 }
 ```
 
@@ -92,58 +92,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Kulas-Steuber",
-    "Description": "Horizontal maximized workforce",
-    "Rank": 786,
+    "Name": "Braun-Breitenberg",
+    "Description": "Open-source dedicated methodology",
+    "Rank": 683,
     "Restrictions": [
       {
-        "Name": "Kub-Kuphal",
-        "Operator": "quo",
+        "Name": "Moen Inc and Sons",
+        "Operator": "ut",
         "Values": [
-          "et",
-          "et"
+          "non",
+          "error"
         ],
         "DisplayValues": [
-          "repudiandae",
-          "neque"
+          "vitae",
+          "veniam"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 296,
+        "InterParenthesis": 263,
         "InterOperator": "And",
-        "UniqueHash": 113
+        "UniqueHash": 527
       }
     ]
   },
   {
-    "Name": "Kulas-Steuber",
-    "Description": "Horizontal maximized workforce",
-    "Rank": 786,
+    "Name": "Braun-Breitenberg",
+    "Description": "Open-source dedicated methodology",
+    "Rank": 683,
     "Restrictions": [
       {
-        "Name": "Kub-Kuphal",
-        "Operator": "quo",
+        "Name": "Moen Inc and Sons",
+        "Operator": "ut",
         "Values": [
-          "et",
-          "et"
+          "non",
+          "error"
         ],
         "DisplayValues": [
-          "repudiandae",
-          "neque"
+          "vitae",
+          "veniam"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 296,
+        "InterParenthesis": 263,
         "InterOperator": "And",
-        "UniqueHash": 113
+        "UniqueHash": 527
       }
     ]
   }

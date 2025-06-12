@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ReasonSold/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 392,
-    "Name": "Little, Heller and Rippin",
-    "ToolTip": "Eos tenetur et.",
-    "Deleted": false,
-    "Rank": 908,
-    "Type": "quas",
-    "ColorBlock": 97,
-    "IconHint": "eaque",
+    "Id": 653,
+    "Name": "Conn LLC",
+    "ToolTip": "Vitae sit repellat voluptas sed est unde.",
+    "Deleted": true,
+    "Rank": 311,
+    "Type": "architecto",
+    "ColorBlock": 7,
+    "IconHint": "cum",
     "Selected": true,
-    "LastChanged": "2016-11-19T16:32:48.9151006+01:00",
+    "LastChanged": "1999-11-27T17:54:09.1011806+01:00",
     "ChildItems": [
       {
-        "Id": 253,
-        "Name": "Pfannerstill-Dickens",
-        "ToolTip": "Cumque consequatur rem sunt excepturi.",
-        "Deleted": true,
-        "Rank": 127,
-        "Type": "vitae",
-        "ColorBlock": 971,
-        "IconHint": "libero",
-        "Selected": false,
-        "LastChanged": "2022-09-16T16:32:48.9151006+02:00",
+        "Id": 989,
+        "Name": "Kirlin-Bernier",
+        "ToolTip": "Repellendus quasi.",
+        "Deleted": false,
+        "Rank": 194,
+        "Type": "et",
+        "ColorBlock": 671,
+        "IconHint": "at",
+        "Selected": true,
+        "LastChanged": "2001-12-21T17:54:09.1011806+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "corrupti",
-        "StyleHint": "nostrum",
-        "Hidden": true,
-        "FullName": "Beverly Ziemann"
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "ea",
+        "Hidden": false,
+        "FullName": "Georgiana Purdy I"
       }
     ],
-    "ExtraInfo": "ea",
-    "StyleHint": "saepe",
+    "ExtraInfo": "quia",
+    "StyleHint": "aut",
     "Hidden": false,
-    "FullName": "Johathan Hailey Krajcik Sr."
+    "FullName": "Blair Parisian"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 717,
-    "Name": "Corkery-Fay",
-    "ToolTip": "Vel optio quasi beatae quibusdam incidunt ut.",
-    "Deleted": true,
-    "Rank": 636,
-    "Type": "inventore",
-    "ColorBlock": 446,
-    "IconHint": "necessitatibus",
-    "Selected": true,
-    "LastChanged": "2014-12-25T16:32:48.9151006+01:00",
+    "Id": 284,
+    "Name": "Davis, Koelpin and Jacobs",
+    "ToolTip": "Expedita aut aut molestias et.",
+    "Deleted": false,
+    "Rank": 210,
+    "Type": "laborum",
+    "ColorBlock": 804,
+    "IconHint": "aliquid",
+    "Selected": false,
+    "LastChanged": "2016-12-28T17:54:09.1011806+01:00",
     "ChildItems": [
       {
-        "Id": 682,
-        "Name": "Bailey-Nolan",
-        "ToolTip": "Eum commodi mollitia qui autem.",
-        "Deleted": false,
-        "Rank": 594,
-        "Type": "qui",
-        "ColorBlock": 259,
-        "IconHint": "ipsam",
+        "Id": 57,
+        "Name": "Waters-Swift",
+        "ToolTip": "Voluptatibus deserunt quaerat sapiente nobis impedit soluta.",
+        "Deleted": true,
+        "Rank": 145,
+        "Type": "sint",
+        "ColorBlock": 121,
+        "IconHint": "voluptatem",
         "Selected": false,
-        "LastChanged": "2020-02-16T16:32:48.9151006+01:00",
+        "LastChanged": "2004-10-15T17:54:09.1011806+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "aliquam",
+        "ExtraInfo": "architecto",
+        "StyleHint": "officiis",
         "Hidden": true,
-        "FullName": "Emmanuelle Johathan O'Reilly V",
+        "FullName": "Ellen Jaquelin Rutherford Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 695
+            "FieldLength": 516
           }
         }
       }
     ],
-    "ExtraInfo": "veniam",
-    "StyleHint": "quod",
+    "ExtraInfo": "ab",
+    "StyleHint": "saepe",
     "Hidden": true,
-    "FullName": "Ms. Gustave Marion Lehner",
+    "FullName": "Miss Jammie Rahsaan Zieme",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 30
+        "FieldType": "System.String",
+        "FieldLength": 333
       }
     }
   }

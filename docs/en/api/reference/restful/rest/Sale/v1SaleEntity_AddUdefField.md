@@ -98,7 +98,7 @@ OK
 POST /api/v1/Sale/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -108,46 +108,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 512,
-  "ColumnId": 443,
-  "FieldDefault": "voluptatem",
-  "FieldHeight": 318,
-  "FieldLabel": "neque",
-  "FieldLeft": 191,
-  "FieldTop": 867,
+  "UDefFieldId": 578,
+  "ColumnId": 100,
+  "FieldDefault": "eius",
+  "FieldHeight": 63,
+  "FieldLabel": "aut",
+  "FieldLeft": 269,
+  "FieldTop": 842,
   "FieldType": "Checkbox",
-  "FieldWidth": 562,
-  "FormatMask": "debitis",
+  "FieldWidth": 248,
+  "FormatMask": "rerum",
   "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 123,
-  "LabelLeft": 107,
-  "LabelTop": 715,
-  "LabelWidth": 978,
-  "LastVersionId": 675,
-  "ListTableId": 264,
+  "IsIndexed": false,
+  "LabelHeight": 404,
+  "LabelLeft": 142,
+  "LabelTop": 762,
+  "LabelWidth": 982,
+  "LastVersionId": 971,
+  "ListTableId": 197,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 238,
-  "ProgId": "vel",
+  "Page1LineNo": 243,
+  "ProgId": "dolorem",
   "IsReadOnly": true,
-  "ShortLabel": "ut",
-  "TabOrder": 643,
-  "TextLength": 917,
-  "Tooltip": "ut",
-  "UdefIdentity": 720,
-  "UDListDefinitionId": 663,
+  "ShortLabel": "quia",
+  "TabOrder": 248,
+  "TextLength": 962,
+  "Tooltip": "corrupti",
+  "UdefIdentity": 546,
+  "UDListDefinitionId": 86,
   "Justification": "Center",
-  "Version": 749,
-  "TemplateVariableName": "Rutherford, Schimmel and Rempel",
+  "Version": 130,
+  "TemplateVariableName": "Dooley LLC",
   "HasBeenPublished": false,
-  "MdoListName": "Stanton, Haley and Prosacco",
+  "MdoListName": "Herman, Hane and Kunde",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 905
+      "FieldLength": 114
     }
   }
 }

@@ -89,15 +89,15 @@ PreferenceDescriptionLine updated.
 PUT /api/v1/PreferenceDescriptionLine/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 592,
-  "PrefDescId": 118,
-  "PrefValue": "a",
-  "PrefShowValue": "fugit",
-  "Description": "Synchronised mobile forecast",
+  "PrefDescLineId": 590,
+  "PrefDescId": 747,
+  "PrefValue": "qui",
+  "PrefShowValue": "temporibus",
+  "Description": "Automated web-enabled toolset",
   "IsBuiltin": false
 }
 ```
@@ -109,18 +109,18 @@ HTTP/1.1 200 PreferenceDescriptionLine updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 379,
-  "PrefDescId": 73,
-  "PrefValue": "aut",
-  "PrefShowValue": "odio",
-  "Description": "Triple-buffered optimal focus group",
+  "PrefDescLineId": 819,
+  "PrefDescId": 853,
+  "PrefValue": "et",
+  "PrefShowValue": "deserunt",
+  "Description": "Front-line multi-state secured line",
   "IsBuiltin": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 533
+      "FieldType": "System.String",
+      "FieldLength": 812
     }
   },
   "_Links": {

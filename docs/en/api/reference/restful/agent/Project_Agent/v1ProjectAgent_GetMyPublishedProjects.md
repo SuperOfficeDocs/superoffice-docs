@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/Project/GetMyPublishedProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -93,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 62,
-    "Name": "Sipes, Price and Kihn",
-    "Description": "Persistent static capability",
+    "ProjectId": 184,
+    "Name": "Cole LLC",
+    "Description": "Multi-layered zero administration leverage",
     "URL": "http://www.example.com/",
-    "Type": "veritatis",
-    "AssociateId": 335,
-    "AssociateFullName": "Gust Tressa Armstrong MD",
-    "TypeId": 399,
-    "Updated": "2014-11-25T16:32:39.6646396+01:00",
-    "StatusId": 743,
-    "Status": "nam",
-    "TextId": 151,
-    "PublishTo": "2008-02-09T16:32:39.6646396+01:00",
-    "PublishFrom": "1998-04-09T16:32:39.6646396+02:00",
-    "IsPublished": true,
+    "Type": "mollitia",
+    "AssociateId": 324,
+    "AssociateFullName": "Aniyah Shanahan",
+    "TypeId": 52,
+    "Updated": "2014-01-19T17:54:03.4920634+01:00",
+    "StatusId": 653,
+    "Status": "libero",
+    "TextId": 991,
+    "PublishTo": "2011-08-08T17:54:03.4920634+02:00",
+    "PublishFrom": "2020-11-23T17:54:03.4920634+01:00",
+    "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "877594",
-    "ActiveErpLinks": 456,
+    "ProjectNumber": "1378559",
+    "ActiveErpLinks": 810,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 76
+        "FieldType": "System.Int32",
+        "FieldLength": 208
       }
     }
   }

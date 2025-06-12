@@ -48,6 +48,7 @@ Provider base for system events.
 |registered\_associate\_id/contactName|string|Activated by - Owning company: Name of the company the user belongs to| x |
 |registered\_associate\_id/contactDepartment|string|Activated by - Owning department: Name of the department at the company the user belongs to| x |
 |registered\_associate\_id/usergroup|userGroup|Activated by - Primary group: The user's primary user group| x |
+|registered\_associate\_id/usergroupId|int|Activated by - Group ID: The user's primary user group| x |
 |registered\_associate\_id/contactFullName|string|Activated by - Owner: Name and department of the company the user belongs to| x |
 |registered\_associate\_id/contactCategory|listAny|Activated by - Category: Category| x |
 |registered\_associate\_id/role|listAny|Activated by - Role: Role| x |

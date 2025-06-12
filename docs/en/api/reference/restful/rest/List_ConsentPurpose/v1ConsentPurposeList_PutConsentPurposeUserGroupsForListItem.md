@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ConsentPurpose/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 789,
-    "Name": "Olson Group",
-    "ToolTip": "Totam ut necessitatibus praesentium ad quas excepturi exercitationem.",
-    "Deleted": true,
-    "Rank": 112,
-    "Type": "et",
-    "ColorBlock": 542,
-    "IconHint": "fuga",
-    "Selected": false,
-    "LastChanged": "1999-08-08T16:32:48.5714211+02:00",
+    "Id": 638,
+    "Name": "Ritchie Group",
+    "ToolTip": "Nobis fuga neque ut.",
+    "Deleted": false,
+    "Rank": 51,
+    "Type": "perspiciatis",
+    "ColorBlock": 152,
+    "IconHint": "quia",
+    "Selected": true,
+    "LastChanged": "1998-10-06T17:54:08.8199285+02:00",
     "ChildItems": [
       {
-        "Id": 747,
-        "Name": "Schmidt Group",
-        "ToolTip": "Numquam iusto fugit tempore ea.",
-        "Deleted": false,
-        "Rank": 320,
-        "Type": "molestias",
-        "ColorBlock": 611,
-        "IconHint": "non",
-        "Selected": true,
-        "LastChanged": "2017-05-13T16:32:48.5714211+02:00",
+        "Id": 925,
+        "Name": "Kutch-O'Hara",
+        "ToolTip": "Ut omnis laudantium illo porro reiciendis.",
+        "Deleted": true,
+        "Rank": 285,
+        "Type": "omnis",
+        "ColorBlock": 208,
+        "IconHint": "rem",
+        "Selected": false,
+        "LastChanged": "2023-01-14T17:54:08.8199285+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "porro",
-        "StyleHint": "non",
+        "ExtraInfo": "non",
+        "StyleHint": "nihil",
         "Hidden": false,
-        "FullName": "Ms. Lavinia Spencer Sr."
+        "FullName": "Nico Koss"
       }
     ],
-    "ExtraInfo": "omnis",
-    "StyleHint": "quia",
-    "Hidden": true,
-    "FullName": "Enoch Williamson"
+    "ExtraInfo": "voluptas",
+    "StyleHint": "laboriosam",
+    "Hidden": false,
+    "FullName": "Mrs. Misty Hoppe MD"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 752,
-    "Name": "Eichmann Inc and Sons",
-    "ToolTip": "Reprehenderit laudantium molestiae quos laborum odit dolorem.",
+    "Id": 469,
+    "Name": "Lockman, Hirthe and McDermott",
+    "ToolTip": "Officia laudantium reprehenderit veniam.",
     "Deleted": true,
-    "Rank": 827,
-    "Type": "reprehenderit",
-    "ColorBlock": 521,
-    "IconHint": "voluptatum",
+    "Rank": 593,
+    "Type": "incidunt",
+    "ColorBlock": 233,
+    "IconHint": "qui",
     "Selected": false,
-    "LastChanged": "2025-03-19T16:32:48.5714211+01:00",
+    "LastChanged": "2004-10-28T17:54:08.8199285+02:00",
     "ChildItems": [
       {
-        "Id": 165,
-        "Name": "Botsford LLC",
-        "ToolTip": "Nihil non a ad ab quidem soluta.",
+        "Id": 355,
+        "Name": "Nikolaus, Casper and Stroman",
+        "ToolTip": "Id minima eos laboriosam et.",
         "Deleted": false,
-        "Rank": 876,
-        "Type": "sit",
-        "ColorBlock": 219,
-        "IconHint": "quia",
+        "Rank": 630,
+        "Type": "odio",
+        "ColorBlock": 211,
+        "IconHint": "nisi",
         "Selected": true,
-        "LastChanged": "2011-03-24T16:32:48.5714211+01:00",
+        "LastChanged": "2005-02-18T17:54:08.8199285+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "neque",
+        "ExtraInfo": "est",
+        "StyleHint": "omnis",
         "Hidden": false,
-        "FullName": "Prof. Marlen Matilda Sporer MD",
+        "FullName": "Oran Kemmer DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 218
+            "FieldType": "System.Int32",
+            "FieldLength": 638
           }
         }
       }
     ],
-    "ExtraInfo": "fugit",
-    "StyleHint": "praesentium",
+    "ExtraInfo": "explicabo",
+    "StyleHint": "sed",
     "Hidden": false,
-    "FullName": "Meda Lonnie Auer I",
+    "FullName": "Prof. Sebastian Prohaska IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 128
+        "FieldType": "System.String",
+        "FieldLength": 672
       }
     }
   }

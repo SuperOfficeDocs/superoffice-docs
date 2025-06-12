@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/SaleType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 625,
-    "Name": "Purdy-Rodriguez",
-    "ToolTip": "Temporibus odio odit est voluptas sed.",
+    "Id": 627,
+    "Name": "Hermann-Donnelly",
+    "ToolTip": "Nobis nobis.",
     "Deleted": false,
-    "Rank": 605,
-    "Type": "pariatur",
-    "ColorBlock": 296,
-    "IconHint": "labore",
-    "Selected": true,
-    "LastChanged": "2011-07-08T16:32:48.9619631+02:00",
+    "Rank": 223,
+    "Type": "at",
+    "ColorBlock": 44,
+    "IconHint": "non",
+    "Selected": false,
+    "LastChanged": "2019-04-14T17:54:09.1168029+02:00",
     "ChildItems": [
       {
-        "Id": 903,
-        "Name": "Botsford, Stiedemann and Langosh",
-        "ToolTip": "Quam rerum id.",
-        "Deleted": false,
-        "Rank": 951,
-        "Type": "modi",
-        "ColorBlock": 593,
-        "IconHint": "libero",
+        "Id": 370,
+        "Name": "Langworth, Swift and Gutkowski",
+        "ToolTip": "Temporibus voluptate unde.",
+        "Deleted": true,
+        "Rank": 437,
+        "Type": "at",
+        "ColorBlock": 651,
+        "IconHint": "iure",
         "Selected": false,
-        "LastChanged": "2002-11-17T16:32:48.9619631+01:00",
+        "LastChanged": "2013-09-16T17:54:09.1168029+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "explicabo",
-        "StyleHint": "sit",
-        "Hidden": false,
-        "FullName": "Brennan Bechtelar",
+        "ExtraInfo": "rem",
+        "StyleHint": "occaecati",
+        "Hidden": true,
+        "FullName": "Anahi Stokes",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 579
+            "FieldLength": 877
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "aut",
-    "Hidden": true,
-    "FullName": "Mrs. Demarco Kobe Gleason",
+    "ExtraInfo": "et",
+    "StyleHint": "non",
+    "Hidden": false,
+    "FullName": "Therese Melvin Quitzon V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 115
+        "FieldLength": 769
       }
     }
   }

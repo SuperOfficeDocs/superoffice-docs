@@ -101,15 +101,15 @@ OK
 POST /api/v1/Agents/Ticket/SaveTicketMessageEntityWithOptions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Entity": null,
   "Notify": false,
   "AttachmentIds": [
-    162,
-    621
+    814,
+    548
   ],
   "UpdateRepliedAt": false
 }
@@ -122,28 +122,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 864,
+  "EjMessageId": 362,
   "Ticket": null,
-  "CreatedAt": "2011-02-18T16:32:40.3832248+01:00",
+  "CreatedAt": "2014-10-28T17:54:03.8357967+01:00",
   "CreatedBy": null,
-  "Author": "et",
+  "Author": "qui",
   "Slevel": "External",
   "Type": "Html",
   "MessageId": "est",
-  "TimeSpent": 214,
-  "Body": "aperiam",
+  "TimeSpent": 10,
+  "Body": "consectetur",
   "HtmlBody": "in",
-  "EmailHeader": "elisa@lemke.biz",
-  "DebugInfo": "magnam",
-  "MailSorter": "iste",
+  "EmailHeader": "asa@goyette.biz",
+  "DebugInfo": "aut",
+  "MailSorter": "qui",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "a",
+  "SearchTitle": "qui",
   "MessageHeaders": [
     {
-      "Id": 699,
-      "Name": "Eichmann LLC",
-      "Value": "voluptatem",
+      "Id": 433,
+      "Name": "Lowe-Simonis",
+      "Value": "illo",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -151,50 +151,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 160
+          "FieldLength": 390
         }
       }
     }
   ],
   "Important": false,
-  "Language": "ut",
-  "Sentiment": 407,
-  "SentimentConfidence": 22,
+  "Language": "quia",
+  "Sentiment": 649,
+  "SentimentConfidence": 577,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 310,
-      "Name": "Herzog Group",
-      "ContentType": "officiis",
-      "AttSize": 1000,
-      "InlineImage": true,
-      "ContentId": "nulla",
-      "AuthKey": "quaerat",
-      "IsSafeFileExtension": false,
+      "AttachmentId": 426,
+      "Name": "Sporer, Little and Olson",
+      "ContentType": "enim",
+      "AttSize": 806,
+      "InlineImage": false,
+      "ContentId": "soluta",
+      "AuthKey": "consequatur",
+      "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 64
+          "FieldLength": 84
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "sint",
-    "ExtraFields2": "sed"
+    "ExtraFields1": "quae",
+    "ExtraFields2": "quia"
   },
   "CustomFields": {
-    "CustomFields1": "modi",
-    "CustomFields2": "aliquid"
+    "CustomFields1": "voluptas",
+    "CustomFields2": "dignissimos"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 261
+      "FieldType": "System.String",
+      "FieldLength": 220
     }
   }
 }

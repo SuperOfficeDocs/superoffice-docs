@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/TicketCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,36 +85,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 68,
-    "ParentId": 550,
-    "Name": "Robel-Gutkowski",
-    "Fullname": "modi",
-    "CategoryMaster": 557,
+    "TicketCategoryId": 679,
+    "ParentId": 219,
+    "Name": "Krajcik Inc and Sons",
+    "Fullname": "veritatis",
+    "CategoryMaster": 329,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Wehner LLC",
+    "ExternalName": "Kiehn LLC",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 954,
-    "ReplyTemplate": 718,
-    "NotificationEmail": "keanu@prohaska.us",
+    "AssignmentLag": 273,
+    "ReplyTemplate": 298,
+    "NotificationEmail": "gabrielle.stamm@ratke.com",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 652,
+    "EffectiveReplyTemplateId": 131,
     "ExtraFields": {
-      "ExtraFields1": "eaque",
-      "ExtraFields2": "molestias"
+      "ExtraFields1": "sint",
+      "ExtraFields2": "voluptate"
     },
     "CustomFields": {
-      "CustomFields1": "laborum",
-      "CustomFields2": "dolor"
+      "CustomFields1": "eum",
+      "CustomFields2": "ipsam"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 464
+        "FieldType": "System.String",
+        "FieldLength": 369
       }
     }
   }

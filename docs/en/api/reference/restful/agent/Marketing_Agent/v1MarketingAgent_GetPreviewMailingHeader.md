@@ -92,7 +92,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentId": 180
+  "ShipmentId": 280
 }
 ```
 
@@ -103,28 +103,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2003-03-13T16:32:39.3519666+01:00",
+  "StartDate": "2007-11-17T17:54:03.3202006+01:00",
   "Status": "AwaitPopulate",
-  "ShipmentId": 47,
-  "ShipmentDescription": "Open-architected 24/7 challenge",
-  "FromAddress": "molestiae",
-  "Configuration": 510,
-  "PersonId": 648,
-  "PersonFullName": "Matilde Ferry",
-  "ShipmentType": "sed",
-  "MessageId": 68,
-  "MessageSubject": "earum",
-  "DocumentMessageId": 322,
-  "NumSent": 355,
-  "NumOpened": 803,
-  "NumBounced": 937,
-  "NumClicks": 83,
+  "ShipmentId": 656,
+  "ShipmentDescription": "Profound global core",
+  "FromAddress": "reprehenderit",
+  "Configuration": 432,
+  "PersonId": 653,
+  "PersonFullName": "Adell Hammes",
+  "ShipmentType": "harum",
+  "MessageId": 469,
+  "MessageSubject": "expedita",
+  "DocumentMessageId": 447,
+  "NumSent": 669,
+  "NumOpened": 221,
+  "NumBounced": 731,
+  "NumClicks": 42,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 575
+      "FieldLength": 741
     }
   }
 }

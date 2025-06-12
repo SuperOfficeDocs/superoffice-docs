@@ -78,7 +78,7 @@ DashTheme found.
 GET /api/v1/DashTheme/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -88,23 +88,23 @@ HTTP/1.1 200 DashTheme found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 222,
-  "Name": "Oberbrunner-Erdman",
-  "Config": "omnis",
-  "Rank": 334,
-  "Client": "fugiat",
-  "Style": "non",
+  "DashboardThemeId": 835,
+  "Name": "Walker, Koelpin and Streich",
+  "Config": "aut",
+  "Rank": 491,
+  "Client": "ea",
+  "Style": "totam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 371
+      "FieldLength": 950
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

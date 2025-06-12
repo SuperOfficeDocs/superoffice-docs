@@ -122,18 +122,18 @@ RoleEntity  updated.
 PATCH /api/v1/Role/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "esse",
+    "path": "tempore",
     "value": {}
   },
   {
     "op": "add",
-    "path": "esse",
+    "path": "tempore",
     "value": {}
   }
 ]
@@ -146,16 +146,16 @@ HTTP/1.1 200 RoleEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 351,
-  "Name": "Schaden, Kuphal and Paucek",
-  "Tooltip": "ratione",
+  "RoleId": 851,
+  "Name": "Langosh, Blick and Marks",
+  "Tooltip": "vel",
   "RoleType": "Anonymous",
-  "Deleted": 839,
-  "Rank": 136,
-  "Created": "2009-10-06T16:32:47.7745258+02:00",
-  "UseCategories": 109,
+  "Deleted": 192,
+  "Rank": 577,
+  "Created": "2014-05-07T17:54:08.4136991+02:00",
+  "UseCategories": 22,
   "CreatedBy": null,
-  "Updated": "2014-11-02T16:32:47.7745258+01:00",
+  "Updated": "2024-10-31T17:54:08.4136991+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -163,7 +163,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 870
+      "FieldLength": 617
     }
   },
   "_Links": {

@@ -104,6 +104,8 @@ generated: true
 
 * [POST Agents/Person/GetCustomerCentrePasswordReplyTemplate](v1PersonAgent_GetCustomerCentrePasswordReplyTemplate.md)
 
+* [POST Agents/Person/SendCustomerCentrePasswordEmail](v1PersonAgent_SendCustomerCentrePasswordEmail.md)
+
 * [POST Agents/Person/SendEmail](v1PersonAgent_SendEmail.md)
 
 * [POST Agents/Person/SendEmailWithEventName](v1PersonAgent_SendEmailWithEventName.md)

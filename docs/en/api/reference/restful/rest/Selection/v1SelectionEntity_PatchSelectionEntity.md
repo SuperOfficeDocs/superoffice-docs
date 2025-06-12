@@ -148,18 +148,18 @@ SelectionEntity  updated.
 PATCH /api/v1/Selection/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "officia",
+    "path": "dolor",
     "value": {}
   },
   {
     "op": "add",
-    "path": "officia",
+    "path": "dolor",
     "value": {}
   }
 ]
@@ -172,70 +172,70 @@ HTTP/1.1 200 SelectionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Inverse motivating orchestration",
-  "Postit": "cumque",
+  "Description": "Streamlined exuding encoding",
+  "Postit": "qui",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 601,
-  "IncludePerson": 959,
+  "GroupIdx": 740,
+  "IncludePerson": 616,
   "MemberCount": 99.99,
-  "Name": "Bradtke-Lubowitz",
-  "PostitTextId": 740,
-  "CreatedDate": "2015-05-10T16:32:48.0869552+02:00",
-  "SelectionId": 507,
-  "SoundEx": "perspiciatis",
-  "Source": 831,
-  "TextId": 212,
-  "UpdatedDate": "2016-10-11T16:32:48.0869552+02:00",
-  "UpdatedCount": 942,
-  "Visibility": 614,
+  "Name": "Fay-Carroll",
+  "PostitTextId": 37,
+  "CreatedDate": "2021-10-04T17:54:08.5386928+02:00",
+  "SelectionId": 981,
+  "SoundEx": "sed",
+  "Source": 22,
+  "TextId": 899,
+  "UpdatedDate": "2011-09-08T17:54:08.5386928+02:00",
+  "UpdatedCount": 351,
+  "Visibility": 429,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 676,
-  "TargetTableName": "Schmeler-Quigley",
+  "TargetTableNumber": 127,
+  "TargetTableName": "Stamm-Romaguera",
   "Completed": true,
-  "LeftSelectionId": 702,
-  "RightSelectionId": 512,
+  "LeftSelectionId": 885,
+  "RightSelectionId": 4,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Conn-Ernser",
-  "ShadowProviderName": "Prohaska-Berge",
-  "ChartKey": "est",
-  "LastLoaded": "2003-03-03T16:32:48.0869552+01:00",
-  "LastLoadedBy": 230,
+  "MainProviderName": "Lang-Lockman",
+  "ShadowProviderName": "Bergnaum LLC",
+  "ChartKey": "aut",
+  "LastLoaded": "2010-01-01T17:54:08.5386928+01:00",
+  "LastLoadedBy": 525,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2025-03-10T16:32:48.0869552+01:00",
-  "LastMembershipChangeBy": 825,
+  "LastMembershipChange": "2014-06-17T17:54:08.5386928+02:00",
+  "LastMembershipChangeBy": 478,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "vel",
-  "MemberTabHeading": "laboriosam",
-  "MailingsProviderName": "Schiller, Reichert and Treutel",
-  "DashboardTileDefinitionId": 22,
+  "MainHeading": "est",
+  "MemberTabHeading": "autem",
+  "MailingsProviderName": "Heller LLC",
+  "DashboardTileDefinitionId": 60,
   "VisibleFor": [
     {
-      "VisibleId": 919,
+      "VisibleId": 958,
       "Visibility": "All",
-      "DisplayValue": "autem",
+      "DisplayValue": "assumenda",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 815
+          "FieldType": "System.Int32",
+          "FieldLength": 151
         }
       }
     },
     {
-      "VisibleId": 919,
+      "VisibleId": 958,
       "Visibility": "All",
-      "DisplayValue": "autem",
+      "DisplayValue": "assumenda",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 815
+          "FieldType": "System.Int32",
+          "FieldLength": 151
         }
       }
     }
@@ -245,7 +245,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 575
+      "FieldLength": 427
     }
   },
   "_Links": {

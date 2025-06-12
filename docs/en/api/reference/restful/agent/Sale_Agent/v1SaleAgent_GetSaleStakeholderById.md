@@ -91,13 +91,13 @@ OK
 POST /api/v1/Agents/Sale/GetSaleStakeholderById
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "SaleStakeholderIds": [
-    712,
-    940
+    376,
+    862
   ]
 }
 ```
@@ -110,31 +110,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "O'Connell, Wunsch and Beahan",
-    "Comment": "deleniti",
-    "StakeholderRoleId": 520,
-    "CountryId": 880,
-    "PersonId": 854,
-    "EmailDescription": "myrl@walker.us",
-    "EmailId": 489,
-    "EmailAddress": "kristian@schroeder.us",
-    "PhoneId": 185,
-    "ContactName": "Zulauf Inc and Sons",
-    "ContactId": 708,
-    "SaleId": 525,
-    "Mrmrs": "quia",
-    "Firstname": "Stanton",
-    "MiddleName": "Goodwin, Kuvalis and Quigley",
-    "Lastname": "Hagenes",
-    "SaleStakeholderId": 904,
-    "Rank": 495,
-    "Phone": "(362)281-9920",
+    "StakeholderRoleName": "Auer-Weissnat",
+    "Comment": "ea",
+    "StakeholderRoleId": 318,
+    "CountryId": 536,
+    "PersonId": 337,
+    "EmailDescription": "jermain@senger.uk",
+    "EmailId": 95,
+    "EmailAddress": "dorothy@heidenreich.biz",
+    "PhoneId": 284,
+    "ContactName": "Ullrich Inc and Sons",
+    "ContactId": 500,
+    "SaleId": 536,
+    "Mrmrs": "ut",
+    "Firstname": "Brock",
+    "MiddleName": "Friesen-Hermann",
+    "Lastname": "Stark",
+    "SaleStakeholderId": 840,
+    "Rank": 567,
+    "Phone": "(828)466-1738 x388",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 954
+        "FieldLength": 216
       }
     }
   }

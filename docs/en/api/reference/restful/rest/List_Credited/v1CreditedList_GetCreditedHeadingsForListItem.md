@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Credited/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 400,
-    "Name": "Nolan LLC",
-    "ToolTip": "Consequatur officia eaque quis.",
+    "Id": 988,
+    "Name": "Koss, Gibson and Bergstrom",
+    "ToolTip": "Aspernatur beatae magni.",
     "Deleted": false,
-    "Rank": 611,
-    "Type": "aperiam",
-    "ColorBlock": 368,
-    "IconHint": "ad",
+    "Rank": 484,
+    "Type": "ab",
+    "ColorBlock": 461,
+    "IconHint": "quisquam",
     "Selected": false,
-    "LastChanged": "2009-05-02T16:32:48.6182885+02:00",
+    "LastChanged": "2011-11-17T17:54:08.8824262+01:00",
     "ChildItems": [
       {
-        "Id": 308,
-        "Name": "Weimann-Walsh",
-        "ToolTip": "Eos quisquam velit recusandae dolorem nemo blanditiis.",
+        "Id": 737,
+        "Name": "Wisozk LLC",
+        "ToolTip": "Odio aut dicta numquam provident ducimus quasi mollitia.",
         "Deleted": false,
-        "Rank": 60,
-        "Type": "dolores",
-        "ColorBlock": 849,
-        "IconHint": "nobis",
+        "Rank": 457,
+        "Type": "fugit",
+        "ColorBlock": 988,
+        "IconHint": "et",
         "Selected": true,
-        "LastChanged": "2004-06-11T16:32:48.6182885+02:00",
+        "LastChanged": "2016-01-05T17:54:08.8824262+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "repellendus",
+        "ExtraInfo": "quo",
+        "StyleHint": "voluptate",
         "Hidden": false,
-        "FullName": "Bradford Johnston Jr.",
+        "FullName": "Mr. Joy Orpha Bernier V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 366
+            "FieldLength": 60
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "magnam",
+    "ExtraInfo": "illo",
+    "StyleHint": "amet",
     "Hidden": false,
-    "FullName": "Crystel Bartoletti",
+    "FullName": "Dr. Harvey Einar Kautzer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 139
+        "FieldType": "System.Int32",
+        "FieldLength": 874
       }
     }
   }

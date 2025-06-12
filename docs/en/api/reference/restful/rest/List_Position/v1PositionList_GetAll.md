@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/Position/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 131,
-    "Name": "Kuhlman-Leannon",
-    "Tooltip": "molestiae",
+    "Id": 188,
+    "Name": "Hayes, Satterfield and Ledner",
+    "Tooltip": "et",
     "Deleted": false,
-    "UdListDefinitionId": 576,
-    "Rank": 799,
+    "UdListDefinitionId": 21,
+    "Rank": 854,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 324
+        "FieldLength": 719
       }
     }
   }

@@ -71,12 +71,12 @@ OK
 POST /api/v1/Agents/EMail/HasNewMail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 251,
-  "FolderId": 348
+  "MailItemId": 486,
+  "FolderId": 192
 }
 ```
 

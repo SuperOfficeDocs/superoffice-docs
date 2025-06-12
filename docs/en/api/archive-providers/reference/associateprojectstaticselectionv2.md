@@ -57,6 +57,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |projectAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |projectAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |projectAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|projectAssociate/usergroupId|int|Group ID: The user's primary user group| x |
 |projectAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |projectAssociate/contactCategory|listAny|Category: Category| x |
 |projectAssociate/role|listAny|Role : Role| x |
@@ -90,7 +91,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/AssociateProjectStaticSelectionV2?$select=registeredDate,endDate,projectAssociate/associateDbId
+GET /api/v1/archive/AssociateProjectStaticSelectionV2?$select=projectAssociate/isActiveText,endDate,projectAssociate/associateDbId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

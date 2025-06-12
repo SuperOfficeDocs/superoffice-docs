@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProjectStatus/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 216,
-    "Name": "Funk Inc and Sons",
-    "ToolTip": "Placeat ex sunt architecto maiores ab qui aliquid.",
+    "Id": 693,
+    "Name": "Conroy Group",
+    "ToolTip": "Rerum distinctio voluptatem esse corrupti at incidunt.",
     "Deleted": false,
-    "Rank": 154,
-    "Type": "et",
-    "ColorBlock": 470,
-    "IconHint": "asperiores",
+    "Rank": 467,
+    "Type": "dolorum",
+    "ColorBlock": 907,
+    "IconHint": "nostrum",
     "Selected": false,
-    "LastChanged": "2006-12-27T16:32:48.8369917+01:00",
+    "LastChanged": "2006-09-20T17:54:08.9917951+02:00",
     "ChildItems": [
       {
-        "Id": 831,
-        "Name": "Kunde LLC",
-        "ToolTip": "Laborum sint quidem sunt sit.",
-        "Deleted": true,
-        "Rank": 243,
-        "Type": "provident",
-        "ColorBlock": 752,
-        "IconHint": "est",
+        "Id": 285,
+        "Name": "Kerluke Group",
+        "ToolTip": "Necessitatibus quibusdam officia aut.",
+        "Deleted": false,
+        "Rank": 268,
+        "Type": "ducimus",
+        "ColorBlock": 398,
+        "IconHint": "delectus",
         "Selected": false,
-        "LastChanged": "2013-02-04T16:32:48.8369917+01:00",
+        "LastChanged": "1998-11-16T17:54:08.9917951+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "perspiciatis",
-        "StyleHint": "eius",
+        "ExtraInfo": "perferendis",
+        "StyleHint": "optio",
         "Hidden": true,
-        "FullName": "Jennings Genoveva Johnston Jr."
+        "FullName": "Darion Hessel"
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "non",
+    "ExtraInfo": "adipisci",
+    "StyleHint": "rerum",
     "Hidden": false,
-    "FullName": "Rossie Kiara Oberbrunner I"
+    "FullName": "Dr. Anjali Lera Stracke"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 695,
-    "Name": "Conn, Schuppe and Bode",
-    "ToolTip": "Exercitationem facilis et quod vel incidunt hic.",
+    "Id": 213,
+    "Name": "Welch, Emard and Kuphal",
+    "ToolTip": "Eius animi aut ipsa magnam quas.",
     "Deleted": false,
-    "Rank": 256,
-    "Type": "corporis",
-    "ColorBlock": 88,
-    "IconHint": "natus",
-    "Selected": false,
-    "LastChanged": "2018-01-10T16:32:48.8369917+01:00",
+    "Rank": 148,
+    "Type": "amet",
+    "ColorBlock": 458,
+    "IconHint": "quo",
+    "Selected": true,
+    "LastChanged": "2005-12-26T17:54:08.9917951+01:00",
     "ChildItems": [
       {
-        "Id": 341,
-        "Name": "Trantow-Cremin",
-        "ToolTip": "Pariatur aut.",
-        "Deleted": true,
-        "Rank": 140,
-        "Type": "eaque",
-        "ColorBlock": 838,
-        "IconHint": "et",
+        "Id": 465,
+        "Name": "Daugherty, Schowalter and Jakubowski",
+        "ToolTip": "Ut suscipit iste voluptate sequi qui et sit.",
+        "Deleted": false,
+        "Rank": 877,
+        "Type": "possimus",
+        "ColorBlock": 422,
+        "IconHint": "voluptates",
         "Selected": false,
-        "LastChanged": "2002-08-26T16:32:48.8369917+02:00",
+        "LastChanged": "2000-02-20T17:54:08.9917951+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "aliquid",
-        "Hidden": true,
-        "FullName": "Miles Morissette",
+        "ExtraInfo": "officiis",
+        "StyleHint": "consequatur",
+        "Hidden": false,
+        "FullName": "Angus Turcotte",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 898
+            "FieldLength": 344
           }
         }
       }
     ],
-    "ExtraInfo": "ipsum",
-    "StyleHint": "sed",
+    "ExtraInfo": "delectus",
+    "StyleHint": "est",
     "Hidden": false,
-    "FullName": "Winston Armstrong Sr.",
+    "FullName": "Sigurd Hegmann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 592
+        "FieldLength": 342
       }
     }
   }

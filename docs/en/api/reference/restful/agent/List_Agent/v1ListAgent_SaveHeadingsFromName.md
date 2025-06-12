@@ -79,27 +79,27 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Quitzon Inc and Sons",
+  "Name": "Kohler Group",
   "Entities": [
     {
-      "HeadingId": 171,
-      "Name": "Douglas-Heathcote",
-      "Tooltip": "est",
+      "HeadingId": 943,
+      "Name": "Boyle-Larson",
+      "Tooltip": "ea",
       "Deleted": false,
-      "Rank": 14,
-      "UdListDefinitionId": 266
+      "Rank": 678,
+      "UdListDefinitionId": 754
     },
     {
-      "HeadingId": 171,
-      "Name": "Douglas-Heathcote",
-      "Tooltip": "est",
+      "HeadingId": 943,
+      "Name": "Boyle-Larson",
+      "Tooltip": "ea",
       "Deleted": false,
-      "Rank": 14,
-      "UdListDefinitionId": 266
+      "Rank": 678,
+      "UdListDefinitionId": 754
     }
   ]
 }
@@ -113,18 +113,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 695,
-    "Name": "Abshire-Graham",
-    "Tooltip": "voluptas",
+    "HeadingId": 220,
+    "Name": "Koss, Barton and Runolfsdottir",
+    "Tooltip": "neque",
     "Deleted": false,
-    "Rank": 861,
-    "UdListDefinitionId": 215,
+    "Rank": 554,
+    "UdListDefinitionId": 649,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 321
+        "FieldLength": 819
       }
     }
   }

@@ -69,7 +69,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Compatible web-enabled support",
+  "Description": "Ergonomic high-level hardware",
   "Image": "GIF89....File contents as raw bytes..."
 }
 ```

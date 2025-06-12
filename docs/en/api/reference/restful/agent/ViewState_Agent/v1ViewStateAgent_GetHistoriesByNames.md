@@ -79,13 +79,13 @@ OK
 POST /api/v1/Agents/ViewState/GetHistoriesByNames
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "HistoryNames": [
-    "McGlynn, Cassin and Dooley",
-    "Kemmer Group"
+    "Cronin LLC",
+    "Koelpin LLC"
   ]
 }
 ```
@@ -98,19 +98,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 671,
-    "Id": 636,
-    "HistoryName": "Hickle Inc and Sons",
-    "HistoryId": 728,
-    "AssociateId": 365,
-    "Name": "Beier Inc and Sons",
-    "ItemInfo": "odio",
+    "Rank": 87,
+    "Id": 487,
+    "HistoryName": "Hackett-Pouros",
+    "HistoryId": 901,
+    "AssociateId": 210,
+    "Name": "Gerhold-Schmeler",
+    "ItemInfo": "quia",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 224
+        "FieldLength": 924
       }
     }
   }

@@ -89,13 +89,13 @@ OK
 POST /api/v1/Agents/List/GetHeadings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 532,
-  "ListItemId": 542,
-  "ShowDeleted": true
+  "UdListDefinitionId": 844,
+  "ListItemId": 903,
+  "ShowDeleted": false
 }
 ```
 
@@ -107,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 330,
-    "Name": "Hessel, Herman and Jewess",
-    "ToolTip": "Inventore velit ex.",
+    "Id": 296,
+    "Name": "Herman LLC",
+    "ToolTip": "Velit voluptas nihil quod aut maxime quae quod.",
     "Deleted": false,
-    "Rank": 159,
-    "Type": "pariatur",
-    "ColorBlock": 798,
-    "IconHint": "veniam",
+    "Rank": 129,
+    "Type": "quia",
+    "ColorBlock": 102,
+    "IconHint": "iusto",
     "Selected": true,
-    "LastChanged": "2004-07-11T16:32:39.2582391+02:00",
+    "LastChanged": "2021-08-09T17:54:03.2108272+02:00",
     "ChildItems": [
       {
-        "Id": 989,
-        "Name": "Kulas, Will and Wehner",
-        "ToolTip": "Amet velit aut.",
+        "Id": 119,
+        "Name": "Schaefer, Koepp and Ebert",
+        "ToolTip": "Officiis aut fuga tenetur.",
         "Deleted": false,
-        "Rank": 915,
-        "Type": "nesciunt",
-        "ColorBlock": 423,
-        "IconHint": "magni",
+        "Rank": 934,
+        "Type": "voluptatibus",
+        "ColorBlock": 611,
+        "IconHint": "odio",
         "Selected": false,
-        "LastChanged": "2002-09-20T16:32:39.2582391+02:00",
+        "LastChanged": "2001-07-06T17:54:03.2108272+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptas",
-        "StyleHint": "dolores",
-        "Hidden": true,
-        "FullName": "Oceane Hansen",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "aut",
+        "Hidden": false,
+        "FullName": "Elvera Boyle",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 966
+            "FieldLength": 372
           }
         }
       }
     ],
-    "ExtraInfo": "quam",
-    "StyleHint": "et",
-    "Hidden": false,
-    "FullName": "Joe Bogan",
+    "ExtraInfo": "modi",
+    "StyleHint": "qui",
+    "Hidden": true,
+    "FullName": "Lonzo Blanda",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 270
+        "FieldLength": 469
       }
     }
   }

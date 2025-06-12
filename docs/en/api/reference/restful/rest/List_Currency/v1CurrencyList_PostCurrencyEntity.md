@@ -77,17 +77,17 @@ OK
 POST /api/v1/List/Currency/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 850,
-  "Name": "Ferry-Schiller",
-  "Tooltip": "ipsam",
-  "Rank": 594,
-  "Rate": 2272.15,
-  "Units": 11636.542,
-  "Deleted": false
+  "CurrencyId": 908,
+  "Name": "Stokes, Quigley and Mertz",
+  "Tooltip": "nisi",
+  "Rank": 90,
+  "Rate": 30086.399999999998,
+  "Units": 18409.115999999998,
+  "Deleted": true
 }
 ```
 
@@ -98,19 +98,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 49,
-  "Name": "Kilback Group",
-  "Tooltip": "consequuntur",
-  "Rank": 317,
-  "Rate": 714.552,
-  "Units": 15776.555999999999,
-  "Deleted": true,
+  "CurrencyId": 897,
+  "Name": "McDermott-Beatty",
+  "Tooltip": "explicabo",
+  "Rank": 927,
+  "Rate": 16832.714,
+  "Units": 8521.346,
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 54
+      "FieldLength": 7
     }
   }
 }

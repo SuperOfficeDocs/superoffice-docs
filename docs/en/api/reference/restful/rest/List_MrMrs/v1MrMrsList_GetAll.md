@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/MrMrs/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 435,
-    "Name": "Gulgowski, Hammes and O'Connell",
-    "Tooltip": "in",
+    "Id": 887,
+    "Name": "Raynor, Pfeffer and Roob",
+    "Tooltip": "deleniti",
     "Deleted": false,
-    "UdListDefinitionId": 682,
-    "Rank": 623,
+    "UdListDefinitionId": 467,
+    "Rank": 736,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 761
+        "FieldType": "System.Int32",
+        "FieldLength": 679
       }
     }
   }

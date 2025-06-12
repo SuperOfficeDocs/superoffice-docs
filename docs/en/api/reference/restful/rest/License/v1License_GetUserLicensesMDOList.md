@@ -69,7 +69,7 @@ OK
 GET /api/v1/License/User/MdoList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,56 +80,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 778,
-    "Name": "Hoeger-Klocko",
-    "ToolTip": "Placeat doloribus maxime quam enim eum.",
-    "Deleted": false,
-    "Rank": 446,
-    "Type": "officia",
-    "ColorBlock": 392,
-    "IconHint": "quis",
-    "Selected": false,
-    "LastChanged": "2015-08-16T16:32:48.3371075+02:00",
+    "Id": 981,
+    "Name": "Hills-Hackett",
+    "ToolTip": "Dolorem odit.",
+    "Deleted": true,
+    "Rank": 529,
+    "Type": "similique",
+    "ColorBlock": 760,
+    "IconHint": "qui",
+    "Selected": true,
+    "LastChanged": "2006-11-02T17:54:08.6949345+01:00",
     "ChildItems": [
       {
-        "Id": 774,
-        "Name": "Howell Inc and Sons",
-        "ToolTip": "Minima tenetur molestiae voluptatem omnis praesentium.",
+        "Id": 383,
+        "Name": "Wilkinson-Ebert",
+        "ToolTip": "Sed aut est necessitatibus sequi ex ad sed.",
         "Deleted": true,
-        "Rank": 638,
-        "Type": "ut",
-        "ColorBlock": 430,
-        "IconHint": "eius",
+        "Rank": 823,
+        "Type": "aut",
+        "ColorBlock": 57,
+        "IconHint": "sed",
         "Selected": false,
-        "LastChanged": "2009-07-08T16:32:48.3371075+02:00",
+        "LastChanged": "2017-11-26T17:54:08.6949345+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "fuga",
-        "StyleHint": "saepe",
-        "Hidden": false,
-        "FullName": "Miss Andrew Wiegand",
+        "ExtraInfo": "delectus",
+        "StyleHint": "laborum",
+        "Hidden": true,
+        "FullName": "Dr. Quinten Rempel Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 581
+            "FieldType": "System.String",
+            "FieldLength": 482
           }
         }
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "consequatur",
+    "ExtraInfo": "nemo",
+    "StyleHint": "cumque",
     "Hidden": false,
-    "FullName": "Novella Schaefer",
+    "FullName": "Maverick Schmidt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 322
+        "FieldLength": 807
       }
     }
   }

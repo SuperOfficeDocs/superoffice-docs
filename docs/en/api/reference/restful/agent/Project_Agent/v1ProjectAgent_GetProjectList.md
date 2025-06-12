@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Project/GetProjectList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -98,30 +98,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 363,
-    "Name": "Schaden Inc and Sons",
-    "Description": "Ameliorated needs-based array",
+    "ProjectId": 306,
+    "Name": "Schuster LLC",
+    "Description": "Adaptive background success",
     "URL": "http://www.example.com/",
-    "Type": "autem",
-    "AssociateId": 621,
-    "AssociateFullName": "Mr. Parker Wyman",
-    "TypeId": 578,
-    "Updated": "2008-07-01T16:32:39.6490177+02:00",
-    "StatusId": 837,
-    "Status": "et",
-    "TextId": 495,
-    "PublishTo": "2002-03-19T16:32:39.6490177+01:00",
-    "PublishFrom": "2004-05-19T16:32:39.6490177+02:00",
+    "Type": "aliquam",
+    "AssociateId": 29,
+    "AssociateFullName": "Ms. Julie Desmond Walker DDS",
+    "TypeId": 428,
+    "Updated": "2003-09-13T17:54:03.4920634+02:00",
+    "StatusId": 394,
+    "Status": "modi",
+    "TextId": 860,
+    "PublishTo": "2019-08-21T17:54:03.4920634+02:00",
+    "PublishFrom": "2024-01-11T17:54:03.4920634+01:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1027131",
-    "ActiveErpLinks": 858,
+    "ProjectNumber": "750903",
+    "ActiveErpLinks": 108,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 701
+        "FieldType": "System.Int32",
+        "FieldLength": 8
       }
     }
   }

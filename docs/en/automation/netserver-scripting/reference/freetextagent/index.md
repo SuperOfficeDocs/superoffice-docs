@@ -12,15 +12,10 @@ so.envir: onsite
 
 Service methods defined on <see cref='T:IFreeTextAgent'>FreeTextAgent</see> that can trigger server-side event scripts.
 
-* [AddWords](addwords.md)
-* [DeleteStopWordsById](deletestopwordsbyid.md)
-* [FreetextIndexRows](freetextindexrows.md)
-* [GetStatus](getstatus.md)
-* [GetStopWordList](getstopwordlist.md)
-* [GetSuggestedStopWords](getsuggestedstopwords.md)
-* [RegenerateIndex](regenerateindex.md)
-* [SetAutoEnableTravelAreas](setautoenabletravelareas.md)
-* [SetEnabled](setenabled.md)
-* [SetMultiWordOperator](setmultiwordoperator.md)
-* [SetSingleWordOperator](setsinglewordoperator.md)
+* [FreetextIndexRowsAsync](freetextindexrowsasync.md)
+* [GetStatusAsync](getstatusasync.md)
+* [RegenerateIndexAsync](regenerateindexasync.md)
+* [SetEnabledAsync](setenabledasync.md)
+* [SetMultiWordOperatorAsync](setmultiwordoperatorasync.md)
+* [SetSingleWordOperatorAsync](setsinglewordoperatorasync.md)
 

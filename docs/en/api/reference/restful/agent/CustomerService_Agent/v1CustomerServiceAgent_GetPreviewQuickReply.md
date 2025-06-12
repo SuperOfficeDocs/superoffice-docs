@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/CustomerService/GetPreviewQuickReply
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuickReplyId": 328
+  "QuickReplyId": 741
 }
 ```
 
@@ -91,16 +91,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Kunde-Hilll",
-  "UpdatedByFullName": "Marvin Ullrich",
-  "Updated": "2012-04-14T16:32:38.5865163+02:00",
-  "HtmlBody": "voluptatum",
+  "Name": "Cartwright Group",
+  "UpdatedByFullName": "Aron Corwin",
+  "Updated": "2005-12-20T17:54:02.9295831+01:00",
+  "HtmlBody": "qui",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 417
+      "FieldLength": 413
     }
   }
 }

@@ -82,18 +82,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Bins Inc and Sons",
-  "DisplayName": "Thompson-Crona",
-  "Description": "Stand-alone neutral superstructure",
-  "ShortLabel": "corrupti",
-  "HideLabel": false,
+  "FieldName": "D'Amore, Pouros and Ferry",
+  "DisplayName": "Nikolaus-Reinger",
+  "Description": "Optional static benchmark",
+  "ShortLabel": "illo",
+  "HideLabel": true,
   "HideField": false,
-  "IsIndexed": false,
+  "IsIndexed": true,
   "IsMandatory": false,
-  "IsReadOnly": false,
+  "IsReadOnly": true,
   "IsExternal": false,
   "IsDisplayField": true,
-  "Rank": 55,
-  "TemplateVariableName": "Howe Inc and Sons"
+  "Rank": 190,
+  "TemplateVariableName": "Lehner-Rohan"
 }
 ```

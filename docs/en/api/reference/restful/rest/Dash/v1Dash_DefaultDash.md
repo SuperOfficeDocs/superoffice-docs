@@ -79,37 +79,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 641,
-  "UniqueId": "sed",
-  "Name": "Hickle, Reilly and Dicki",
-  "Description": "Managed zero defect project",
-  "AssociateId": 413,
-  "Columns": 545,
+  "DashboardId": 863,
+  "UniqueId": "sint",
+  "Name": "Bayer LLC",
+  "Description": "Mandatory solution-oriented hub",
+  "AssociateId": 197,
+  "Columns": 779,
   "Theme": null,
-  "VisibleForAll": 811,
+  "VisibleForAll": 450,
   "VisibleForAssociates": [
-    891,
-    507
+    63,
+    972
   ],
   "VisibleForGroups": [
-    384,
-    774
+    831,
+    985
   ],
-  "PinForAll": 227,
+  "PinForAll": 530,
   "PinForAssociates": [
-    177,
-    902
+    102,
+    280
   ],
   "PinForGroups": [
-    978,
-    233
+    158,
+    982
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 198
+      "FieldLength": 128
     }
   }
 }

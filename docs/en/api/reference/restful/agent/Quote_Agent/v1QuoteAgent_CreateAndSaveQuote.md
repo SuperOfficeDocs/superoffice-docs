@@ -87,13 +87,13 @@ OK
 POST /api/v1/Agents/Quote/CreateAndSaveQuote
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 924,
-  "ConnectionId": 208,
-  "FirstAlternativeName": "Batz-Bashirian"
+  "SaleId": 2,
+  "ConnectionId": 502,
+  "FirstAlternativeName": "Bergnaum, Bartoletti and Batz"
 }
 ```
 
@@ -104,58 +104,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 673,
-  "SaleId": 853,
-  "QuoteConnectionId": 596,
-  "ERPQuoteKey": "sit",
-  "ERPOrderKey": "quia",
-  "ActiveQuoteVersionId": 440,
-  "AcceptedQuoteAlternativeId": 649,
-  "UseValuesFromQuote": 922,
-  "DocumentId": 389,
-  "PoNumber": "1067621",
-  "OrderComment": "laboriosam",
-  "PreferredEmailCulture": "ken@lindgren.ca",
+  "QuoteId": 180,
+  "SaleId": 920,
+  "QuoteConnectionId": 945,
+  "ERPQuoteKey": "sint",
+  "ERPOrderKey": "eaque",
+  "ActiveQuoteVersionId": 516,
+  "AcceptedQuoteAlternativeId": 738,
+  "UseValuesFromQuote": 658,
+  "DocumentId": 387,
+  "PoNumber": "753607",
+  "OrderComment": "blanditiis",
+  "PreferredEmailCulture": "bettie@shanahan.us",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 7,
-      "ERPQuoteVersionKey": "et",
-      "QuoteId": 944,
-      "Description": "Visionary needs-based core",
-      "Number": "1076805",
+      "QuoteVersionId": 424,
+      "ERPQuoteVersionKey": "cum",
+      "QuoteId": 603,
+      "Description": "Diverse heuristic array",
+      "Number": "1647575",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 594,
-      "SentDate": "2019-02-08T16:32:39.74275+01:00",
-      "FollowupId": 371,
-      "ExpirationDate": "2019-04-23T16:32:39.74275+02:00",
-      "DeliveryCountryId": 534,
+      "LikelyQuoteAlternativeId": 859,
+      "SentDate": "2010-10-08T17:54:03.5233118+02:00",
+      "FollowupId": 178,
+      "ExpirationDate": "2020-06-22T17:54:03.5233118+02:00",
+      "DeliveryCountryId": 442,
       "HasOwnDeliveryAddress": false,
-      "InvoiceCountryId": 838,
-      "HasOwnInvoiceAddress": true,
-      "ERPPaymentTermsKey": "voluptate",
+      "InvoiceCountryId": 621,
+      "HasOwnInvoiceAddress": false,
+      "ERPPaymentTermsKey": "voluptatem",
       "ERPPaymentTypeKey": "ut",
-      "ERPDeliveryTermsKey": "ea",
-      "ERPDeliveryTypeKey": "dolorem",
-      "Rank": 57,
-      "ApprovedBy": 959,
-      "ApprovedText": "voluptatem",
-      "ApprovedRegisteredBy": 680,
-      "ApprovedRegisteredDate": "2012-06-21T16:32:39.74275+02:00",
-      "ExtraField1": "delectus",
-      "ExtraField2": "sequi",
-      "ExtraField3": "eos",
-      "ExtraField4": "veritatis",
-      "ExtraField5": "aut",
-      "LastRecalculated": "2022-08-18T16:32:39.74275+02:00",
-      "Updated": "1998-02-15T16:32:39.74275+01:00",
-      "UpdatedAssociateId": 610,
-      "Registered": "2011-12-27T16:32:39.74275+01:00",
-      "RegisteredAssociateId": 829,
-      "RequestAssociateId": 431,
-      "RequestComment": "optio",
+      "ERPDeliveryTermsKey": "ex",
+      "ERPDeliveryTypeKey": "accusantium",
+      "Rank": 250,
+      "ApprovedBy": 579,
+      "ApprovedText": "nulla",
+      "ApprovedRegisteredBy": 916,
+      "ApprovedRegisteredDate": "2004-04-29T17:54:03.5389365+02:00",
+      "ExtraField1": "ad",
+      "ExtraField2": "ipsum",
+      "ExtraField3": "porro",
+      "ExtraField4": "blanditiis",
+      "ExtraField5": "ipsam",
+      "LastRecalculated": "2015-09-26T17:54:03.5389365+02:00",
+      "Updated": "2004-06-23T17:54:03.5389365+02:00",
+      "UpdatedAssociateId": 977,
+      "Registered": "2022-02-19T17:54:03.5389365+01:00",
+      "RegisteredAssociateId": 261,
+      "RequestAssociateId": 497,
+      "RequestComment": "voluptas",
       "QuoteAlternatives": [
         {},
         {}
@@ -164,8 +164,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 690
+          "FieldType": "System.Int32",
+          "FieldLength": 470
         }
       }
     }
@@ -175,7 +175,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 679
+      "FieldLength": 52
     }
   }
 }

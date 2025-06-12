@@ -77,7 +77,7 @@ OK
 GET /api/v1/PreferenceDescription/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,30 +87,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 961,
-  "Section": "et",
-  "Key": "non",
-  "Name": "Schaden LLC",
+  "PrefDescId": 373,
+  "Section": "suscipit",
+  "Key": "laborum",
+  "Name": "Bergnaum-Paucek",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Cloned tangible task-force",
-  "IsBuiltin": true,
-  "TableName": "Predovic, Kunde and Kohler",
-  "UserDefinedListId": 188,
-  "Rank": 477,
-  "SubGroup": "qui",
-  "MinLevel": 173,
-  "MaxValue": 664,
-  "MinValue": 451,
-  "RequiredLicense": "aspernatur",
+  "Description": "Innovative secondary matrices",
+  "IsBuiltin": false,
+  "TableName": "McClure Group",
+  "UserDefinedListId": 95,
+  "Rank": 909,
+  "SubGroup": "voluptates",
+  "MinLevel": 156,
+  "MaxValue": 915,
+  "MinValue": 473,
+  "RequiredLicense": "consequatur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 172
+      "FieldLength": 23
     }
   }
 }

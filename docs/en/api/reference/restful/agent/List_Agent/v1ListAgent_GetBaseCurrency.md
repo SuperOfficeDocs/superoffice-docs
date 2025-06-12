@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/List/GetBaseCurrency
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,19 +81,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 789,
-  "Name": "Howell Group",
-  "Tooltip": "vel",
-  "Rank": 123,
-  "Rate": 9311.114,
-  "Units": 23997.038,
+  "CurrencyId": 313,
+  "Name": "Stehr Inc and Sons",
+  "Tooltip": "vero",
+  "Rank": 355,
+  "Rate": 7236.406,
+  "Units": 31158.228,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 218
+      "FieldLength": 983
     }
   }
 }

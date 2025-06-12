@@ -77,25 +77,25 @@ OK
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 480,
+  "SelectionId": 221,
   "Criteria": [
     {
-      "Name": "Mills-O'Hara",
-      "Description": "Exclusive homogeneous methodology",
-      "Rank": 591,
+      "Name": "Keebler-Kreiger",
+      "Description": "Mandatory neutral approach",
+      "Rank": 875,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Mills-O'Hara",
-      "Description": "Exclusive homogeneous methodology",
-      "Rank": 591,
+      "Name": "Keebler-Kreiger",
+      "Description": "Mandatory neutral approach",
+      "Rank": 875,
       "Restrictions": [
         {},
         {}
@@ -113,58 +113,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Murazik, Keeling and Treutel",
-    "Description": "Compatible uniform framework",
-    "Rank": 152,
+    "Name": "Sauer, Terry and Leannon",
+    "Description": "User-friendly content-based approach",
+    "Rank": 265,
     "Restrictions": [
       {
-        "Name": "Jones, Botsford and Cartwright",
-        "Operator": "deserunt",
+        "Name": "Donnelly, Dietrich and Hoeger",
+        "Operator": "officia",
         "Values": [
-          "omnis",
-          "laudantium"
+          "quo",
+          "enim"
         ],
         "DisplayValues": [
-          "accusantium",
-          "rerum"
+          "quis",
+          "sed"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 826,
+        "InterParenthesis": 520,
         "InterOperator": "And",
-        "UniqueHash": 881
+        "UniqueHash": 852
       }
     ]
   },
   {
-    "Name": "Murazik, Keeling and Treutel",
-    "Description": "Compatible uniform framework",
-    "Rank": 152,
+    "Name": "Sauer, Terry and Leannon",
+    "Description": "User-friendly content-based approach",
+    "Rank": 265,
     "Restrictions": [
       {
-        "Name": "Jones, Botsford and Cartwright",
-        "Operator": "deserunt",
+        "Name": "Donnelly, Dietrich and Hoeger",
+        "Operator": "officia",
         "Values": [
-          "omnis",
-          "laudantium"
+          "quo",
+          "enim"
         ],
         "DisplayValues": [
-          "accusantium",
-          "rerum"
+          "quis",
+          "sed"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 826,
+        "InterParenthesis": 520,
         "InterOperator": "And",
-        "UniqueHash": 881
+        "UniqueHash": 852
       }
     ]
   }

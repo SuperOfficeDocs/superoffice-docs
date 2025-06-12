@@ -26,7 +26,7 @@ Gets a SelectionEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Selection/GetSelectionEntity?selectionEntityId=894
+POST /api/v1/Agents/Selection/GetSelectionEntity?selectionEntityId=298
 POST /api/v1/Agents/Selection/GetSelectionEntity?$select=name,department,category/id
 ```
 
@@ -107,7 +107,7 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -117,70 +117,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Multi-layered heuristic website",
-  "Postit": "sequi",
+  "Description": "Advanced analyzing neural-net",
+  "Postit": "molestiae",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 553,
-  "IncludePerson": 666,
+  "GroupIdx": 664,
+  "IncludePerson": 598,
   "MemberCount": 99.99,
-  "Name": "Schuster, Hegmann and Robel",
-  "PostitTextId": 333,
-  "CreatedDate": "2010-04-19T16:32:39.8833385+02:00",
-  "SelectionId": 606,
-  "SoundEx": "libero",
-  "Source": 919,
-  "TextId": 446,
-  "UpdatedDate": "2006-02-28T16:32:39.8833385+01:00",
-  "UpdatedCount": 577,
-  "Visibility": 764,
+  "Name": "Jenkins-Wehner",
+  "PostitTextId": 339,
+  "CreatedDate": "2009-07-01T17:54:03.6014331+02:00",
+  "SelectionId": 575,
+  "SoundEx": "ut",
+  "Source": 660,
+  "TextId": 146,
+  "UpdatedDate": "1999-08-25T17:54:03.6014331+02:00",
+  "UpdatedCount": 102,
+  "Visibility": 914,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 896,
-  "TargetTableName": "Mills LLC",
+  "CompanyUnique": false,
+  "TargetTableNumber": 895,
+  "TargetTableName": "Boyer LLC",
   "Completed": false,
-  "LeftSelectionId": 179,
-  "RightSelectionId": 47,
+  "LeftSelectionId": 994,
+  "RightSelectionId": 458,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Murazik, Murray and Kertzmann",
-  "ShadowProviderName": "Gorczany-Cruickshank",
-  "ChartKey": "quia",
-  "LastLoaded": "2005-05-18T16:32:39.8833385+02:00",
-  "LastLoadedBy": 380,
+  "MainProviderName": "Predovic-Kihn",
+  "ShadowProviderName": "Cremin, Boehm and Witting",
+  "ChartKey": "suscipit",
+  "LastLoaded": "2019-03-17T17:54:03.6014331+01:00",
+  "LastLoadedBy": 31,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2019-05-09T16:32:39.8833385+02:00",
-  "LastMembershipChangeBy": 770,
+  "LastMembershipChange": "2018-05-15T17:54:03.6014331+02:00",
+  "LastMembershipChangeBy": 387,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "facere",
-  "MemberTabHeading": "aliquam",
-  "MailingsProviderName": "Gerlach, Carroll and Goyette",
-  "DashboardTileDefinitionId": 570,
+  "MainHeading": "eos",
+  "MemberTabHeading": "adipisci",
+  "MailingsProviderName": "Streich Inc and Sons",
+  "DashboardTileDefinitionId": 50,
   "VisibleFor": [
     {
-      "VisibleId": 411,
+      "VisibleId": 247,
       "Visibility": "All",
-      "DisplayValue": "voluptatem",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 589
+          "FieldLength": 128
         }
       }
     },
     {
-      "VisibleId": 411,
+      "VisibleId": 247,
       "Visibility": "All",
-      "DisplayValue": "voluptatem",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 589
+          "FieldLength": 128
         }
       }
     }
@@ -190,7 +190,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 623
+      "FieldLength": 481
     }
   }
 }

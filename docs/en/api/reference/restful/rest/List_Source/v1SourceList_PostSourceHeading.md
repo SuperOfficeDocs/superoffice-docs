@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Source/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 430,
-  "Name": "Stanton Group",
-  "Tooltip": "deleniti",
-  "Deleted": false,
-  "Rank": 239,
-  "UdListDefinitionId": 806
+  "HeadingId": 862,
+  "Name": "Ebert, Russel and Bartoletti",
+  "Tooltip": "recusandae",
+  "Deleted": true,
+  "Rank": 769,
+  "UdListDefinitionId": 553
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 557,
-  "Name": "Nader LLC",
-  "Tooltip": "enim",
+  "HeadingId": 466,
+  "Name": "Nienow-Feeney",
+  "Tooltip": "rerum",
   "Deleted": true,
-  "Rank": 513,
-  "UdListDefinitionId": 772,
+  "Rank": 779,
+  "UdListDefinitionId": 224,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 619
+      "FieldType": "System.String",
+      "FieldLength": 21
     }
   }
 }

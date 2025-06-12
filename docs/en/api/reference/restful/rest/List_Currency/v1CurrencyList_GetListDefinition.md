@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 673,
-  "Name": "Feil LLC",
-  "Tooltip": "nemo",
-  "Deleted": false,
-  "Rank": 263,
+  "Id": 728,
+  "Name": "Boyle Group",
+  "Tooltip": "optio",
+  "Deleted": true,
+  "Rank": 144,
   "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "perspiciatis",
+  "ListType": "ducimus",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 338
+      "FieldLength": 519
     }
   },
   "_Links": {

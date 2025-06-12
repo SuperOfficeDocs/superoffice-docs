@@ -68,7 +68,7 @@ OK
 GET /api/v1/Appointment/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,19 +80,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Rice Inc and Sons",
-    "DisplayName": "Bode, Hayes and Volkman",
-    "Description": "Managed coherent Graphic Interface",
-    "ShortLabel": "iure",
+    "FieldName": "O'Conner, Bednar and Tromp",
+    "DisplayName": "Gutkowski LLC",
+    "Description": "Devolved background process improvement",
+    "ShortLabel": "blanditiis",
     "HideLabel": false,
-    "HideField": false,
-    "IsIndexed": true,
-    "IsMandatory": false,
+    "HideField": true,
+    "IsIndexed": false,
+    "IsMandatory": true,
     "IsReadOnly": false,
     "IsExternal": false,
-    "IsDisplayField": true,
-    "Rank": 281,
-    "TemplateVariableName": "Ledner LLC"
+    "IsDisplayField": false,
+    "Rank": 1000,
+    "TemplateVariableName": "Upton Group"
   }
 ]
 ```

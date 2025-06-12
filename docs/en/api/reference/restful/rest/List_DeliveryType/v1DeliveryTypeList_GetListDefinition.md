@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/DeliveryType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 258,
-  "Name": "Torp, Rogahn and Schamberger",
-  "Tooltip": "enim",
-  "Deleted": true,
-  "Rank": 189,
-  "IsCustomList": true,
+  "Id": 95,
+  "Name": "King-Towne",
+  "Tooltip": "cumque",
+  "Deleted": false,
+  "Rank": 2,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "veritatis",
+  "ListType": "enim",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 450
+      "FieldLength": 682
     }
   },
   "_Links": {

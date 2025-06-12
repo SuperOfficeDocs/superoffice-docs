@@ -30,7 +30,7 @@ Get a hierarchy item from a path
 | children | bool |  Include sub-items? |
 
 ```http
-GET /api/v1/Hierarchy/{domain}/{path}?children=False
+GET /api/v1/Hierarchy/{domain}/{path}?children=True
 ```
 
 
@@ -89,46 +89,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 320,
+  "HierarchyId": 709,
   "Domain": "Dashboards",
-  "Name": "Larkin-Hagenes",
-  "Fullname": "sit",
-  "ParentId": 19,
+  "Name": "Bashirian Group",
+  "Fullname": "iure",
+  "ParentId": 696,
   "Children": [
     {
-      "HierarchyId": 433,
+      "HierarchyId": 854,
       "Domain": "Dashboards",
-      "Name": "Zulauf-Hayes",
-      "Fullname": "ea",
-      "ParentId": 913,
+      "Name": "Rohan Inc and Sons",
+      "Fullname": "deleniti",
+      "ParentId": 824,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2013-09-04T16:32:47.5558268+02:00",
-      "RegisteredAssociateId": 479,
-      "Updated": "2014-08-22T16:32:47.5558268+02:00",
-      "UpdatedAssociateId": 429,
+      "Registered": "2011-06-18T17:54:08.2574567+02:00",
+      "RegisteredAssociateId": 573,
+      "Updated": "2015-01-24T17:54:08.2574567+01:00",
+      "UpdatedAssociateId": 606,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 899
+          "FieldType": "System.String",
+          "FieldLength": 837
         }
       }
     }
   ],
-  "Registered": "2004-04-24T16:32:47.5558268+02:00",
-  "RegisteredAssociateId": 655,
-  "Updated": "2003-06-23T16:32:47.5558268+02:00",
-  "UpdatedAssociateId": 120,
+  "Registered": "2014-12-12T17:54:08.2574567+01:00",
+  "RegisteredAssociateId": 317,
+  "Updated": "2008-03-02T17:54:08.2574567+01:00",
+  "UpdatedAssociateId": 264,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 35
+      "FieldLength": 567
     }
   }
 }

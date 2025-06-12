@@ -83,7 +83,7 @@ OK
 GET /api/v1/List/SaleType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -93,53 +93,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 629,
-  "Name": "Hills-Tremblay",
-  "Tooltip": "veritatis",
-  "Rank": 93,
+  "SaleTypeId": 545,
+  "Name": "Hessel-Powlowski",
+  "Tooltip": "voluptatem",
+  "Rank": 707,
   "DurationUnit": "Century",
-  "SaleDuration": 712,
-  "SaleTypeCatId": 451,
+  "SaleDuration": 192,
+  "SaleTypeCatId": 868,
   "Deleted": true,
   "HasGuide": false,
-  "HasStakeholders": true,
-  "IsAutoAdvance": true,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 225,
-  "QuoteLinesTemplate": 300,
-  "ConfirmationLinesTemplate": 564,
+  "HasStakeholders": false,
+  "IsAutoAdvance": false,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 801,
+  "QuoteLinesTemplate": 669,
+  "ConfirmationLinesTemplate": 476,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 772,
-  "MinEarningPercent": 80,
-  "GroupQuoteLinesBy": 726,
-  "SortGroupLinesBy": 45,
+  "MaxDiscountPercent": 115,
+  "MinEarningPercent": 903,
+  "GroupQuoteLinesBy": 804,
+  "SortGroupLinesBy": 546,
   "Stages": [
     {
-      "Id": 215,
-      "Name": "Carroll Group",
-      "ToolTip": "Sequi pariatur.",
+      "Id": 656,
+      "Name": "Bayer, Wintheiser and Jaskolski",
+      "ToolTip": "Non facere.",
       "Deleted": false,
-      "Rank": 618,
-      "Type": "impedit",
-      "ColorBlock": 51,
-      "IconHint": "cum",
+      "Rank": 696,
+      "Type": "eum",
+      "ColorBlock": 527,
+      "IconHint": "ullam",
       "Selected": false,
-      "LastChanged": "2001-01-24T16:32:48.946344+01:00",
+      "LastChanged": "2018-05-11T17:54:09.1011806+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ipsam",
-      "StyleHint": "voluptatibus",
-      "Hidden": true,
-      "FullName": "Dr. Katlyn Kristy Haag",
+      "ExtraInfo": "tempore",
+      "StyleHint": "dolores",
+      "Hidden": false,
+      "FullName": "Alec Mayert",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 163
+          "FieldLength": 989
         }
       }
     }
@@ -148,8 +148,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 270
+      "FieldType": "System.String",
+      "FieldLength": 431
     }
   }
 }

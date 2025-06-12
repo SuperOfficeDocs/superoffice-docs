@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/SelectionCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 948,
-  "Name": "Buckridge Group",
-  "Tooltip": "aperiam",
-  "Deleted": true,
-  "UdListDefinitionId": 441,
-  "Rank": 681
+  "Id": 211,
+  "Name": "Ortiz Group",
+  "Tooltip": "nisi",
+  "Deleted": false,
+  "UdListDefinitionId": 880,
+  "Rank": 562
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 809,
-  "Name": "Zulauf, Lebsack and Gislason",
-  "Tooltip": "in",
+  "Id": 588,
+  "Name": "Keebler, Greenholt and Cummerata",
+  "Tooltip": "ea",
   "Deleted": false,
-  "UdListDefinitionId": 729,
-  "Rank": 455,
+  "UdListDefinitionId": 836,
+  "Rank": 277,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 199
+      "FieldLength": 179
     }
   }
 }

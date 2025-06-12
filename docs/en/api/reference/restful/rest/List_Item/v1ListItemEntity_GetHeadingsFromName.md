@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/{name}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 770,
-    "Name": "Schulist Inc and Sons",
-    "Tooltip": "rerum",
+    "HeadingId": 517,
+    "Name": "Ziemann-Dietrich",
+    "Tooltip": "occaecati",
     "Deleted": false,
-    "Rank": 825,
-    "UdListDefinitionId": 804,
+    "Rank": 140,
+    "UdListDefinitionId": 165,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 590
+        "FieldLength": 811
       }
     }
   }

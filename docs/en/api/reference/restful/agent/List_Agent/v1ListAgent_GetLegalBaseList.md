@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/List/GetLegalBaseList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,18 +86,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 373,
-    "Name": "Tillman-Koch",
-    "Tooltip": "quo",
-    "Rank": 454,
-    "Key": "est",
-    "Deleted": false,
+    "LegalBaseId": 998,
+    "Name": "Hilpert, Emmerich and Grimes",
+    "Tooltip": "quos",
+    "Rank": 265,
+    "Key": "recusandae",
+    "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 985
+        "FieldLength": 241
       }
     }
   }

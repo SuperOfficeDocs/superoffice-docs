@@ -143,37 +143,37 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 954,
-  "Name": "Metz Group",
-  "Description": "Reverse-engineered full-range algorithm",
-  "WelcomeMessage": "eum",
+  "ChatTopicId": 123,
+  "Name": "Schuppe-Bashirian",
+  "Description": "Compatible intermediate emulation",
+  "WelcomeMessage": "velit",
   "Language": null,
-  "LastAccept": "2021-06-04T16:32:47.2430089+02:00",
-  "SecondsPrAccept": 646,
-  "AlertRecipient": "explicabo",
+  "LastAccept": "2023-12-22T17:54:08.0543344+01:00",
+  "SecondsPrAccept": 984,
+  "AlertRecipient": "aut",
   "AlertTemplate": null,
-  "CollectConsent": true,
-  "BadgeHeader": "assumenda",
-  "CustomQueueTextEnabled": true,
-  "CustomQueueText": "ratione",
-  "WarnNewChatMinutes": 722,
-  "WarnManagerNewChatMinutes": 764,
+  "CollectConsent": false,
+  "BadgeHeader": "qui",
+  "CustomQueueTextEnabled": false,
+  "CustomQueueText": "illo",
+  "WarnNewChatMinutes": 464,
+  "WarnManagerNewChatMinutes": 772,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": true,
+  "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 982,
-  "WarnManagerChatMessageMinutes": 723,
-  "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 909,
-  "OfflineFormQueueLength": 875,
-  "WidgetEnableRating": false,
-  "WidgetRatingText": "architecto"
+  "WarnChatMessageMinutes": 379,
+  "WarnManagerChatMessageMinutes": 435,
+  "UseQueueOfflineForm": false,
+  "OfflineFormTimeLimit": 308,
+  "OfflineFormQueueLength": 737,
+  "WidgetEnableRating": true,
+  "WidgetRatingText": "dolorem"
 }
 ```
 
@@ -184,21 +184,21 @@ HTTP/1.1 200 ChatTopicEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 988,
-  "Name": "Wilderman-Kemmer",
-  "Description": "Organized responsive local area network",
-  "WelcomeMessage": "aut",
+  "ChatTopicId": 737,
+  "Name": "Mosciski Group",
+  "Description": "Open-architected needs-based knowledge user",
+  "WelcomeMessage": "ad",
   "Language": null,
-  "LastAccept": "2025-02-13T16:32:47.2430089+01:00",
-  "SecondsPrAccept": 455,
-  "AlertRecipient": "inventore",
+  "LastAccept": "2005-11-08T17:54:08.0543344+01:00",
+  "SecondsPrAccept": 818,
+  "AlertRecipient": "aspernatur",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "quaerat",
+  "BadgeHeader": "nam",
   "CustomQueueTextEnabled": true,
-  "CustomQueueText": "iusto",
-  "WarnNewChatMinutes": 162,
-  "WarnManagerNewChatMinutes": 171,
+  "CustomQueueText": "et",
+  "WarnNewChatMinutes": 884,
+  "WarnManagerNewChatMinutes": 636,
   "TicketEnabled": true,
   "TicketCategory": null,
   "TicketPriority": null,
@@ -208,24 +208,24 @@ Content-Type: application/json; charset=utf-8
   "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 284,
-  "WarnManagerChatMessageMinutes": 467,
-  "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 958,
-  "OfflineFormQueueLength": 536,
+  "WarnChatMessageMinutes": 542,
+  "WarnManagerChatMessageMinutes": 21,
+  "UseQueueOfflineForm": true,
+  "OfflineFormTimeLimit": 311,
+  "OfflineFormQueueLength": 493,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "et",
+  "WidgetRatingText": "est",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 29
+      "FieldLength": 943
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

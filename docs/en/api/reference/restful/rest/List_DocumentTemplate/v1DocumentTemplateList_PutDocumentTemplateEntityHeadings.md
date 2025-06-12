@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/DocumentTemplate/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 986,
-    "Name": "Ullrich, Gaylord and McGlynn",
-    "Tooltip": "eius",
-    "Deleted": true,
-    "Rank": 617,
-    "UdListDefinitionId": 840
+    "HeadingId": 229,
+    "Name": "Rempel, Cruickshank and Berge",
+    "Tooltip": "dolorem",
+    "Deleted": false,
+    "Rank": 465,
+    "UdListDefinitionId": 532
   },
   {
-    "HeadingId": 986,
-    "Name": "Ullrich, Gaylord and McGlynn",
-    "Tooltip": "eius",
-    "Deleted": true,
-    "Rank": 617,
-    "UdListDefinitionId": 840
+    "HeadingId": 229,
+    "Name": "Rempel, Cruickshank and Berge",
+    "Tooltip": "dolorem",
+    "Deleted": false,
+    "Rank": 465,
+    "UdListDefinitionId": 532
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 602,
-    "Name": "Walsh Group",
-    "Tooltip": "esse",
+    "HeadingId": 26,
+    "Name": "Kuhlman-West",
+    "Tooltip": "recusandae",
     "Deleted": true,
-    "Rank": 205,
-    "UdListDefinitionId": 293,
+    "Rank": 599,
+    "UdListDefinitionId": 476,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 790
+        "FieldLength": 892
       }
     }
   }

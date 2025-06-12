@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Rating/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 102,
-    "Name": "Berge LLC",
-    "ToolTip": "Et maiores porro est autem.",
-    "Deleted": true,
-    "Rank": 693,
-    "Type": "voluptatibus",
-    "ColorBlock": 609,
-    "IconHint": "suscipit",
-    "Selected": false,
-    "LastChanged": "2022-07-24T16:32:48.8838567+02:00",
+    "Id": 745,
+    "Name": "Towne-Connelly",
+    "ToolTip": "Et itaque.",
+    "Deleted": false,
+    "Rank": 933,
+    "Type": "fugiat",
+    "ColorBlock": 830,
+    "IconHint": "iste",
+    "Selected": true,
+    "LastChanged": "2020-01-11T17:54:09.0858036+01:00",
     "ChildItems": [
       {
-        "Id": 61,
-        "Name": "Walker-Dickens",
-        "ToolTip": "Fugit maiores facilis ipsum et.",
+        "Id": 452,
+        "Name": "Robel LLC",
+        "ToolTip": "Explicabo corrupti possimus eum consequatur.",
         "Deleted": true,
-        "Rank": 858,
-        "Type": "officiis",
-        "ColorBlock": 939,
-        "IconHint": "repellat",
+        "Rank": 688,
+        "Type": "et",
+        "ColorBlock": 17,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2021-08-24T16:32:48.8838567+02:00",
+        "LastChanged": "2022-09-30T17:54:09.0858036+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "beatae",
+        "ExtraInfo": "sunt",
+        "StyleHint": "optio",
         "Hidden": false,
-        "FullName": "Lexie Rogahn DDS",
+        "FullName": "Theron Kessler",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 568
+            "FieldLength": 652
           }
         }
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "suscipit",
+    "ExtraInfo": "voluptas",
+    "StyleHint": "quia",
     "Hidden": false,
-    "FullName": "Mr. Frederik Uriah Hand",
+    "FullName": "Arnoldo Beatty",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 355
+        "FieldLength": 536
       }
     }
   }

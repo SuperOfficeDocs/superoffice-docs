@@ -77,6 +77,7 @@ This is the archive Provider for the Product Archive is SoAdmin.
 |document/associate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |document/associate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |document/associate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|document/associate/usergroupId|int|Group ID: The user's primary user group| x |
 |document/associate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |document/associate/contactCategory|listAny|Category: Category| x |
 |document/associate/role|listAny|Role : Role| x |
@@ -111,7 +112,7 @@ This is the archive Provider for the Product Archive is SoAdmin.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleTypeQuoteAttachment?$select=document/documentId,document/yourref,document/documentPublish/publishedBy
+GET /api/v1/archive/SaleTypeQuoteAttachment?$select=document/associate/locationAddress,document/documentUdef/SuperOffice:1,document/yourref
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

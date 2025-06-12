@@ -32,8 +32,8 @@ Check in a currently checked-out document
 
 ```http
 PUT /api/v1/Document/{documentId}/Lock?allowedReturnTypes=Message
-PUT /api/v1/Document/{documentId}/Lock?versionDescription=Expanded actuating conglomeration
-PUT /api/v1/Document/{documentId}/Lock?versionExtraFields=molestiae,eveniet
+PUT /api/v1/Document/{documentId}/Lock?versionDescription=Multi-layered tertiary infrastructure
+PUT /api/v1/Document/{documentId}/Lock?versionExtraFields=ad,dolorum
 ```
 
 
@@ -76,7 +76,7 @@ OK
 PUT /api/v1/Document/{documentId}/Lock
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,11 +86,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "sequi",
-  "VersionId": "eos",
+  "ExternalReference": "unde",
+  "VersionId": "quis",
   "Success": false,
   "Type": "CustomGui",
-  "Value": "dolorum",
-  "AdditionalInfo": "minus"
+  "Value": "et",
+  "AdditionalInfo": "quaerat"
 }
 ```

@@ -129,12 +129,12 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentRecords
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MotherId": 605,
-  "RecurrenceRuleId": 96
+  "MotherId": 975,
+  "RecurrenceRuleId": 976
 }
 ```
 
@@ -146,66 +146,66 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 57,
-    "StartDate": "2014-11-07T16:32:37.6646595+01:00",
-    "EndDate": "2008-05-18T16:32:37.6646595+02:00",
+    "AppointmentId": 318,
+    "StartDate": "1999-01-23T17:54:02.3983677+01:00",
+    "EndDate": "2010-11-24T17:54:02.3983677+01:00",
     "Type": "BookingForChecklist",
-    "Task": "et",
-    "AssociateFullName": "Sedrick Johnson",
-    "ContactName": "Crona, Terry and Dickinson",
-    "Description": "Mandatory maximized standardization",
-    "PersonFullName": "Kathryne Ryan MD",
-    "PersonId": 849,
-    "ContactId": 199,
-    "ProjectId": 826,
-    "ProjectName": "Nicolas, Kilback and Gerhold",
+    "Task": "magni",
+    "AssociateFullName": "Mertie Beer",
+    "ContactName": "Hamill, Strosin and Lowe",
+    "Description": "Inverse leading edge extranet",
+    "PersonFullName": "Karine Mitchell",
+    "PersonId": 919,
+    "ContactId": 944,
+    "ProjectId": 704,
+    "ProjectName": "Hansen-Wiegand",
     "IsPublished": false,
-    "AssociateId": 253,
-    "ColorIndex": 465,
+    "AssociateId": 86,
+    "ColorIndex": 599,
     "IsFree": true,
-    "HasAlarm": true,
-    "IsAlldayEvent": false,
+    "HasAlarm": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 478,
-    "PriorityName": "Medhurst, Stark and Wyman",
+    "PriorityId": 663,
+    "PriorityName": "Brakus Group",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
-    "IsRecurrence": false,
+    "IsBookingMain": false,
+    "IsRecurrence": true,
     "IsBooking": false,
-    "ActiveDate": "2011-01-18T16:32:37.6646595+01:00",
+    "ActiveDate": "2000-03-01T17:54:02.3983677+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2021-06-06T16:32:37.6646595+02:00",
-    "RecurringEndDate": "2017-05-17T16:32:37.6646595+02:00",
-    "MotherId": 915,
-    "AssignedBy": 793,
-    "AssignedByFullName": "Ms. Emilie Lorenz Prohaska I",
+    "RecurringStartDate": "2022-02-17T17:54:02.3983677+01:00",
+    "RecurringEndDate": "2019-10-12T17:54:02.3983677+02:00",
+    "MotherId": 631,
+    "AssignedBy": 788,
+    "AssignedByFullName": "Miss Bruce Marisol Collins PhD",
     "RejectReason": "",
-    "Location": "eveniet",
-    "AlarmLeadTime": "doloremque",
-    "SaleId": 351,
-    "SaleName": "Balistreri-Bailey",
-    "AssociateName": "Trantow-Larkin",
-    "CreatedDate": "2021-04-07T16:32:37.6646595+02:00",
-    "CreatedBy": "et",
-    "CreatedByFullName": "Abagail Nicolas",
-    "CreatedByAssociateId": 910,
+    "Location": "modi",
+    "AlarmLeadTime": "fuga",
+    "SaleId": 995,
+    "SaleName": "Franecki-Prosacco",
+    "AssociateName": "Reinger Group",
+    "CreatedDate": "2015-05-25T17:54:02.3983677+02:00",
+    "CreatedBy": "quos",
+    "CreatedByFullName": "Miss Rahsaan Brooks Funk",
+    "CreatedByAssociateId": 247,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 773,
-    "Title": "voluptas",
-    "Agenda": "nobis",
-    "InternalNotes": "fugiat",
+    "PreferredTZLocation": 741,
+    "Title": "earum",
+    "Agenda": "eum",
+    "InternalNotes": "sit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 640
+        "FieldLength": 956
       }
     }
   }

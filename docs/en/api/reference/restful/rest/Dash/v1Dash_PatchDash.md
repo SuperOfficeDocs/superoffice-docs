@@ -120,18 +120,18 @@ Dash  updated.
 PATCH /api/v1/Dash/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "est",
+    "path": "facilis",
     "value": {}
   },
   {
     "op": "add",
-    "path": "est",
+    "path": "facilis",
     "value": {}
   }
 ]
@@ -144,37 +144,37 @@ HTTP/1.1 200 Dash  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 516,
-  "UniqueId": "optio",
-  "Name": "Yost-Quitzon",
-  "Description": "Object-based web-enabled budgetary management",
-  "AssociateId": 918,
-  "Columns": 460,
+  "DashboardId": 310,
+  "UniqueId": "eum",
+  "Name": "McDermott, Reichert and Yost",
+  "Description": "Public-key asynchronous middleware",
+  "AssociateId": 72,
+  "Columns": 334,
   "Theme": null,
-  "VisibleForAll": 732,
+  "VisibleForAll": 166,
   "VisibleForAssociates": [
-    876,
-    970
+    740,
+    75
   ],
   "VisibleForGroups": [
-    207,
-    900
+    416,
+    843
   ],
-  "PinForAll": 187,
+  "PinForAll": 638,
   "PinForAssociates": [
-    248,
-    521
+    593,
+    375
   ],
   "PinForGroups": [
-    837,
-    863
+    383,
+    845
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 436
+      "FieldLength": 243
     }
   },
   "_Links": {

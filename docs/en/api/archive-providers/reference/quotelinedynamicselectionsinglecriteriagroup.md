@@ -294,6 +294,7 @@ Sale selection archive using the selectionId as criterionmapping.
 |alternative/version/quote/sale/person/personUdef/SuperOffice:10|string|Sale - page1marketingonly| x |
 |alternative/version/quote/sale/person/personUdef/SuperOffice:11|string|Sale - page1adminonly| x |
 |alternative/version/quote/sale/person/personExtra/x\_person\_integer|int|Sale - Extra Integer: Custom person integer| x |
+|alternative/version/quote/sale/person/personExtra/x\_person\_hidden\_integer|int|Sale - Extra hidden integer: Custom integer field that is hidden| x |
 |alternative/version/quote/sale/person/personExtra/x\_person\_float|decimal|Sale - Extra float: Custom float field| x |
 |alternative/version/quote/sale/person/personExtra/x\_person\_longtext|string|Sale - Extra Long Text: Custom long text field on person, keep HTML tags. Simple input, not text area. Default value = 'Hello there'| x |
 |alternative/version/quote/sale/person/personExtra/x\_person\_date|date|Sale - Extra date: Custom date field on person. Default value = 28.03.2019| x |
@@ -328,11 +329,12 @@ Sale selection archive using the selectionId as criterionmapping.
 |alternative/version/quote/sale/person/personAssociate/contactName|string|Sale - Owning company: Name of the company the user belongs to| x |
 |alternative/version/quote/sale/person/personAssociate/contactDepartment|string|Sale - Owning department: Name of the department at the company the user belongs to| x |
 |alternative/version/quote/sale/person/personAssociate/usergroup|userGroup|Sale - Primary group: The user's primary user group| x |
-|alternative/version/quote/sale/person/personAssociate/contactFullName|string|Sale - Owner: Name and department of the company the user belongs to| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|alternative/version/quote/sale/person/personAssociate/usergroupId|int|Sale - Group ID: The user's primary user group| x |
+|alternative/version/quote/sale/person/personAssociate/contactFullName|string|Sale - Owner: Name and department of the company the user belongs to| x |
 |alternative/version/quote/sale/person/personAssociate/contactCategory|listAny|Sale - Category: Category| x |
 |alternative/version/quote/sale/person/personAssociate/role|listAny|Sale - Role: Role| x |
 |alternative/version/quote/sale/person/personAssociate/assocName|associate|Sale - User ID: User ID| x |
@@ -364,6 +366,7 @@ Sale selection archive using the selectionId as criterionmapping.
 |alternative/version/quote/sale/person/correspondingAssociate/contactName|string|Sale - Owning company: Name of the company the user belongs to| x |
 |alternative/version/quote/sale/person/correspondingAssociate/contactDepartment|string|Sale - Owning department: Name of the department at the company the user belongs to| x |
 |alternative/version/quote/sale/person/correspondingAssociate/usergroup|userGroup|Sale - Primary group: The user's primary user group| x |
+|alternative/version/quote/sale/person/correspondingAssociate/usergroupId|int|Sale - Group ID: The user's primary user group| x |
 |alternative/version/quote/sale/person/correspondingAssociate/contactFullName|string|Sale - Owner: Name and department of the company the user belongs to| x |
 |alternative/version/quote/sale/person/correspondingAssociate/contactCategory|listAny|Sale - Category: Category| x |
 |alternative/version/quote/sale/person/correspondingAssociate/role|listAny|Sale - Role: Role| x |
@@ -430,13 +433,13 @@ Sale selection archive using the selectionId as criterionmapping.
 |alternative/version/quote/sale/contact/searchPhone/description|string|Sale - Searchphone - Description: Phone number description| x |
 |alternative/version/quote/sale/contact/email/emailProtocol|string|Sale - Protocol: E-mail protocol, such as SMTP| x |
 |alternative/version/quote/sale/contact/email/emailAddress|string|Sale - E-mail| x |
-|alternative/version/quote/sale/contact/email/emailDescription|string|Sale - Description| x |
-|alternative/version/quote/sale/contact/email/emailId|int|Sale - ID| x |
-|alternative/version/quote/sale/contact/email/emailLastSent|datetime|Sale - Last sent: The date and time an e-mail was last sent to this address| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|alternative/version/quote/sale/contact/email/emailDescription|string|Sale - Description| x |
+|alternative/version/quote/sale/contact/email/emailId|int|Sale - ID| x |
+|alternative/version/quote/sale/contact/email/emailLastSent|datetime|Sale - Last sent: The date and time an e-mail was last sent to this address| x |
 |alternative/version/quote/sale/contact/email/emailBounceCount|int|Sale - Bounce count: Bounce count for this e-mail address| x |
 |alternative/version/quote/sale/contact/email/emailLastBounce|datetime|Sale - Last bounce: Date and time for last bounce to this e-mail address| x |
 |alternative/version/quote/sale/contact/email/emailHasBounced|bool|Sale - Has bounced: This checkbox is active if delivery to this e-mail address has failed.| x |
@@ -490,6 +493,7 @@ Sale selection archive using the selectionId as criterionmapping.
 |alternative/version/quote/sale/contact/contactAssociate/contactName|string|Sale - Owning company: Name of the company the user belongs to| x |
 |alternative/version/quote/sale/contact/contactAssociate/contactDepartment|string|Sale - Owning department: Name of the department at the company the user belongs to| x |
 |alternative/version/quote/sale/contact/contactAssociate/usergroup|userGroup|Sale - Primary group: The user's primary user group| x |
+|alternative/version/quote/sale/contact/contactAssociate/usergroupId|int|Sale - Group ID: The user's primary user group| x |
 |alternative/version/quote/sale/contact/contactAssociate/contactFullName|string|Sale - Owner: Name and department of the company the user belongs to| x |
 |alternative/version/quote/sale/contact/contactAssociate/contactCategory|listAny|Sale - Category: Category| x |
 |alternative/version/quote/sale/contact/contactAssociate/role|listAny|Sale - Role: Role| x |
@@ -525,6 +529,7 @@ Sale selection archive using the selectionId as criterionmapping.
 |alternative/version/quote/sale/contact/contactUdef/SuperOffice:12|listAny|Sale - Udlist one: Static tooltip for udlist one| x |
 |alternative/version/quote/sale/contact/contactUdef/SuperOffice:13|listAny|Sale - Udlist two: Static tooltip for udlist two| x |
 |alternative/version/quote/sale/contact/contactExtra/x\_contact\_integer|int|Sale - Extra Integer: Custom integer field| x |
+|alternative/version/quote/sale/contact/contactExtra/x\_contact\_hidden\_integer|int|Sale - Extra hidden integer: Custom integer field - hidden| x |
 |alternative/version/quote/sale/contact/contactExtra/x\_contact\_default\_integer|int|Sale - Extra Default Integer: Custom integer field with default value 123.| x |
 |alternative/version/quote/sale/contact/contactExtra/x\_contact\_float|decimal|Sale - Extra Float: Custom float field with 3 decimals| x |
 |alternative/version/quote/sale/contact/contactExtra/x\_contact\_longtext|string|Sale - Extra LongText: Custom long text field. DO not keep HTML. 3 Line text area editor| x |
@@ -532,15 +537,15 @@ Sale selection archive using the selectionId as criterionmapping.
 |alternative/version/quote/sale/contact/contactExtra/x\_contact\_date|date|Sale - Extra date: Custom date field. User current as default.| x |
 |alternative/version/quote/sale/contact/contactExtra/x\_contact\_datetime|datetime|Sale - Extra DateTime: Custom Date Time field. No default value. External| x |
 |alternative/version/quote/sale/contact/contactExtra/x\_contact\_time| *None* |Sale - Extra time: Custom time field.| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |alternative/version/quote/sale/contact/contactExtra/x\_contact\_boolean|bool|Sale - Extra boolean: Custom boolean field.| x |
 |alternative/version/quote/sale/contact/contactExtra/x\_contact\_timespan|timeSpan|Sale - Extra timespan: Custom timespan field. Hours and minutes in 10 units| x |
 |alternative/version/quote/sale/contact/contactExtra/x\_contact\_shorttext|string|Sale - Extra short text: Custom short text field. Keep HTML tags.| x |
 |alternative/version/quote/sale/contact/contactExtra/x\_contact\_short\_dropdown|listAny|Sale - Extra short dropdown: Custom short text with dropdown list. Red, Green or Blue or Purple. External.| x |
 |alternative/version/quote/sale/contact/contactExtra/x\_contact\_contact\_relation|stringorPK|Sale - Extra Company: Custom company relation. Do not show one-to-many relations. Show function buttons| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |alternative/version/quote/sale/contact/contactExtra/x\_contact\_request\_relation|stringorPK|Sale - Extra Request relation: Request relation on company| x |
 |alternative/version/quote/sale/contact/contactExtra/x\_contact\_contact|stringorPK|Sale - Extra contact relation: Contact relation on company| x |
 |alternative/version/quote/sale/contact/contactExtra/y\_organization/x\_name|string|Sale - Organization - Name| x |
@@ -586,6 +591,7 @@ Sale selection archive using the selectionId as criterionmapping.
 |alternative/version/quote/sale/associate/contactName|string|Sale - Owning company: Name of the company the user belongs to| x |
 |alternative/version/quote/sale/associate/contactDepartment|string|Sale - Owning department: Name of the department at the company the user belongs to| x |
 |alternative/version/quote/sale/associate/usergroup|userGroup|Sale - Primary group: The user's primary user group| x |
+|alternative/version/quote/sale/associate/usergroupId|int|Sale - Group ID: The user's primary user group| x |
 |alternative/version/quote/sale/associate/contactFullName|string|Sale - Owner: Name and department of the company the user belongs to| x |
 |alternative/version/quote/sale/associate/contactCategory|listAny|Sale - Category: Category| x |
 |alternative/version/quote/sale/associate/role|listAny|Sale - Role: Role| x |
@@ -635,16 +641,16 @@ Sale selection archive using the selectionId as criterionmapping.
 |alternative/version/quote/sale/project/hasGuide|bool|Sale - Project - Guided: Does this sale have a Sales Guide| x |
 |alternative/version/quote/sale/project/nextMilestone|date|Sale - Project - Next milestone: Date of next non-completed activity that is marked as a milestone| x |
 |alternative/version/quote/sale/project/endDate|date|Sale - Project - End date: End date of project| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |alternative/version/quote/sale/project/imageThumbnail| *None* |Sale - Project - Thumbnail: Scaled-down image of project image|  |
 |alternative/version/quote/sale/project/activeErpLinks|bool|Sale - Project - ERP connected: Is there an active ERP Sync?| x |
 |alternative/version/quote/sale/project/projectPublish/isPublished|bool|Sale - Project - Published: Displays an icon indicating if the project or sale has been published| x |
 |alternative/version/quote/sale/project/projectPublish/publishedFrom|date|Sale - Project - From date: Start date for publishing. The record will not be visible prior to this date| x |
 |alternative/version/quote/sale/project/projectPublish/publishedTo|date|Sale - Project - To date: End date for publishing. The record will not be visible after this date| x |
 |alternative/version/quote/sale/project/projectPublish/publishedBy| *None* |Sale - Project - Published by: Published by|  |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |alternative/version/quote/sale/project/projectEvent/isExternalEvent|bool|Sale - Project - Event: Is this an external event| x |
 |alternative/version/quote/sale/project/projectEvent/eventDate|date|Sale - Project - Event date: Event date| x |
 |alternative/version/quote/sale/project/projectEvent/hasSignOn|bool|Sale - Project - Sign On: Does this event have the Sign On function enabled| x |
@@ -663,6 +669,7 @@ Sale selection archive using the selectionId as criterionmapping.
 |alternative/version/quote/sale/project/projectAssociate/contactName|string|Sale - Project - Owning company: Name of the company the user belongs to| x |
 |alternative/version/quote/sale/project/projectAssociate/contactDepartment|string|Sale - Project - Owning department: Name of the department at the company the user belongs to| x |
 |alternative/version/quote/sale/project/projectAssociate/usergroup|userGroup|Sale - Project - Primary group: The user's primary user group| x |
+|alternative/version/quote/sale/project/projectAssociate/usergroupId|int|Sale - Project - Group ID: The user's primary user group| x |
 |alternative/version/quote/sale/project/projectAssociate/contactFullName|string|Sale - Project - Owner: Name and department of the company the user belongs to| x |
 |alternative/version/quote/sale/project/projectAssociate/contactCategory|listAny|Sale - Project - Category: Category| x |
 |alternative/version/quote/sale/project/projectAssociate/role|listAny|Sale - Project - Role: Role| x |
@@ -738,6 +745,10 @@ Sale selection archive using the selectionId as criterionmapping.
 |alternative/version/quote/connection/erpConnection/allAccess|bool|ERP connection - ERP connections - Unrestricted: There are no access restrictions on this ERP connection|  |
 |alternative/version/quote/connection/erpConnection/deleted|bool|ERP connection - ERP connections - Deleted: Column showing if the ERP connection has been marked as deleted|  |
 |alternative/version/quote/connection/erpConnection/updatedBy|associate|ERP connection - ERP connections - Updated by: The user who last updated the data| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |alternative/version/quote/connection/erpConnection/updatedDate|date|ERP connection - ERP connections - Updated: The date/time the data was last updated in UTC.| x |
 |alternative/version/quote/connection/erpConnection/registeredBy|associate|ERP connection - ERP connections - Registered by: The user who registered the data| x |
 |alternative/version/quote/connection/erpConnection/registeredDate|date|ERP connection - ERP connections - Registered date: The date/time the data was registered in UTC.| x |
@@ -745,10 +756,6 @@ Sale selection archive using the selectionId as criterionmapping.
 |alternative/version/quote/connection/erpConnection/connector/url|string|ERP connection - ERP connections - URL of Sync Connector: The URL to the location where the Sync Connector is installed| x |
 |alternative/version/quote/connection/erpConnection/connector/name|string|ERP connection - ERP connections - Name: Name of the ERP connection in the CRM system| x |
 |alternative/version/quote/connection/erpConnection/connector/updatedBy|associate|ERP connection - ERP connections - Updated by: The user who last updated the data| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |alternative/version/quote/connection/erpConnection/connector/updatedDate|date|ERP connection - ERP connections - Updated: The date/time the data was last updated in UTC.| x |
 |alternative/version/quote/connection/erpConnection/connector/registeredBy|associate|ERP connection - ERP connections - Registered by: The user who registered the data| x |
 |alternative/version/quote/connection/erpConnection/connector/registeredDate|date|ERP connection - ERP connections - Registered date: The date/time the data was registered in UTC.| x |
@@ -756,7 +763,7 @@ Sale selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineDynamicSelectionSingleCriteriaGroup?$select=productCategoryKey,alternative/version/quote/sale/date,alternative/version/quote/sale/person/personUdef/SuperOffice:5,alternative/version/quote/sale/contact/streetAddress/city,alternative/version/quote/sale/contact/contactAssociate/role
+GET /api/v1/archive/QuoteLineDynamicSelectionSingleCriteriaGroup?$select=alternative/version/status,alternative/version/quote/sale/person/personActiveErpLinks,alternative/version/quote/sale/contact/email/emailLastSent,alternative/version/quote/sale/contact/email/emailHasBounced,alternative/version/quote/sale/associate/middleName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

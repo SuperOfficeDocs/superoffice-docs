@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/DocumentTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 82,
-  "Name": "Frami-Larkin",
-  "Tooltip": "recusandae",
+  "Id": 570,
+  "Name": "Mraz Inc and Sons",
+  "Tooltip": "nihil",
   "Deleted": false,
-  "Rank": 127,
+  "Rank": 917,
   "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "magni",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "et",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 208,
-  "Name": "Barton-Bailey",
-  "Tooltip": "ex",
-  "Deleted": false,
-  "Rank": 518,
-  "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "ea",
-  "InUseByUserDefinedFields": true,
+  "Id": 944,
+  "Name": "Funk-Ortiz",
+  "Tooltip": "repellendus",
+  "Deleted": true,
+  "Rank": 275,
+  "IsCustomList": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "perferendis",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 770
+      "FieldType": "System.Int32",
+      "FieldLength": 192
     }
   }
 }

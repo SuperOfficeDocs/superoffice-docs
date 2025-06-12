@@ -97,7 +97,7 @@ OK
 POST /api/v1/Agents/Selection/CreateDefaultSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -107,70 +107,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Reduced logistical paradigm",
-  "Postit": "ab",
+  "Description": "Phased regional database",
+  "Postit": "deserunt",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 429,
-  "IncludePerson": 160,
+  "GroupIdx": 70,
+  "IncludePerson": 899,
   "MemberCount": 99.99,
-  "Name": "Streich, Wilderman and Nicolas",
-  "PostitTextId": 429,
-  "CreatedDate": "2008-06-18T16:32:39.8833385+02:00",
-  "SelectionId": 509,
-  "SoundEx": "sit",
-  "Source": 368,
-  "TextId": 488,
-  "UpdatedDate": "2015-04-16T16:32:39.8833385+02:00",
-  "UpdatedCount": 188,
-  "Visibility": 268,
+  "Name": "Runolfsson-Labadie",
+  "PostitTextId": 825,
+  "CreatedDate": "2021-06-13T17:54:03.6014331+02:00",
+  "SelectionId": 354,
+  "SoundEx": "ut",
+  "Source": 639,
+  "TextId": 67,
+  "UpdatedDate": "2017-07-04T17:54:03.6014331+02:00",
+  "UpdatedCount": 416,
+  "Visibility": 67,
   "SelectionType": "Combined",
   "CompanyUnique": true,
-  "TargetTableNumber": 496,
-  "TargetTableName": "Jones Inc and Sons",
+  "TargetTableNumber": 596,
+  "TargetTableName": "Sporer-Lubowitz",
   "Completed": false,
-  "LeftSelectionId": 66,
-  "RightSelectionId": 178,
+  "LeftSelectionId": 730,
+  "RightSelectionId": 768,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Runte Group",
-  "ShadowProviderName": "Thompson-Champlin",
-  "ChartKey": "eos",
-  "LastLoaded": "2013-04-09T16:32:39.8833385+02:00",
-  "LastLoadedBy": 988,
+  "MainProviderName": "Deckow-Jewess",
+  "ShadowProviderName": "Emard Group",
+  "ChartKey": "molestiae",
+  "LastLoaded": "2019-02-07T17:54:03.6014331+01:00",
+  "LastLoadedBy": 152,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2006-03-12T16:32:39.8833385+01:00",
-  "LastMembershipChangeBy": 900,
+  "LastMembershipChange": "2001-03-18T17:54:03.6014331+01:00",
+  "LastMembershipChangeBy": 280,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "voluptatem",
-  "MemberTabHeading": "neque",
-  "MailingsProviderName": "Price Group",
-  "DashboardTileDefinitionId": 554,
+  "MainHeading": "numquam",
+  "MemberTabHeading": "ducimus",
+  "MailingsProviderName": "Wisozk, Beier and O'Kon",
+  "DashboardTileDefinitionId": 245,
   "VisibleFor": [
     {
-      "VisibleId": 607,
+      "VisibleId": 296,
       "Visibility": "All",
-      "DisplayValue": "sed",
+      "DisplayValue": "velit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 523
+          "FieldType": "System.String",
+          "FieldLength": 731
         }
       }
     },
     {
-      "VisibleId": 607,
+      "VisibleId": 296,
       "Visibility": "All",
-      "DisplayValue": "sed",
+      "DisplayValue": "velit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 523
+          "FieldType": "System.String",
+          "FieldLength": 731
         }
       }
     }
@@ -180,7 +180,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 292
+      "FieldLength": 298
     }
   }
 }

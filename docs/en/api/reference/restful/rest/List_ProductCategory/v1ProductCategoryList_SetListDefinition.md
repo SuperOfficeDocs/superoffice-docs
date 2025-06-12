@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 639,
-  "Name": "O'Conner-Towne",
-  "Tooltip": "dolore",
+  "Id": 154,
+  "Name": "Reynolds-Kilback",
+  "Tooltip": "ut",
   "Deleted": false,
-  "Rank": 421,
+  "Rank": 170,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "tempora",
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "doloremque",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 675,
-  "Name": "Wilkinson, Moore and Lakin",
-  "Tooltip": "numquam",
-  "Deleted": true,
-  "Rank": 667,
+  "Id": 217,
+  "Name": "Von LLC",
+  "Tooltip": "consequatur",
+  "Deleted": false,
+  "Rank": 539,
   "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "ab",
+  "ListType": "consequatur",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 656
+      "FieldType": "System.String",
+      "FieldLength": 479
     }
   }
 }

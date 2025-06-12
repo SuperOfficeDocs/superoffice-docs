@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,53 +88,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 70,
-  "Name": "Nolan-Nikolaus",
-  "Tooltip": "consectetur",
-  "Rank": 44,
+  "SaleTypeId": 27,
+  "Name": "Ondricka Inc and Sons",
+  "Tooltip": "corporis",
+  "Rank": 679,
   "DurationUnit": "Century",
-  "SaleDuration": 738,
-  "SaleTypeCatId": 23,
-  "Deleted": false,
-  "HasGuide": true,
+  "SaleDuration": 257,
+  "SaleTypeCatId": 602,
+  "Deleted": true,
+  "HasGuide": false,
   "HasStakeholders": true,
-  "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 676,
-  "QuoteLinesTemplate": 119,
-  "ConfirmationLinesTemplate": 896,
-  "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 613,
-  "MinEarningPercent": 125,
-  "GroupQuoteLinesBy": 5,
-  "SortGroupLinesBy": 81,
+  "IsAutoAdvance": true,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 326,
+  "QuoteLinesTemplate": 422,
+  "ConfirmationLinesTemplate": 971,
+  "MaxDiscountPercentSet": true,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 230,
+  "MinEarningPercent": 855,
+  "GroupQuoteLinesBy": 663,
+  "SortGroupLinesBy": 346,
   "Stages": [
     {
-      "Id": 400,
-      "Name": "Robel-Goldner",
-      "ToolTip": "Soluta consectetur consequatur ducimus est fugit et optio.",
+      "Id": 924,
+      "Name": "Marquardt Group",
+      "ToolTip": "Debitis consectetur autem in impedit qui fuga quisquam.",
       "Deleted": true,
-      "Rank": 961,
-      "Type": "impedit",
-      "ColorBlock": 413,
-      "IconHint": "officiis",
+      "Rank": 56,
+      "Type": "doloremque",
+      "ColorBlock": 244,
+      "IconHint": "blanditiis",
       "Selected": false,
-      "LastChanged": "2013-10-31T16:32:39.320696+01:00",
+      "LastChanged": "2007-11-30T17:54:03.3202006+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "iste",
-      "StyleHint": "et",
+      "ExtraInfo": "soluta",
+      "StyleHint": "nulla",
       "Hidden": false,
-      "FullName": "Emilia Powlowski",
+      "FullName": "Prof. Buster Agustin Langworth Jr.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 675
+          "FieldType": "System.String",
+          "FieldLength": 583
         }
       }
     }
@@ -144,7 +144,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 592
+      "FieldLength": 49
     }
   }
 }

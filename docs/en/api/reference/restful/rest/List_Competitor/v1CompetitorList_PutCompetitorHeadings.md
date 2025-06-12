@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Competitor/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 861,
-    "Name": "Ankunding Inc and Sons",
-    "Tooltip": "voluptas",
-    "Deleted": false,
-    "Rank": 561,
-    "UdListDefinitionId": 872
+    "HeadingId": 877,
+    "Name": "Runte-Hilpert",
+    "Tooltip": "rerum",
+    "Deleted": true,
+    "Rank": 121,
+    "UdListDefinitionId": 402
   },
   {
-    "HeadingId": 861,
-    "Name": "Ankunding Inc and Sons",
-    "Tooltip": "voluptas",
-    "Deleted": false,
-    "Rank": 561,
-    "UdListDefinitionId": 872
+    "HeadingId": 877,
+    "Name": "Runte-Hilpert",
+    "Tooltip": "rerum",
+    "Deleted": true,
+    "Rank": 121,
+    "UdListDefinitionId": 402
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 998,
-    "Name": "Brekke, Cartwright and Reichel",
-    "Tooltip": "suscipit",
+    "HeadingId": 665,
+    "Name": "Miller-Rath",
+    "Tooltip": "labore",
     "Deleted": false,
-    "Rank": 704,
-    "UdListDefinitionId": 655,
+    "Rank": 693,
+    "UdListDefinitionId": 722,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 517
+        "FieldType": "System.Int32",
+        "FieldLength": 791
       }
     }
   }

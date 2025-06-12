@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/TicketType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 275,
-    "Name": "Kshlerin Inc and Sons",
-    "Tooltip": "possimus",
-    "Deleted": false,
-    "Rank": 859,
-    "UdListDefinitionId": 987,
+    "HeadingId": 560,
+    "Name": "Ritchie, Beahan and Nicolas",
+    "Tooltip": "perferendis",
+    "Deleted": true,
+    "Rank": 769,
+    "UdListDefinitionId": 16,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 468
+        "FieldLength": 967
       }
     }
   }

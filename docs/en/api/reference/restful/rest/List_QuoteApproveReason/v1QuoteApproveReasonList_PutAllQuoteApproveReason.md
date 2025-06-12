@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 876,
-    "Name": "Bruen Inc and Sons",
-    "Tooltip": "qui",
-    "Deleted": false,
-    "UdListDefinitionId": 482,
-    "Rank": 723
+    "Id": 994,
+    "Name": "Block, Okuneva and Gorczany",
+    "Tooltip": "assumenda",
+    "Deleted": true,
+    "UdListDefinitionId": 152,
+    "Rank": 568
   },
   {
-    "Id": 876,
-    "Name": "Bruen Inc and Sons",
-    "Tooltip": "qui",
-    "Deleted": false,
-    "UdListDefinitionId": 482,
-    "Rank": 723
+    "Id": 994,
+    "Name": "Block, Okuneva and Gorczany",
+    "Tooltip": "assumenda",
+    "Deleted": true,
+    "UdListDefinitionId": 152,
+    "Rank": 568
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 874,
-    "Name": "Littel Group",
-    "Tooltip": "id",
-    "Deleted": false,
-    "UdListDefinitionId": 113,
-    "Rank": 452,
+    "Id": 723,
+    "Name": "Greenholt, Farrell and Gerhold",
+    "Tooltip": "ut",
+    "Deleted": true,
+    "UdListDefinitionId": 461,
+    "Rank": 991,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 814
+        "FieldLength": 351
       }
     }
   }

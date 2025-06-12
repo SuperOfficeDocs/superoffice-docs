@@ -79,25 +79,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 637,
-  "BlobSize": 308,
-  "Description": "Realigned even-keeled project",
-  "ExtraInfo": "rem",
-  "IsEncrypted": true,
+  "BlobId": 532,
+  "BlobSize": 159,
+  "Description": "Re-engineered executive data-warehouse",
+  "ExtraInfo": "non",
+  "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "animi",
-  "OriginalSize": 906,
-  "CreatedDate": "2001-08-15T16:32:38.2116027+02:00",
-  "UpdatedDate": "2004-03-05T16:32:38.2116027+01:00",
+  "MimeType": "et",
+  "OriginalSize": 778,
+  "CreatedDate": "2020-07-25T17:54:02.6639794+02:00",
+  "UpdatedDate": "2006-08-24T17:54:02.6639794+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "fuga",
+  "ConceptualType": "deleniti",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 791
+      "FieldType": "System.Int32",
+      "FieldLength": 111
     }
   }
 }

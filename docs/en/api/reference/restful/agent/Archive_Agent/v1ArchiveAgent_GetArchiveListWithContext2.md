@@ -169,18 +169,18 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListWithContext2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "VonRueden, Leuschke and Dibbert",
-  "ProviderName": "Abshire Inc and Sons",
-  "SortOrder": "molestiae",
-  "Restriction": "quasi",
-  "Entities": "repudiandae",
-  "Page": 305,
-  "PageSize": 28,
-  "Context": "accusamus"
+  "GuiName": "Bednar-Bode",
+  "ProviderName": "Dare-Bashirian",
+  "SortOrder": "quasi",
+  "Restriction": "incidunt",
+  "Entities": "eveniet",
+  "Page": 899,
+  "PageSize": 916,
+  "Context": "veniam"
 }
 ```
 
@@ -192,23 +192,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Purdy LLC",
-    "PrimaryKey": 66,
+    "EntityName": "Toy LLC",
+    "PrimaryKey": 845,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "enim",
-        "TooltipHint": "velit",
-        "LinkHint": "consequatur"
+        "DisplayValue": "et",
+        "TooltipHint": "cumque",
+        "LinkHint": "velit"
       }
     },
-    "LinkHint": "corrupti",
-    "StyleHint": "doloremque",
+    "LinkHint": "nihil",
+    "StyleHint": "enim",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 995
+        "FieldType": "System.Int32",
+        "FieldLength": 244
       }
     }
   }

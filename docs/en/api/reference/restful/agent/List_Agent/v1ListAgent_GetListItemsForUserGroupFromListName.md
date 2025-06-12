@@ -92,8 +92,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Klocko Inc and Sons",
-  "GroupId": 869
+  "UdListDefinitionName": "Reichert, Ruecker and Rutherford",
+  "GroupId": 154
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 477,
-    "Name": "Ebert-Reinger",
-    "ToolTip": "Labore ullam provident labore iure illo numquam magni.",
+    "Id": 464,
+    "Name": "Fritsch-Krajcik",
+    "ToolTip": "Tempora id sed.",
     "Deleted": false,
-    "Rank": 125,
-    "Type": "velit",
-    "ColorBlock": 407,
-    "IconHint": "provident",
-    "Selected": false,
-    "LastChanged": "2010-07-30T16:32:39.2426162+02:00",
+    "Rank": 299,
+    "Type": "eos",
+    "ColorBlock": 281,
+    "IconHint": "laudantium",
+    "Selected": true,
+    "LastChanged": "2014-04-27T17:54:03.2108272+02:00",
     "ChildItems": [
       {
-        "Id": 294,
-        "Name": "Veum-Daniel",
-        "ToolTip": "Dicta magni aut.",
-        "Deleted": true,
-        "Rank": 6,
-        "Type": "vel",
-        "ColorBlock": 334,
-        "IconHint": "inventore",
-        "Selected": false,
-        "LastChanged": "2009-10-21T16:32:39.2426162+02:00",
+        "Id": 652,
+        "Name": "Terry-Cole",
+        "ToolTip": "Ea et voluptates voluptatibus harum ab ea.",
+        "Deleted": false,
+        "Rank": 299,
+        "Type": "minus",
+        "ColorBlock": 398,
+        "IconHint": "veritatis",
+        "Selected": true,
+        "LastChanged": "2016-10-12T17:54:03.2108272+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "alias",
-        "StyleHint": "qui",
-        "Hidden": false,
-        "FullName": "Ms. Katelin Rohan Sr.",
+        "ExtraInfo": "vitae",
+        "StyleHint": "aut",
+        "Hidden": true,
+        "FullName": "Dr. Hugh Kunde PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 200
+            "FieldLength": 989
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "sunt",
+    "ExtraInfo": "iure",
+    "StyleHint": "quia",
     "Hidden": false,
-    "FullName": "Madge Gordon Hoppe DDS",
+    "FullName": "Marcella Beatty",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 164
+        "FieldLength": 293
       }
     }
   }

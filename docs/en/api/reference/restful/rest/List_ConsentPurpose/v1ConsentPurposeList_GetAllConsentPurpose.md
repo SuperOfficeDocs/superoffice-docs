@@ -69,7 +69,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -80,25 +80,25 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPurposeId": 131,
-    "Name": "Nader Group",
-    "ConsentText": "culpa",
-    "FormText": "autem",
-    "Key": "doloribus",
-    "Tooltip": "pariatur",
-    "Active": 251,
-    "UpdatedDate": "2017-11-01T16:32:48.5558051+01:00",
+    "ConsentPurposeId": 27,
+    "Name": "Heidenreich-Larkin",
+    "ConsentText": "corporis",
+    "FormText": "ducimus",
+    "Key": "fugiat",
+    "Tooltip": "dolore",
+    "Active": 784,
+    "UpdatedDate": "1999-02-10T17:54:08.8199285+01:00",
     "UpdatedBy": null,
     "Deleted": false,
-    "Rank": 148,
-    "PrivacyStatementDesc": "sed",
+    "Rank": 592,
+    "PrivacyStatementDesc": "nihil",
     "PrivacyStatementUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 603
+        "FieldType": "System.String",
+        "FieldLength": 994
       }
     }
   }

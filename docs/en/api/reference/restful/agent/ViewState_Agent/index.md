@@ -24,6 +24,10 @@ generated: true
 
 * [POST Agents/ViewState/DeleteHistory](v1ViewStateAgent_DeleteHistory.md)
 
+* [POST Agents/ViewState/GetHistoryLengthPrefValue](v1ViewStateAgent_GetHistoryLengthPrefValue.md)
+
+* [POST Agents/ViewState/SetHistoryLengthPrefValue](v1ViewStateAgent_SetHistoryLengthPrefValue.md)
+
 * [POST Agents/ViewState/GetHistories](v1ViewStateAgent_GetHistories.md)
 
 * [POST Agents/ViewState/GetHistoriesByName](v1ViewStateAgent_GetHistoriesByName.md)
@@ -31,10 +35,6 @@ generated: true
 * [POST Agents/ViewState/GetHistoriesByNames](v1ViewStateAgent_GetHistoriesByNames.md)
 
 * [POST Agents/ViewState/SaveHistories](v1ViewStateAgent_SaveHistories.md)
-
-* [POST Agents/ViewState/GetHistoryLengthPrefValue](v1ViewStateAgent_GetHistoryLengthPrefValue.md)
-
-* [POST Agents/ViewState/SetHistoryLengthPrefValue](v1ViewStateAgent_SetHistoryLengthPrefValue.md)
 
 * [POST Agents/ViewState/SaveCurrents](v1ViewStateAgent_SaveCurrents.md)
 

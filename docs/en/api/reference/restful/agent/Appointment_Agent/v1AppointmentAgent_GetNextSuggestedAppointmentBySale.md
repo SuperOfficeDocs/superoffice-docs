@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/Appointment/GetNextSuggestedAppointmentBySale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 374,
-  "CurrentAppointmentId": 819,
+  "SaleId": 98,
+  "CurrentAppointmentId": 755,
   "SkipCompleteCheck": true
 }
 ```
@@ -105,26 +105,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AutoSuggest": 852,
-  "Deleted": 873,
-  "DaysFuture": 62,
-  "Tooltip": "esse",
-  "Text": "dignissimos",
-  "TaskId": 720,
-  "SuggestedAppointmentId": 427,
-  "SaleTypeStageLinkId": 842,
-  "RegisteredAssociateId": 665,
-  "Rank": 364,
-  "ProjectTypeStatusLinkId": 410,
-  "Name": "Luettgen-Schuster",
-  "Duration": 634,
+  "AutoSuggest": 721,
+  "Deleted": 552,
+  "DaysFuture": 55,
+  "Tooltip": "laboriosam",
+  "Text": "rerum",
+  "TaskId": 255,
+  "SuggestedAppointmentId": 301,
+  "SaleTypeStageLinkId": 29,
+  "RegisteredAssociateId": 407,
+  "Rank": 697,
+  "ProjectTypeStatusLinkId": 789,
+  "Name": "Larson Inc and Sons",
+  "Duration": 434,
   "Associate": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 719
+      "FieldLength": 723
     }
   }
 }

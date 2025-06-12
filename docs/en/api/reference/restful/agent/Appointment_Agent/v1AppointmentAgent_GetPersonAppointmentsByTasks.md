@@ -133,18 +133,18 @@ OK
 POST /api/v1/Agents/Appointment/GetPersonAppointmentsByTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 570,
-  "IncludeProjectAppointments": false,
-  "StartTime": "2015-02-19T16:32:37.6021684+01:00",
-  "EndTime": "2018-07-08T16:32:37.6021684+02:00",
-  "Count": 385,
+  "PersonId": 692,
+  "IncludeProjectAppointments": true,
+  "StartTime": "2018-12-19T17:54:02.3671193+01:00",
+  "EndTime": "1998-03-06T17:54:02.3671193+01:00",
+  "Count": 110,
   "TaskIds": [
-    906,
-    180
+    925,
+    394
   ]
 }
 ```
@@ -157,66 +157,66 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 431,
-    "StartDate": "2021-02-09T16:32:37.6021684+01:00",
-    "EndDate": "2000-08-12T16:32:37.6021684+02:00",
+    "AppointmentId": 442,
+    "StartDate": "1999-11-08T17:54:02.3671193+01:00",
+    "EndDate": "2005-08-05T17:54:02.3671193+02:00",
     "Type": "BookingForChecklist",
-    "Task": "vel",
-    "AssociateFullName": "Miss Noemie Cartwright IV",
-    "ContactName": "Kuhn, Kihn and Shields",
-    "Description": "Stand-alone actuating knowledge user",
-    "PersonFullName": "Dillan Gutmann",
-    "PersonId": 235,
-    "ContactId": 344,
-    "ProjectId": 747,
-    "ProjectName": "Sauer, D'Amore and Lesch",
+    "Task": "suscipit",
+    "AssociateFullName": "Mr. Tessie Ahmad Wyman",
+    "ContactName": "Ritchie Inc and Sons",
+    "Description": "Decentralized zero tolerance success",
+    "PersonFullName": "Genevieve Wuckert",
+    "PersonId": 656,
+    "ContactId": 861,
+    "ProjectId": 734,
+    "ProjectName": "Gislason Group",
     "IsPublished": true,
-    "AssociateId": 917,
-    "ColorIndex": 442,
-    "IsFree": true,
+    "AssociateId": 877,
+    "ColorIndex": 276,
+    "IsFree": false,
     "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 508,
-    "PriorityName": "Cronin LLC",
+    "PriorityId": 848,
+    "PriorityName": "Hills-Olson",
     "TaskType": "Appointment",
     "IsBookingMain": true,
     "IsRecurrence": true,
     "IsBooking": false,
-    "ActiveDate": "1998-05-14T16:32:37.6021684+02:00",
+    "ActiveDate": "2008-02-07T17:54:02.3671193+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2004-01-23T16:32:37.6021684+01:00",
-    "RecurringEndDate": "2023-11-04T16:32:37.6021684+01:00",
-    "MotherId": 713,
-    "AssignedBy": 624,
-    "AssignedByFullName": "Sherwood Fay I",
-    "RejectReason": "implement synergistic action-items",
-    "Location": "quia",
-    "AlarmLeadTime": "doloremque",
-    "SaleId": 237,
-    "SaleName": "Gerhold, Leffler and Feil",
-    "AssociateName": "Swift, Kiehn and Hartmann",
-    "CreatedDate": "2014-05-02T16:32:37.6021684+02:00",
-    "CreatedBy": "alias",
-    "CreatedByFullName": "Miss Athena Oberbrunner DVM",
-    "CreatedByAssociateId": 453,
+    "RecurringStartDate": "2020-06-23T17:54:02.3671193+02:00",
+    "RecurringEndDate": "2019-12-05T17:54:02.3671193+01:00",
+    "MotherId": 992,
+    "AssignedBy": 85,
+    "AssignedByFullName": "Cristian Hegmann",
+    "RejectReason": "benchmark B2C web-readiness",
+    "Location": "eveniet",
+    "AlarmLeadTime": "qui",
+    "SaleId": 431,
+    "SaleName": "Lueilwitz LLC",
+    "AssociateName": "Jakubowski Group",
+    "CreatedDate": "2000-10-07T17:54:02.3671193+02:00",
+    "CreatedBy": "debitis",
+    "CreatedByFullName": "Jacques DuBuque",
+    "CreatedByAssociateId": 136,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 78,
-    "Title": "molestiae",
-    "Agenda": "voluptatem",
-    "InternalNotes": "aliquam",
+    "PreferredTZLocation": 320,
+    "Title": "quibusdam",
+    "Agenda": "quo",
+    "InternalNotes": "consequatur",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 124
+        "FieldType": "System.Int32",
+        "FieldLength": 372
       }
     }
   }

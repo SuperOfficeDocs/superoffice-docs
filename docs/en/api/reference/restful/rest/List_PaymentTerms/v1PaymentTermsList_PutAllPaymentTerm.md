@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/PaymentTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 592,
-    "Name": "Hackett-Jacobi",
-    "Tooltip": "debitis",
+    "Id": 246,
+    "Name": "Metz Group",
+    "Tooltip": "est",
     "Deleted": false,
-    "UdListDefinitionId": 881,
-    "Rank": 442
+    "UdListDefinitionId": 928,
+    "Rank": 638
   },
   {
-    "Id": 592,
-    "Name": "Hackett-Jacobi",
-    "Tooltip": "debitis",
+    "Id": 246,
+    "Name": "Metz Group",
+    "Tooltip": "est",
     "Deleted": false,
-    "UdListDefinitionId": 881,
-    "Rank": 442
+    "UdListDefinitionId": 928,
+    "Rank": 638
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 618,
-    "Name": "Hansen-Grant",
-    "Tooltip": "pariatur",
-    "Deleted": false,
-    "UdListDefinitionId": 708,
-    "Rank": 607,
+    "Id": 254,
+    "Name": "Mills Group",
+    "Tooltip": "officiis",
+    "Deleted": true,
+    "UdListDefinitionId": 209,
+    "Rank": 887,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 176
+        "FieldLength": 300
       }
     }
   }

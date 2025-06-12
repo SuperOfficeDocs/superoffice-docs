@@ -87,20 +87,20 @@ OK
 POST /api/v1/Agents/User/SaveRoleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 111,
-  "Name": "Weissnat, Hoeger and Bahringer",
-  "Tooltip": "eius",
+  "RoleId": 139,
+  "Name": "Sporer Inc and Sons",
+  "Tooltip": "nulla",
   "RoleType": "Anonymous",
-  "Deleted": 653,
-  "Rank": 237,
-  "Created": "2023-08-11T16:32:40.4144684+02:00",
-  "UseCategories": 208,
+  "Deleted": 745,
+  "Rank": 573,
+  "Created": "2010-10-12T17:54:03.8670455+02:00",
+  "UseCategories": 901,
   "CreatedBy": null,
-  "Updated": "2005-11-28T16:32:40.4144684+01:00",
+  "Updated": "2015-12-01T17:54:03.8670455+01:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -113,24 +113,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 894,
-  "Name": "Smitham-Franecki",
-  "Tooltip": "quia",
+  "RoleId": 487,
+  "Name": "Weimann, Schiller and Mraz",
+  "Tooltip": "rerum",
   "RoleType": "Anonymous",
-  "Deleted": 603,
-  "Rank": 465,
-  "Created": "2013-05-20T16:32:40.4144684+02:00",
-  "UseCategories": 22,
+  "Deleted": 778,
+  "Rank": 476,
+  "Created": "2015-03-01T17:54:03.8670455+01:00",
+  "UseCategories": 599,
   "CreatedBy": null,
-  "Updated": "2012-01-23T16:32:40.4144684+01:00",
+  "Updated": "2006-10-24T17:54:03.8670455+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 767
+      "FieldType": "System.String",
+      "FieldLength": 126
     }
   }
 }

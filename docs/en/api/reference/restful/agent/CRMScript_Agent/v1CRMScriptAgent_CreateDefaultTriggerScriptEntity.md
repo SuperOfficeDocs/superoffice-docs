@@ -79,22 +79,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 349,
-  "Name": "Cassin LLC",
+  "ScreenChooserId": 55,
+  "Name": "Lehner Inc and Sons",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "quas",
-  "Source": "at",
-  "Registered": "2017-10-27T16:32:38.5552758+02:00",
-  "RegisteredAssociateId": 464,
-  "Updated": "2003-09-15T16:32:38.5552758+02:00",
-  "UpdatedAssociateId": 596,
+  "UniqueIdentifier": "qui",
+  "Source": "ut",
+  "Registered": "2006-03-18T17:54:02.9139671+01:00",
+  "RegisteredAssociateId": 749,
+  "Updated": "2024-03-27T17:54:02.9139671+01:00",
+  "UpdatedAssociateId": 507,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 199
+      "FieldType": "System.String",
+      "FieldLength": 62
     }
   }
 }

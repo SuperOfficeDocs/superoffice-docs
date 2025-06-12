@@ -89,7 +89,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": true
+  "IncludeDeleted": false
 }
 ```
 
@@ -101,17 +101,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TaskListItemId": 421,
-    "Value": "exercitationem",
+    "TaskListItemId": 122,
+    "Value": "et",
     "Direction": "Incoming",
     "Type": "Appointment",
-    "Tooltip": "aperiam",
-    "Deleted": true,
-    "IntentId": 411,
-    "Rank": 955,
-    "IsDefaultAlldayEvent": true,
+    "Tooltip": "amet",
+    "Deleted": false,
+    "IntentId": 316,
+    "Rank": 453,
+    "IsDefaultAlldayEvent": false,
     "IsDefaultFree": false,
-    "IsDefaultPublished": true,
+    "IsDefaultPublished": false,
     "ColorIndex": "BlueAlt1",
     "DefaultVideomeetingStatus": "NoChange",
     "TableRight": null,
@@ -119,7 +119,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 748
+        "FieldLength": 374
       }
     }
   }

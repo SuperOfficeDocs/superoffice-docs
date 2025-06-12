@@ -74,12 +74,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 366,
-  "Name": "Durgan, Schmeler and Pfeffer",
-  "Tooltip": "eum",
-  "PassiveText": "mollitia",
+  "ReldefId": 404,
+  "Name": "Borer-Rogahn",
+  "Tooltip": "quae",
+  "PassiveText": "qui",
   "Deleted": true,
-  "Rank": 10,
+  "Rank": 85,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -87,7 +87,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 743
+      "FieldLength": 107
     }
   }
 }

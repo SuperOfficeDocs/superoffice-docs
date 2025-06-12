@@ -49,8 +49,6 @@ items:
   href: associatewithmail.md
 - name: Attachment
   href: attachment.md
-- name: Availablereports
-  href: availablereports.md
 - name: Business
   href: Business.md
 - name: Category
@@ -371,8 +369,6 @@ items:
   href: mrmrs.md
 - name: MrMrs
   href: MrMrs.md
-- name: Nextavailabletime
-  href: nextavailabletime.md
 - name: Ofmonth
   href: ofmonth.md
 - name: Ownercontact
@@ -619,10 +615,6 @@ items:
   href: relationssearchlistprovidersalesalepassive.md
 - name: Replytemplate
   href: replytemplate.md
-- name: Reportcategory
-  href: reportcategory.md
-- name: Reportlayout
-  href: reportlayout.md
 - name: Resource
   href: resource.md
 - name: Resourcerestrictions
@@ -735,8 +727,6 @@ items:
   href: statusdef.md
 - name: Statusmonitorimage
   href: statusmonitorimage.md
-- name: Stopword
-  href: stopword.md
 - name: Subscriptionunit
   href: subscriptionunit.md
 - name: SubscriptionUnit
@@ -745,8 +735,6 @@ items:
   href: suggestedappointment.md
 - name: Suggesteddocument
   href: suggesteddocument.md
-- name: Suggestedstopword
-  href: suggestedstopword.md
 - name: Systemeventtype
   href: systemeventtype.md
 - name: Tags

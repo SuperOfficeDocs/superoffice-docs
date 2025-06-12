@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/Currency
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 907,
-  "Name": "Fadel, Kuhlman and Huels",
-  "Tooltip": "voluptates",
+  "Id": 444,
+  "Name": "Dare Inc and Sons",
+  "Tooltip": "reiciendis",
   "Deleted": false,
-  "Rank": 428,
+  "Rank": 776,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "magnam",
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "laborum",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 449,
-  "Name": "Lang-Armstrong",
-  "Tooltip": "nisi",
+  "Id": 158,
+  "Name": "Satterfield, Beahan and Block",
+  "Tooltip": "reprehenderit",
   "Deleted": false,
-  "Rank": 277,
+  "Rank": 310,
   "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "non",
-  "InUseByUserDefinedFields": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "necessitatibus",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 94
+      "FieldLength": 623
     }
   }
 }

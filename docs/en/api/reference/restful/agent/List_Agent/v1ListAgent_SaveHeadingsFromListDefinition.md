@@ -79,27 +79,27 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 174,
+  "Id": 7,
   "Entities": [
     {
-      "HeadingId": 235,
-      "Name": "Littel-Cremin",
-      "Tooltip": "aperiam",
+      "HeadingId": 524,
+      "Name": "Zboncak-Hermiston",
+      "Tooltip": "assumenda",
       "Deleted": true,
-      "Rank": 405,
-      "UdListDefinitionId": 360
+      "Rank": 197,
+      "UdListDefinitionId": 793
     },
     {
-      "HeadingId": 235,
-      "Name": "Littel-Cremin",
-      "Tooltip": "aperiam",
+      "HeadingId": 524,
+      "Name": "Zboncak-Hermiston",
+      "Tooltip": "assumenda",
       "Deleted": true,
-      "Rank": 405,
-      "UdListDefinitionId": 360
+      "Rank": 197,
+      "UdListDefinitionId": 793
     }
   ]
 }
@@ -113,18 +113,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 555,
-    "Name": "Weimann LLC",
-    "Tooltip": "sit",
-    "Deleted": true,
-    "Rank": 838,
-    "UdListDefinitionId": 714,
+    "HeadingId": 145,
+    "Name": "Upton Inc and Sons",
+    "Tooltip": "quia",
+    "Deleted": false,
+    "Rank": 22,
+    "UdListDefinitionId": 375,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 230
+        "FieldLength": 294
       }
     }
   }

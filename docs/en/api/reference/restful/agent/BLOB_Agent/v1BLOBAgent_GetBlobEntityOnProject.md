@@ -89,7 +89,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 18
+  "ProjectId": 326
 }
 ```
 
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 649,
-  "BlobSize": 382,
-  "Description": "Face to face object-oriented product",
-  "ExtraInfo": "molestiae",
-  "IsEncrypted": true,
+  "BlobId": 558,
+  "BlobSize": 54,
+  "Description": "Public-key systematic open system",
+  "ExtraInfo": "aut",
+  "IsEncrypted": false,
   "IsZipped": true,
-  "MimeType": "saepe",
-  "OriginalSize": 458,
-  "CreatedDate": "2019-11-20T16:32:38.2116027+01:00",
-  "UpdatedDate": "1999-07-12T16:32:38.2116027+02:00",
+  "MimeType": "nulla",
+  "OriginalSize": 256,
+  "CreatedDate": "2006-11-07T17:54:02.6639794+01:00",
+  "UpdatedDate": "1998-09-02T17:54:02.6639794+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "ab",
+  "ConceptualType": "alias",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 177
+      "FieldLength": 843
     }
   }
 }

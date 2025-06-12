@@ -92,7 +92,7 @@ OK
 POST /api/v1/Agents/Project/GetMyProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -108,30 +108,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 667,
-    "Name": "Bode, Beahan and Howell",
-    "Description": "Synergistic analyzing support",
+    "ProjectId": 634,
+    "Name": "Skiles-Schumm",
+    "Description": "Re-engineered uniform hierarchy",
     "URL": "http://www.example.com/",
-    "Type": "a",
-    "AssociateId": 38,
-    "AssociateFullName": "Mr. Marvin Okey Crona III",
-    "TypeId": 616,
-    "Updated": "1998-12-29T16:32:39.6490177+01:00",
-    "StatusId": 54,
-    "Status": "expedita",
-    "TextId": 172,
-    "PublishTo": "2007-05-23T16:32:39.6490177+02:00",
-    "PublishFrom": "1999-11-06T16:32:39.6490177+01:00",
-    "IsPublished": true,
+    "Type": "nisi",
+    "AssociateId": 594,
+    "AssociateFullName": "Miss Ricardo Ferry",
+    "TypeId": 125,
+    "Updated": "2022-02-06T17:54:03.4920634+01:00",
+    "StatusId": 281,
+    "Status": "id",
+    "TextId": 71,
+    "PublishTo": "2002-12-21T17:54:03.4920634+01:00",
+    "PublishFrom": "2019-11-06T17:54:03.4920634+01:00",
+    "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1422891",
-    "ActiveErpLinks": 31,
+    "ProjectNumber": "261733",
+    "ActiveErpLinks": 721,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 826
+        "FieldLength": 764
       }
     }
   }

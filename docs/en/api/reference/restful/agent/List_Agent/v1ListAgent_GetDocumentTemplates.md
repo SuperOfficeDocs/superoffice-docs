@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/List/GetDocumentTemplates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,23 +86,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 924,
-    "Name": "Smith, Cartwright and Block",
-    "Tooltip": "aliquid",
-    "SaveInDb": 629,
-    "Filename": "et",
-    "DefaultOref": "saepe",
+    "DocumentTemplateId": 577,
+    "Name": "Marquardt-Jerde",
+    "Tooltip": "odio",
+    "SaveInDb": 219,
+    "Filename": "incidunt",
+    "DefaultOref": "hic",
     "RecordType": "Appointment",
-    "Deleted": 713,
+    "Deleted": 941,
     "Direction": "Incoming",
-    "AutoeventId": 244,
+    "AutoeventId": 638,
     "QuoteDocType": "ConfirmationLines",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 786
+        "FieldType": "System.Int32",
+        "FieldLength": 999
       }
     }
   }

@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 120,
-    "Name": "Okuneva-Strosin",
-    "Tooltip": "enim",
+    "HeadingId": 642,
+    "Name": "Schowalter-Hyatt",
+    "Tooltip": "omnis",
     "Deleted": false,
-    "Rank": 646,
-    "UdListDefinitionId": 797,
+    "Rank": 575,
+    "UdListDefinitionId": 857,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 286
+        "FieldType": "System.String",
+        "FieldLength": 190
       }
     }
   }

@@ -103,11 +103,11 @@ OK
 POST /api/v1/Agents/EMail/GetUnsanitizedEMailFromDocumentIdWithoutAttachmentStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 458
+  "DocumentId": 811
 }
 ```
 
@@ -120,147 +120,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 987,
-      "ContactName": "Rosenbaum, Torphy and Torphy",
-      "PersonId": 286,
-      "PersonName": "Mann-Metz",
-      "AssociateId": 6,
-      "Address": "mollitia",
-      "EmailId": 848,
+      "ContactId": 866,
+      "ContactName": "Cremin, Parisian and Donnelly",
+      "PersonId": 573,
+      "PersonName": "Kunde-Jaskolski",
+      "AssociateId": 147,
+      "Address": "et",
+      "EmailId": 731,
       "DuplicatePersonIds": [
-        994,
-        264
+        728,
+        505
       ],
-      "Name": "Parisian, Simonis and Jast",
+      "Name": "Zieme LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 676
+          "FieldLength": 158
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 704,
-      "ContactName": "Pouros, Donnelly and Emmerich",
-      "PersonId": 886,
-      "PersonName": "Aufderhar LLC",
-      "AssociateId": 787,
-      "Address": "dolorem",
-      "EmailId": 761,
+      "ContactId": 301,
+      "ContactName": "Lubowitz-Mante",
+      "PersonId": 8,
+      "PersonName": "Okuneva, Cole and Krajcik",
+      "AssociateId": 165,
+      "Address": "excepturi",
+      "EmailId": 30,
       "DuplicatePersonIds": [
-        683,
-        572
+        217,
+        249
       ],
-      "Name": "Jacobi LLC",
+      "Name": "Morar Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 947
+          "FieldLength": 52
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 799,
-      "ContactName": "Berge-Cole",
-      "PersonId": 412,
-      "PersonName": "Jaskolski, Corwin and Vandervort",
-      "AssociateId": 165,
-      "Address": "ut",
-      "EmailId": 5,
+      "ContactId": 395,
+      "ContactName": "Auer LLC",
+      "PersonId": 899,
+      "PersonName": "Hyatt LLC",
+      "AssociateId": 495,
+      "Address": "dolorem",
+      "EmailId": 742,
       "DuplicatePersonIds": [
-        991,
-        539
+        67,
+        447
       ],
-      "Name": "Predovic-Schoen",
+      "Name": "Steuber Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 796
+          "FieldLength": 88
         }
       }
     }
   ],
-  "Subject": "aut",
-  "HTMLBody": "voluptate",
+  "Subject": "et",
+  "HTMLBody": "hic",
   "From": null,
-  "Sent": "2001-07-13T16:32:38.9770531+02:00",
-  "Size": 193,
+  "Sent": "2020-11-28T17:54:03.0702097+01:00",
+  "Size": 500,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "error",
-  "PlainBody": "et",
+  "MessageID": "sunt",
+  "PlainBody": "aut",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 465,
+  "ServerId": 464,
   "Attachments": [
     {
-      "Description": "Optimized system-worthy concept",
-      "Filename": "ut",
-      "Size": 273,
-      "Type": "et",
-      "Encoding": "molestias",
-      "Id": "omnis",
-      "Disposition": "natus",
+      "Description": "Visionary optimizing project",
+      "Filename": "quo",
+      "Size": 704,
+      "Type": "explicabo",
+      "Encoding": "consectetur",
+      "Id": "modi",
+      "Disposition": "rerum",
       "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 578
+          "FieldType": "System.String",
+          "FieldLength": 4
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Lockman Group",
+      "Name": "Purdy LLC",
       "Values": [
-        "deleniti",
-        "aperiam"
+        "omnis",
+        "ipsa"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 381
+          "FieldLength": 794
         }
       }
     },
     {
-      "Name": "Lockman Group",
+      "Name": "Purdy LLC",
       "Values": [
-        "deleniti",
-        "aperiam"
+        "omnis",
+        "ipsa"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 381
+          "FieldLength": 794
         }
       }
     }
   ],
-  "FolderName": "Pollich, Lynch and Bode",
-  "EmailItemId": 210,
-  "AccountId": 458,
-  "ReceivedAt": "2008-04-13T16:32:38.9770531+02:00",
+  "FolderName": "Nicolas Group",
+  "EmailItemId": 739,
+  "AccountId": 440,
+  "ReceivedAt": "2004-08-31T17:54:03.0702097+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2005-01-13T16:32:38.9770531+01:00",
+  "RepliedAt": "2007-07-20T17:54:03.0702097+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -268,8 +268,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 145
+      "FieldType": "System.Int32",
+      "FieldLength": 172
     }
   }
 }

@@ -74,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 540,
-  "Name": "Leuschke Inc and Sons",
-  "ContentType": "dolores",
-  "AttSize": 890,
+  "AttachmentId": 87,
+  "Name": "Predovic-Tremblay",
+  "ContentType": "eligendi",
+  "AttSize": 18,
   "InlineImage": false,
-  "ContentId": "natus",
-  "AuthKey": "repudiandae",
+  "ContentId": "quas",
+  "AuthKey": "veniam",
   "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 673
+      "FieldType": "System.String",
+      "FieldLength": 441
     }
   }
 }

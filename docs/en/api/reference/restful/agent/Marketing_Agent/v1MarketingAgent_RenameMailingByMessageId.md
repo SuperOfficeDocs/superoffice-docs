@@ -65,12 +65,12 @@ No Content
 POST /api/v1/Agents/Marketing/RenameMailingByMessageId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MessageId": 891,
-  "Name": "Oberbrunner, Huel and Stoltenberg"
+  "MessageId": 439,
+  "Name": "Vandervort, Dooley and Lowe"
 }
 ```
 

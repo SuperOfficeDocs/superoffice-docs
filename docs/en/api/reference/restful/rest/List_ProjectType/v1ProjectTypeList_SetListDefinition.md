@@ -88,15 +88,15 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 368,
-  "Name": "Wiegand LLC",
-  "Tooltip": "labore",
+  "Id": 699,
+  "Name": "Mohr, Auer and Marks",
+  "Tooltip": "exercitationem",
   "Deleted": false,
-  "Rank": 766,
+  "Rank": 578,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "qui",
+  "ListType": "nihil",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 12,
-  "Name": "Kling Group",
-  "Tooltip": "consequatur",
+  "Id": 453,
+  "Name": "Ledner, Bayer and Kertzmann",
+  "Tooltip": "nihil",
   "Deleted": false,
-  "Rank": 816,
+  "Rank": 681,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "sint",
+  "ListType": "quos",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 305
+      "FieldLength": 671
     }
   }
 }

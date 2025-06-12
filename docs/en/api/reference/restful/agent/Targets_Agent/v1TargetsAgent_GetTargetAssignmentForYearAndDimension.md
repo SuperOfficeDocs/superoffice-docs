@@ -89,11 +89,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 756,
+  "TargetYear": 171,
   "EntityType": "None",
   "TargetLevel": "Associate",
-  "Id": 964,
-  "DimensionId": 112
+  "Id": 62,
+  "DimensionId": 829
 }
 ```
 
@@ -104,24 +104,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 316,
+  "TargetAssignmentInfoId": 12,
   "Values": [
-    562,
-    576
+    71,
+    916
   ],
   "Locked": false,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 845,
-  "DimensionListItemDisplayName": "Koelpin, Halvorson and O'Keefe",
+  "DimensionListItem": 268,
+  "DimensionListItemDisplayName": "Mosciski, Abbott and Farrell",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 130
+      "FieldType": "System.String",
+      "FieldLength": 156
     }
   }
 }

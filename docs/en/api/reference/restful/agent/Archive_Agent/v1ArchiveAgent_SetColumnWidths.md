@@ -65,14 +65,14 @@ No Content
 POST /api/v1/Agents/Archive/SetColumnWidths
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Lesch, Monahan and Kuhn",
+  "GuiName": "Becker-Beahan",
   "ColumnWidths": [
-    "minima",
-    "laboriosam"
+    "doloribus",
+    "reiciendis"
   ]
 }
 ```

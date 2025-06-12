@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetApplicationKeys
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Dietrich, Lemke and Jast"
+  "ApplicationName": "Volkman LLC"
 }
 ```
 
@@ -96,20 +96,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "laborum",
-    "Value": "quod",
-    "RecordId": 93,
-    "CreatedDate": "2000-08-06T16:32:39.180141+02:00",
-    "UpdatedDate": "2015-08-13T16:32:39.180141+02:00",
-    "UpdatedBy": "minus",
-    "CreatedBy": "hic",
-    "TableName": "Friesen, Tremblay and Nikolaus",
+    "Key": "necessitatibus",
+    "Value": "illum",
+    "RecordId": 937,
+    "CreatedDate": "2008-12-17T17:54:03.1795788+01:00",
+    "UpdatedDate": "2000-11-08T17:54:03.1795788+01:00",
+    "UpdatedBy": "et",
+    "CreatedBy": "quo",
+    "TableName": "Boyer-Lebsack",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 752
+        "FieldLength": 704
       }
     }
   }

@@ -78,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuickReplyId": 22,
-    "Name": "Lehner, Thompson and Lynch",
-    "HtmlBody": "est",
+    "QuickReplyId": 622,
+    "Name": "Beer Group",
+    "HtmlBody": "minima",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 232
+        "FieldLength": 270
       }
     }
   },
   {
-    "QuickReplyId": 22,
-    "Name": "Lehner, Thompson and Lynch",
-    "HtmlBody": "est",
+    "QuickReplyId": 622,
+    "Name": "Beer Group",
+    "HtmlBody": "minima",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 232
+        "FieldLength": 270
       }
     }
   }

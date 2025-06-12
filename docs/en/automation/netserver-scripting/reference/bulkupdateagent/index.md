@@ -12,12 +12,12 @@ so.envir: onsite
 
 Service methods defined on <see cref='T:IBulkUpdateAgent'>BulkUpdateAgent</see> that can trigger server-side event scripts.
 
-* [ExecuteByEntityIds](executebyentityids.md)
-* [ExecuteBySelectionId](executebyselectionid.md)
-* [GetAvailableFields](getavailablefields.md)
-* [GetJobResultAsJsonFromBinaryObjectId](getjobresultasjsonfrombinaryobjectid.md)
-* [GetJobResultsFromStorageAsJson](getjobresultsfromstorageasjson.md)
-* [GetStoredFields](getstoredfields.md)
-* [RemoveStoredFields](removestoredfields.md)
-* [RemoveStoredFieldsAndGetDefaultFields](removestoredfieldsandgetdefaultfields.md)
+* [ExecuteByEntityIdsAsync](executebyentityidsasync.md)
+* [ExecuteBySelectionIdAsync](executebyselectionidasync.md)
+* [GetAvailableFieldsAsync](getavailablefieldsasync.md)
+* [GetJobResultAsJsonFromBinaryObjectIdAsync](getjobresultasjsonfrombinaryobjectidasync.md)
+* [GetJobResultsFromStorageAsJsonAsync](getjobresultsfromstorageasjsonasync.md)
+* [GetStoredFieldsAsync](getstoredfieldsasync.md)
+* [RemoveStoredFieldsAndGetDefaultFieldsAsync](removestoredfieldsandgetdefaultfieldsasync.md)
+* [RemoveStoredFieldsAsync](removestoredfieldsasync.md)
 

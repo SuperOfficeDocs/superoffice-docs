@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetAppByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Hirthe, Mertz and Lueilwitz"
+  "ApplicationName": "Bins, Hartmann and Schaefer"
 }
 ```
 
@@ -94,29 +94,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 945,
-  "Name": "Dare LLC",
-  "CreatedDate": "2019-10-05T16:32:39.1645096+02:00",
-  "UpdatedDate": "1999-12-14T16:32:39.1645096+01:00",
+  "ForeignAppId": 744,
+  "Name": "Spencer-Pouros",
+  "CreatedDate": "2024-10-06T17:54:03.1639551+02:00",
+  "UpdatedDate": "2007-06-15T17:54:03.1639551+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 190,
-      "Name": "Langosh, Wiza and Torphy",
-      "CreatedDate": "2020-09-10T16:32:39.1645096+02:00",
-      "UpdatedDate": "2013-12-01T16:32:39.1645096+01:00",
-      "AssociateFullName": "Miss Vena O'Reilly Jr.",
-      "CreatedBy": "sint",
-      "UpdatedBy": "in",
-      "DeviceIdentifier": "dolores",
-      "ForeignAppId": 155,
+      "ForeignDeviceId": 766,
+      "Name": "Littel-Larkin",
+      "CreatedDate": "2023-02-11T17:54:03.1639551+01:00",
+      "UpdatedDate": "2011-12-30T17:54:03.1639551+01:00",
+      "AssociateFullName": "Earlene Gleason",
+      "CreatedBy": "quae",
+      "UpdatedBy": "natus",
+      "DeviceIdentifier": "rerum",
+      "ForeignAppId": 433,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 671
+          "FieldLength": 821
         }
       }
     }
@@ -125,8 +125,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 5
+      "FieldType": "System.String",
+      "FieldLength": 788
     }
   }
 }

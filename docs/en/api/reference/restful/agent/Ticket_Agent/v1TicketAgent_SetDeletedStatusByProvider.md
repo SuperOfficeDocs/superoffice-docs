@@ -71,32 +71,32 @@ OK
 POST /api/v1/Agents/Ticket/SetDeletedStatusByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Boehm Inc and Sons",
+  "ProviderName": "McCullough, Vandervort and Hamill",
   "Restrictions": [
     {
-      "Name": "Fahey LLC",
-      "Operator": "earum",
+      "Name": "Von-Roob",
+      "Operator": "quas",
       "Values": [
-        "aut",
-        "est"
+        "facere",
+        "et"
       ],
       "DisplayValues": [
-        "tenetur",
-        "non"
+        "vel",
+        "labore"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 970,
+      "InterParenthesis": 235,
       "InterOperator": "And",
-      "UniqueHash": 916
+      "UniqueHash": 911
     }
   ]
 }
@@ -109,7 +109,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  739,
-  731
+  613,
+  326
 ]
 ```

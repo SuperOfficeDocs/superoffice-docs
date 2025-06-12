@@ -99,36 +99,36 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Renner Group",
-      "Operator": "rerum",
+      "Name": "Ullrich-O'Kon",
+      "Operator": "in",
       "Values": [
-        "id",
-        "sunt"
+        "architecto",
+        "perspiciatis"
       ],
       "DisplayValues": [
-        "dicta",
-        "quod"
+        "omnis",
+        "molestias"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 965,
+      "InterParenthesis": 421,
       "InterOperator": "And",
-      "UniqueHash": 859
+      "UniqueHash": 555
     }
   ],
-  "ProviderName": "Mohr-Hayes",
-  "PageSize": 350,
-  "PageNumber": 689
+  "ProviderName": "Watsica, Hilpert and Weber",
+  "PageSize": 188,
+  "PageNumber": 589
 }
 ```
 
@@ -141,51 +141,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Hane-Schaden",
-      "DisplayTooltip": "quas",
-      "DisplayType": "aut",
+      "DisplayName": "Bradtke Group",
+      "DisplayTooltip": "natus",
+      "DisplayType": "occaecati",
       "CanOrderBy": false,
-      "Name": "Haag-Emmerich",
+      "Name": "Nader-Koss",
       "CanRestrictBy": false,
-      "RestrictionType": "fuga",
-      "RestrictionListName": "Emmerich Inc and Sons",
-      "IsVisible": false,
-      "ExtraInfo": "excepturi",
-      "Width": "ut",
-      "IconHint": "libero",
-      "HeadingIconHint": "facilis"
+      "RestrictionType": "at",
+      "RestrictionListName": "Oberbrunner-Little",
+      "IsVisible": true,
+      "ExtraInfo": "enim",
+      "Width": "a",
+      "IconHint": "veritatis",
+      "HeadingIconHint": "corrupti"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Hansen-Pouros",
-      "PrimaryKey": 767,
+      "EntityName": "Nicolas, Jaskolski and VonRueden",
+      "PrimaryKey": 868,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "inventore",
-          "TooltipHint": "voluptas",
-          "LinkHint": "autem"
+          "DisplayValue": "praesentium",
+          "TooltipHint": "itaque",
+          "LinkHint": "et"
         }
       },
-      "LinkHint": "hic",
-      "StyleHint": "labore",
+      "LinkHint": "aut",
+      "StyleHint": "dolor",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 648
+          "FieldType": "System.String",
+          "FieldLength": 628
         }
       }
     }
   ],
-  "RowCount": 776,
+  "RowCount": 15,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 847
+      "FieldLength": 259
     }
   }
 }

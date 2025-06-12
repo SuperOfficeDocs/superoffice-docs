@@ -90,14 +90,14 @@ OK
 POST /api/v1/Agents/Contact/GetMyActiveContacts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ActivityStartTime": "2005-04-01T16:32:38.4303083+02:00",
+  "ActivityStartTime": "2006-12-08T17:54:02.8514704+01:00",
   "ContactCategories": [
-    885,
-    788
+    272,
+    919
   ],
   "ActionType": "ActivityCompleted"
 }
@@ -111,26 +111,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 63,
-    "Department": "morph bleeding-edge e-services",
-    "OrgNr": "709117",
-    "Name": "Brekke-Predovic",
+    "ContactId": 689,
+    "Department": "",
+    "OrgNr": "712804",
+    "Name": "Strosin, Stracke and Casper",
     "URL": "http://www.example.com/",
-    "AssociateFullName": "Hailie Sawayn",
+    "AssociateFullName": "Stacey Reina Metz MD",
     "Action": "ActivityCompleted",
-    "ActionTime": "2006-08-05T16:32:38.4303083+02:00",
+    "ActionTime": "2024-08-26T17:54:02.8514704+02:00",
     "Category": "VIP Customer",
-    "ActivityPersonName": "Keebler LLC",
-    "ActionId": 309,
-    "PersonId": 923,
-    "ActivityPersonId": 560,
-    "AssociateId": 132,
+    "ActivityPersonName": "Luettgen, Langosh and Lind",
+    "ActionId": 947,
+    "PersonId": 801,
+    "ActivityPersonId": 751,
+    "AssociateId": 674,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 938
+        "FieldType": "System.String",
+        "FieldLength": 88
       }
     }
   }

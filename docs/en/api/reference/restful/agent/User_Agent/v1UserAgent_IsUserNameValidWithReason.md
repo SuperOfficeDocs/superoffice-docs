@@ -79,14 +79,14 @@ OK
 POST /api/v1/Agents/User/IsUserNameValidWithReason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 501,
+  "AssociateId": 1001,
   "Type": "AnonymousAssociate",
-  "PersonId": 233,
-  "UserName": "Yundt-Stroman"
+  "PersonId": 86,
+  "UserName": "Marks, Lind and Grady"
 }
 ```
 
@@ -104,7 +104,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 957
+      "FieldLength": 752
     }
   }
 }

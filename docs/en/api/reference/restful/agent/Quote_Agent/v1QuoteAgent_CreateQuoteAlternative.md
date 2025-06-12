@@ -97,13 +97,13 @@ OK
 POST /api/v1/Agents/Quote/CreateQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 267,
-  "QuoteAlternativeName": "Hayes, Schinner and Ondricka",
-  "QuoteAlternativeDescription": "Future-proofed mission-critical portal"
+  "QuoteVersionId": 66,
+  "QuoteAlternativeName": "Tremblay Inc and Sons",
+  "QuoteAlternativeDescription": "Team-oriented actuating framework"
 }
 ```
 
@@ -114,35 +114,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 905,
-  "ERPQuoteAlternativeKey": "esse",
-  "QuoteVersionId": 784,
-  "Name": "Wiza-Herman",
-  "Description": "Inverse explicit conglomeration",
+  "QuoteAlternativeId": 639,
+  "ERPQuoteAlternativeKey": "dolorem",
+  "QuoteVersionId": 16,
+  "Name": "Crona-Marks",
+  "Description": "Universal 24 hour synergy",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 2855.074,
-  "ERPDiscountAmount": 25401.07,
-  "DiscountPercent": 18948.164,
-  "DiscountAmount": 30873.034,
+  "ERPDiscountPercent": 993.478,
+  "ERPDiscountAmount": 5559.7159999999994,
+  "DiscountPercent": 28654.162,
+  "DiscountAmount": 26924.194,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "amet",
-  "VAT": 24238.356,
-  "EarningPercent": 21734.29,
-  "EarningAmount": 8515.078,
-  "SubTotal": 15469.423999999999,
-  "TotalPrice": 19744.2,
-  "ExtraField1": "ratione",
-  "ExtraField2": "voluptas",
-  "ExtraField3": "occaecati",
-  "ExtraField4": "enim",
-  "ExtraField5": "iste",
+  "VATInfo": "quisquam",
+  "VAT": 29384.384,
+  "EarningPercent": 24094.192,
+  "EarningAmount": 23066.239999999998,
+  "SubTotal": 15510.166,
+  "TotalPrice": 5932.6619999999994,
+  "ExtraField1": "dolor",
+  "ExtraField2": "est",
+  "ExtraField3": "ea",
+  "ExtraField4": "rem",
+  "ExtraField5": "quia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 664
+      "FieldLength": 296
     }
   }
 }

@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/ProductCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 664,
-  "Name": "Wisoky Inc and Sons",
-  "Tooltip": "sed",
+  "Id": 617,
+  "Name": "Runolfsson, Wuckert and Lang",
+  "Tooltip": "dolorum",
   "Deleted": false,
-  "UdListDefinitionId": 542,
-  "Rank": 125
+  "UdListDefinitionId": 539,
+  "Rank": 456
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 862,
-  "Name": "Haley, Crist and Davis",
-  "Tooltip": "atque",
+  "Id": 858,
+  "Name": "Will, Grady and Hegmann",
+  "Tooltip": "et",
   "Deleted": false,
-  "UdListDefinitionId": 167,
-  "Rank": 245,
+  "UdListDefinitionId": 985,
+  "Rank": 713,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 278
+      "FieldLength": 662
     }
   }
 }

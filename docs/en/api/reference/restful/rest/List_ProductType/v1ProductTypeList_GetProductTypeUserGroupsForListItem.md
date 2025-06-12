@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ProductType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 522,
-    "Name": "Hilll Group",
-    "ToolTip": "Iusto molestiae repellendus ea.",
+    "Id": 835,
+    "Name": "O'Kon-Cremin",
+    "ToolTip": "Ducimus temporibus id nam labore quos aut.",
     "Deleted": true,
-    "Rank": 528,
-    "Type": "omnis",
-    "ColorBlock": 888,
-    "IconHint": "quaerat",
-    "Selected": true,
-    "LastChanged": "2007-08-03T16:32:48.8213663+02:00",
+    "Rank": 340,
+    "Type": "ipsum",
+    "ColorBlock": 746,
+    "IconHint": "et",
+    "Selected": false,
+    "LastChanged": "2022-12-28T17:54:08.9917951+01:00",
     "ChildItems": [
       {
-        "Id": 94,
-        "Name": "Fahey-Reynolds",
-        "ToolTip": "Est sunt illo id ex soluta ad quo.",
+        "Id": 282,
+        "Name": "Dickens-Mertz",
+        "ToolTip": "Et voluptas impedit repudiandae beatae incidunt corporis.",
         "Deleted": false,
-        "Rank": 318,
-        "Type": "molestias",
-        "ColorBlock": 688,
-        "IconHint": "atque",
-        "Selected": true,
-        "LastChanged": "2000-04-09T16:32:48.8213663+02:00",
+        "Rank": 995,
+        "Type": "possimus",
+        "ColorBlock": 403,
+        "IconHint": "inventore",
+        "Selected": false,
+        "LastChanged": "2003-01-15T17:54:08.9917951+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "minima",
-        "StyleHint": "magni",
+        "ExtraInfo": "quibusdam",
+        "StyleHint": "nihil",
         "Hidden": false,
-        "FullName": "Mohammed Mayert",
+        "FullName": "Monserrate Lockman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 172
+            "FieldLength": 180
           }
         }
       }
     ],
-    "ExtraInfo": "odit",
-    "StyleHint": "sit",
+    "ExtraInfo": "harum",
+    "StyleHint": "dolores",
     "Hidden": false,
-    "FullName": "Francisco Treutel",
+    "FullName": "Dr. Dereck Brett Mante",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 251
+        "FieldLength": 896
       }
     }
   }

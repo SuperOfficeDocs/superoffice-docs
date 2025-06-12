@@ -99,29 +99,29 @@ OK
 POST /api/v1/Agents/Sale/SaveSaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Zboncak Inc and Sons",
-  "Comment": "hic",
-  "StakeholderRoleId": 535,
-  "CountryId": 237,
-  "PersonId": 955,
-  "EmailDescription": "elvera_strosin@jakubowski.biz",
-  "EmailId": 273,
-  "EmailAddress": "malika@vandervort.uk",
-  "PhoneId": 108,
-  "ContactName": "Roob, Shields and Moore",
-  "ContactId": 403,
-  "SaleId": 763,
-  "Mrmrs": "beatae",
-  "Firstname": "Emmanuelle",
-  "MiddleName": "Mayer-Cormier",
-  "Lastname": "Douglas",
-  "SaleStakeholderId": 204,
-  "Rank": 275,
-  "Phone": "661.159.7120 x8160"
+  "StakeholderRoleName": "Pacocha LLC",
+  "Comment": "similique",
+  "StakeholderRoleId": 738,
+  "CountryId": 122,
+  "PersonId": 538,
+  "EmailDescription": "cassie.gorczany@hammes.info",
+  "EmailId": 267,
+  "EmailAddress": "cornell.ullrich@schaden.info",
+  "PhoneId": 284,
+  "ContactName": "Christiansen-Spinka",
+  "ContactId": 347,
+  "SaleId": 997,
+  "Mrmrs": "sed",
+  "Firstname": "Jarrett",
+  "MiddleName": "Bradtke Group",
+  "Lastname": "Jast",
+  "SaleStakeholderId": 721,
+  "Rank": 407,
+  "Phone": "418.805.8669"
 }
 ```
 
@@ -132,31 +132,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Mueller LLC",
-  "Comment": "expedita",
-  "StakeholderRoleId": 808,
-  "CountryId": 377,
-  "PersonId": 139,
-  "EmailDescription": "freeman@wunschjacobi.co.uk",
-  "EmailId": 490,
-  "EmailAddress": "shaun@brown.info",
-  "PhoneId": 607,
-  "ContactName": "Prosacco, Witting and Olson",
-  "ContactId": 183,
-  "SaleId": 285,
-  "Mrmrs": "soluta",
-  "Firstname": "Terry",
-  "MiddleName": "Hintz, Hoeger and Smith",
-  "Lastname": "Keebler",
-  "SaleStakeholderId": 452,
-  "Rank": 970,
-  "Phone": "076.362.2106 x77107",
+  "StakeholderRoleName": "Botsford-Miller",
+  "Comment": "cum",
+  "StakeholderRoleId": 551,
+  "CountryId": 916,
+  "PersonId": 929,
+  "EmailDescription": "arlene.quitzon@gottlieb.com",
+  "EmailId": 640,
+  "EmailAddress": "dawn.ondricka@emard.ca",
+  "PhoneId": 88,
+  "ContactName": "Koepp Inc and Sons",
+  "ContactId": 750,
+  "SaleId": 492,
+  "Mrmrs": "iste",
+  "Firstname": "Aiyana",
+  "MiddleName": "McGlynn-Quitzon",
+  "Lastname": "Kemmer",
+  "SaleStakeholderId": 973,
+  "Rank": 971,
+  "Phone": "(198)219-4964 x723",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 222
+      "FieldLength": 393
     }
   }
 }

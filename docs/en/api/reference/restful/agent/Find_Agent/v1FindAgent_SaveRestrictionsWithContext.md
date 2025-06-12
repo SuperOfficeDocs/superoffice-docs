@@ -68,24 +68,24 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictionsWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "voluptatem",
-  "ProviderName": "Schmitt-Waelchi",
-  "StorageKey": "impedit",
+  "StorageType": "iste",
+  "ProviderName": "Fisher LLC",
+  "StorageKey": "molestias",
   "Restrictions": [
     {
-      "Name": "Grimes, Streich and Cummerata",
-      "Operator": "voluptatem",
+      "Name": "Parisian-Bailey",
+      "Operator": "cumque",
       "Values": [
-        "doloribus",
-        "repellendus"
+        "voluptatem",
+        "soluta"
       ],
       "DisplayValues": [
-        "ut",
-        "sed"
+        "magni",
+        "et"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -93,12 +93,12 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 508,
+      "InterParenthesis": 396,
       "InterOperator": "And",
-      "UniqueHash": 832
+      "UniqueHash": 262
     }
   ],
-  "Context": "soluta"
+  "Context": "harum"
 }
 ```
 

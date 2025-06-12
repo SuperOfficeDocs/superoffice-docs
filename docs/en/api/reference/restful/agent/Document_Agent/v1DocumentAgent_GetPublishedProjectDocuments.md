@@ -92,11 +92,11 @@ OK
 POST /api/v1/Agents/Document/GetPublishedProjectDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 132
+  "ProjectId": 624
 }
 ```
 
@@ -108,32 +108,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 341,
-    "Attention": "error",
-    "Header": "nesciunt",
-    "Name": "Thiel LLC",
-    "OurRef": "reiciendis",
-    "YourRef": "qui",
-    "Description": "Customer-focused regional portal",
-    "DocumentTemplate": "laboriosam",
-    "IsPublished": false,
-    "PersonId": 891,
-    "PersonFullName": "Jarrell Melyna Glover V",
-    "AssociateFullName": "Kane Estrella Runolfsdottir PhD",
-    "ContactId": 742,
-    "ContactName": "Dicki-Schultz",
-    "ProjectId": 479,
-    "ProjectName": "Boyle Group",
-    "AssociateId": 825,
-    "Snum": 411,
-    "SaleId": 798,
-    "SaleName": "Ledner-Ledner",
+    "DocumentId": 467,
+    "Attention": "reprehenderit",
+    "Header": "odio",
+    "Name": "Turcotte-Conn",
+    "OurRef": "illum",
+    "YourRef": "repudiandae",
+    "Description": "Reduced coherent knowledge user",
+    "DocumentTemplate": "magni",
+    "IsPublished": true,
+    "PersonId": 104,
+    "PersonFullName": "Hadley Orval Aufderhar II",
+    "AssociateFullName": "Erika Braun",
+    "ContactId": 168,
+    "ContactName": "Zulauf, Haag and Beier",
+    "ProjectId": 863,
+    "ProjectName": "Schaden-Kerluke",
+    "AssociateId": 660,
+    "Snum": 499,
+    "SaleId": 390,
+    "SaleName": "Schroeder, Moore and Green",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 646
+        "FieldType": "System.Int32",
+        "FieldLength": 599
       }
     }
   }

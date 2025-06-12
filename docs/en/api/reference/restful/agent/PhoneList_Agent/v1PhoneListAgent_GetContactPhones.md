@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/PhoneList/GetContactPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 820
+  "ContactId": 584
 }
 ```
 
@@ -100,22 +100,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "1-636-832-0939",
-    "PersonCellPhone": "(346)032-5933 x47445",
-    "PersonPrivatePhone": "258-589-4944 x8212",
-    "PersonFaxNumber": "1694245",
-    "PersonPagerNumber": "1313876",
-    "PersonEmail": "freida_swift@kuvalis.us",
-    "Id": 833,
-    "Name": "Haley LLC",
-    "Tooltip": "natus",
-    "UniqueId": "illum",
+    "PersonDirectPhone": "(063)077-3366 x14609",
+    "PersonCellPhone": "354.516.8389 x4899",
+    "PersonPrivatePhone": "798-965-5175 x085",
+    "PersonFaxNumber": "1135982",
+    "PersonPagerNumber": "1694962",
+    "PersonEmail": "annabel.stamm@nicolascarter.info",
+    "Id": 632,
+    "Name": "Ziemann Inc and Sons",
+    "Tooltip": "et",
+    "UniqueId": "iste",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 407
+        "FieldLength": 78
       }
     }
   }

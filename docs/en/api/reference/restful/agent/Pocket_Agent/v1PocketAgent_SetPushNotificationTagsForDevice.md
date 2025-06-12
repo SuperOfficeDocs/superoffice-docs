@@ -65,12 +65,12 @@ No Content
 POST /api/v1/Agents/Pocket/SetPushNotificationTagsForDevice
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DeviceIdentifier": "fugit",
-  "Tags": "ut"
+  "DeviceIdentifier": "ab",
+  "Tags": "quo"
 }
 ```
 

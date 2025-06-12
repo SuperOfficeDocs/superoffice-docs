@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetErpSyncConnectionSummary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpSyncConnectionId": 679
+  "ErpSyncConnectionId": 910
 }
 ```
 
@@ -95,37 +95,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DisplayName": "Jenkins, Walter and Kautzer",
-  "DisplayDescription": "Versatile content-based array",
-  "Active": false,
+  "DisplayName": "Bayer LLC",
+  "DisplayDescription": "Universal heuristic knowledge user",
+  "Active": true,
   "Deleted": false,
-  "LastSync": "2002-01-12T16:32:39.0864027+01:00",
+  "LastSync": "2001-05-30T17:54:03.1327059+02:00",
   "Actors": [
     {
       "ActorType": "Customer",
-      "HasMappings": true,
-      "Defaults": "laboriosam",
-      "Mappings": "consequatur",
+      "HasMappings": false,
+      "Defaults": "aut",
+      "Mappings": "aliquid",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 694
+          "FieldType": "System.Int32",
+          "FieldLength": 125
         }
       }
     },
     {
       "ActorType": "Customer",
-      "HasMappings": true,
-      "Defaults": "laboriosam",
-      "Mappings": "consequatur",
+      "HasMappings": false,
+      "Defaults": "aut",
+      "Mappings": "aliquid",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 694
+          "FieldType": "System.Int32",
+          "FieldLength": 125
         }
       }
     }
@@ -135,7 +135,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 668
+      "FieldLength": 326
     }
   }
 }

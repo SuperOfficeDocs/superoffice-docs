@@ -70,9 +70,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Williamson-Bergnaum",
-  "DeviceName": "Bailey-Keeling",
-  "DeviceIdentifier": "et"
+  "ApplicationName": "Christiansen Inc and Sons",
+  "DeviceName": "Bergstrom Group",
+  "DeviceIdentifier": "facere"
 }
 ```
 

@@ -249,18 +249,6 @@ title: Services88.FreeTextAgent WSDL
           <xs:sequence />
         </xs:complexType>
       </xs:element>
-      <xs:element name="SetAutoEnableTravelAreas">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="AutoEnable" type="xs:boolean" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="SetAutoEnableTravelAreasResponse">
-        <xs:complexType>
-          <xs:sequence />
-        </xs:complexType>
-      </xs:element>
       <xs:element name="SetSingleWordOperator">
         <xs:complexType>
           <xs:sequence>
@@ -285,83 +273,6 @@ title: Services88.FreeTextAgent WSDL
           <xs:sequence />
         </xs:complexType>
       </xs:element>
-      <xs:element name="GetStopWordList">
-        <xs:complexType>
-          <xs:sequence />
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="GetStopWordListResponse">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q1:ArrayOfstring" xmlns:q1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="AddWords">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="StopWords" nillable="true" type="xs:string" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="AddWordsResponse">
-        <xs:complexType>
-          <xs:sequence />
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="DeleteStopWordsById">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="StopWordIds" nillable="true" type="q2:ArrayOfint" xmlns:q2="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="DeleteStopWordsByIdResponse">
-        <xs:complexType>
-          <xs:sequence />
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="GetSuggestedStopWords">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="CountWords" type="xs:int" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="GetSuggestedStopWordsResponse">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:ArrayOfMDOListItem" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:complexType name="ArrayOfMDOListItem">
-        <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="MDOListItem" nillable="true" type="tns:MDOListItem" />
-        </xs:sequence>
-      </xs:complexType>
-      <xs:element name="ArrayOfMDOListItem" nillable="true" type="tns:ArrayOfMDOListItem" />
-      <xs:complexType name="MDOListItem">
-        <xs:complexContent mixed="false">
-          <xs:extension base="tns:Carrier">
-            <xs:sequence>
-              <xs:element minOccurs="0" name="Id" type="xs:int" />
-              <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="ToolTip" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="Deleted" type="xs:boolean" />
-              <xs:element minOccurs="0" name="Rank" type="xs:int" />
-              <xs:element minOccurs="0" name="Type" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="ChildItems" nillable="true" type="tns:ArrayOfMDOListItem" />
-              <xs:element minOccurs="0" name="IconHint" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="ColorBlock" type="xs:int" />
-              <xs:element minOccurs="0" name="ExtraInfo" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="StyleHint" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="FullName" nillable="true" type="xs:string" />
-            </xs:sequence>
-          </xs:extension>
-        </xs:complexContent>
-      </xs:complexType>
-      <xs:element name="MDOListItem" nillable="true" type="tns:MDOListItem" />
       <xs:element name="RegenerateIndex">
         <xs:complexType>
           <xs:sequence>
@@ -456,7 +367,7 @@ title: Services88.FreeTextAgent WSDL
         <xs:complexType>
           <xs:sequence>
             <xs:element minOccurs="0" name="TableName" nillable="true" type="xs:string" />
-            <xs:element minOccurs="0" name="IDs" nillable="true" type="q3:ArrayOfint" xmlns:q3="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="IDs" nillable="true" type="q1:ArrayOfint" xmlns:q1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -508,12 +419,6 @@ title: Services88.FreeTextAgent WSDL
       <xs:attribute name="Ref" type="xs:IDREF" />
     </xs:schema>
     <xs:schema elementFormDefault="qualified" targetNamespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-      <xs:complexType name="ArrayOfstring">
-        <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="xs:string" />
-        </xs:sequence>
-      </xs:complexType>
-      <xs:element name="ArrayOfstring" nillable="true" type="tns:ArrayOfstring" />
       <xs:complexType name="ArrayOfint">
         <xs:sequence>
           <xs:element minOccurs="0" maxOccurs="unbounded" name="int" type="xs:int" />
@@ -556,23 +461,6 @@ title: Services88.FreeTextAgent WSDL
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
-  <wsdl:message name="SetAutoEnableTravelAreasRequest">
-    <wsdl:part name="parameters" element="tns:SetAutoEnableTravelAreas" />
-  </wsdl:message>
-  <wsdl:message name="SetAutoEnableTravelAreasRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="SetAutoEnableTravelAreasResponse">
-    <wsdl:part name="parameters" element="tns:SetAutoEnableTravelAreasResponse" />
-  </wsdl:message>
-  <wsdl:message name="SetAutoEnableTravelAreasResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
   <wsdl:message name="SetSingleWordOperatorRequest">
     <wsdl:part name="parameters" element="tns:SetSingleWordOperator" />
   </wsdl:message>
@@ -602,74 +490,6 @@ title: Services88.FreeTextAgent WSDL
     <wsdl:part name="parameters" element="tns:SetMultiWordOperatorResponse" />
   </wsdl:message>
   <wsdl:message name="SetMultiWordOperatorResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="GetStopWordListRequest">
-    <wsdl:part name="parameters" element="tns:GetStopWordList" />
-  </wsdl:message>
-  <wsdl:message name="GetStopWordListRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="GetStopWordListResponse">
-    <wsdl:part name="parameters" element="tns:GetStopWordListResponse" />
-  </wsdl:message>
-  <wsdl:message name="GetStopWordListResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="AddWordsRequest">
-    <wsdl:part name="parameters" element="tns:AddWords" />
-  </wsdl:message>
-  <wsdl:message name="AddWordsRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="AddWordsResponse">
-    <wsdl:part name="parameters" element="tns:AddWordsResponse" />
-  </wsdl:message>
-  <wsdl:message name="AddWordsResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="DeleteStopWordsByIdRequest">
-    <wsdl:part name="parameters" element="tns:DeleteStopWordsById" />
-  </wsdl:message>
-  <wsdl:message name="DeleteStopWordsByIdRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="DeleteStopWordsByIdResponse">
-    <wsdl:part name="parameters" element="tns:DeleteStopWordsByIdResponse" />
-  </wsdl:message>
-  <wsdl:message name="DeleteStopWordsByIdResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="GetSuggestedStopWordsRequest">
-    <wsdl:part name="parameters" element="tns:GetSuggestedStopWords" />
-  </wsdl:message>
-  <wsdl:message name="GetSuggestedStopWordsRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="GetSuggestedStopWordsResponse">
-    <wsdl:part name="parameters" element="tns:GetSuggestedStopWordsResponse" />
-  </wsdl:message>
-  <wsdl:message name="GetSuggestedStopWordsResponse_Headers">
     <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
     <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
@@ -718,10 +538,6 @@ title: Services88.FreeTextAgent WSDL
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/FreeText/SetEnabled" name="SetEnabledRequest" message="tns:SetEnabledRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/FreeText/SetEnabledResponse" name="SetEnabledResponse" message="tns:SetEnabledResponse" />
     </wsdl:operation>
-    <wsdl:operation name="SetAutoEnableTravelAreas">
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/FreeText/SetAutoEnableTravelAreas" name="SetAutoEnableTravelAreasRequest" message="tns:SetAutoEnableTravelAreasRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/FreeText/SetAutoEnableTravelAreasResponse" name="SetAutoEnableTravelAreasResponse" message="tns:SetAutoEnableTravelAreasResponse" />
-    </wsdl:operation>
     <wsdl:operation name="SetSingleWordOperator">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/FreeText/SetSingleWordOperator" name="SetSingleWordOperatorRequest" message="tns:SetSingleWordOperatorRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/FreeText/SetSingleWordOperatorResponse" name="SetSingleWordOperatorResponse" message="tns:SetSingleWordOperatorResponse" />
@@ -729,22 +545,6 @@ title: Services88.FreeTextAgent WSDL
     <wsdl:operation name="SetMultiWordOperator">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/FreeText/SetMultiWordOperator" name="SetMultiWordOperatorRequest" message="tns:SetMultiWordOperatorRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/FreeText/SetMultiWordOperatorResponse" name="SetMultiWordOperatorResponse" message="tns:SetMultiWordOperatorResponse" />
-    </wsdl:operation>
-    <wsdl:operation name="GetStopWordList">
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/FreeText/GetStopWordList" name="GetStopWordListRequest" message="tns:GetStopWordListRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/FreeText/GetStopWordListResponse" name="GetStopWordListResponse" message="tns:GetStopWordListResponse" />
-    </wsdl:operation>
-    <wsdl:operation name="AddWords">
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/FreeText/AddWords" name="AddWordsRequest" message="tns:AddWordsRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/FreeText/AddWordsResponse" name="AddWordsResponse" message="tns:AddWordsResponse" />
-    </wsdl:operation>
-    <wsdl:operation name="DeleteStopWordsById">
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/FreeText/DeleteStopWordsById" name="DeleteStopWordsByIdRequest" message="tns:DeleteStopWordsByIdRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/FreeText/DeleteStopWordsByIdResponse" name="DeleteStopWordsByIdResponse" message="tns:DeleteStopWordsByIdResponse" />
-    </wsdl:operation>
-    <wsdl:operation name="GetSuggestedStopWords">
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/FreeText/GetSuggestedStopWords" name="GetSuggestedStopWordsRequest" message="tns:GetSuggestedStopWordsRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/FreeText/GetSuggestedStopWordsResponse" name="GetSuggestedStopWordsResponse" message="tns:GetSuggestedStopWordsResponse" />
     </wsdl:operation>
     <wsdl:operation name="RegenerateIndex">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/FreeText/RegenerateIndex" name="RegenerateIndexRequest" message="tns:RegenerateIndexRequest" />
@@ -789,22 +589,6 @@ title: Services88.FreeTextAgent WSDL
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
-    <wsdl:operation name="SetAutoEnableTravelAreas">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/FreeText/SetAutoEnableTravelAreas" style="document" />
-      <wsdl:input name="SetAutoEnableTravelAreasRequest">
-        <soap:header message="tns:SetAutoEnableTravelAreasRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:SetAutoEnableTravelAreasRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:SetAutoEnableTravelAreasRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="SetAutoEnableTravelAreasResponse">
-        <soap:header message="tns:SetAutoEnableTravelAreasResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:SetAutoEnableTravelAreasResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:SetAutoEnableTravelAreasResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:SetAutoEnableTravelAreasResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
     <wsdl:operation name="SetSingleWordOperator">
       <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/FreeText/SetSingleWordOperator" style="document" />
       <wsdl:input name="SetSingleWordOperatorRequest">
@@ -834,70 +618,6 @@ title: Services88.FreeTextAgent WSDL
         <soap:header message="tns:SetMultiWordOperatorResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:SetMultiWordOperatorResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:SetMultiWordOperatorResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="GetStopWordList">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/FreeText/GetStopWordList" style="document" />
-      <wsdl:input name="GetStopWordListRequest">
-        <soap:header message="tns:GetStopWordListRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:GetStopWordListRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:GetStopWordListRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="GetStopWordListResponse">
-        <soap:header message="tns:GetStopWordListResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:GetStopWordListResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:GetStopWordListResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:GetStopWordListResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="AddWords">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/FreeText/AddWords" style="document" />
-      <wsdl:input name="AddWordsRequest">
-        <soap:header message="tns:AddWordsRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:AddWordsRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:AddWordsRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="AddWordsResponse">
-        <soap:header message="tns:AddWordsResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:AddWordsResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:AddWordsResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:AddWordsResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="DeleteStopWordsById">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/FreeText/DeleteStopWordsById" style="document" />
-      <wsdl:input name="DeleteStopWordsByIdRequest">
-        <soap:header message="tns:DeleteStopWordsByIdRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:DeleteStopWordsByIdRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:DeleteStopWordsByIdRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="DeleteStopWordsByIdResponse">
-        <soap:header message="tns:DeleteStopWordsByIdResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:DeleteStopWordsByIdResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:DeleteStopWordsByIdResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:DeleteStopWordsByIdResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="GetSuggestedStopWords">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/FreeText/GetSuggestedStopWords" style="document" />
-      <wsdl:input name="GetSuggestedStopWordsRequest">
-        <soap:header message="tns:GetSuggestedStopWordsRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:GetSuggestedStopWordsRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:GetSuggestedStopWordsRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="GetSuggestedStopWordsResponse">
-        <soap:header message="tns:GetSuggestedStopWordsResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:GetSuggestedStopWordsResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:GetSuggestedStopWordsResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:GetSuggestedStopWordsResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>

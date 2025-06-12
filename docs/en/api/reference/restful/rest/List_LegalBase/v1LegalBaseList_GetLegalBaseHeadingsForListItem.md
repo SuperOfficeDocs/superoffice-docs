@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/LegalBase/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/LegalBase/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 335,
-    "Name": "Zemlak, Greenholt and Waelchi",
-    "ToolTip": "Quisquam exercitationem tempore dicta id amet et facilis.",
+    "Id": 719,
+    "Name": "Spencer-Botsford",
+    "ToolTip": "Doloremque placeat est deserunt.",
     "Deleted": true,
-    "Rank": 343,
-    "Type": "officia",
-    "ColorBlock": 784,
-    "IconHint": "qui",
+    "Rank": 886,
+    "Type": "laudantium",
+    "ColorBlock": 50,
+    "IconHint": "ut",
     "Selected": false,
-    "LastChanged": "2002-08-25T16:32:48.6963928+02:00",
+    "LastChanged": "2018-03-17T17:54:08.9292989+01:00",
     "ChildItems": [
       {
-        "Id": 780,
-        "Name": "Miller Inc and Sons",
-        "ToolTip": "Velit deleniti facere dolores fugit mollitia aut.",
-        "Deleted": true,
-        "Rank": 555,
-        "Type": "assumenda",
-        "ColorBlock": 602,
-        "IconHint": "in",
+        "Id": 150,
+        "Name": "Weber Inc and Sons",
+        "ToolTip": "Ut asperiores doloribus.",
+        "Deleted": false,
+        "Rank": 924,
+        "Type": "cumque",
+        "ColorBlock": 293,
+        "IconHint": "porro",
         "Selected": false,
-        "LastChanged": "2004-10-10T16:32:48.6963928+02:00",
+        "LastChanged": "2010-12-06T17:54:08.9292989+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequuntur",
-        "StyleHint": "rerum",
+        "ExtraInfo": "nihil",
+        "StyleHint": "cumque",
         "Hidden": false,
-        "FullName": "Jeremie VonRueden",
+        "FullName": "Eldridge Jacobs",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 340
+            "FieldType": "System.Int32",
+            "FieldLength": 649
           }
         }
       }
     ],
-    "ExtraInfo": "quibusdam",
-    "StyleHint": "aut",
-    "Hidden": true,
-    "FullName": "Brenden Johnston",
+    "ExtraInfo": "ea",
+    "StyleHint": "omnis",
+    "Hidden": false,
+    "FullName": "Syble Towne",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 790
+        "FieldLength": 135
       }
     }
   }

@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/List/GetTicketTypeList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -99,40 +99,40 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketTypeId": 631,
-    "Name": "Aufderhar Inc and Sons",
-    "Rank": 320,
-    "Tooltip": "enim",
-    "Icon": "a",
-    "DefaultTicketStatus": 13,
+    "TicketTypeId": 166,
+    "Name": "Leannon-Trantow",
+    "Rank": 527,
+    "Tooltip": "a",
+    "Icon": "impedit",
+    "DefaultTicketStatus": 429,
     "TicketStatuses": [
-      82,
-      119
+      749,
+      401
     ],
-    "DefaultTicketPriority": 651,
+    "DefaultTicketPriority": 894,
     "TicketPriorities": [
-      202,
-      340
+      204,
+      692
     ],
-    "ReplyTemplate": 8,
+    "ReplyTemplate": 940,
     "IsExternalVisible": false,
     "IsDefault": true,
     "ShowInNew": false,
-    "ExcludeSignature": true,
+    "ExcludeSignature": false,
     "ExcludeEmailRecipients": false,
-    "ExternalAsDefault": true,
+    "ExternalAsDefault": false,
     "VisibleForGroups": [
-      161,
-      976
+      234,
+      654
     ],
-    "ReplyForwardNoSignature": false,
+    "ReplyForwardNoSignature": true,
     "ReplyExternalAsDefault": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 458
+        "FieldLength": 591
       }
     }
   }

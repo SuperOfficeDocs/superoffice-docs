@@ -77,12 +77,12 @@ OK
 POST /api/v1/Agents/User/GetCredentialUsersInGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "magnam",
-  "GroupName": "Hessel Group"
+  "Type": "voluptatum",
+  "GroupName": "Kohler-Lockman"
 }
 ```
 
@@ -94,41 +94,41 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Headings": [
-    "harum",
-    "nulla"
+    "et",
+    "consequuntur"
   ],
   "Users": [
     {
-      "Value": "amet",
-      "DisplayValue": "ab",
+      "Value": "corporis",
+      "DisplayValue": "consequatur",
       "Columns": [
-        "officiis",
-        "culpa"
+        "ut",
+        "exercitationem"
       ],
-      "CanCreatePerson": false,
+      "CanCreatePerson": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 120
+          "FieldType": "System.Int32",
+          "FieldLength": 350
         }
       }
     },
     {
-      "Value": "amet",
-      "DisplayValue": "ab",
+      "Value": "corporis",
+      "DisplayValue": "consequatur",
       "Columns": [
-        "officiis",
-        "culpa"
+        "ut",
+        "exercitationem"
       ],
-      "CanCreatePerson": false,
+      "CanCreatePerson": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 120
+          "FieldType": "System.Int32",
+          "FieldLength": 350
         }
       }
     }
@@ -138,7 +138,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 807
+      "FieldLength": 848
     }
   }
 }

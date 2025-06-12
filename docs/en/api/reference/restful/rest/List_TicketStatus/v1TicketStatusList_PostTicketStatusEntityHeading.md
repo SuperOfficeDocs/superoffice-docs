@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/TicketStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 134,
-  "Name": "Haley, Balistreri and Fahey",
-  "Tooltip": "aliquam",
-  "Deleted": false,
-  "Rank": 238,
-  "UdListDefinitionId": 658
+  "HeadingId": 367,
+  "Name": "Kiehn Group",
+  "Tooltip": "est",
+  "Deleted": true,
+  "Rank": 971,
+  "UdListDefinitionId": 248
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 623,
-  "Name": "Goldner LLC",
-  "Tooltip": "numquam",
+  "HeadingId": 845,
+  "Name": "Roob LLC",
+  "Tooltip": "corrupti",
   "Deleted": false,
-  "Rank": 640,
-  "UdListDefinitionId": 932,
+  "Rank": 907,
+  "UdListDefinitionId": 48,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 55
+      "FieldLength": 805
     }
   }
 }

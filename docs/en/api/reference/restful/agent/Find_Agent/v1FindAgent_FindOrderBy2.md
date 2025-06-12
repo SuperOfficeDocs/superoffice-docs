@@ -82,16 +82,16 @@ OK
 POST /api/v1/Agents/Find/FindOrderBy2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "iste",
-  "ProviderName": "Grimes, Macejkovic and Thompson",
-  "StorageKey": "et",
-  "PageSize": 474,
-  "PageNumber": 834,
-  "OrderBy": "doloremque"
+  "StorageType": "suscipit",
+  "ProviderName": "Pollich, Mertz and Hand",
+  "StorageKey": "molestiae",
+  "PageSize": 651,
+  "PageNumber": 631,
+  "OrderBy": "qui"
 }
 ```
 
@@ -104,51 +104,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Turner Inc and Sons",
-      "DisplayTooltip": "et",
-      "DisplayType": "et",
+      "DisplayName": "Ondricka, Crist and Kohler",
+      "DisplayTooltip": "excepturi",
+      "DisplayType": "a",
       "CanOrderBy": true,
-      "Name": "Stroman-Heidenreich",
+      "Name": "Ullrich, Skiles and Bode",
       "CanRestrictBy": false,
-      "RestrictionType": "dolorum",
-      "RestrictionListName": "Collins-Cassin",
-      "IsVisible": true,
-      "ExtraInfo": "quia",
-      "Width": "non",
-      "IconHint": "culpa",
-      "HeadingIconHint": "voluptatem"
+      "RestrictionType": "et",
+      "RestrictionListName": "Collier LLC",
+      "IsVisible": false,
+      "ExtraInfo": "voluptatem",
+      "Width": "hic",
+      "IconHint": "corrupti",
+      "HeadingIconHint": "iure"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Bergnaum-Gaylord",
-      "PrimaryKey": 886,
+      "EntityName": "McGlynn, Wilderman and Dach",
+      "PrimaryKey": 705,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "voluptatem",
-          "TooltipHint": "aliquid",
-          "LinkHint": "rerum"
+          "DisplayValue": "est",
+          "TooltipHint": "iure",
+          "LinkHint": "nemo"
         }
       },
-      "LinkHint": "magni",
-      "StyleHint": "vitae",
+      "LinkHint": "et",
+      "StyleHint": "mollitia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 567
+          "FieldLength": 911
         }
       }
     }
   ],
-  "RowCount": 400,
+  "RowCount": 317,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 731
+      "FieldType": "System.Int32",
+      "FieldLength": 527
     }
   }
 }

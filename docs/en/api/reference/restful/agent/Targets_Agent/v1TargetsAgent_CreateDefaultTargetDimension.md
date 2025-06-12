@@ -65,7 +65,7 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,24 +75,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 681,
+  "TargetDimensionId": 644,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "et",
-  "DimensionListName": "Cartwright-Stamm",
-  "DimensionListId": 675,
-  "DimensionListLabel": "maiores",
+  "DimensionListField": "aspernatur",
+  "DimensionListName": "Schuppe-Swift",
+  "DimensionListId": 209,
+  "DimensionListLabel": "numquam",
   "SelectedDimensions": [
-    105,
-    642
+    685,
+    804
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 637
+      "FieldType": "System.String",
+      "FieldLength": 440
     }
   }
 }

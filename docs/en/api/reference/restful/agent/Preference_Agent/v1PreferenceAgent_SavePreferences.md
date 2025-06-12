@@ -66,23 +66,23 @@ No Content
 POST /api/v1/Agents/Preference/SavePreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Preferences": [
     {
       "Level": "Database",
-      "RawValue": "autem",
+      "RawValue": "molestiae",
       "Specification": null,
-      "DisplayValue": "enim",
-      "DisplayTooltip": "autem",
+      "DisplayValue": "inventore",
+      "DisplayTooltip": "eum",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 633,
-      "PrefDescId": 384,
-      "TableName": "DuBuque-Wunsch",
-      "UserPreferenceId": 437
+      "TargetId": 227,
+      "PrefDescId": 958,
+      "TableName": "Ziemann-Schroeder",
+      "UserPreferenceId": 617
     }
   ]
 }

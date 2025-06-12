@@ -85,10 +85,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 986,
-  "NumSentences": 886,
-  "Summary": "quam",
-  "IsoLangCode": "a"
+  "TicketId": 235,
+  "NumSentences": 873,
+  "Summary": "ab",
+  "IsoLangCode": "quae"
 }
 ```
 
@@ -99,17 +99,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Timestamp": "2020-12-25T16:32:37.5709257+01:00",
-  "UserPrompt": "sit",
-  "UserDisplayText": "saepe",
-  "BotResponse": "ipsa",
+  "Timestamp": "2013-11-21T17:54:02.3514942+01:00",
+  "UserPrompt": "aliquid",
+  "UserDisplayText": "corporis",
+  "BotResponse": "voluptatem",
   "BotActions": {
-    "BotActions1": "perferendis",
-    "BotActions2": "dolor"
+    "BotActions1": "molestiae",
+    "BotActions2": "magnam"
   },
   "Attachments": [
     "consequatur",
-    "temporibus"
+    "enim"
   ]
 }
 ```

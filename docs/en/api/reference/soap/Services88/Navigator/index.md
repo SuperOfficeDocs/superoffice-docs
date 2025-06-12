@@ -16,6 +16,5 @@ Download [WSDL file for Services88/Navigator](../Services88-Navigator.md) if you
 
 * [GetAllNavigatorCompany](GetAllNavigatorCompany.md)
 * [GetNavigatorCompanies](GetNavigatorCompanies.md)
-* [GetNavigatorCompany](GetNavigatorCompany.md)
 * [GetNavigatorCompanyList](GetNavigatorCompanyList.md)
 

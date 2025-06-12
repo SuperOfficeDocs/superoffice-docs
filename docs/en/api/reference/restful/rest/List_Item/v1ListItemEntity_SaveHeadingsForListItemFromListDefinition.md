@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 321,
-    "Name": "Kulas-Hodkiewicz",
-    "ToolTip": "Libero cumque alias quae.",
+    "Id": 928,
+    "Name": "Johnson, Treutel and Beer",
+    "ToolTip": "Ut et molestiae neque.",
     "Deleted": true,
-    "Rank": 622,
-    "Type": "at",
-    "ColorBlock": 920,
-    "IconHint": "est",
-    "Selected": false,
-    "LastChanged": "2006-08-12T16:32:48.4933163+02:00",
+    "Rank": 42,
+    "Type": "aut",
+    "ColorBlock": 121,
+    "IconHint": "ab",
+    "Selected": true,
+    "LastChanged": "2002-10-10T17:54:08.7730557+02:00",
     "ChildItems": [
       {
-        "Id": 285,
-        "Name": "Pouros-Schulist",
-        "ToolTip": "Nobis enim cumque consequuntur et a qui.",
+        "Id": 903,
+        "Name": "Kris, Altenwerth and Cronin",
+        "ToolTip": "Unde tenetur nobis porro vel beatae alias.",
         "Deleted": true,
-        "Rank": 237,
-        "Type": "dignissimos",
-        "ColorBlock": 33,
-        "IconHint": "rerum",
-        "Selected": false,
-        "LastChanged": "2017-07-02T16:32:48.4933163+02:00",
+        "Rank": 445,
+        "Type": "neque",
+        "ColorBlock": 690,
+        "IconHint": "asperiores",
+        "Selected": true,
+        "LastChanged": "2009-03-21T17:54:08.7886801+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "neque",
-        "Hidden": true,
-        "FullName": "Idell Spencer"
+        "ExtraInfo": "beatae",
+        "StyleHint": "consequatur",
+        "Hidden": false,
+        "FullName": "Wallace Kirlin"
       }
     ],
-    "ExtraInfo": "esse",
-    "StyleHint": "neque",
+    "ExtraInfo": "tempore",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Edythe Kemmer"
+    "FullName": "Triston Carter"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 146,
-    "Name": "Christiansen, Hansen and Collins",
-    "ToolTip": "Quo aperiam laudantium provident soluta.",
+    "Id": 70,
+    "Name": "Lang, Kautzer and Zemlak",
+    "ToolTip": "Doloremque et.",
     "Deleted": false,
-    "Rank": 85,
-    "Type": "quis",
-    "ColorBlock": 412,
-    "IconHint": "adipisci",
-    "Selected": false,
-    "LastChanged": "2023-04-02T16:32:48.4933163+02:00",
+    "Rank": 925,
+    "Type": "ut",
+    "ColorBlock": 732,
+    "IconHint": "ratione",
+    "Selected": true,
+    "LastChanged": "2007-11-28T17:54:08.7886801+01:00",
     "ChildItems": [
       {
-        "Id": 225,
-        "Name": "Schultz-Schumm",
-        "ToolTip": "Laborum sunt ut temporibus asperiores quasi error autem.",
+        "Id": 583,
+        "Name": "White, Pollich and Rempel",
+        "ToolTip": "Numquam et et earum officia dolorem et corporis.",
         "Deleted": true,
-        "Rank": 1002,
-        "Type": "ut",
-        "ColorBlock": 596,
-        "IconHint": "et",
-        "Selected": false,
-        "LastChanged": "2018-10-27T16:32:48.4933163+02:00",
+        "Rank": 618,
+        "Type": "enim",
+        "ColorBlock": 265,
+        "IconHint": "omnis",
+        "Selected": true,
+        "LastChanged": "2011-05-14T17:54:08.7886801+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "magnam",
-        "StyleHint": "iusto",
+        "ExtraInfo": "voluptas",
+        "StyleHint": "laborum",
         "Hidden": false,
-        "FullName": "Miss Sally Gladys Paucek",
+        "FullName": "Hulda Muller",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 551
+            "FieldType": "System.Int32",
+            "FieldLength": 5
           }
         }
       }
     ],
-    "ExtraInfo": "voluptas",
-    "StyleHint": "quo",
+    "ExtraInfo": "molestias",
+    "StyleHint": "porro",
     "Hidden": false,
-    "FullName": "Clemmie Annetta Marks DDS",
+    "FullName": "Noe Cartwright MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 65
+        "FieldType": "System.Int32",
+        "FieldLength": 283
       }
     }
   }

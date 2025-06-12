@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/List/GetLocalizedTextsByLanguageId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LanguageId": 828
+  "LanguageId": 864
 }
 ```
 
@@ -94,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageId": 664,
-    "ResourceId": 442,
-    "Text": "quia",
+    "LanguageId": 947,
+    "ResourceId": 170,
+    "Text": "fuga",
     "Type": "Column",
-    "LocalizedTextId": 17,
-    "IsBuiltIn": true,
+    "LocalizedTextId": 784,
+    "IsBuiltIn": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 572
+        "FieldType": "System.String",
+        "FieldLength": 107
       }
     }
   }

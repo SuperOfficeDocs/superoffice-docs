@@ -71,30 +71,30 @@ No Content
 POST /api/v1/Agents/ErpSync/ConnectActor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 397,
-  "CrmRecordId": 733,
+  "ErpConnectionId": 726,
+  "CrmRecordId": 556,
   "CrmActorType": "Contact",
-  "ErpKey": "nihil",
+  "ErpKey": "cumque",
   "ErpActorType": "Customer",
   "FieldValues": [
     {
-      "DisplayName": "Cronin-Kerluke",
-      "CrmFieldKey": "cupiditate",
-      "Value": "ut",
-      "DisplayValue": "voluptate",
-      "SyncToCrm": true,
+      "DisplayName": "O'Connell, Okuneva and Bayer",
+      "CrmFieldKey": "qui",
+      "Value": "ea",
+      "DisplayValue": "est",
+      "SyncToCrm": false,
       "SyncToErp": false
     },
     {
-      "DisplayName": "Cronin-Kerluke",
-      "CrmFieldKey": "cupiditate",
-      "Value": "ut",
-      "DisplayValue": "voluptate",
-      "SyncToCrm": true,
+      "DisplayName": "O'Connell, Okuneva and Bayer",
+      "CrmFieldKey": "qui",
+      "Value": "ea",
+      "DisplayValue": "est",
+      "SyncToCrm": false,
       "SyncToErp": false
     }
   ]

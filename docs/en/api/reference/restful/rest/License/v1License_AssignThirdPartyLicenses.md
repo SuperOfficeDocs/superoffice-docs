@@ -78,7 +78,7 @@ OK
 PUT /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -90,25 +90,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 533,
-    "Tooltip": "maxime",
+    "Total": 399,
+    "Tooltip": "est",
     "CanAssign": false,
-    "Free": 193,
-    "InUse": 561,
+    "Free": 106,
+    "InUse": 436,
     "IsHidden": false,
-    "Assigned": false,
-    "ModuleLicenseId": 954,
-    "Name": "Lebsack Group",
-    "Description": "Down-sized upward-trending approach",
-    "PrerequisiteModuleName": "Hermann-Baumbach",
-    "SortOrder": 961,
-    "ExtraFlags": 113,
+    "Assigned": true,
+    "ModuleLicenseId": 296,
+    "Name": "Mohr, Thiel and Miller",
+    "Description": "Digitized high-level archive",
+    "PrerequisiteModuleName": "Green Group",
+    "SortOrder": 987,
+    "ExtraFlags": 966,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 978
+        "FieldLength": 903
       }
     }
   }

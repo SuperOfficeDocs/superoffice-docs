@@ -83,28 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 55,
-    "Value": "eum",
-    "Tooltip": "non",
+    "Id": 9,
+    "Value": "architecto",
+    "Tooltip": "consectetur",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 87
+        "FieldType": "System.Int32",
+        "FieldLength": 108
       }
     }
   },
   {
-    "Id": 55,
-    "Value": "eum",
-    "Tooltip": "non",
+    "Id": 9,
+    "Value": "architecto",
+    "Tooltip": "consectetur",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 87
+        "FieldType": "System.Int32",
+        "FieldLength": 108
       }
     }
   }

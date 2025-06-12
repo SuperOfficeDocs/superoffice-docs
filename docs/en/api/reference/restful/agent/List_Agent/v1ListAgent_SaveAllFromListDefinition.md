@@ -79,27 +79,27 @@ OK
 POST /api/v1/Agents/List/SaveAllFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 738,
+  "UdListDefinitionId": 199,
   "Items": [
     {
-      "Id": 732,
-      "Name": "West-Fisher",
-      "Tooltip": "amet",
-      "Deleted": true,
-      "UdListDefinitionId": 323,
-      "Rank": 54
+      "Id": 636,
+      "Name": "Mayert, Olson and Kuhlman",
+      "Tooltip": "quo",
+      "Deleted": false,
+      "UdListDefinitionId": 706,
+      "Rank": 333
     },
     {
-      "Id": 732,
-      "Name": "West-Fisher",
-      "Tooltip": "amet",
-      "Deleted": true,
-      "UdListDefinitionId": 323,
-      "Rank": 54
+      "Id": 636,
+      "Name": "Mayert, Olson and Kuhlman",
+      "Tooltip": "quo",
+      "Deleted": false,
+      "UdListDefinitionId": 706,
+      "Rank": 333
     }
   ]
 }
@@ -113,18 +113,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 322,
-    "Name": "Romaguera-Johns",
-    "Tooltip": "est",
-    "Deleted": true,
-    "UdListDefinitionId": 537,
-    "Rank": 782,
+    "Id": 469,
+    "Name": "Quigley, Schinner and Lehner",
+    "Tooltip": "provident",
+    "Deleted": false,
+    "UdListDefinitionId": 287,
+    "Rank": 177,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 950
+        "FieldLength": 931
       }
     }
   }

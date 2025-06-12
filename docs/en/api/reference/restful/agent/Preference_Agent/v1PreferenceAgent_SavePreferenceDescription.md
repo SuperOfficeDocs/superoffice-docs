@@ -97,28 +97,28 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 830,
+  "PrefDescId": 67,
   "Section": "rerum",
-  "Key": "dolores",
-  "Name": "Nitzsche-Hermiston",
+  "Key": "tenetur",
+  "Name": "Koepp Group",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Customizable bi-directional system engine",
+  "Description": "Inverse empowering capacity",
   "IsBuiltin": false,
-  "TableName": "Littel Group",
-  "UserDefinedListId": 853,
-  "Rank": 183,
-  "SubGroup": "nobis",
-  "MinLevel": 152,
-  "MaxValue": 841,
-  "MinValue": 439,
-  "RequiredLicense": "distinctio"
+  "TableName": "Towne-Brekke",
+  "UserDefinedListId": 81,
+  "Rank": 664,
+  "SubGroup": "repudiandae",
+  "MinLevel": 752,
+  "MaxValue": 726,
+  "MinValue": 524,
+  "RequiredLicense": "veritatis"
 }
 ```
 
@@ -129,30 +129,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 85,
-  "Section": "voluptatem",
-  "Key": "unde",
-  "Name": "Watsica-Kozey",
+  "PrefDescId": 210,
+  "Section": "tenetur",
+  "Key": "commodi",
+  "Name": "Johnston-Lebsack",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Multi-channelled foreground frame",
-  "IsBuiltin": true,
-  "TableName": "Waters, Morar and Batz",
-  "UserDefinedListId": 121,
-  "Rank": 872,
-  "SubGroup": "et",
-  "MinLevel": 804,
-  "MaxValue": 482,
-  "MinValue": 868,
-  "RequiredLicense": "doloribus",
+  "Description": "Advanced modular Graphic Interface",
+  "IsBuiltin": false,
+  "TableName": "Gulgowski, Becker and Batz",
+  "UserDefinedListId": 171,
+  "Rank": 802,
+  "SubGroup": "amet",
+  "MinLevel": 287,
+  "MaxValue": 145,
+  "MinValue": 383,
+  "RequiredLicense": "molestias",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 649
+      "FieldType": "System.String",
+      "FieldLength": 785
     }
   }
 }

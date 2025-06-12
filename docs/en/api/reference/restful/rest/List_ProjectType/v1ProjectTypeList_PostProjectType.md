@@ -77,12 +77,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 940,
-  "Name": "Stanton-Schimmel",
-  "Tooltip": "est",
+  "Id": 865,
+  "Name": "Leffler, Homenick and Friesen",
+  "Tooltip": "rerum",
   "Deleted": false,
-  "UdListDefinitionId": 830,
-  "Rank": 320
+  "UdListDefinitionId": 680,
+  "Rank": 340
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 28,
-  "Name": "Towne LLC",
-  "Tooltip": "impedit",
+  "Id": 543,
+  "Name": "Pouros, Schmidt and Christiansen",
+  "Tooltip": "illum",
   "Deleted": false,
-  "UdListDefinitionId": 706,
-  "Rank": 507,
+  "UdListDefinitionId": 393,
+  "Rank": 716,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 232
+      "FieldType": "System.String",
+      "FieldLength": 576
     }
   }
 }

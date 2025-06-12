@@ -83,18 +83,18 @@ OK
 PUT /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "et",
-  "Value": "non",
-  "RecordId": 365,
-  "CreatedDate": "1998-05-27T16:32:47.5558268+02:00",
-  "UpdatedDate": "2011-12-16T16:32:47.5558268+01:00",
-  "UpdatedBy": "omnis",
-  "CreatedBy": "qui",
-  "TableName": "Kassulke, Lubowitz and Kuhn"
+  "Key": "repellat",
+  "Value": "est",
+  "RecordId": 109,
+  "CreatedDate": "2009-10-11T17:54:08.2574567+02:00",
+  "UpdatedDate": "2022-11-11T17:54:08.2574567+01:00",
+  "UpdatedBy": "distinctio",
+  "CreatedBy": "eos",
+  "TableName": "Parker, Ankunding and Reichert"
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "ut",
-  "Value": "ut",
-  "RecordId": 555,
-  "CreatedDate": "2005-06-26T16:32:47.5558268+02:00",
-  "UpdatedDate": "2022-06-06T16:32:47.5558268+02:00",
-  "UpdatedBy": "repellendus",
-  "CreatedBy": "veniam",
-  "TableName": "Bradtke-Daniel",
+  "Key": "commodi",
+  "Value": "facere",
+  "RecordId": 170,
+  "CreatedDate": "2016-04-30T17:54:08.2574567+02:00",
+  "UpdatedDate": "2000-01-21T17:54:08.2574567+01:00",
+  "UpdatedBy": "facere",
+  "CreatedBy": "alias",
+  "TableName": "Wisozk Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 935
+      "FieldLength": 24
     }
   }
 }

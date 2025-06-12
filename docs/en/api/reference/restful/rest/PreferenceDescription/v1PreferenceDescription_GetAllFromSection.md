@@ -87,30 +87,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 516,
-    "Section": "fugiat",
-    "Key": "velit",
-    "Name": "Thiel-Doyle",
+    "PrefDescId": 997,
+    "Section": "facere",
+    "Key": "reiciendis",
+    "Name": "Smitham, Lynch and Crona",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Compatible foreground projection",
-    "IsBuiltin": true,
-    "TableName": "Streich Inc and Sons",
-    "UserDefinedListId": 48,
-    "Rank": 207,
-    "SubGroup": "sequi",
-    "MinLevel": 79,
-    "MaxValue": 347,
-    "MinValue": 397,
-    "RequiredLicense": "est",
+    "Description": "Monitored impactful approach",
+    "IsBuiltin": false,
+    "TableName": "Reynolds Inc and Sons",
+    "UserDefinedListId": 608,
+    "Rank": 974,
+    "SubGroup": "et",
+    "MinLevel": 693,
+    "MaxValue": 552,
+    "MinValue": 992,
+    "RequiredLicense": "consequatur",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 645
+        "FieldLength": 926
       }
     }
   }

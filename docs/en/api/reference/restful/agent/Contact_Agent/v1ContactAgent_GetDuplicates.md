@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Contact/GetDuplicates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Ratke-Fay"
+  "Name": "Casper LLC"
 }
 ```
 
@@ -93,17 +93,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Gusikowski-Stanton",
-    "SoPrimaryKey": 234,
-    "EntryName": "Schimmel-Upton",
-    "EntryIdentifier": "doloremque",
-    "RuleDisplayName": "Ullrich Group",
+    "RuleName": "Kautzer-Murray",
+    "SoPrimaryKey": 734,
+    "EntryName": "Heidenreich-Jenkins",
+    "EntryIdentifier": "et",
+    "RuleDisplayName": "Leffler Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 943
+        "FieldLength": 435
       }
     }
   }

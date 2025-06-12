@@ -110,33 +110,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CustomerNewCustomerTemplateId": 59,
-  "CustomerCustomerReplyTemplateId": 858,
-  "CustomerPasswordTemplateId": 186,
-  "CustomerConfirmEmailTemplateId": 574,
-  "CustomerChatLogTemplateId": 627,
-  "NewLinkTemplateId": 822,
-  "HotlistNewMessageTemplateId": 325,
-  "HotlistTicketActivatedTemplateId": 88,
-  "UserTicketAlarmTemplateId": 651,
-  "HotlistTicketTakenOverTemplateId": 186,
-  "UserActiveTicketsTemplateId": 199,
-  "UserNewMessageTemplateId": 910,
-  "UserTicketActivatedTemplateId": 187,
-  "UserNewTicketTemplateId": 742,
-  "PublishKbQuestionTemplateId": 411,
-  "PublishKbAnswerTemplateId": 730,
-  "UserTicketTakenOverTemplateId": 101,
-  "PrintTicketTemplateId": 158,
-  "WeekStatTemplateId": 309,
-  "TicketAlarmHotlistTemplateId": 860,
-  "EmailAddresses": "elisa.little@schimmel.ca",
+  "CustomerNewCustomerTemplateId": 533,
+  "CustomerCustomerReplyTemplateId": 885,
+  "CustomerPasswordTemplateId": 467,
+  "CustomerConfirmEmailTemplateId": 896,
+  "CustomerChatLogTemplateId": 121,
+  "NewLinkTemplateId": 622,
+  "HotlistNewMessageTemplateId": 307,
+  "HotlistTicketActivatedTemplateId": 507,
+  "UserTicketAlarmTemplateId": 189,
+  "HotlistTicketTakenOverTemplateId": 316,
+  "UserActiveTicketsTemplateId": 797,
+  "UserNewMessageTemplateId": 958,
+  "UserTicketActivatedTemplateId": 979,
+  "UserNewTicketTemplateId": 257,
+  "PublishKbQuestionTemplateId": 213,
+  "PublishKbAnswerTemplateId": 86,
+  "UserTicketTakenOverTemplateId": 49,
+  "PrintTicketTemplateId": 105,
+  "WeekStatTemplateId": 828,
+  "TicketAlarmHotlistTemplateId": 564,
+  "EmailAddresses": "mollie@bartell.name",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 614
+      "FieldType": "System.Int32",
+      "FieldLength": 661
     }
   }
 }

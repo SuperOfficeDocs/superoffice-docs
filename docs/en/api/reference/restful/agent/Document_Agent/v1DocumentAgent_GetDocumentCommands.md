@@ -82,10 +82,10 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 694,
+  "DocumentId": 269,
   "AllowedReturnTypes": [
-    "molestias",
-    "aperiam"
+    "aut",
+    "aut"
   ]
 }
 ```
@@ -98,17 +98,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Hills Group",
-    "DisplayName": "Krajcik-Morissette",
-    "DisplayTooltip": "iste",
-    "IconHint": "facilis",
+    "Name": "Johnson-Abshire",
+    "DisplayName": "Bosco, Maggio and Jones",
+    "DisplayTooltip": "nihil",
+    "IconHint": "officia",
     "ReturnType": "CustomGui"
   },
   {
-    "Name": "Hills Group",
-    "DisplayName": "Krajcik-Morissette",
-    "DisplayTooltip": "iste",
-    "IconHint": "facilis",
+    "Name": "Johnson-Abshire",
+    "DisplayName": "Bosco, Maggio and Jones",
+    "DisplayTooltip": "nihil",
+    "IconHint": "officia",
     "ReturnType": "CustomGui"
   }
 ]

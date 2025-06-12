@@ -65,34 +65,34 @@ No Content
 POST /api/v1/Agents/Project/AddProjectMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectEntityId": 106,
+  "ProjectEntityId": 131,
   "ProjectMembers": [
     {
-      "ProjectmemberId": 955,
-      "ContactId": 730,
-      "ProjectId": 729,
-      "ContactName": "Zboncak, Satterfield and Gutkowski",
+      "ProjectmemberId": 977,
+      "ContactId": 597,
+      "ProjectId": 19,
+      "ContactName": "Spinka LLC",
       "ContactDepartment": "",
-      "ProjectName": "Paucek, Hilll and Volkman",
-      "EmailId": 226,
-      "EmailAddress": "evangeline.schaefer@mayert.ca",
-      "CountryId": 499,
-      "Firstname": "Marcos",
-      "MiddleName": "Feil LLC",
-      "Lastname": "Ledner",
-      "PersonId": 475,
-      "Mrmrs": "enim",
-      "ProjectMemberTypeName": "Waters, Cole and Macejkovic",
-      "Phone": "442-887-3318 x6918",
-      "PhoneId": 77,
-      "ProjectMemberTypeId": 733,
-      "EmailAddressName": "jaqueline@rennertromp.biz",
-      "Comment": "sapiente",
-      "FullName": "Margaret Fadel"
+      "ProjectName": "Morar-Shields",
+      "EmailId": 166,
+      "EmailAddress": "rhea_watsica@bosco.name",
+      "CountryId": 294,
+      "Firstname": "Garry",
+      "MiddleName": "Hartmann, Yost and Steuber",
+      "Lastname": "Ortiz",
+      "PersonId": 24,
+      "Mrmrs": "optio",
+      "ProjectMemberTypeName": "Keebler-Corkery",
+      "Phone": "343.509.7148",
+      "PhoneId": 923,
+      "ProjectMemberTypeId": 408,
+      "EmailAddressName": "valerie.schowalter@douglas.com",
+      "Comment": "quo",
+      "FullName": "Laurie Estrella Rodriguez I"
     }
   ]
 }

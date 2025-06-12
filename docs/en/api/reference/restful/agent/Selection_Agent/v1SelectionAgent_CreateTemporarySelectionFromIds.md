@@ -114,15 +114,15 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporarySelectionFromIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    587,
-    661
+    370,
+    63
   ],
-  "TargetTableNumber": 843
+  "TargetTableNumber": 6
 }
 ```
 
@@ -133,70 +133,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Proactive composite superstructure",
-  "Postit": "non",
+  "Description": "Enterprise-wide maximized installation",
+  "Postit": "ut",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 575,
-  "IncludePerson": 373,
+  "GroupIdx": 493,
+  "IncludePerson": 689,
   "MemberCount": 99.99,
-  "Name": "Torp, Reynolds and Sanford",
-  "PostitTextId": 612,
-  "CreatedDate": "2000-04-29T16:32:39.9302031+02:00",
-  "SelectionId": 913,
-  "SoundEx": "placeat",
-  "Source": 619,
-  "TextId": 190,
-  "UpdatedDate": "2010-08-04T16:32:39.9302031+02:00",
-  "UpdatedCount": 915,
-  "Visibility": 263,
+  "Name": "Brown-Tillman",
+  "PostitTextId": 672,
+  "CreatedDate": "2017-12-31T17:54:03.6170572+01:00",
+  "SelectionId": 648,
+  "SoundEx": "nihil",
+  "Source": 460,
+  "TextId": 99,
+  "UpdatedDate": "2001-10-24T17:54:03.6170572+02:00",
+  "UpdatedCount": 413,
+  "Visibility": 572,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 533,
-  "TargetTableName": "McCullough Group",
+  "TargetTableNumber": 158,
+  "TargetTableName": "Berge Inc and Sons",
   "Completed": true,
-  "LeftSelectionId": 72,
-  "RightSelectionId": 800,
+  "LeftSelectionId": 828,
+  "RightSelectionId": 928,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Gislason, Kreiger and Ziemann",
-  "ShadowProviderName": "Bailey, Fisher and O'Hara",
-  "ChartKey": "et",
-  "LastLoaded": "2023-03-05T16:32:39.9302031+01:00",
-  "LastLoadedBy": 621,
+  "MainProviderName": "Kuhic, Nicolas and Blick",
+  "ShadowProviderName": "Keebler Inc and Sons",
+  "ChartKey": "voluptate",
+  "LastLoaded": "2009-09-20T17:54:03.6170572+02:00",
+  "LastLoadedBy": 673,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2005-05-18T16:32:39.9302031+02:00",
-  "LastMembershipChangeBy": 762,
+  "LastMembershipChange": "2019-02-28T17:54:03.6170572+01:00",
+  "LastMembershipChangeBy": 829,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "itaque",
-  "MemberTabHeading": "voluptas",
-  "MailingsProviderName": "Wuckert-Swift",
-  "DashboardTileDefinitionId": 359,
+  "MainHeading": "voluptatem",
+  "MemberTabHeading": "velit",
+  "MailingsProviderName": "Rogahn Group",
+  "DashboardTileDefinitionId": 294,
   "VisibleFor": [
     {
-      "VisibleId": 350,
+      "VisibleId": 937,
       "Visibility": "All",
-      "DisplayValue": "magni",
+      "DisplayValue": "iure",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 909
+          "FieldLength": 182
         }
       }
     },
     {
-      "VisibleId": 350,
+      "VisibleId": 937,
       "Visibility": "All",
-      "DisplayValue": "magni",
+      "DisplayValue": "iure",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 909
+          "FieldLength": 182
         }
       }
     }
@@ -205,8 +205,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 868
+      "FieldType": "System.Int32",
+      "FieldLength": 661
     }
   }
 }

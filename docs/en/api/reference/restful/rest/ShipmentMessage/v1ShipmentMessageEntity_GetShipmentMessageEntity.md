@@ -93,7 +93,7 @@ ShipmentMessageEntity found.
 GET /api/v1/ShipmentMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -103,33 +103,33 @@ HTTP/1.1 200 ShipmentMessageEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 626,
-  "PlainMessage": "similique",
-  "HtmlMessage": "tenetur",
-  "SmsMessage": "quos",
-  "Description": "Advanced web-enabled methodology",
-  "Subject": "maiores",
-  "FolderId": 840,
-  "HeaderField": "suscipit",
-  "Design": "porro",
+  "ShipmentMessageId": 23,
+  "PlainMessage": "vitae",
+  "HtmlMessage": "atque",
+  "SmsMessage": "placeat",
+  "Description": "Open-architected real-time structure",
+  "Subject": "quod",
+  "FolderId": 527,
+  "HeaderField": "culpa",
+  "Design": "quo",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": true,
-  "InlineImages": true,
-  "LongDescription": "Fundamental empowering matrix",
-  "AccessKey": "eaque",
-  "DocumentMessage": 196,
-  "Registered": "2024-06-08T16:32:48.1025764+02:00",
-  "RegisteredAssociateId": 852,
-  "Updated": "2006-12-28T16:32:48.1025764+01:00",
-  "UpdatedAssociateId": 581,
-  "UpdatedCount": 222,
+  "RegisterViews": false,
+  "InlineImages": false,
+  "LongDescription": "Enterprise-wide holistic application",
+  "AccessKey": "et",
+  "DocumentMessage": 339,
+  "Registered": "1999-03-01T17:54:08.5386928+01:00",
+  "RegisteredAssociateId": 942,
+  "Updated": "2019-10-10T17:54:08.5386928+02:00",
+  "UpdatedAssociateId": 273,
+  "UpdatedCount": 87,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 165
+      "FieldType": "System.Int32",
+      "FieldLength": 965
     }
   },
   "_Links": {

@@ -27,7 +27,7 @@ Get the MDO list items for "QuoteDenyReason" - with headings and filtering by us
 
 ```http
 GET /api/v1/List/QuoteDenyReason/MDOItems?flat=False
-GET /api/v1/List/QuoteDenyReason/MDOItems?query=nisi
+GET /api/v1/List/QuoteDenyReason/MDOItems?query=expedita
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 55,
-    "Name": "Becker LLC",
-    "ToolTip": "Fuga maxime sit inventore ut.",
-    "Deleted": true,
-    "Rank": 314,
-    "Type": "consequuntur",
+    "Id": 209,
+    "Name": "Moore, Kirlin and Strosin",
+    "ToolTip": "Cumque dolor est illum.",
+    "Deleted": false,
+    "Rank": 546,
+    "Type": "fugit",
     "ChildItems": [
       {
-        "Id": 479,
-        "Name": "Stanton-Powlowski",
-        "ToolTip": "Laboriosam veniam possimus.",
+        "Id": 396,
+        "Name": "Barton, Murray and Dickens",
+        "ToolTip": "Et aspernatur.",
         "Deleted": false,
-        "Rank": 514,
-        "Type": "ea",
+        "Rank": 17,
+        "Type": "voluptatum",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "commodi",
-        "ColorBlock": 134,
-        "ExtraInfo": "mollitia",
-        "StyleHint": "error",
-        "FullName": "Tom Wilhelm Durgan MD",
+        "IconHint": "enim",
+        "ColorBlock": 981,
+        "ExtraInfo": "rerum",
+        "StyleHint": "dignissimos",
+        "FullName": "Era Jenkins",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 857
+            "FieldLength": 471
           }
         }
       }
     ],
-    "IconHint": "molestiae",
-    "ColorBlock": 602,
-    "ExtraInfo": "eum",
-    "StyleHint": "ullam",
-    "FullName": "Mrs. Alexandro Jordy Wyman PhD",
+    "IconHint": "aperiam",
+    "ColorBlock": 674,
+    "ExtraInfo": "eaque",
+    "StyleHint": "sed",
+    "FullName": "Clementina Wilkinson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 273
+        "FieldLength": 256
       }
     }
   }

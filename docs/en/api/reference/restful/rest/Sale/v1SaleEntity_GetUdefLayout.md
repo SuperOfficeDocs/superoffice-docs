@@ -90,7 +90,7 @@ OK
 GET /api/v1/Sale/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -101,46 +101,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 395,
-    "ColumnId": 664,
-    "FieldDefault": "ea",
-    "FieldHeight": 483,
-    "FieldLabel": "suscipit",
-    "FieldLeft": 596,
-    "FieldTop": 607,
+    "UDefFieldId": 493,
+    "ColumnId": 209,
+    "FieldDefault": "voluptatibus",
+    "FieldHeight": 359,
+    "FieldLabel": "qui",
+    "FieldLeft": 321,
+    "FieldTop": 618,
     "FieldType": "Checkbox",
-    "FieldWidth": 430,
-    "FormatMask": "debitis",
+    "FieldWidth": 920,
+    "FormatMask": "id",
     "HideLabel": true,
     "IsIndexed": false,
-    "LabelHeight": 393,
-    "LabelLeft": 802,
-    "LabelTop": 860,
-    "LabelWidth": 114,
-    "LastVersionId": 853,
-    "ListTableId": 843,
+    "LabelHeight": 618,
+    "LabelLeft": 19,
+    "LabelTop": 612,
+    "LabelWidth": 290,
+    "LastVersionId": 76,
+    "ListTableId": 377,
     "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 210,
-    "ProgId": "eos",
+    "Page1LineNo": 911,
+    "ProgId": "et",
     "IsReadOnly": true,
-    "ShortLabel": "illum",
-    "TabOrder": 361,
-    "TextLength": 59,
-    "Tooltip": "dolor",
-    "UdefIdentity": 902,
-    "UDListDefinitionId": 534,
+    "ShortLabel": "praesentium",
+    "TabOrder": 712,
+    "TextLength": 619,
+    "Tooltip": "necessitatibus",
+    "UdefIdentity": 100,
+    "UDListDefinitionId": 256,
     "Justification": "Center",
-    "Version": 699,
-    "TemplateVariableName": "Kerluke Inc and Sons",
-    "HasBeenPublished": true,
-    "MdoListName": "Schuppe-Muller",
+    "Version": 63,
+    "TemplateVariableName": "Dickens LLC",
+    "HasBeenPublished": false,
+    "MdoListName": "Wiegand, McLaughlin and Beahan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 417
+        "FieldLength": 32
       }
     }
   }

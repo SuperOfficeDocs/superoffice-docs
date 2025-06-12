@@ -13,11 +13,9 @@ title: Services88.NavigatorAgent WSDL
     <xs:schema elementFormDefault="qualified" targetNamespace="http://www.superoffice.net/ws/crm/NetServer/Services88" xmlns:xs="http://www.w3.org/2001/XMLSchema">
       <xs:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
       <xs:import namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-      <xs:element name="GetNavigatorCompany">
+      <xs:element name="GetAllNavigatorCompany">
         <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="NavigatorCompanyId" type="xs:int" />
-          </xs:sequence>
+          <xs:sequence />
         </xs:complexType>
       </xs:element>
       <xs:element name="ApplicationToken" nillable="true" type="xs:string" />
@@ -36,13 +34,19 @@ title: Services88.NavigatorAgent WSDL
       </xs:complexType>
       <xs:element name="SoTimeZone" nillable="true" type="tns:SoTimeZone" />
       <xs:element name="TimeZone" nillable="true" type="tns:SoTimeZone" />
-      <xs:element name="GetNavigatorCompanyResponse">
+      <xs:element name="GetAllNavigatorCompanyResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:NavigatorCompany" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:ArrayOfNavigatorCompany" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
+      <xs:complexType name="ArrayOfNavigatorCompany">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="NavigatorCompany" nillable="true" type="tns:NavigatorCompany" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ArrayOfNavigatorCompany" nillable="true" type="tns:ArrayOfNavigatorCompany" />
       <xs:complexType name="NavigatorCompany">
         <xs:complexContent mixed="false">
           <xs:extension base="tns:Carrier">
@@ -209,24 +213,6 @@ title: Services88.NavigatorAgent WSDL
       <xs:element name="SoExtraInfo" nillable="true" type="tns:SoExtraInfo" />
       <xs:element name="ExtraInfo" nillable="true" type="tns:SoExtraInfo" />
       <xs:element name="Succeeded" type="xs:boolean" />
-      <xs:element name="GetAllNavigatorCompany">
-        <xs:complexType>
-          <xs:sequence />
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="GetAllNavigatorCompanyResponse">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:ArrayOfNavigatorCompany" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:complexType name="ArrayOfNavigatorCompany">
-        <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="NavigatorCompany" nillable="true" type="tns:NavigatorCompany" />
-        </xs:sequence>
-      </xs:complexType>
-      <xs:element name="ArrayOfNavigatorCompany" nillable="true" type="tns:ArrayOfNavigatorCompany" />
       <xs:element name="GetNavigatorCompanyList">
         <xs:complexType>
           <xs:sequence>
@@ -306,23 +292,6 @@ title: Services88.NavigatorAgent WSDL
       <xs:element name="ArrayOfint" nillable="true" type="tns:ArrayOfint" />
     </xs:schema>
   </wsdl:types>
-  <wsdl:message name="GetNavigatorCompanyRequest">
-    <wsdl:part name="parameters" element="tns:GetNavigatorCompany" />
-  </wsdl:message>
-  <wsdl:message name="GetNavigatorCompanyRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="GetNavigatorCompanyResponse">
-    <wsdl:part name="parameters" element="tns:GetNavigatorCompanyResponse" />
-  </wsdl:message>
-  <wsdl:message name="GetNavigatorCompanyResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
   <wsdl:message name="GetAllNavigatorCompanyRequest">
     <wsdl:part name="parameters" element="tns:GetAllNavigatorCompany" />
   </wsdl:message>
@@ -375,10 +344,6 @@ title: Services88.NavigatorAgent WSDL
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
   <wsdl:portType name="Navigator">
-    <wsdl:operation name="GetNavigatorCompany">
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Navigator/GetNavigatorCompany" name="GetNavigatorCompanyRequest" message="tns:GetNavigatorCompanyRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Navigator/GetNavigatorCompanyResponse" name="GetNavigatorCompanyResponse" message="tns:GetNavigatorCompanyResponse" />
-    </wsdl:operation>
     <wsdl:operation name="GetAllNavigatorCompany">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Navigator/GetAllNavigatorCompany" name="GetAllNavigatorCompanyRequest" message="tns:GetAllNavigatorCompanyRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Navigator/GetAllNavigatorCompanyResponse" name="GetAllNavigatorCompanyResponse" message="tns:GetAllNavigatorCompanyResponse" />
@@ -394,22 +359,6 @@ title: Services88.NavigatorAgent WSDL
   </wsdl:portType>
   <wsdl:binding name="BasicHttpBinding_Navigator" type="tns:Navigator">
     <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
-    <wsdl:operation name="GetNavigatorCompany">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Navigator/GetNavigatorCompany" style="document" />
-      <wsdl:input name="GetNavigatorCompanyRequest">
-        <soap:header message="tns:GetNavigatorCompanyRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:GetNavigatorCompanyRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:GetNavigatorCompanyRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="GetNavigatorCompanyResponse">
-        <soap:header message="tns:GetNavigatorCompanyResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:GetNavigatorCompanyResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:GetNavigatorCompanyResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:GetNavigatorCompanyResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
     <wsdl:operation name="GetAllNavigatorCompany">
       <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Navigator/GetAllNavigatorCompany" style="document" />
       <wsdl:input name="GetAllNavigatorCompanyRequest">

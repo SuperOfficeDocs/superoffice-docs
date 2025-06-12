@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 995,
-    "Name": "Dooley, Renner and Graham",
-    "ToolTip": "Non sint placeat.",
+    "Id": 104,
+    "Name": "Schinner Group",
+    "ToolTip": "Praesentium consectetur aut.",
     "Deleted": false,
-    "Rank": 721,
-    "Type": "consequuntur",
-    "ColorBlock": 861,
-    "IconHint": "aut",
+    "Rank": 511,
+    "Type": "illum",
+    "ColorBlock": 192,
+    "IconHint": "dicta",
     "Selected": false,
-    "LastChanged": "2015-12-04T16:32:48.9619631+01:00",
+    "LastChanged": "2020-03-03T17:54:09.1168029+01:00",
     "ChildItems": [
       {
-        "Id": 214,
-        "Name": "Welch, Kiehn and Walsh",
-        "ToolTip": "Consequuntur libero.",
-        "Deleted": true,
-        "Rank": 42,
-        "Type": "rerum",
-        "ColorBlock": 873,
-        "IconHint": "similique",
-        "Selected": false,
-        "LastChanged": "1998-01-24T16:32:48.9619631+01:00",
+        "Id": 705,
+        "Name": "Ankunding-Keeling",
+        "ToolTip": "Eum est minima animi unde.",
+        "Deleted": false,
+        "Rank": 411,
+        "Type": "magni",
+        "ColorBlock": 372,
+        "IconHint": "molestiae",
+        "Selected": true,
+        "LastChanged": "1998-07-26T17:54:09.1168029+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "fugiat",
-        "StyleHint": "amet",
-        "Hidden": true,
-        "FullName": "Adalberto Hayes",
+        "ExtraInfo": "dolor",
+        "StyleHint": "asperiores",
+        "Hidden": false,
+        "FullName": "Bobbie Bode",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 248
+            "FieldLength": 743
           }
         }
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "aut",
+    "ExtraInfo": "beatae",
+    "StyleHint": "sunt",
     "Hidden": false,
-    "FullName": "Bettie Romaguera",
+    "FullName": "Noelia Renner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 516
+        "FieldType": "System.Int32",
+        "FieldLength": 207
       }
     }
   }

@@ -26,7 +26,7 @@ Gets a Associate object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Associate/GetAssociate?associateId=933
+POST /api/v1/Agents/Associate/GetAssociate?associateId=967
 POST /api/v1/Agents/Associate/GetAssociate?$select=name,department,category/id
 ```
 
@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/Associate/GetAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -88,24 +88,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 212,
-  "Name": "Kris LLC",
-  "PersonId": 62,
-  "Rank": 87,
-  "Tooltip": "delectus",
+  "AssociateId": 836,
+  "Name": "Kautzer Group",
+  "PersonId": 76,
+  "Rank": 188,
+  "Tooltip": "eos",
   "Type": "AnonymousAssociate",
-  "GroupIdx": 959,
-  "FullName": "Evalyn Larson",
-  "FormalName": "Denesik, Effertz and Grimes",
+  "GroupIdx": 148,
+  "FullName": "Ms. Brad Margarita Wolf",
+  "FormalName": "Beier-Hills",
   "Deleted": true,
-  "EjUserId": 763,
-  "UserName": "Schinner-Rice",
+  "EjUserId": 327,
+  "UserName": "O'Keefe-Mueller",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 305
+      "FieldLength": 834
     }
   }
 }

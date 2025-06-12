@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/ReasonStalled/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 884,
-  "Name": "Wunsch, Marquardt and Conroy",
-  "Tooltip": "inventore",
-  "Deleted": false,
-  "UdListDefinitionId": 563,
-  "Rank": 1002,
+  "Id": 354,
+  "Name": "Conn Group",
+  "Tooltip": "autem",
+  "Deleted": true,
+  "UdListDefinitionId": 860,
+  "Rank": 968,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 83
+      "FieldLength": 927
     }
   }
 }

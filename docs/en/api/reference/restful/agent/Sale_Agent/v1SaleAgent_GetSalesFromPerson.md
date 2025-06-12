@@ -98,12 +98,12 @@ OK
 POST /api/v1/Agents/Sale/GetSalesFromPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 981,
-  "OnlyOpenSales": false
+  "PersonId": 459,
+  "OnlyOpenSales": true
 }
 ```
 
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Welch Inc and Sons",
-    "SaleDate": "2016-05-25T16:32:39.8520956+02:00",
-    "SaleId": 731,
-    "Probability": 526,
-    "Title": "quibusdam",
-    "Amount": 28660.43,
-    "Currency": "nulla",
-    "ProjectName": "Reichert, Hartmann and Prohaska",
-    "AssociateFullName": "Myriam Rippin",
-    "Description": "Down-sized clear-thinking open system",
+    "ContactName": "Schamberger-Pacocha",
+    "SaleDate": "2023-04-26T17:54:03.5858088+02:00",
+    "SaleId": 359,
+    "Probability": 986,
+    "Title": "tempora",
+    "Amount": 2839.404,
+    "Currency": "in",
+    "ProjectName": "O'Connell-Boyer",
+    "AssociateFullName": "Cade Carroll",
+    "Description": "Robust transitional conglomeration",
     "Status": "Lost",
-    "WeightedAmount": 16256.057999999999,
-    "ProjectId": 286,
-    "EarningPercent": 25404.203999999998,
-    "Earning": 17534.73,
-    "ContactId": 584,
-    "AssociateId": 815,
-    "PersonId": 875,
-    "SaleTypeId": 704,
-    "SaleTypeName": "Stiedemann Group",
-    "PersonFullName": "Jorge Carter",
+    "WeightedAmount": 24836.95,
+    "ProjectId": 164,
+    "EarningPercent": 28325.092,
+    "Earning": 4575.6399999999994,
+    "ContactId": 931,
+    "AssociateId": 561,
+    "PersonId": 105,
+    "SaleTypeId": 686,
+    "SaleTypeName": "Predovic-Rogahn",
+    "PersonFullName": "Jaron Ritchie",
     "Completed": "Completed",
-    "ActiveErpLinks": 283,
-    "NextDueDate": "2016-03-26T16:32:39.8520956+01:00",
-    "Number": "1286340",
+    "ActiveErpLinks": 864,
+    "NextDueDate": "2005-12-07T17:54:03.5858088+01:00",
+    "Number": "431892",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 2
+        "FieldType": "System.String",
+        "FieldLength": 352
       }
     }
   }

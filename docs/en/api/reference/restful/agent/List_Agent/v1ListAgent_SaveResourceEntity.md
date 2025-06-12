@@ -75,17 +75,17 @@ OK
 POST /api/v1/Agents/List/SaveResourceEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 652,
-  "Name": "Rogahn, Shanahan and Rempel",
-  "Rank": 60,
-  "Tooltip": "placeat",
+  "ResourceId": 283,
+  "Name": "Beier, Parker and Moen",
+  "Rank": 836,
+  "Tooltip": "modi",
   "Deleted": false,
-  "IsLocation": false,
-  "LocationAddress": "dolorem"
+  "IsLocation": true,
+  "LocationAddress": "est"
 }
 ```
 
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 148,
-  "Name": "Spencer Inc and Sons",
-  "Rank": 165,
-  "Tooltip": "sapiente",
-  "Deleted": true,
-  "IsLocation": false,
-  "LocationAddress": "neque",
+  "ResourceId": 963,
+  "Name": "Wunsch LLC",
+  "Rank": 245,
+  "Tooltip": "quos",
+  "Deleted": false,
+  "IsLocation": true,
+  "LocationAddress": "sunt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 484
+      "FieldType": "System.Int32",
+      "FieldLength": 448
     }
   }
 }

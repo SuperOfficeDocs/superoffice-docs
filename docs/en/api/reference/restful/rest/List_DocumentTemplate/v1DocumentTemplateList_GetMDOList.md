@@ -27,7 +27,7 @@ Get the MDO list items for "DocTmpl" - with headings and filtering by user group
 
 ```http
 GET /api/v1/List/DocumentTemplate/MDOItems?flat=False
-GET /api/v1/List/DocumentTemplate/MDOItems?query=optio
+GET /api/v1/List/DocumentTemplate/MDOItems?query=inventore
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/DocumentTemplate/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 998,
-    "Name": "Schmitt-Kub",
-    "ToolTip": "Quia vel.",
+    "Id": 111,
+    "Name": "Bartoletti Inc and Sons",
+    "ToolTip": "Id ipsum ipsa necessitatibus sint labore.",
     "Deleted": true,
-    "Rank": 155,
-    "Type": "est",
+    "Rank": 716,
+    "Type": "cumque",
     "ChildItems": [
       {
-        "Id": 762,
-        "Name": "Kshlerin, D'Amore and Ratke",
-        "ToolTip": "Dolorem praesentium.",
+        "Id": 383,
+        "Name": "Langworth-Harris",
+        "ToolTip": "Nisi qui vel minima modi facilis.",
         "Deleted": false,
-        "Rank": 842,
-        "Type": "blanditiis",
+        "Rank": 621,
+        "Type": "eos",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "nemo",
-        "ColorBlock": 991,
-        "ExtraInfo": "animi",
-        "StyleHint": "ducimus",
-        "FullName": "Shaylee Lockman",
+        "IconHint": "recusandae",
+        "ColorBlock": 205,
+        "ExtraInfo": "est",
+        "StyleHint": "quia",
+        "FullName": "Gene Cremin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 137
+            "FieldType": "System.String",
+            "FieldLength": 542
           }
         }
       }
     ],
-    "IconHint": "fugiat",
-    "ColorBlock": 637,
-    "ExtraInfo": "unde",
-    "StyleHint": "doloremque",
-    "FullName": "Ernest Nicolas",
+    "IconHint": "soluta",
+    "ColorBlock": 292,
+    "ExtraInfo": "ipsum",
+    "StyleHint": "ut",
+    "FullName": "Laney Grant",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 623
+        "FieldType": "System.Int32",
+        "FieldLength": 885
       }
     }
   }

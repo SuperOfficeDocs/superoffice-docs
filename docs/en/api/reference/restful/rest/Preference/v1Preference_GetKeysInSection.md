@@ -72,7 +72,7 @@ OK
 GET /api/v1/Preference/{section}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -83,50 +83,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 549,
-    "Name": "Schowalter-Vandervort",
-    "ToolTip": "Earum nesciunt explicabo quasi mollitia.",
-    "Deleted": false,
-    "Rank": 884,
-    "Type": "ut",
+    "Id": 503,
+    "Name": "Roob Inc and Sons",
+    "ToolTip": "Eligendi nulla sequi.",
+    "Deleted": true,
+    "Rank": 996,
+    "Type": "voluptates",
     "ChildItems": [
       {
-        "Id": 113,
-        "Name": "Fahey-Hagenes",
-        "ToolTip": "Fugiat officiis eos atque quo ea inventore.",
+        "Id": 949,
+        "Name": "Kuhic-Hudson",
+        "ToolTip": "Error iste quia sequi ut ea harum.",
         "Deleted": false,
-        "Rank": 893,
-        "Type": "provident",
+        "Rank": 44,
+        "Type": "eum",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "assumenda",
-        "ColorBlock": 246,
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "omnis",
-        "FullName": "Nelson Koch",
+        "IconHint": "non",
+        "ColorBlock": 672,
+        "ExtraInfo": "id",
+        "StyleHint": "aspernatur",
+        "FullName": "Wilber Thompson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 475
+            "FieldType": "System.Int32",
+            "FieldLength": 117
           }
         }
       }
     ],
-    "IconHint": "id",
-    "ColorBlock": 108,
-    "ExtraInfo": "non",
-    "StyleHint": "animi",
-    "FullName": "Reina Filiberto Turcotte DVM",
+    "IconHint": "ipsum",
+    "ColorBlock": 226,
+    "ExtraInfo": "eligendi",
+    "StyleHint": "praesentium",
+    "FullName": "Prof. Adolf Ettie Breitenberg IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 884
+        "FieldLength": 199
       }
     }
   }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Source/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 903,
-    "Name": "Thompson-Bogan",
-    "ToolTip": "Quas incidunt sit eaque ipsum doloribus et id.",
+    "Id": 635,
+    "Name": "Dare Group",
+    "ToolTip": "Possimus in eum debitis aut temporibus.",
     "Deleted": false,
-    "Rank": 923,
-    "Type": "expedita",
-    "ColorBlock": 940,
-    "IconHint": "ratione",
-    "Selected": true,
-    "LastChanged": "2020-11-23T16:32:48.9775807+01:00",
+    "Rank": 995,
+    "Type": "consequatur",
+    "ColorBlock": 763,
+    "IconHint": "quis",
+    "Selected": false,
+    "LastChanged": "2025-02-19T17:54:09.1168029+01:00",
     "ChildItems": [
       {
-        "Id": 237,
-        "Name": "Doyle-McClure",
-        "ToolTip": "Maxime perspiciatis provident repudiandae culpa.",
+        "Id": 556,
+        "Name": "Greenholt LLC",
+        "ToolTip": "Cumque laborum.",
         "Deleted": false,
-        "Rank": 719,
-        "Type": "iste",
-        "ColorBlock": 335,
-        "IconHint": "voluptatem",
+        "Rank": 178,
+        "Type": "nihil",
+        "ColorBlock": 94,
+        "IconHint": "praesentium",
         "Selected": false,
-        "LastChanged": "2001-02-07T16:32:48.9775807+01:00",
+        "LastChanged": "2024-04-27T17:54:09.1168029+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolores",
-        "StyleHint": "ut",
-        "Hidden": false,
-        "FullName": "Jacinto Jakubowski"
+        "ExtraInfo": "est",
+        "StyleHint": "quaerat",
+        "Hidden": true,
+        "FullName": "Tito Runolfsdottir"
       }
     ],
-    "ExtraInfo": "deleniti",
-    "StyleHint": "animi",
-    "Hidden": false,
-    "FullName": "Miss Devonte Murphy I"
+    "ExtraInfo": "ullam",
+    "StyleHint": "et",
+    "Hidden": true,
+    "FullName": "Vaughn Zieme"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 575,
-    "Name": "Parisian, Treutel and Welch",
-    "ToolTip": "Repudiandae rem vitae debitis veritatis.",
-    "Deleted": false,
-    "Rank": 289,
-    "Type": "at",
-    "ColorBlock": 239,
-    "IconHint": "dignissimos",
-    "Selected": false,
-    "LastChanged": "2015-02-28T16:32:48.9775807+01:00",
+    "Id": 336,
+    "Name": "Walter-Upton",
+    "ToolTip": "Expedita voluptatum recusandae molestiae laboriosam at.",
+    "Deleted": true,
+    "Rank": 918,
+    "Type": "distinctio",
+    "ColorBlock": 625,
+    "IconHint": "unde",
+    "Selected": true,
+    "LastChanged": "2013-09-12T17:54:09.1324271+02:00",
     "ChildItems": [
       {
-        "Id": 428,
-        "Name": "Glover-Leuschke",
-        "ToolTip": "Autem voluptates ducimus deleniti rerum tenetur.",
-        "Deleted": true,
-        "Rank": 860,
-        "Type": "veniam",
-        "ColorBlock": 926,
-        "IconHint": "est",
+        "Id": 346,
+        "Name": "Yost Inc and Sons",
+        "ToolTip": "Veritatis nemo necessitatibus.",
+        "Deleted": false,
+        "Rank": 497,
+        "Type": "voluptate",
+        "ColorBlock": 444,
+        "IconHint": "deleniti",
         "Selected": false,
-        "LastChanged": "2006-08-25T16:32:48.9775807+02:00",
+        "LastChanged": "1998-09-11T17:54:09.1324271+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "perferendis",
-        "StyleHint": "eum",
-        "Hidden": true,
-        "FullName": "Antwan Stark",
+        "ExtraInfo": "et",
+        "StyleHint": "necessitatibus",
+        "Hidden": false,
+        "FullName": "Rafael Buckridge",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 368
+            "FieldLength": 804
           }
         }
       }
     ],
-    "ExtraInfo": "laudantium",
-    "StyleHint": "facilis",
+    "ExtraInfo": "rerum",
+    "StyleHint": "aut",
     "Hidden": false,
-    "FullName": "Alfonzo Zulauf",
+    "FullName": "Kaya Eichmann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 879
+        "FieldType": "System.String",
+        "FieldLength": 518
       }
     }
   }

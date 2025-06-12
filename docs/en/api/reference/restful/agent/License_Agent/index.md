@@ -49,3 +49,7 @@ generated: true
 * [POST Agents/License/AssignThirdPartyLicenses](v1LicenseAgent_AssignThirdPartyLicenses.md)
 
 * [POST Agents/License/UnassignThirdPartyLicenses](v1LicenseAgent_UnassignThirdPartyLicenses.md)
+
+* [POST Agents/License/GetCentralLicense](v1LicenseAgent_GetCentralLicense.md)
+
+* [POST Agents/License/SaveCentralLicense](v1LicenseAgent_SaveCentralLicense.md)

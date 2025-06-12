@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/SaleType/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/SaleType/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/SaleType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 118,
-    "Name": "Hoppe, Bartell and Harvey",
-    "ToolTip": "Dolores omnis magnam sequi officiis vel unde.",
-    "Deleted": false,
-    "Rank": 446,
-    "Type": "ab",
-    "ColorBlock": 456,
-    "IconHint": "voluptatem",
+    "Id": 894,
+    "Name": "Schneider-Weimann",
+    "ToolTip": "Voluptatem dolores et et expedita adipisci autem neque.",
+    "Deleted": true,
+    "Rank": 662,
+    "Type": "illum",
+    "ColorBlock": 736,
+    "IconHint": "ut",
     "Selected": false,
-    "LastChanged": "2013-08-22T16:32:48.9619631+02:00",
+    "LastChanged": "1998-07-03T17:54:09.1168029+02:00",
     "ChildItems": [
       {
-        "Id": 113,
-        "Name": "Casper LLC",
-        "ToolTip": "Fugiat aut commodi voluptates dolorum.",
-        "Deleted": false,
-        "Rank": 617,
-        "Type": "ut",
-        "ColorBlock": 425,
-        "IconHint": "praesentium",
+        "Id": 971,
+        "Name": "Langosh-Russel",
+        "ToolTip": "Dolorum neque voluptate voluptate hic et cum sunt.",
+        "Deleted": true,
+        "Rank": 333,
+        "Type": "voluptatibus",
+        "ColorBlock": 72,
+        "IconHint": "laudantium",
         "Selected": false,
-        "LastChanged": "2020-07-20T16:32:48.9619631+02:00",
+        "LastChanged": "2001-04-26T17:54:09.1168029+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eligendi",
-        "StyleHint": "eos",
-        "Hidden": false,
-        "FullName": "Bailey Gottlieb",
+        "ExtraInfo": "corrupti",
+        "StyleHint": "ipsam",
+        "Hidden": true,
+        "FullName": "Mitchell O'Hara",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 50
+            "FieldType": "System.String",
+            "FieldLength": 715
           }
         }
       }
     ],
-    "ExtraInfo": "molestias",
-    "StyleHint": "harum",
-    "Hidden": true,
-    "FullName": "Virgil Krajcik",
+    "ExtraInfo": "omnis",
+    "StyleHint": "et",
+    "Hidden": false,
+    "FullName": "Ora Rico Brekke II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 57
+        "FieldType": "System.Int32",
+        "FieldLength": 829
       }
     }
   }

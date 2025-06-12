@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 759,
-  "Name": "Bernier Inc and Sons",
-  "Tooltip": "deleniti",
+  "Id": 256,
+  "Name": "O'Hara, Moen and Smith",
+  "Tooltip": "fuga",
   "Deleted": false,
-  "Rank": 938,
+  "Rank": 466,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "consectetur",
+  "UseGroupsAndHeadings": true,
+  "ListType": "velit",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 139,
-  "Name": "Schulist LLC",
-  "Tooltip": "doloribus",
+  "Id": 993,
+  "Name": "Gibson-Jerde",
+  "Tooltip": "praesentium",
   "Deleted": true,
-  "Rank": 240,
+  "Rank": 680,
   "IsCustomList": true,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "vel",
-  "InUseByUserDefinedFields": false,
+  "ListType": "enim",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 877
+      "FieldType": "System.Int32",
+      "FieldLength": 337
     }
   }
 }

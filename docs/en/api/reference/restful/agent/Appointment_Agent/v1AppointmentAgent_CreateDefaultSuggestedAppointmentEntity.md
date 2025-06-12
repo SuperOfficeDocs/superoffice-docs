@@ -60,7 +60,7 @@ OK
 | Text | string | The suggested text of the new appointment |
 | ProjectTypeStatusLink | ProjectTypeStatusLink | Project type and project status link info |
 | SaleTypeStageLink | SaleTypeStageLink | Sale type and stage link info |
-| Type | Task | Type of the suggested appointment |
+| Type | SoTask | Type of the suggested appointment |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultSuggestedAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -80,17 +80,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 664,
-  "Name": "Streich-Kihn",
-  "Tooltip": "porro",
-  "Rank": 188,
+  "SuggestedAppointmentId": 852,
+  "Name": "Stamm LLC",
+  "Tooltip": "in",
+  "Rank": 841,
   "Deleted": false,
-  "DaysFuture": 447,
-  "Duration": "fuga",
+  "DaysFuture": 769,
+  "Duration": "et",
   "AutoSuggest": false,
   "IsMilestone": false,
-  "AssignToMember": false,
-  "Text": "sunt",
+  "AssignToMember": true,
+  "Text": "in",
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
   "Type": null,
@@ -99,7 +99,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 953
+      "FieldLength": 1002
     }
   }
 }

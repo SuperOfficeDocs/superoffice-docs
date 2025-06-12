@@ -26,7 +26,7 @@ Gets a FormEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetFormEntity?formEntityId=874
+POST /api/v1/Agents/Marketing/GetFormEntity?formEntityId=264
 POST /api/v1/Agents/Marketing/GetFormEntity?$select=name,department,category/id
 ```
 
@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/Marketing/GetFormEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -99,38 +99,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 93,
-  "FormKey": "ipsam",
-  "Name": "Barton LLC",
-  "Description": "Multi-lateral homogeneous synergy",
-  "Config": "in",
-  "FolderId": 61,
-  "ScriptId": 571,
-  "ResponseShipmentId": 140,
+  "FormId": 957,
+  "FormKey": "voluptas",
+  "Name": "Gutkowski Group",
+  "Description": "Exclusive national system engine",
+  "Config": "exercitationem",
+  "FolderId": 148,
+  "ScriptId": 669,
+  "ResponseShipmentId": 98,
   "Active": false,
-  "Expires": "2015-03-31T16:32:39.3363462+02:00",
-  "MaxSubmits": 999,
+  "Expires": "2025-05-18T17:54:03.3202006+02:00",
+  "MaxSubmits": 703,
   "Type": "Normal",
-  "Recipe": "mollitia",
-  "GroupId": 837,
-  "NewTicket": false,
+  "Recipe": "aperiam",
+  "GroupId": 598,
+  "NewTicket": true,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2020-10-14T16:32:39.3363462+02:00",
-  "RegisteredAssociateId": 313,
-  "Updated": "2000-09-13T16:32:39.3363462+02:00",
-  "UpdatedAssociateId": 100,
-  "UpdatedCount": 654,
+  "Registered": "2006-06-25T17:54:03.3202006+02:00",
+  "RegisteredAssociateId": 308,
+  "Updated": "2019-01-04T17:54:03.3202006+01:00",
+  "UpdatedAssociateId": 866,
+  "UpdatedCount": 461,
   "EmailFlows": [
-    649,
-    910
+    380,
+    641
   ],
-  "FolderName": "Mann Group",
+  "FolderName": "Konopelski-Kassulke",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 170
+      "FieldLength": 499
     }
   }
 }

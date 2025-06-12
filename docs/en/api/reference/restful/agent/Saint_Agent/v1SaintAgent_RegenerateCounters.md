@@ -94,7 +94,7 @@ OK
 POST /api/v1/Agents/Saint/RegenerateCounters
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -109,37 +109,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 957,
-  "Name": "Homenick-Kuhic",
-  "AssociateId": 297,
-  "DetailsTable": 517,
-  "DetailsRecord": 763,
+  "Id": 686,
+  "Name": "DuBuque Group",
+  "AssociateId": 537,
+  "DetailsTable": 491,
+  "DetailsRecord": 551,
   "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "sit",
-    "ParameterObject2": "ipsa"
+    "ParameterObject1": "inventore",
+    "ParameterObject2": "beatae"
   },
-  "LastStarted": "2005-04-12T16:32:39.7896101+02:00",
-  "Created": "2014-03-14T16:32:39.7896101+01:00",
-  "StartCount": 33,
-  "DatabaseSerialNumber": "1143078",
-  "Context": "hic",
-  "Result": "harum",
+  "LastStarted": "2010-12-04T17:54:03.5545604+01:00",
+  "Created": "2018-01-29T17:54:03.5545604+01:00",
+  "StartCount": 930,
+  "DatabaseSerialNumber": "544086",
+  "Context": "excepturi",
+  "Result": "vero",
   "State": "All",
-  "Description": "Networked intangible time-frame",
+  "Description": "Universal attitude-oriented service-desk",
   "Response": "et",
-  "Request": "vitae",
-  "ProgressDescription": "Seamless context-sensitive data-warehouse",
-  "ProgressPercent": 830,
-  "FileName": "Gottlieb, Hermann and Anderson",
+  "Request": "ut",
+  "ProgressDescription": "Advanced mission-critical approach",
+  "ProgressPercent": 365,
+  "FileName": "Beatty-Emmerich",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 331
+      "FieldType": "System.String",
+      "FieldLength": 341
     }
   }
 }

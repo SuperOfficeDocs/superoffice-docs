@@ -69,12 +69,12 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteVersionNumber
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 402,
-  "Number": "744078"
+  "QuoteVersionId": 268,
+  "Number": "1056044"
 }
 ```
 

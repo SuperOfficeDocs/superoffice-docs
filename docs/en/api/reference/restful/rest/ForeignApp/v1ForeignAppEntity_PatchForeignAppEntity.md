@@ -114,18 +114,18 @@ ForeignAppEntity  updated.
 PATCH /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "aspernatur",
+    "path": "porro",
     "value": {}
   },
   {
     "op": "add",
-    "path": "aspernatur",
+    "path": "porro",
     "value": {}
   }
 ]
@@ -138,29 +138,29 @@ HTTP/1.1 200 ForeignAppEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 521,
-  "Name": "Brown Group",
-  "CreatedDate": "2007-12-13T16:32:47.5402031+01:00",
-  "UpdatedDate": "2019-05-15T16:32:47.5402031+02:00",
+  "ForeignAppId": 851,
+  "Name": "Gottlieb-Quigley",
+  "CreatedDate": "2015-10-19T17:54:08.2574567+02:00",
+  "UpdatedDate": "2024-01-01T17:54:08.2574567+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 904,
-      "Name": "Lebsack-Rempel",
-      "CreatedDate": "2010-07-27T16:32:47.5402031+02:00",
-      "UpdatedDate": "2024-05-23T16:32:47.5402031+02:00",
-      "AssociateFullName": "Ollie Aniya Beahan III",
-      "CreatedBy": "commodi",
-      "UpdatedBy": "animi",
-      "DeviceIdentifier": "perferendis",
-      "ForeignAppId": 691,
+      "ForeignDeviceId": 161,
+      "Name": "Ankunding, Quitzon and Kertzmann",
+      "CreatedDate": "2011-03-08T17:54:08.2574567+01:00",
+      "UpdatedDate": "1999-04-11T17:54:08.2574567+02:00",
+      "AssociateFullName": "Miss Santino Winston McDermott",
+      "CreatedBy": "natus",
+      "UpdatedBy": "amet",
+      "DeviceIdentifier": "qui",
+      "ForeignAppId": 72,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 765
+          "FieldType": "System.String",
+          "FieldLength": 268
         }
       }
     }
@@ -170,12 +170,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 19
+      "FieldLength": 606
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

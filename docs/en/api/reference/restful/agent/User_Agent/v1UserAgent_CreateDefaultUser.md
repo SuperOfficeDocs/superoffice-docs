@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/User/CreateDefaultUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -94,14 +94,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 820,
-  "Name": "Cummerata Group",
-  "Rank": 721,
-  "Tooltip": "voluptatem",
+  "AssociateId": 135,
+  "Name": "Murray-Renner",
+  "Rank": 457,
+  "Tooltip": "commodi",
   "LicenseOwners": [
     {
-      "Name": "Quigley-Kling",
-      "Description": "Multi-tiered intangible matrix",
+      "Name": "Halvorson, Cartwright and Witting",
+      "Description": "Public-key high-level knowledge base",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -114,14 +114,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 921
+          "FieldType": "System.Int32",
+          "FieldLength": 228
         }
       }
     },
     {
-      "Name": "Quigley-Kling",
-      "Description": "Multi-tiered intangible matrix",
+      "Name": "Halvorson, Cartwright and Witting",
+      "Description": "Public-key high-level knowledge base",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -134,8 +134,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 921
+          "FieldType": "System.Int32",
+          "FieldLength": 228
         }
       }
     }
@@ -144,110 +144,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "molestiae",
-      "Tooltip": "cum",
-      "Id": 281,
-      "Rank": 702,
+      "Value": "occaecati",
+      "Tooltip": "earum",
+      "Id": 206,
+      "Rank": 986,
       "Deleted": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 951
+          "FieldType": "System.Int32",
+          "FieldLength": 386
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2024-09-20T16:32:40.4300996+02:00",
-  "Lastlogout": "2020-01-28T16:32:40.4300996+01:00",
-  "EjUserId": 832,
-  "RequestSignature": "quod",
+  "Lastlogin": "2018-10-19T17:54:03.8670455+02:00",
+  "Lastlogout": "2004-04-16T17:54:03.8670455+02:00",
+  "EjUserId": 420,
+  "RequestSignature": "ullam",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": true,
-  "IsOnTravel": true,
+  "IsPersonRetired": false,
+  "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "et",
-      "DisplayValue": "accusantium",
+      "Value": "explicabo",
+      "DisplayValue": "recusandae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 104
+          "FieldLength": 958
         }
       }
     },
     {
       "Type": null,
-      "Value": "et",
-      "DisplayValue": "accusantium",
+      "Value": "explicabo",
+      "DisplayValue": "recusandae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 104
+          "FieldLength": 958
         }
       }
     }
   ],
-  "UserName": "Kessler LLC",
+  "UserName": "Ward, Bruen and Lakin",
   "TicketCategories": [
     {
-      "Id": 136,
-      "Name": "Hettinger Group",
-      "ToolTip": "Sunt repudiandae necessitatibus facere autem eveniet.",
-      "Deleted": true,
-      "Rank": 697,
-      "Type": "dolorem",
+      "Id": 754,
+      "Name": "Lueilwitz LLC",
+      "ToolTip": "Sed voluptatem.",
+      "Deleted": false,
+      "Rank": 641,
+      "Type": "sunt",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "dolores",
-      "ColorBlock": 340,
-      "ExtraInfo": "rerum",
-      "StyleHint": "nobis",
-      "FullName": "Ova Wyman PhD",
+      "IconHint": "perferendis",
+      "ColorBlock": 144,
+      "ExtraInfo": "voluptas",
+      "StyleHint": "sit",
+      "FullName": "Leopold Bode",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 590
+          "FieldLength": 137
         }
       }
     }
   ],
-  "NickName": "Cronin-Stoltenberg",
+  "NickName": "Ortiz, Rolfson and Johnson",
   "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "dolore",
-    "ExtraFields2": "recusandae"
+    "ExtraFields1": "illum",
+    "ExtraFields2": "vel"
   },
   "CustomFields": {
-    "CustomFields1": "cum",
-    "CustomFields2": "recusandae"
+    "CustomFields1": "earum",
+    "CustomFields2": "id"
   },
   "PostSaveCommands": [
     {
-      "Name": "Nader Group",
-      "DisplayName": "Muller, Zboncak and Schamberger",
-      "Description": "Advanced value-added monitoring",
-      "ToolTip": "Maxime est sunt.",
+      "Name": "Pfannerstill-Predovic",
+      "DisplayName": "Wiegand, Grant and Lakin",
+      "Description": "Monitored modular algorithm",
+      "ToolTip": "Facere laudantium et magnam quae nostrum ut nihil.",
       "Actions": "Implicit",
-      "ActionData": "ut",
+      "ActionData": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 187
+          "FieldLength": 238
         }
       }
     }
@@ -256,8 +256,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 924
+      "FieldType": "System.Int32",
+      "FieldLength": 52
     }
   }
 }

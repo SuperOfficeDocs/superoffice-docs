@@ -107,36 +107,36 @@ OK
 POST /api/v1/Agents/Marketing/SaveFormEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 482,
-  "FormKey": "cumque",
-  "Name": "Hettinger Inc and Sons",
-  "Description": "Monitored background hierarchy",
-  "Config": "qui",
-  "FolderId": 640,
-  "ScriptId": 427,
-  "ResponseShipmentId": 530,
+  "FormId": 84,
+  "FormKey": "aut",
+  "Name": "Rodriguez, Kautzer and Jacobson",
+  "Description": "Customizable optimizing moratorium",
+  "Config": "et",
+  "FolderId": 57,
+  "ScriptId": 362,
+  "ResponseShipmentId": 546,
   "Active": false,
-  "Expires": "2011-05-07T16:32:39.3363462+02:00",
-  "MaxSubmits": 585,
+  "Expires": "1998-05-27T17:54:03.3202006+02:00",
+  "MaxSubmits": 525,
   "Type": "Normal",
-  "Recipe": "occaecati",
-  "GroupId": 517,
+  "Recipe": "dignissimos",
+  "GroupId": 871,
   "NewTicket": false,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2005-03-22T16:32:39.3363462+01:00",
-  "RegisteredAssociateId": 66,
-  "Updated": "2018-05-30T16:32:39.3363462+02:00",
-  "UpdatedAssociateId": 160,
-  "UpdatedCount": 159,
+  "Registered": "2002-08-08T17:54:03.3202006+02:00",
+  "RegisteredAssociateId": 427,
+  "Updated": "2020-10-28T17:54:03.3202006+01:00",
+  "UpdatedAssociateId": 242,
+  "UpdatedCount": 695,
   "EmailFlows": [
-    148,
-    450
+    439,
+    808
   ],
-  "FolderName": "Walter LLC"
+  "FolderName": "Kreiger-Fahey"
 }
 ```
 
@@ -147,38 +147,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 194,
-  "FormKey": "rem",
-  "Name": "Reinger-Hudson",
-  "Description": "Persevering eco-centric internet solution",
-  "Config": "nesciunt",
-  "FolderId": 424,
-  "ScriptId": 557,
-  "ResponseShipmentId": 102,
+  "FormId": 299,
+  "FormKey": "quia",
+  "Name": "Hintz LLC",
+  "Description": "Diverse mobile artificial intelligence",
+  "Config": "officiis",
+  "FolderId": 240,
+  "ScriptId": 303,
+  "ResponseShipmentId": 403,
   "Active": false,
-  "Expires": "2017-04-26T16:32:39.3363462+02:00",
-  "MaxSubmits": 872,
+  "Expires": "2020-06-01T17:54:03.3202006+02:00",
+  "MaxSubmits": 396,
   "Type": "Normal",
-  "Recipe": "illo",
-  "GroupId": 1000,
+  "Recipe": "eos",
+  "GroupId": 712,
   "NewTicket": false,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2006-01-07T16:32:39.3363462+01:00",
-  "RegisteredAssociateId": 511,
-  "Updated": "2006-11-13T16:32:39.3363462+01:00",
-  "UpdatedAssociateId": 812,
-  "UpdatedCount": 565,
+  "Registered": "2024-07-18T17:54:03.3202006+02:00",
+  "RegisteredAssociateId": 378,
+  "Updated": "2024-01-16T17:54:03.3202006+01:00",
+  "UpdatedAssociateId": 304,
+  "UpdatedCount": 11,
   "EmailFlows": [
-    780,
-    442
+    235,
+    325
   ],
-  "FolderName": "Welch-Ernser",
+  "FolderName": "Jacobs-Hoeger",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 239
+      "FieldLength": 887
     }
   }
 }

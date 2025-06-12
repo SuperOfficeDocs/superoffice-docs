@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultRecurrenceByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2004-02-23T16:32:38.0085236+01:00"
+  "StartDate": "2020-05-06T17:54:02.5702335+02:00"
 }
 ```
 
@@ -99,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 754,
-  "StartDate": "2010-08-02T16:32:38.0085236+02:00",
-  "EndDate": "1999-10-22T16:32:38.0085236+02:00",
-  "RecurrenceCounter": 149,
+  "RecurrenceId": 60,
+  "StartDate": "2009-12-20T17:54:02.5702335+01:00",
+  "EndDate": "1999-04-10T17:54:02.5702335+02:00",
+  "RecurrenceCounter": 618,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -111,18 +111,18 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2007-01-07T16:32:38.0085236+01:00",
+      "Date": "2006-12-19T17:54:02.5702335+01:00",
       "IsConflict": false,
-      "Description": "Pre-emptive 4th generation moratorium",
-      "DescriptionStyleHint": "Optimized grid-enabled groupware",
-      "Tooltip": "officia"
+      "Description": "Multi-layered human-resource product",
+      "DescriptionStyleHint": "Persevering heuristic hierarchy",
+      "Tooltip": "quia"
     },
     {
-      "Date": "2007-01-07T16:32:38.0085236+01:00",
+      "Date": "2006-12-19T17:54:02.5702335+01:00",
       "IsConflict": false,
-      "Description": "Pre-emptive 4th generation moratorium",
-      "DescriptionStyleHint": "Optimized grid-enabled groupware",
-      "Tooltip": "officia"
+      "Description": "Multi-layered human-resource product",
+      "DescriptionStyleHint": "Persevering heuristic hierarchy",
+      "Tooltip": "quia"
     }
   ],
   "IsRecurrence": false

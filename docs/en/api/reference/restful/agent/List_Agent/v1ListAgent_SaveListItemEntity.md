@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/List/SaveListItemEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 371,
-  "Name": "Gaylord Inc and Sons",
-  "Tooltip": "et",
+  "Id": 60,
+  "Name": "Frami, Olson and Nienow",
+  "Tooltip": "animi",
   "Deleted": false,
-  "UdListDefinitionId": 404,
-  "Rank": 651,
+  "UdListDefinitionId": 879,
+  "Rank": 914,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 155
+      "FieldLength": 237
     }
   }
 }

@@ -108,7 +108,7 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 13 Jan 2010 16:32:47 G1T
+Last-Modified: Sat, 27 Jan 2024 17:54:08 G1T
 
 {
   "Appointment": null,
@@ -117,7 +117,7 @@ Last-Modified: Wed, 13 Jan 2010 16:32:47 G1T
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "fugiat",
+  "SaleText": "eveniet",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -126,113 +126,113 @@ Last-Modified: Wed, 13 Jan 2010 16:32:47 G1T
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "1999-03-16T16:32:47.8838795+01:00",
-  "Amount": 18703.712,
-  "SaleId": 811,
-  "Earning": 21574.456,
-  "EarningPercent": 9079.198,
-  "Heading": "nesciunt",
-  "Number": "1740996",
-  "Probability": 813,
-  "CreatedDate": "2006-08-05T16:32:47.8838795+02:00",
-  "UpdatedDate": "2010-01-13T16:32:47.8838795+01:00",
+  "Saledate": "2012-01-06T17:54:08.4293225+01:00",
+  "Amount": 23514.402,
+  "SaleId": 883,
+  "Earning": 15676.268,
+  "EarningPercent": 2701.508,
+  "Heading": "dignissimos",
+  "Number": "187843",
+  "Probability": 505,
+  "CreatedDate": "2009-11-10T17:54:08.4293225+01:00",
+  "UpdatedDate": "2024-01-27T17:54:08.4293225+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 908,
+  "ActiveLinks": 327,
   "Links": [
     {
-      "EntityName": "Heaney LLC",
-      "Id": 573,
-      "Description": "Extended multimedia infrastructure",
-      "ExtraInfo": "expedita",
-      "LinkId": 1002,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 293
-        }
-      }
-    }
-  ],
-  "NextDueDate": "2015-08-03T16:32:47.8838795+02:00",
-  "Postit": "amet",
-  "SaleType": null,
-  "ReasonSold": null,
-  "ReasonStalled": null,
-  "ReopenDate": "2004-06-18T16:32:47.8838795+02:00",
-  "SaleStakeholders": [
-    {
-      "StakeholderRoleName": "Hyatt-Kuphal",
-      "Comment": "qui",
-      "StakeholderRoleId": 635,
-      "CountryId": 337,
-      "PersonId": 515,
-      "EmailDescription": "howell.thiel@medhurstmetz.name",
-      "EmailId": 699,
-      "EmailAddress": "burnice_thiel@schoenrenner.name",
-      "PhoneId": 463,
-      "ContactName": "Daugherty, Breitenberg and Bartoletti",
-      "ContactId": 815,
-      "SaleId": 951,
-      "Mrmrs": "omnis",
-      "Firstname": "Darwin",
-      "MiddleName": "Bosco Inc and Sons",
-      "Lastname": "Tremblay",
-      "SaleStakeholderId": 285,
-      "Rank": 986,
-      "Phone": "(500)724-6647 x85099",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 885
-        }
-      }
-    }
-  ],
-  "ActiveErpLinks": 180,
-  "UserDefinedFields": {
-    "SuperOffice:1": "1833304655",
-    "SuperOffice:2": "1995294786"
-  },
-  "ExtraFields": {
-    "ExtraFields1": "porro",
-    "ExtraFields2": "minus"
-  },
-  "CustomFields": {
-    "CustomFields1": "accusamus",
-    "CustomFields2": "aut"
-  },
-  "PublishEventDate": "2017-04-06T16:32:47.8994964+02:00",
-  "PublishTo": "2005-10-14T16:32:47.8994964+02:00",
-  "PublishFrom": "2014-07-24T16:32:47.8994964+02:00",
-  "IsPublished": true,
-  "VisibleFor": [
-    {
-      "VisibleId": 359,
-      "Visibility": "All",
-      "DisplayValue": "deserunt",
+      "EntityName": "Stracke-Streich",
+      "Id": 374,
+      "Description": "Versatile transitional moratorium",
+      "ExtraInfo": "earum",
+      "LinkId": 970,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 684
+          "FieldLength": 284
+        }
+      }
+    }
+  ],
+  "NextDueDate": "2006-06-16T17:54:08.4293225+02:00",
+  "Postit": "quia",
+  "SaleType": null,
+  "ReasonSold": null,
+  "ReasonStalled": null,
+  "ReopenDate": "2003-02-06T17:54:08.4293225+01:00",
+  "SaleStakeholders": [
+    {
+      "StakeholderRoleName": "Jacobson, Gibson and White",
+      "Comment": "laudantium",
+      "StakeholderRoleId": 662,
+      "CountryId": 417,
+      "PersonId": 811,
+      "EmailDescription": "amiya_frami@bechtelar.com",
+      "EmailId": 190,
+      "EmailAddress": "carlee_dibbert@carroll.com",
+      "PhoneId": 744,
+      "ContactName": "Gerhold, Donnelly and Labadie",
+      "ContactId": 148,
+      "SaleId": 649,
+      "Mrmrs": "doloribus",
+      "Firstname": "Adelle",
+      "MiddleName": "Runte-Kunde",
+      "Lastname": "King",
+      "SaleStakeholderId": 435,
+      "Rank": 939,
+      "Phone": "(234)949-3785 x552",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 375
+        }
+      }
+    }
+  ],
+  "ActiveErpLinks": 697,
+  "UserDefinedFields": {
+    "SuperOffice:1": "True",
+    "SuperOffice:2": "False"
+  },
+  "ExtraFields": {
+    "ExtraFields1": "quod",
+    "ExtraFields2": "autem"
+  },
+  "CustomFields": {
+    "CustomFields1": "fugit",
+    "CustomFields2": "cupiditate"
+  },
+  "PublishEventDate": "2015-08-02T17:54:08.4293225+02:00",
+  "PublishTo": "2012-03-17T17:54:08.4293225+01:00",
+  "PublishFrom": "2005-01-26T17:54:08.4293225+01:00",
+  "IsPublished": false,
+  "VisibleFor": [
+    {
+      "VisibleId": 830,
+      "Visibility": "All",
+      "DisplayValue": "consectetur",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 600
         }
       }
     },
     {
-      "VisibleId": 359,
+      "VisibleId": 830,
       "Visibility": "All",
-      "DisplayValue": "deserunt",
+      "DisplayValue": "consectetur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 684
+          "FieldLength": 600
         }
       }
     }
@@ -242,7 +242,7 @@ Last-Modified: Wed, 13 Jan 2010 16:32:47 G1T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 487
+      "FieldLength": 826
     }
   }
 }

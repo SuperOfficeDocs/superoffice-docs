@@ -73,7 +73,7 @@ OK
 POST /api/v1/Agents/Quote/GetInUseQuoteLineConfigurations
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -84,21 +84,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 901,
-    "FieldName": "Abernathy, Koss and O'Reilly",
-    "Label": "iste",
-    "Tooltip": "consequatur",
-    "Editable": true,
+    "QuoteLineConfigurationId": 802,
+    "FieldName": "Berge LLC",
+    "Label": "et",
+    "Tooltip": "soluta",
+    "Editable": false,
     "InUse": false,
-    "Mandatory": true,
-    "Rank": 202,
-    "RestrictEdit": false,
+    "Mandatory": false,
+    "Rank": 574,
+    "RestrictEdit": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 526
+        "FieldLength": 398
       }
     }
   }

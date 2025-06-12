@@ -80,7 +80,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ModuleOwner": "unde"
+  "ModuleOwner": "omnis"
 }
 ```
 
@@ -92,13 +92,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Succeeded": false,
-  "Reason": "",
+  "Reason": "mesh sexy infomediaries",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 582
+      "FieldType": "System.Int32",
+      "FieldLength": 509
     }
   }
 }

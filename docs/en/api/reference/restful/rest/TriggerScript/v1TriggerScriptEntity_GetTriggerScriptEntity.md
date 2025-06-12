@@ -85,7 +85,7 @@ TriggerScriptEntity found.
 GET /api/v1/TriggerScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -95,27 +95,27 @@ HTTP/1.1 200 TriggerScriptEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 339,
-  "Name": "Macejkovic Inc and Sons",
+  "ScreenChooserId": 930,
+  "Name": "Monahan-Hirthe",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": true,
-  "UniqueIdentifier": "quas",
-  "Source": "iste",
-  "Registered": "2004-08-10T16:32:48.2745849+02:00",
-  "RegisteredAssociateId": 18,
-  "Updated": "2015-05-07T16:32:48.2745849+02:00",
-  "UpdatedAssociateId": 912,
+  "UniqueIdentifier": "ut",
+  "Source": "est",
+  "Registered": "2023-03-24T17:54:08.6793184+01:00",
+  "RegisteredAssociateId": 522,
+  "Updated": "2003-07-06T17:54:08.6793184+02:00",
+  "UpdatedAssociateId": 738,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 19
+      "FieldLength": 960
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

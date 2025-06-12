@@ -88,16 +88,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 952,
-  "Name": "Casper Inc and Sons",
-  "Tooltip": "doloribus",
+  "Id": 393,
+  "Name": "Koch LLC",
+  "Tooltip": "quia",
   "Deleted": false,
-  "Rank": 435,
+  "Rank": 365,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "nihil",
-  "InUseByUserDefinedFields": false
+  "ListType": "et",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 620,
-  "Name": "Jenkins-Nolan",
-  "Tooltip": "ad",
+  "Id": 107,
+  "Name": "Hintz, Zboncak and Wunsch",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 264,
+  "Rank": 901,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "cumque",
+  "ListType": "sequi",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 712
+      "FieldType": "System.String",
+      "FieldLength": 188
     }
   }
 }

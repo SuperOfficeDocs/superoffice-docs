@@ -70,13 +70,13 @@ OK
 POST /api/v1/Agents/Document/GetTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TemplateName": "Steuber LLC",
+  "TemplateName": "Ankunding LLC",
   "AllowPersonal": false,
-  "UiCulture": "perferendis"
+  "UiCulture": "molestiae"
 }
 ```
 

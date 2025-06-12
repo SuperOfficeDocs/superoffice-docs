@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/PaymentType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 831,
-    "Name": "Pagac-Greenholt",
-    "Tooltip": "quod",
-    "Deleted": true,
-    "Rank": 403,
-    "UdListDefinitionId": 368,
+    "HeadingId": 318,
+    "Name": "Zboncak LLC",
+    "Tooltip": "ducimus",
+    "Deleted": false,
+    "Rank": 818,
+    "UdListDefinitionId": 318,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 364
+        "FieldLength": 858
       }
     }
   }

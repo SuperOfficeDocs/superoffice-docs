@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Credited/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 314,
-  "Name": "Batz, Moen and Mraz",
-  "Tooltip": "cumque",
+  "Id": 664,
+  "Name": "Renner Inc and Sons",
+  "Tooltip": "amet",
   "Deleted": false,
-  "UdListDefinitionId": 383,
-  "Rank": 931,
+  "UdListDefinitionId": 238,
+  "Rank": 67,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 158
+      "FieldType": "System.Int32",
+      "FieldLength": 877
     }
   }
 }

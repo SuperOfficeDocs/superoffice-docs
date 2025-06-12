@@ -105,11 +105,11 @@ OK
 POST /api/v1/Agents/Chat/AcceptChatSessionTransfer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 214
+  "ChatSessionId": 101
 }
 ```
 
@@ -120,29 +120,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 377,
-  "TopicId": 136,
+  "ChatSessionId": 812,
+  "TopicId": 942,
   "User": null,
   "Person": null,
-  "CustomerAlias": "eum",
-  "CustomerHost": "et",
-  "CustomerName": "Satterfield, Kerluke and O'Kon",
-  "CustomerEmail": "brenna_walter@mueller.name",
-  "CustomerPhone": "985-934-7436",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Graham Inc and Sons",
+  "CustomerAlias": "commodi",
+  "CustomerHost": "quae",
+  "CustomerName": "Erdman, Johns and Waters",
+  "CustomerEmail": "helene.wintheiser@osinski.co.uk",
+  "CustomerPhone": "564-846-7560",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Zemlak LLC",
   "Status": "Closed",
-  "FirstMessage": "labore",
-  "LastMessage": "quo",
-  "WhenRequested": "2004-07-03T16:32:38.3053306+02:00",
-  "WhenStarted": "2010-09-10T16:32:38.3053306+02:00",
-  "WhenEnded": "2012-06-17T16:32:38.3053306+02:00",
-  "WhenIdle": "2004-02-05T16:32:38.3053306+01:00",
-  "WhenFetched": "2005-09-26T16:32:38.3053306+02:00",
-  "SessionKey": "qui",
-  "InitialQueuePos": 683,
-  "AlertLevel": 778,
-  "Rank": 185,
+  "FirstMessage": "qui",
+  "LastMessage": "porro",
+  "WhenRequested": "2022-06-28T17:54:02.7264757+02:00",
+  "WhenStarted": "2010-11-25T17:54:02.7264757+01:00",
+  "WhenEnded": "2004-02-10T17:54:02.7264757+01:00",
+  "WhenIdle": "2020-09-25T17:54:02.7264757+02:00",
+  "WhenFetched": "1999-06-11T17:54:02.7264757+02:00",
+  "SessionKey": "vero",
+  "InitialQueuePos": 344,
+  "AlertLevel": 879,
+  "Rank": 658,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -150,13 +150,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 484,
+  "Rating": 879,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 520
+      "FieldLength": 317
     }
   }
 }

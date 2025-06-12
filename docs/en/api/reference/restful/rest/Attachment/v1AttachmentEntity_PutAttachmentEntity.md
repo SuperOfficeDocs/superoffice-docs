@@ -93,18 +93,18 @@ AttachmentEntity updated.
 PUT /api/v1/Attachment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 292,
-  "Name": "Waters Group",
-  "ContentType": "ducimus",
-  "AttSize": 219,
+  "AttachmentId": 931,
+  "Name": "Trantow LLC",
+  "ContentType": "unde",
+  "AttSize": 160,
   "InlineImage": false,
-  "ContentId": "aut",
-  "AuthKey": "totam",
-  "IsSafeFileExtension": true
+  "ContentId": "possimus",
+  "AuthKey": "nam",
+  "IsSafeFileExtension": false
 }
 ```
 
@@ -115,25 +115,25 @@ HTTP/1.1 200 AttachmentEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 307,
-  "Name": "Romaguera-Becker",
-  "ContentType": "nemo",
-  "AttSize": 566,
-  "InlineImage": true,
-  "ContentId": "repellendus",
-  "AuthKey": "voluptates",
+  "AttachmentId": 571,
+  "Name": "Kreiger, Steuber and Goodwin",
+  "ContentType": "unde",
+  "AttSize": 150,
+  "InlineImage": false,
+  "ContentId": "perferendis",
+  "AuthKey": "quod",
   "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 724
+      "FieldType": "System.String",
+      "FieldLength": 906
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

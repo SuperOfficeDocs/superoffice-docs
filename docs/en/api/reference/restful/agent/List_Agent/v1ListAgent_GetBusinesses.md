@@ -78,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 80,
-    "Value": "repudiandae",
-    "Tooltip": "sequi",
+    "Id": 504,
+    "Value": "est",
+    "Tooltip": "explicabo",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 427
+        "FieldLength": 290
       }
     }
   },
   {
-    "Id": 80,
-    "Value": "repudiandae",
-    "Tooltip": "sequi",
+    "Id": 504,
+    "Value": "est",
+    "Tooltip": "explicabo",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 427
+        "FieldLength": 290
       }
     }
   }

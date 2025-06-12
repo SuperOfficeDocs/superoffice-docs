@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/ProductFamily/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 338,
-  "Name": "Schmitt Inc and Sons",
-  "Tooltip": "quia",
-  "Deleted": false,
-  "UdListDefinitionId": 63,
-  "Rank": 18
+  "Id": 410,
+  "Name": "Ankunding, Collier and Wolff",
+  "Tooltip": "est",
+  "Deleted": true,
+  "UdListDefinitionId": 11,
+  "Rank": 880
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 373,
-  "Name": "Osinski Inc and Sons",
-  "Tooltip": "dignissimos",
+  "Id": 814,
+  "Name": "Daugherty, Renner and Rogahn",
+  "Tooltip": "eaque",
   "Deleted": false,
-  "UdListDefinitionId": 165,
-  "Rank": 29,
+  "UdListDefinitionId": 162,
+  "Rank": 142,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 70
+      "FieldLength": 817
     }
   }
 }

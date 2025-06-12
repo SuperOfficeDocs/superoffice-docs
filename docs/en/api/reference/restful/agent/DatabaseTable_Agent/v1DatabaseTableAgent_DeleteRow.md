@@ -65,12 +65,12 @@ No Content
 POST /api/v1/Agents/DatabaseTable/DeleteRow
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Schinner, Kohler and Johnston",
-  "Id": 683
+  "TableName": "Kutch Group",
+  "Id": 863
 }
 ```
 

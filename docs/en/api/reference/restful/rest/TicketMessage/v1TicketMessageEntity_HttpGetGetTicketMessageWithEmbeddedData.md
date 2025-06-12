@@ -97,7 +97,7 @@ OK
 GET /api/v1/TicketMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -107,28 +107,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 397,
+  "EjMessageId": 447,
   "Ticket": null,
-  "CreatedAt": "2007-03-13T16:32:48.2431691+01:00",
+  "CreatedAt": "2002-11-21T17:54:08.6639929+01:00",
   "CreatedBy": null,
-  "Author": "ratione",
+  "Author": "error",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "ut",
-  "TimeSpent": 725,
-  "Body": "labore",
-  "HtmlBody": "et",
-  "EmailHeader": "angelita_hansen@strackestokes.ca",
-  "DebugInfo": "id",
-  "MailSorter": "sunt",
+  "MessageId": "in",
+  "TimeSpent": 521,
+  "Body": "dolores",
+  "HtmlBody": "est",
+  "EmailHeader": "elmo@kerlukejast.info",
+  "DebugInfo": "qui",
+  "MailSorter": "repellendus",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "sed",
+  "SearchTitle": "voluptatem",
   "MessageHeaders": [
     {
-      "Id": 652,
-      "Name": "Bechtelar Inc and Sons",
-      "Value": "suscipit",
+      "Id": 790,
+      "Name": "Jacobson Group",
+      "Value": "facere",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -136,50 +136,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 791
+          "FieldLength": 976
         }
       }
     }
   ],
-  "Important": false,
-  "Language": "sed",
-  "Sentiment": 320,
-  "SentimentConfidence": 581,
+  "Important": true,
+  "Language": "molestiae",
+  "Sentiment": 672,
+  "SentimentConfidence": 562,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 92,
-      "Name": "Lowe, Ortiz and O'Reilly",
-      "ContentType": "ea",
-      "AttSize": 885,
-      "InlineImage": false,
-      "ContentId": "eos",
-      "AuthKey": "culpa",
+      "AttachmentId": 777,
+      "Name": "Kling-Lang",
+      "ContentType": "tempore",
+      "AttSize": 531,
+      "InlineImage": true,
+      "ContentId": "et",
+      "AuthKey": "facilis",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 133
+          "FieldLength": 852
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "pariatur",
-    "ExtraFields2": "ea"
+    "ExtraFields1": "fugit",
+    "ExtraFields2": "omnis"
   },
   "CustomFields": {
-    "CustomFields1": "dolorem",
-    "CustomFields2": "sit"
+    "CustomFields1": "cumque",
+    "CustomFields2": "et"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 658
+      "FieldType": "System.String",
+      "FieldLength": 146
     }
   }
 }

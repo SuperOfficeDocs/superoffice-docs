@@ -89,8 +89,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectionId": 378,
-  "ConnectorName": "Wolff Group"
+  "ConnectionId": 917,
+  "ConnectorName": "Gaylord, Marquardt and Ruecker"
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "fieldName": {
-    "FieldKey": "quia",
-    "Rank": 653,
-    "DisplayName": "Stracke Group",
-    "DisplayDescription": "Realigned 4th generation adapter",
+    "FieldKey": "a",
+    "Rank": 496,
+    "DisplayName": "Buckridge Inc and Sons",
+    "DisplayDescription": "Reverse-engineered tangible process improvement",
     "FieldType": "Checkbox",
-    "ListName": "Marquardt-Kuhlman",
-    "DefaultValue": "est",
-    "MaxLength": 752,
+    "ListName": "Price Inc and Sons",
+    "DefaultValue": "eveniet",
+    "MaxLength": 174,
     "Access": "Mandatory",
-    "ShowInSearch": false,
+    "ShowInSearch": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 522
+        "FieldLength": 515
       }
     }
   }

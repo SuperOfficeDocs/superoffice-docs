@@ -100,46 +100,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HierarchyId": 94,
+    "HierarchyId": 949,
     "Domain": "Dashboards",
-    "Name": "Stiedemann, Mante and Welch",
-    "Fullname": "sed",
-    "ParentId": 66,
+    "Name": "Stark Group",
+    "Fullname": "maiores",
+    "ParentId": 897,
     "Children": [
       {
-        "HierarchyId": 226,
+        "HierarchyId": 516,
         "Domain": "Dashboards",
-        "Name": "Ankunding, Hintz and Runolfsson",
-        "Fullname": "distinctio",
-        "ParentId": 825,
+        "Name": "Bailey LLC",
+        "Fullname": "fugit",
+        "ParentId": 871,
         "Children": [
           {},
           {}
         ],
-        "Registered": "2002-11-16T16:32:39.2894842+01:00",
-        "RegisteredAssociateId": 881,
-        "Updated": "2011-07-16T16:32:39.2894842+02:00",
-        "UpdatedAssociateId": 786,
+        "Registered": "2015-10-12T17:54:03.3045907+02:00",
+        "RegisteredAssociateId": 540,
+        "Updated": "2014-10-30T17:54:03.3045907+01:00",
+        "UpdatedAssociateId": 639,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 855
+            "FieldType": "System.Int32",
+            "FieldLength": 947
           }
         }
       }
     ],
-    "Registered": "2024-01-19T16:32:39.2894842+01:00",
-    "RegisteredAssociateId": 76,
-    "Updated": "2012-12-21T16:32:39.2894842+01:00",
-    "UpdatedAssociateId": 568,
+    "Registered": "2002-09-07T17:54:03.3045907+02:00",
+    "RegisteredAssociateId": 152,
+    "Updated": "2024-04-09T17:54:03.3045907+02:00",
+    "UpdatedAssociateId": 275,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 846
+        "FieldLength": 256
       }
     }
   }

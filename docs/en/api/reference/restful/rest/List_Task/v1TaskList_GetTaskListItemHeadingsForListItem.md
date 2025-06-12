@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Task/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 11,
-    "Name": "Cartwright, Swaniawski and Smitham",
-    "ToolTip": "Sed officia ea harum facilis.",
-    "Deleted": false,
-    "Rank": 426,
-    "Type": "molestiae",
-    "ColorBlock": 450,
-    "IconHint": "dolor",
-    "Selected": true,
-    "LastChanged": "2015-12-22T16:32:48.9932021+01:00",
+    "Id": 649,
+    "Name": "Brekke Group",
+    "ToolTip": "Ut ducimus qui et consequuntur earum nihil dolore.",
+    "Deleted": true,
+    "Rank": 11,
+    "Type": "perferendis",
+    "ColorBlock": 635,
+    "IconHint": "voluptatem",
+    "Selected": false,
+    "LastChanged": "2009-08-24T17:54:09.1324271+02:00",
     "ChildItems": [
       {
-        "Id": 374,
-        "Name": "O'Keefe-Jast",
-        "ToolTip": "Molestias a harum soluta.",
+        "Id": 923,
+        "Name": "Miller-Rolfson",
+        "ToolTip": "Sequi quia placeat pariatur voluptates eum.",
         "Deleted": false,
-        "Rank": 296,
-        "Type": "quis",
-        "ColorBlock": 943,
-        "IconHint": "quia",
+        "Rank": 171,
+        "Type": "sit",
+        "ColorBlock": 973,
+        "IconHint": "animi",
         "Selected": false,
-        "LastChanged": "2020-08-01T16:32:48.9932021+02:00",
+        "LastChanged": "2023-08-17T17:54:09.1324271+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "molestias",
+        "ExtraInfo": "beatae",
+        "StyleHint": "ipsam",
         "Hidden": false,
-        "FullName": "Dr. Barbara Mayer",
+        "FullName": "Nellie Langworth",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 216
+            "FieldLength": 874
           }
         }
       }
     ],
-    "ExtraInfo": "accusamus",
-    "StyleHint": "aliquam",
-    "Hidden": true,
-    "FullName": "Bianka Casper",
+    "ExtraInfo": "pariatur",
+    "StyleHint": "dolorem",
+    "Hidden": false,
+    "FullName": "Kali Hermiston",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 284
+        "FieldLength": 203
       }
     }
   }

@@ -93,7 +93,7 @@ ContactEntity found.
 GET /api/v1/Contact/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 795,
-  "ColumnId": 419,
-  "FieldDefault": "omnis",
-  "FieldHeight": 561,
-  "FieldLabel": "esse",
-  "FieldLeft": 81,
-  "FieldTop": 80,
+  "UDefFieldId": 426,
+  "ColumnId": 283,
+  "FieldDefault": "blanditiis",
+  "FieldHeight": 154,
+  "FieldLabel": "vel",
+  "FieldLeft": 947,
+  "FieldTop": 7,
   "FieldType": "Checkbox",
-  "FieldWidth": 552,
-  "FormatMask": "quisquam",
+  "FieldWidth": 717,
+  "FormatMask": "dolorem",
   "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 822,
-  "LabelLeft": 431,
-  "LabelTop": 781,
-  "LabelWidth": 900,
-  "LastVersionId": 266,
-  "ListTableId": 472,
+  "IsIndexed": false,
+  "LabelHeight": 367,
+  "LabelLeft": 920,
+  "LabelTop": 234,
+  "LabelWidth": 712,
+  "LastVersionId": 709,
+  "ListTableId": 581,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 38,
-  "ProgId": "est",
+  "Page1LineNo": 506,
+  "ProgId": "aliquam",
   "IsReadOnly": false,
-  "ShortLabel": "corporis",
-  "TabOrder": 367,
-  "TextLength": 261,
-  "Tooltip": "enim",
-  "UdefIdentity": 106,
-  "UDListDefinitionId": 150,
+  "ShortLabel": "distinctio",
+  "TabOrder": 551,
+  "TextLength": 464,
+  "Tooltip": "quis",
+  "UdefIdentity": 354,
+  "UDListDefinitionId": 570,
   "Justification": "Center",
-  "Version": 875,
-  "TemplateVariableName": "Jast-Kunde",
-  "HasBeenPublished": false,
-  "MdoListName": "Ward-Renner",
+  "Version": 703,
+  "TemplateVariableName": "Kilback Inc and Sons",
+  "HasBeenPublished": true,
+  "MdoListName": "Stoltenberg, Doyle and Klocko",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 621
+      "FieldLength": 910
     }
   }
 }

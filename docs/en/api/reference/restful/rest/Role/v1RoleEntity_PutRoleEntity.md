@@ -103,20 +103,20 @@ RoleEntity updated.
 PUT /api/v1/Role/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 922,
-  "Name": "Langworth-Kerluke",
-  "Tooltip": "temporibus",
+  "RoleId": 707,
+  "Name": "Thiel Inc and Sons",
+  "Tooltip": "est",
   "RoleType": "Anonymous",
-  "Deleted": 48,
-  "Rank": 771,
-  "Created": "2005-04-01T16:32:47.7589038+02:00",
-  "UseCategories": 427,
+  "Deleted": 989,
+  "Rank": 583,
+  "Created": "2022-01-16T17:54:08.4136991+01:00",
+  "UseCategories": 473,
   "CreatedBy": null,
-  "Updated": "2006-06-04T16:32:47.7589038+02:00",
+  "Updated": "2016-09-20T17:54:08.4136991+02:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -129,29 +129,29 @@ HTTP/1.1 200 RoleEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 315,
-  "Name": "Morar, Wehner and Yost",
-  "Tooltip": "et",
+  "RoleId": 71,
+  "Name": "Schinner-Shanahan",
+  "Tooltip": "animi",
   "RoleType": "Anonymous",
-  "Deleted": 366,
-  "Rank": 837,
-  "Created": "2013-08-21T16:32:47.7589038+02:00",
-  "UseCategories": 757,
+  "Deleted": 566,
+  "Rank": 202,
+  "Created": "2002-05-19T17:54:08.4136991+02:00",
+  "UseCategories": 108,
   "CreatedBy": null,
-  "Updated": "2009-09-26T16:32:47.7745258+02:00",
+  "Updated": "2021-11-09T17:54:08.4136991+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 764
+      "FieldType": "System.String",
+      "FieldLength": 173
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

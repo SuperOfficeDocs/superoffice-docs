@@ -126,11 +126,11 @@ OK
 POST /api/v1/Agents/Appointment/GetPublishedProjectAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 692
+  "ProjectId": 492
 }
 ```
 
@@ -142,66 +142,66 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 761,
-    "StartDate": "2023-12-18T16:32:37.6490324+01:00",
-    "EndDate": "2004-02-19T16:32:37.6490324+01:00",
+    "AppointmentId": 211,
+    "StartDate": "2002-08-13T17:54:02.3827433+02:00",
+    "EndDate": "2011-02-03T17:54:02.3827433+01:00",
     "Type": "BookingForChecklist",
-    "Task": "corporis",
-    "AssociateFullName": "Ms. Adriel Gertrude Bayer PhD",
-    "ContactName": "Carter Inc and Sons",
-    "Description": "Decentralized global core",
-    "PersonFullName": "Talon Harber",
-    "PersonId": 678,
-    "ContactId": 18,
-    "ProjectId": 647,
-    "ProjectName": "Douglas-Murazik",
-    "IsPublished": false,
-    "AssociateId": 123,
-    "ColorIndex": 623,
+    "Task": "asperiores",
+    "AssociateFullName": "Aurelio Harris",
+    "ContactName": "Hermiston, Parker and Kuhic",
+    "Description": "Re-engineered regional emulation",
+    "PersonFullName": "Lilian Tromp",
+    "PersonId": 710,
+    "ContactId": 467,
+    "ProjectId": 40,
+    "ProjectName": "Jewess Inc and Sons",
+    "IsPublished": true,
+    "AssociateId": 37,
+    "ColorIndex": 176,
     "IsFree": false,
     "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 473,
-    "PriorityName": "Langworth LLC",
+    "PriorityId": 129,
+    "PriorityName": "Kerluke, Wilkinson and Cummings",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
+    "IsBookingMain": true,
     "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "2014-03-07T16:32:37.6490324+01:00",
+    "IsBooking": false,
+    "ActiveDate": "2014-08-27T17:54:02.3827433+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2015-06-21T16:32:37.6490324+02:00",
-    "RecurringEndDate": "2003-05-14T16:32:37.6490324+02:00",
-    "MotherId": 670,
-    "AssignedBy": 559,
-    "AssignedByFullName": "Alexie Hartmann",
+    "RecurringStartDate": "2020-09-14T17:54:02.3827433+02:00",
+    "RecurringEndDate": "2002-02-27T17:54:02.3827433+01:00",
+    "MotherId": 802,
+    "AssignedBy": 228,
+    "AssignedByFullName": "Florida Thompson V",
     "RejectReason": "",
-    "Location": "quia",
-    "AlarmLeadTime": "minus",
-    "SaleId": 774,
-    "SaleName": "Mitchell Inc and Sons",
-    "AssociateName": "Cremin, Schulist and Block",
-    "CreatedDate": "2018-10-30T16:32:37.6490324+01:00",
-    "CreatedBy": "reiciendis",
-    "CreatedByFullName": "Harrison Ondricka",
-    "CreatedByAssociateId": 689,
+    "Location": "consectetur",
+    "AlarmLeadTime": "dolor",
+    "SaleId": 77,
+    "SaleName": "Harvey-Wiza",
+    "AssociateName": "Bauch, Feil and Daniel",
+    "CreatedDate": "2018-12-07T17:54:02.3827433+01:00",
+    "CreatedBy": "nihil",
+    "CreatedByFullName": "Karley McClure",
+    "CreatedByAssociateId": 713,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 773,
-    "Title": "ipsa",
-    "Agenda": "error",
-    "InternalNotes": "ratione",
+    "PreferredTZLocation": 857,
+    "Title": "omnis",
+    "Agenda": "consectetur",
+    "InternalNotes": "vel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 32
+        "FieldLength": 732
       }
     }
   }

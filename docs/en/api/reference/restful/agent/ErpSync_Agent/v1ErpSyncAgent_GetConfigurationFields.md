@@ -88,7 +88,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectorId": 944
+  "ErpConnectorId": 191
 }
 ```
 
@@ -100,22 +100,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "FieldKey": "praesentium",
-    "Rank": 95,
-    "DisplayName": "Boehm, Buckridge and Kovacek",
-    "DisplayDescription": "Configurable homogeneous intranet",
+    "FieldKey": "eveniet",
+    "Rank": 431,
+    "DisplayName": "Bechtelar, Skiles and Rohan",
+    "DisplayDescription": "Organized executive standardization",
     "FieldType": "Checkbox",
-    "ListName": "Smitham Group",
-    "DefaultValue": "ut",
-    "MaxLength": 486,
+    "ListName": "Deckow, Jacobson and Dooley",
+    "DefaultValue": "quam",
+    "MaxLength": 286,
     "Access": "Mandatory",
-    "ShowInSearch": true,
+    "ShowInSearch": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 266
+        "FieldLength": 305
       }
     }
   }

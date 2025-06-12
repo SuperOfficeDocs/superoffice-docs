@@ -74,7 +74,7 @@ OK
 POST /api/v1/Hierarchy/{domain}/{path}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -84,46 +84,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 196,
+  "HierarchyId": 169,
   "Domain": "Dashboards",
-  "Name": "Beier, Leuschke and Trantow",
-  "Fullname": "nesciunt",
-  "ParentId": 416,
+  "Name": "Grady-Wolf",
+  "Fullname": "ullam",
+  "ParentId": 86,
   "Children": [
     {
-      "HierarchyId": 622,
+      "HierarchyId": 969,
       "Domain": "Dashboards",
-      "Name": "Steuber-Simonis",
-      "Fullname": "asperiores",
-      "ParentId": 883,
+      "Name": "Nader-Parker",
+      "Fullname": "eos",
+      "ParentId": 15,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2007-05-17T16:32:47.5558268+02:00",
-      "RegisteredAssociateId": 955,
-      "Updated": "2008-03-04T16:32:47.5558268+01:00",
-      "UpdatedAssociateId": 547,
+      "Registered": "2014-01-25T17:54:08.2730803+01:00",
+      "RegisteredAssociateId": 161,
+      "Updated": "2012-12-22T17:54:08.2730803+01:00",
+      "UpdatedAssociateId": 702,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 751
+          "FieldType": "System.Int32",
+          "FieldLength": 926
         }
       }
     }
   ],
-  "Registered": "2019-11-24T16:32:47.5558268+01:00",
-  "RegisteredAssociateId": 34,
-  "Updated": "1999-04-25T16:32:47.5558268+02:00",
-  "UpdatedAssociateId": 865,
+  "Registered": "2004-05-09T17:54:08.2730803+02:00",
+  "RegisteredAssociateId": 522,
+  "Updated": "2006-09-28T17:54:08.2730803+02:00",
+  "UpdatedAssociateId": 574,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 553
+      "FieldType": "System.String",
+      "FieldLength": 40
     }
   }
 }

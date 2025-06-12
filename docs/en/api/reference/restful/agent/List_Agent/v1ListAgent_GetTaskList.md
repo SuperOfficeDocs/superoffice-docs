@@ -10,7 +10,7 @@ generated: true
 POST /api/v1/Agents/List/GetTaskList
 ```
 
-Gets an array of Task objects.
+Gets an array of SoTask objects.
 
 
 
@@ -45,7 +45,7 @@ POST /api/v1/Agents/List/GetTaskList?$select=name,department,category/id
 
 ## Request Body: taskIds 
 
-The primary keys. 
+ 
 
 
 ## Response:array
@@ -72,7 +72,7 @@ OK
 POST /api/v1/Agents/List/GetTaskList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -83,28 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 507,
-    "Value": "minima",
-    "Tooltip": "quia",
+    "Id": 450,
+    "Value": "minus",
+    "Tooltip": "non",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 782
+        "FieldLength": 237
       }
     }
   },
   {
-    "Id": 507,
-    "Value": "minima",
-    "Tooltip": "quia",
+    "Id": 450,
+    "Value": "minus",
+    "Tooltip": "non",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 782
+        "FieldLength": 237
       }
     }
   }

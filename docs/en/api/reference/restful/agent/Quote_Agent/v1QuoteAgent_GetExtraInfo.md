@@ -75,11 +75,11 @@ OK
 POST /api/v1/Agents/Quote/GetExtraInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineExtraData": "atque"
+  "QuoteLineExtraData": "cupiditate"
 }
 ```
 
@@ -91,28 +91,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "O'Conner-Quitzon",
-    "Value": "odio",
+    "Name": "Kuphal, Little and Walsh",
+    "Value": "nemo",
     "Type": "Image",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 110
+        "FieldType": "System.Int32",
+        "FieldLength": 69
       }
     }
   },
   {
-    "Name": "O'Conner-Quitzon",
-    "Value": "odio",
+    "Name": "Kuphal, Little and Walsh",
+    "Value": "nemo",
     "Type": "Image",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 110
+        "FieldType": "System.Int32",
+        "FieldLength": 69
       }
     }
   }

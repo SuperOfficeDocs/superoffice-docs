@@ -75,27 +75,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 643,
-  "Name": "Steuber, Gerlach and Berge",
-  "Tooltip": "distinctio",
-  "Deleted": false,
-  "Rank": 741,
+  "Id": 343,
+  "Name": "Welch, Gislason and Waters",
+  "Tooltip": "molestias",
+  "Deleted": true,
+  "Rank": 313,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "molestiae",
+  "ListType": "sit",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 101
+      "FieldType": "System.Int32",
+      "FieldLength": 697
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

@@ -87,7 +87,6 @@ so.envir: onsite, online
 | [associaterestrictions](associaterestrictions.md) |Public MDO provider based on the AssociateRestrictionsMDOProviderBase.|
 | [associatewithmail](associatewithmail.md) ||
 | [attachment](attachment.md) ||
-| [availablereports](availablereports.md) |AvailableReportsProvider creates an MDO list containing the available reports|
 | [business](business.md) |GenericMDOProvider reads MDO lists with default settings|
 | [category](category.md) |GenericMDOProvider reads MDO lists with default settings|
 | [chartselection](chartselection.md) ||
@@ -163,14 +162,14 @@ so.envir: onsite, online
 | [erpactortype](erpactortype.md) ||
 | [erpconnections](erpconnections.md) |Retrieve the list of all defined Erp Connections (not Connectors, that's another list)|
 | [erpconnectors](erpconnectors.md) |Retrieve the list of all defined Erp Connectors (not Connections, that's another list)|
-| [erpdeliveryterms](erpdeliveryterms.md) |Dynamic provider that dispatches Quote Connector lists, based on QuoteAlternativeId or SaleId and "Erp"+&lt;list name&gt;|
-| [erpdeliverytype](erpdeliverytype.md) |Dynamic provider that dispatches Quote Connector lists, based on QuoteAlternativeId or SaleId and "Erp"+&lt;list name&gt;|
+| [erpdeliveryterms](erpdeliveryterms.md) ||
+| [erpdeliverytype](erpdeliverytype.md) ||
 | [erpfields](erpfields.md) ||
-| [erppaymentterms](erppaymentterms.md) |Dynamic provider that dispatches Quote Connector lists, based on QuoteAlternativeId or SaleId and "Erp"+&lt;list name&gt;|
-| [erppaymenttype](erppaymenttype.md) |Dynamic provider that dispatches Quote Connector lists, based on QuoteAlternativeId or SaleId and "Erp"+&lt;list name&gt;|
-| [erpproductcategory](erpproductcategory.md) |Dynamic provider that dispatches Quote Connector lists, based on QuoteAlternativeId or SaleId and "Erp"+&lt;list name&gt;|
-| [erpproductfamily](erpproductfamily.md) |Dynamic provider that dispatches Quote Connector lists, based on QuoteAlternativeId or SaleId and "Erp"+&lt;list name&gt;|
-| [erpproducttype](erpproducttype.md) |Dynamic provider that dispatches Quote Connector lists, based on QuoteAlternativeId or SaleId and "Erp"+&lt;list name&gt;|
+| [erppaymentterms](erppaymentterms.md) ||
+| [erppaymenttype](erppaymenttype.md) ||
+| [erpproductcategory](erpproductcategory.md) ||
+| [erpproductfamily](erpproductfamily.md) ||
+| [erpproducttype](erpproducttype.md) ||
 | [eventhandlertype](eventhandlertype.md) |Screen trigger event types: members of <see cref="T:SuperOffice.Data.EventHandlerType" /> enum.|
 | [everymonth](everymonth.md) |MDO provider for the hard-coded list of day month in the recurrence dialog.|
 | [executeonevent](executeonevent.md) |List of windows client events to execute tasks on: Logon, Logoff, LocalUpdate|
@@ -241,7 +240,6 @@ so.envir: onsite, online
 | [mergetags](mergetags.md) ||
 | [month](month.md) |MDO provider for the hard-coded list of "of" months in the recurrence dialog.|
 | [mrmrs](mrmrs.md) |GenericMDOProvider reads MDO lists with default settings|
-| [nextavailabletime](nextavailabletime.md) |MDO Provider for identifying available times for meeting.|
 | [ofmonth](ofmonth.md) |MDO provider for the hard-coded list of "of" months in the recurrence dialog.|
 | [ownercontact](ownercontact.md) |MDO provider for listing owner contacts.|
 | [paymentterms](paymentterms.md) |GenericMDOProvider reads MDO lists with default settings|
@@ -348,8 +346,6 @@ so.envir: onsite, online
 | [relationssearchlistprovidersalesaleactive](relationssearchlistprovidersalesaleactive.md) |Serve the active and passive texts of relations, with a given table as source (active|
 | [relationssearchlistprovidersalesalepassive](relationssearchlistprovidersalesalepassive.md) |Serve the active and passive texts of relations, with a given table as source (active|
 | [replytemplate](replytemplate.md) ||
-| [reportcategory](reportcategory.md) |ReportCategoryProvider creates an MDO list that consists of the values in <see cref="T:SuperOffice.Data.ReportCategory" />|
-| [reportlayout](reportlayout.md) |ReportCategoryProvider creates an MDO list that consists of the values in <see cref="T:SuperOffice.Data.ReportCategory" />|
 | [resource](resource.md) |MDO provider for resources (from the associate table)|
 | [resourcerestrictions](resourcerestrictions.md) |MDO provider for resources (from the associate table) that uses restrictions to includ|
 | [restrictionoperators](restrictionoperators.md) |This SoList provider will generate the operator list for a given search criterion data type. The data type i|
@@ -402,11 +398,9 @@ so.envir: onsite, online
 | [stakeholderrole](stakeholderrole.md) |GenericMDOProvider reads MDO lists with default settings|
 | [statusdef](statusdef.md) |Return list of status monitors defined in the system|
 | [statusmonitorimage](statusmonitorimage.md) |List of images for status monitors in the blob table.|
-| [stopword](stopword.md) |List of stop words. i.e. words which will not be included in the free-text index.|
 | [subscriptionunit](subscriptionunit.md) |GenericMDOProvider reads MDO lists with default settings|
 | [suggestedappointment](suggestedappointment.md) |Suggested Appointment Provider creates a MDO list of suggested appointments for a given guide stage.|
 | [suggesteddocument](suggesteddocument.md) |SuggestedDocumentProvider creates a MDO list of suggested documents in the database.|
-| [suggestedstopword](suggestedstopword.md) |Analyze free text records and suggest stop words based on word frequency|
 | [systemeventtype](systemeventtype.md) |System event types: NoLogin, NoFreeText, NoTravel, Message-of-the-day|
 | [tags](tags.md) |GenericMDOProvider reads MDO lists with default settings|
 | [targetentitytype](targetentitytype.md) |TargetEntities|
@@ -436,7 +430,7 @@ so.envir: onsite, online
 | [ticket_freetextsearch](ticket_freetextsearch.md) |Provider for selecting a Ticket - with contact and person search|
 | [ticket_selection_freetextsearch](ticket_selection_freetextsearch.md) |Provider for selecting Ticket Selection or a Ticket|
 | [time](time.md) |MDO provider for the hard-coded list of time alternatives in the appointment dialog and in edit/preference|
-| [timezone](timezone.md) |Provides the timezone list|
+| [timezone](timezone.md) ||
 | [timezoneiana](timezoneiana.md) |Provides the timezone list|
 | [timezonewithcode](timezonewithcode.md) |Provides the timezone list. The country code is given in the type field|
 | [typegroup](typegroup.md) |Type Group: Task, Activity, Document, Sale|

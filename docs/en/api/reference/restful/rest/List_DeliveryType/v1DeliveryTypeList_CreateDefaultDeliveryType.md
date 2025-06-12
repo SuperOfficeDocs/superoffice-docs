@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/DeliveryType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 851,
-  "Name": "Monahan, Grady and Weissnat",
-  "Tooltip": "tempora",
+  "Id": 890,
+  "Name": "Russel Group",
+  "Tooltip": "qui",
   "Deleted": true,
-  "UdListDefinitionId": 764,
-  "Rank": 707,
+  "UdListDefinitionId": 607,
+  "Rank": 961,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 828
+      "FieldType": "System.Int32",
+      "FieldLength": 804
     }
   }
 }

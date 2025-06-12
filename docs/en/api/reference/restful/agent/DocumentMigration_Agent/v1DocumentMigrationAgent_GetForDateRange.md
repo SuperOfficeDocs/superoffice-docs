@@ -83,9 +83,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 615,
-  "MinDate": "2019-05-05T16:32:38.9301889+02:00",
-  "MaxDate": "2019-10-18T16:32:38.9301889+02:00",
+  "DocumentPluginId": 774,
+  "MinDate": "2006-06-21T17:54:03.0389604+02:00",
+  "MaxDate": "2010-04-10T17:54:03.0389604+02:00",
   "IncludeEmails": false
 }
 ```
@@ -97,29 +97,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 775,
-  "NumDocumentsAlreadyMigrated": 918,
+  "NumDocumentsOmitted": 31,
+  "NumDocumentsAlreadyMigrated": 319,
   "Documents": [
     {
-      "DocumentId": 908,
-      "ContactId": 168,
-      "PersonId": 643,
-      "SaleId": 577,
-      "ProjectId": 600,
-      "DocTmplId": 325,
-      "AssociateId": 220,
-      "UserGroupId": 404,
-      "VisibleForId": 187
+      "DocumentId": 72,
+      "ContactId": 490,
+      "PersonId": 999,
+      "SaleId": 189,
+      "ProjectId": 925,
+      "DocTmplId": 184,
+      "AssociateId": 23,
+      "UserGroupId": 253,
+      "VisibleForId": 705
     }
   ],
   "Associates": [
     {
-      "AssociateId": 165,
-      "EmailAddress": "clotilde.schultz@welchlubowitz.us"
+      "AssociateId": 89,
+      "EmailAddress": "eldred@pagac.uk"
     },
     {
-      "AssociateId": 165,
-      "EmailAddress": "clotilde.schultz@welchlubowitz.us"
+      "AssociateId": 89,
+      "EmailAddress": "eldred@pagac.uk"
     }
   ]
 }

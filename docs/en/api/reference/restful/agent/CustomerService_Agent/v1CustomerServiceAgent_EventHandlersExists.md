@@ -68,13 +68,13 @@ OK
 POST /api/v1/Agents/CustomerService/EventHandlersExists
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "EventHandlerTypes": [
-    "quidem",
-    "dignissimos"
+    "et",
+    "a"
   ]
 }
 ```
@@ -86,7 +86,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "quia",
-  "eius"
+  "explicabo",
+  "provident"
 ]
 ```

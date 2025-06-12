@@ -87,15 +87,15 @@ OK
 POST /api/v1/Agents/Quote/CopySuperOfficePriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "OriginalPriceListId": 3,
-  "NewName": "Leannon Group",
-  "ValidFrom": "2012-07-23T16:32:39.7115027+02:00",
-  "ValidTo": "2009-01-16T16:32:39.7115027+01:00",
-  "NewCurrencyId": 616,
+  "OriginalPriceListId": 890,
+  "NewName": "Kulas-Johns",
+  "ValidFrom": "2011-09-13T17:54:03.5233118+02:00",
+  "ValidTo": "2019-02-27T17:54:03.5233118+01:00",
+  "NewCurrencyId": 48,
   "ConvertCurrency": false
 }
 ```
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 459,
-  "ERPPriceListKey": "voluptatem",
-  "QuoteConnectionId": 186,
-  "Name": "Renner, Koss and Homenick",
-  "Description": "Inverse actuating service-desk",
-  "Currency": "ex",
-  "CurrencyName": "Gorczany, Bartell and Orn",
-  "ValidFrom": "2008-08-23T16:32:39.7115027+02:00",
-  "ValidTo": "2007-01-27T16:32:39.7115027+01:00",
-  "IsActive": true,
+  "PriceListId": 205,
+  "ERPPriceListKey": "id",
+  "QuoteConnectionId": 486,
+  "Name": "McDermott-VonRueden",
+  "Description": "Seamless user-facing superstructure",
+  "Currency": "in",
+  "CurrencyName": "Gislason-Schneider",
+  "ValidFrom": "2022-04-28T17:54:03.5233118+02:00",
+  "ValidTo": "1998-02-07T17:54:03.5233118+01:00",
+  "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 19
+      "FieldLength": 485
     }
   }
 }

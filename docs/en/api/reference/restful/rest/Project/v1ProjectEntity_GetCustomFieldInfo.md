@@ -72,7 +72,7 @@ OK
 GET /api/v1/Project/CustomField/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -83,18 +83,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Kovacek, Pfeffer and Glover",
-  "DisplayName": "Schumm-Witting",
-  "Description": "Adaptive tertiary access",
-  "ShortLabel": "ut",
+  "FieldName": "Ebert-Hammes",
+  "DisplayName": "Ruecker, Hackett and Simonis",
+  "Description": "Multi-layered human-resource standardization",
+  "ShortLabel": "ab",
   "HideLabel": true,
   "HideField": false,
-  "IsIndexed": false,
+  "IsIndexed": true,
   "IsMandatory": false,
-  "IsReadOnly": false,
+  "IsReadOnly": true,
   "IsExternal": false,
   "IsDisplayField": false,
-  "Rank": 480,
-  "TemplateVariableName": "Witting Group"
+  "Rank": 846,
+  "TemplateVariableName": "Price Inc and Sons"
 }
 ```

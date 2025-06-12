@@ -82,7 +82,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Mertz-Hand"
+  "EntityName": "Lakin Inc and Sons"
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 446,
-  "DashboardId": 283,
-  "Height": 385,
-  "Width": 902,
-  "Rank": 618,
+  "DashboardTileId": 44,
+  "DashboardId": 52,
+  "Height": 537,
+  "Width": 102,
+  "Rank": 111,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 263
+      "FieldType": "System.Int32",
+      "FieldLength": 340
     }
   }
 }

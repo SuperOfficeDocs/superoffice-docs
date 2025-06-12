@@ -77,11 +77,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 715,
-  "PrefDescId": 395,
-  "PrefValue": "ratione",
-  "PrefShowValue": "expedita",
-  "Description": "Open-source optimizing system engine",
+  "PrefDescLineId": 510,
+  "PrefDescId": 115,
+  "PrefValue": "incidunt",
+  "PrefShowValue": "sed",
+  "Description": "Vision-oriented eco-centric pricing structure",
   "IsBuiltin": false
 }
 ```
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 244,
-  "PrefDescId": 463,
-  "PrefValue": "eius",
-  "PrefShowValue": "possimus",
-  "Description": "Focused explicit capability",
+  "PrefDescLineId": 291,
+  "PrefDescId": 492,
+  "PrefValue": "totam",
+  "PrefShowValue": "nihil",
+  "Description": "Balanced leading edge access",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 832
+      "FieldType": "System.Int32",
+      "FieldLength": 366
     }
   }
 }

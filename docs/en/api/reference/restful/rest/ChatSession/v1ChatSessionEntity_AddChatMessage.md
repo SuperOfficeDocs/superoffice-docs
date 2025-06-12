@@ -81,19 +81,19 @@ OK
 POST /api/v1/ChatSession/{chatSessionId}/Messages
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatMessageId": 476,
-  "ChatSessionId": 228,
+  "ChatMessageId": 664,
+  "ChatSessionId": 103,
   "Type": "Invalid",
-  "Message": "qui",
-  "Author": "facere",
-  "ReadByCustomer": 719,
+  "Message": "officia",
+  "Author": "voluptatem",
+  "ReadByCustomer": 973,
   "SpecialType": "Block",
-  "SpecialParam": "eaque",
-  "WhenPosted": "2004-08-12T16:32:47.2430089+02:00"
+  "SpecialParam": "quo",
+  "WhenPosted": "2007-12-18T17:54:08.0543344+01:00"
 }
 ```
 
@@ -104,14 +104,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatMessageId": 766,
-  "ChatSessionId": 252,
+  "ChatMessageId": 568,
+  "ChatSessionId": 571,
   "Type": "Invalid",
-  "Message": "debitis",
-  "Author": "similique",
-  "ReadByCustomer": 121,
+  "Message": "velit",
+  "Author": "ipsa",
+  "ReadByCustomer": 620,
   "SpecialType": "Block",
-  "SpecialParam": "incidunt",
-  "WhenPosted": "1999-06-13T16:32:47.2430089+02:00"
+  "SpecialParam": "ipsa",
+  "WhenPosted": "2009-05-24T17:54:08.0543344+02:00"
 }
 ```

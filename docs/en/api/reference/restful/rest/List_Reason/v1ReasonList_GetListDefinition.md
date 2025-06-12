@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 506,
-  "Name": "Quigley, Murray and Johns",
-  "Tooltip": "sunt",
+  "Id": 404,
+  "Name": "Littel Group",
+  "Tooltip": "esse",
   "Deleted": false,
-  "Rank": 722,
-  "IsCustomList": true,
+  "Rank": 389,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "quod",
+  "ListType": "esse",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 250
+      "FieldLength": 630
     }
   },
   "_Links": {

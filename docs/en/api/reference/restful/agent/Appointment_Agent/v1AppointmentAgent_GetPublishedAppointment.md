@@ -126,11 +126,11 @@ OK
 POST /api/v1/Agents/Appointment/GetPublishedAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 532
+  "AppointmentId": 863
 }
 ```
 
@@ -141,66 +141,66 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 451,
-  "StartDate": "2024-04-24T16:32:37.6334112+02:00",
-  "EndDate": "2001-10-02T16:32:37.6334112+02:00",
+  "AppointmentId": 448,
+  "StartDate": "1998-06-15T17:54:02.3827433+02:00",
+  "EndDate": "2007-07-18T17:54:02.3827433+02:00",
   "Type": "BookingForChecklist",
-  "Task": "molestiae",
-  "AssociateFullName": "Douglas Rosanna Terry MD",
-  "ContactName": "Bruen, Moore and Kreiger",
-  "Description": "Switchable assymetric budgetary management",
-  "PersonFullName": "Delia Koelpin",
-  "PersonId": 90,
-  "ContactId": 860,
-  "ProjectId": 912,
-  "ProjectName": "Erdman-Jewess",
-  "IsPublished": false,
-  "AssociateId": 784,
-  "ColorIndex": 394,
-  "IsFree": true,
+  "Task": "magni",
+  "AssociateFullName": "Cassie Skiles",
+  "ContactName": "Fadel LLC",
+  "Description": "Organized fresh-thinking emulation",
+  "PersonFullName": "Heidi Larkin",
+  "PersonId": 69,
+  "ContactId": 885,
+  "ProjectId": 888,
+  "ProjectName": "Dare Group",
+  "IsPublished": true,
+  "AssociateId": 10,
+  "ColorIndex": 84,
+  "IsFree": false,
   "HasAlarm": false,
   "IsAlldayEvent": false,
   "Private": "PrivateGroup",
-  "PriorityId": 803,
-  "PriorityName": "Hahn LLC",
+  "PriorityId": 489,
+  "PriorityName": "Tremblay, Greenholt and Weissnat",
   "TaskType": "Appointment",
   "IsBookingMain": false,
-  "IsRecurrence": true,
+  "IsRecurrence": false,
   "IsBooking": false,
-  "ActiveDate": "1998-10-09T16:32:37.6334112+02:00",
+  "ActiveDate": "2013-09-04T17:54:02.3827433+02:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2010-07-26T16:32:37.6334112+02:00",
-  "RecurringEndDate": "2021-06-11T16:32:37.6334112+02:00",
-  "MotherId": 746,
-  "AssignedBy": 190,
-  "AssignedByFullName": "Amari Oberbrunner",
+  "RecurringStartDate": "2013-01-08T17:54:02.3827433+01:00",
+  "RecurringEndDate": "2001-04-23T17:54:02.3827433+02:00",
+  "MotherId": 638,
+  "AssignedBy": 217,
+  "AssignedByFullName": "Tiffany Beier",
   "RejectReason": "",
-  "Location": "repudiandae",
-  "AlarmLeadTime": "architecto",
-  "SaleId": 573,
-  "SaleName": "Stoltenberg Group",
-  "AssociateName": "Langosh-Rempel",
-  "CreatedDate": "2022-06-02T16:32:37.6334112+02:00",
-  "CreatedBy": "ratione",
-  "CreatedByFullName": "Adan Katelyn Brakus I",
-  "CreatedByAssociateId": 124,
+  "Location": "nulla",
+  "AlarmLeadTime": "est",
+  "SaleId": 705,
+  "SaleName": "Upton, Collier and Keeling",
+  "AssociateName": "Braun LLC",
+  "CreatedDate": "2016-05-14T17:54:02.3827433+02:00",
+  "CreatedBy": "ut",
+  "CreatedByFullName": "Thomas Hessel",
+  "CreatedByAssociateId": 90,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "PreferredTZLocation": 442,
-  "Title": "sit",
-  "Agenda": "corporis",
-  "InternalNotes": "sit",
+  "PreferredTZLocation": 611,
+  "Title": "ratione",
+  "Agenda": "ut",
+  "InternalNotes": "sunt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 17
+      "FieldLength": 890
     }
   }
 }

@@ -26,7 +26,7 @@ Gets a DiaryViewEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Configuration/GetDiaryViewEntity?diaryViewEntityId=579
+POST /api/v1/Agents/Configuration/GetDiaryViewEntity?diaryViewEntityId=617
 POST /api/v1/Agents/Configuration/GetDiaryViewEntity?$select=name,department,category/id
 ```
 
@@ -84,49 +84,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 929,
-  "Name": "Wuckert, Vandervort and Wiza",
-  "Tooltip": "quia",
-  "VisibleColumns": 236,
-  "Rank": 795,
-  "AssocId": 523,
+  "DiaryViewId": 138,
+  "Name": "Friesen, Ratke and Graham",
+  "Tooltip": "et",
+  "VisibleColumns": 201,
+  "Rank": 9,
+  "AssocId": 73,
   "AssociateList": [
     {
-      "Id": 716,
-      "Name": "Spinka-Nitzsche",
-      "ToolTip": "Perferendis dolorem similique est.",
-      "Deleted": true,
-      "Rank": 143,
-      "Type": "voluptatem",
-      "ColorBlock": 332,
-      "IconHint": "id",
+      "Id": 687,
+      "Name": "Rowe, Brown and Carroll",
+      "ToolTip": "Nemo distinctio incidunt.",
+      "Deleted": false,
+      "Rank": 237,
+      "Type": "qui",
+      "ColorBlock": 599,
+      "IconHint": "est",
       "Selected": false,
-      "LastChanged": "2008-02-07T16:32:38.3834375+01:00",
+      "LastChanged": "2005-12-09T17:54:02.8202276+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ut",
-      "StyleHint": "aliquid",
+      "ExtraInfo": "architecto",
+      "StyleHint": "vel",
       "Hidden": true,
-      "FullName": "Nikki Baumbach",
+      "FullName": "Adella Reichel DDS",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 372
+          "FieldLength": 331
         }
       }
     }
   ],
-  "TzLocationId": 717,
+  "TzLocationId": 971,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 197
+      "FieldType": "System.String",
+      "FieldLength": 133
     }
   }
 }

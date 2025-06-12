@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/ErpSync/GetConnectionsAndDisplayFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "CrmActorType": "Contact",
-  "EntityId": 739
+  "EntityId": 223
 }
 ```
 
@@ -99,27 +99,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ErpConnectionId": 702,
-    "ConnectionName": "Koepp Inc and Sons",
-    "Connected": true,
+    "ErpConnectionId": 169,
+    "ConnectionName": "Jakubowski-VonRueden",
+    "Connected": false,
     "ErpFields": [
       {
-        "FieldKey": "voluptas",
-        "Rank": 784,
-        "DisplayName": "Wisoky Inc and Sons",
-        "DisplayDescription": "Synergized intangible parallelism",
+        "FieldKey": "est",
+        "Rank": 801,
+        "DisplayName": "Bahringer, Cummings and Monahan",
+        "DisplayDescription": "Devolved empowering website",
         "FieldType": "Checkbox",
-        "ListName": "Moore-Stokes",
-        "DefaultValue": "eaque",
-        "MaxLength": 311,
+        "ListName": "Reilly Inc and Sons",
+        "DefaultValue": "et",
+        "MaxLength": 688,
         "Access": "Mandatory",
         "ShowInSearch": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 569
+            "FieldType": "System.Int32",
+            "FieldLength": 835
           }
         }
       }
@@ -127,15 +127,15 @@ Content-Type: application/json; charset=utf-8
     "CrmActorType": "Contact",
     "ErpActorType": "Customer",
     "ErpActorTypes": [
-      "dolorem",
-      "consectetur"
+      "iusto",
+      "voluptas"
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 256
+        "FieldLength": 69
       }
     }
   }

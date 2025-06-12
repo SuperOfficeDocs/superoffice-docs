@@ -58,28 +58,28 @@ No Content
 POST /api/v1/Presence/SaveAll
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UserId": 330,
-    "DisplayName": "Kris-Kovacek",
-    "OngoingChats": 181,
+    "UserId": 338,
+    "DisplayName": "Mitchell, Baumbach and Hermann",
+    "OngoingChats": 310,
     "Present": true,
     "ChatTopics": [
-      780,
-      233
+      532,
+      70
     ]
   },
   {
-    "UserId": 330,
-    "DisplayName": "Kris-Kovacek",
-    "OngoingChats": 181,
+    "UserId": 338,
+    "DisplayName": "Mitchell, Baumbach and Hermann",
+    "OngoingChats": 310,
     "Present": true,
     "ChatTopics": [
-      780,
-      233
+      532,
+      70
     ]
   }
 ]

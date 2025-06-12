@@ -82,11 +82,11 @@ OK
 POST /api/v1/Agents/List/GetListEntityByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Kunde, Mitchell and Luettgen"
+  "Name": "Effertz Inc and Sons"
 }
 ```
 
@@ -97,22 +97,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 48,
-  "Name": "Blanda LLC",
-  "Tooltip": "similique",
-  "Deleted": false,
-  "Rank": 104,
+  "Id": 53,
+  "Name": "Mitchell-Bins",
+  "Tooltip": "enim",
+  "Deleted": true,
+  "Rank": 69,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "nisi",
+  "ListType": "animi",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 196
+      "FieldType": "System.Int32",
+      "FieldLength": 332
     }
   }
 }

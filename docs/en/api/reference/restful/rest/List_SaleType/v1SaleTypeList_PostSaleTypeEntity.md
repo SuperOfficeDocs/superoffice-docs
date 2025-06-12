@@ -107,51 +107,51 @@ OK
 POST /api/v1/List/SaleType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 878,
-  "Name": "Beer, Powlowski and Tremblay",
-  "Tooltip": "tempora",
-  "Rank": 689,
+  "SaleTypeId": 552,
+  "Name": "Streich LLC",
+  "Tooltip": "et",
+  "Rank": 474,
   "DurationUnit": "Century",
-  "SaleDuration": 209,
-  "SaleTypeCatId": 425,
+  "SaleDuration": 377,
+  "SaleTypeCatId": 546,
   "Deleted": false,
   "HasGuide": false,
-  "HasStakeholders": true,
-  "IsAutoAdvance": false,
+  "HasStakeholders": false,
+  "IsAutoAdvance": true,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 888,
-  "QuoteLinesTemplate": 580,
-  "ConfirmationLinesTemplate": 588,
+  "DefaultQuoteValidity": 62,
+  "QuoteLinesTemplate": 563,
+  "ConfirmationLinesTemplate": 6,
   "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 926,
-  "MinEarningPercent": 631,
-  "GroupQuoteLinesBy": 795,
-  "SortGroupLinesBy": 4,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 106,
+  "MinEarningPercent": 831,
+  "GroupQuoteLinesBy": 187,
+  "SortGroupLinesBy": 843,
   "Stages": [
     {
-      "Id": 1000,
-      "Name": "Wyman-Wolf",
-      "ToolTip": "Et est repudiandae dolor nisi quae quia dicta.",
+      "Id": 806,
+      "Name": "Feeney, Friesen and Hammes",
+      "ToolTip": "Qui molestias commodi.",
       "Deleted": false,
-      "Rank": 413,
-      "Type": "fugit",
-      "ColorBlock": 811,
-      "IconHint": "quam",
-      "Selected": false,
-      "LastChanged": "2009-09-22T16:32:48.946344+02:00",
+      "Rank": 262,
+      "Type": "quia",
+      "ColorBlock": 953,
+      "IconHint": "animi",
+      "Selected": true,
+      "LastChanged": "2021-06-04T17:54:09.1011806+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "est",
-      "StyleHint": "dolores",
-      "Hidden": false,
-      "FullName": "Peggie Morissette"
+      "ExtraInfo": "eius",
+      "StyleHint": "et",
+      "Hidden": true,
+      "FullName": "Ignatius White"
     }
   ]
 }
@@ -164,53 +164,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 443,
-  "Name": "Walter-Price",
-  "Tooltip": "quia",
-  "Rank": 993,
+  "SaleTypeId": 584,
+  "Name": "McCullough, Hartmann and Herman",
+  "Tooltip": "iure",
+  "Rank": 28,
   "DurationUnit": "Century",
-  "SaleDuration": 496,
-  "SaleTypeCatId": 466,
-  "Deleted": true,
-  "HasGuide": true,
-  "HasStakeholders": true,
+  "SaleDuration": 103,
+  "SaleTypeCatId": 418,
+  "Deleted": false,
+  "HasGuide": false,
+  "HasStakeholders": false,
   "IsAutoAdvance": true,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 159,
-  "QuoteLinesTemplate": 482,
-  "ConfirmationLinesTemplate": 340,
+  "DefaultQuoteValidity": 651,
+  "QuoteLinesTemplate": 403,
+  "ConfirmationLinesTemplate": 345,
   "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 180,
-  "MinEarningPercent": 255,
-  "GroupQuoteLinesBy": 580,
-  "SortGroupLinesBy": 465,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 954,
+  "MinEarningPercent": 736,
+  "GroupQuoteLinesBy": 220,
+  "SortGroupLinesBy": 264,
   "Stages": [
     {
-      "Id": 899,
-      "Name": "Nolan-Dibbert",
-      "ToolTip": "Dolores expedita deserunt doloribus temporibus architecto voluptatem.",
-      "Deleted": false,
-      "Rank": 962,
-      "Type": "odio",
-      "ColorBlock": 143,
-      "IconHint": "in",
-      "Selected": false,
-      "LastChanged": "2010-07-17T16:32:48.946344+02:00",
+      "Id": 867,
+      "Name": "Bosco Group",
+      "ToolTip": "Voluptatibus nihil asperiores delectus qui.",
+      "Deleted": true,
+      "Rank": 509,
+      "Type": "ex",
+      "ColorBlock": 840,
+      "IconHint": "reprehenderit",
+      "Selected": true,
+      "LastChanged": "2004-08-17T17:54:09.1011806+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quibusdam",
-      "StyleHint": "voluptas",
-      "Hidden": false,
-      "FullName": "Danny Predovic",
+      "ExtraInfo": "illum",
+      "StyleHint": "quos",
+      "Hidden": true,
+      "FullName": "Baron Williamson Sr.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 797
+          "FieldLength": 571
         }
       }
     }
@@ -219,8 +219,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 436
+      "FieldType": "System.String",
+      "FieldLength": 625
     }
   }
 }

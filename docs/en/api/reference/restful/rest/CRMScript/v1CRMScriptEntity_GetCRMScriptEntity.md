@@ -93,7 +93,7 @@ CRMScriptEntity found.
 GET /api/v1/CRMScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -103,52 +103,52 @@ HTTP/1.1 200 CRMScriptEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 90,
-  "UniqueIdentifier": "consequuntur",
-  "Name": "Kemmer-Flatley",
-  "Description": "Adaptive multimedia protocol",
-  "IncludeId": "sed",
-  "AccessKey": "laborum",
-  "HierarchyId": 942,
-  "Source": "sed",
-  "SourceCode": "assumenda",
+  "EjscriptId": 281,
+  "UniqueIdentifier": "impedit",
+  "Name": "Lynch-Kulas",
+  "Description": "Grass-roots background help-desk",
+  "IncludeId": "perferendis",
+  "AccessKey": "sit",
+  "HierarchyId": 424,
+  "Source": "ex",
+  "SourceCode": "officiis",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 657,
+  "HtmlOutput": 651,
   "Includes": [
-    247,
-    925
+    984,
+    995
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 499,
-      "LineNumberTo": 117,
-      "Delta": 634,
-      "IncludeId": "fugiat",
+      "LineNumberFrom": 10,
+      "LineNumberTo": 185,
+      "Delta": 440,
+      "IncludeId": "quo",
       "IncludedFrom": [
-        "dolore",
-        "tenetur"
+        "aspernatur",
+        "voluptatem"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 320
+          "FieldLength": 614
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "2015-05-07T16:32:47.4152322+02:00",
-  "RegisteredAssociateId": 633,
-  "Updated": "2000-02-15T16:32:47.4152322+01:00",
-  "UpdatedAssociateId": 763,
+  "Registered": "2002-03-20T17:54:08.1324619+01:00",
+  "RegisteredAssociateId": 115,
+  "Updated": "2018-07-31T17:54:08.1324619+02:00",
+  "UpdatedAssociateId": 313,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 422
+      "FieldType": "System.Int32",
+      "FieldLength": 392
     }
   },
   "_Links": {

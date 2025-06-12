@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/ProductType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 555,
-  "Name": "Tremblay LLC",
-  "Tooltip": "voluptatum",
-  "Deleted": false,
-  "UdListDefinitionId": 115,
-  "Rank": 799
+  "Id": 304,
+  "Name": "Kuhn Group",
+  "Tooltip": "veritatis",
+  "Deleted": true,
+  "UdListDefinitionId": 699,
+  "Rank": 672
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 204,
-  "Name": "Kuhlman Group",
-  "Tooltip": "libero",
+  "Id": 855,
+  "Name": "Streich-Deckow",
+  "Tooltip": "ut",
   "Deleted": true,
-  "UdListDefinitionId": 69,
-  "Rank": 354,
+  "UdListDefinitionId": 998,
+  "Rank": 582,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 553
+      "FieldType": "System.String",
+      "FieldLength": 52
     }
   }
 }

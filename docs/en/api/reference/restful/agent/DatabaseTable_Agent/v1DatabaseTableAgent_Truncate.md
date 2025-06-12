@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/DatabaseTable/Truncate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Gibson-Stamm"
+  "TableName": "Harber, Hoppe and Lockman"
 }
 ```
 
@@ -95,41 +95,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": false,
-  "Message": "odit",
-  "Inserts": 437,
-  "Updates": 477,
-  "Deletes": 139,
+  "Success": true,
+  "Message": "et",
+  "Inserts": 438,
+  "Updates": 841,
+  "Deletes": 808,
   "RowStatus": [
     {
-      "PrimaryKey": 895,
+      "PrimaryKey": 588,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "ut",
-        "saepe"
+        "vero",
+        "quia"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 763
+          "FieldType": "System.Int32",
+          "FieldLength": 507
         }
       }
     },
     {
-      "PrimaryKey": 895,
+      "PrimaryKey": 588,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "ut",
-        "saepe"
+        "vero",
+        "quia"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 763
+          "FieldType": "System.Int32",
+          "FieldLength": 507
         }
       }
     }
@@ -138,8 +138,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 180
+      "FieldType": "System.String",
+      "FieldLength": 141
     }
   }
 }

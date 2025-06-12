@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 636,
-  "StartTime": "2013-11-01T16:32:38.7739758+01:00",
-  "EndTime": "2019-10-14T16:32:38.7739758+02:00",
-  "Count": 596,
-  "TemplateHeadingId": 790
+  "ProjectId": 830,
+  "StartTime": "2019-12-20T17:54:02.9608392+01:00",
+  "EndTime": "2016-03-02T17:54:02.9608392+01:00",
+  "Count": 136,
+  "TemplateHeadingId": 537
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 768,
-    "Attention": "quod",
-    "Header": "quidem",
-    "Name": "Mayert-Cartwright",
-    "OurRef": "error",
-    "YourRef": "deserunt",
-    "Description": "Profit-focused intermediate info-mediaries",
-    "DocumentTemplate": "quia",
-    "IsPublished": false,
-    "PersonId": 921,
-    "PersonFullName": "Mohammad Carroll",
-    "AssociateFullName": "Bessie Bartell",
-    "ContactId": 399,
-    "ContactName": "Hodkiewicz-Walsh",
-    "ProjectId": 270,
-    "ProjectName": "Medhurst Group",
-    "AssociateId": 174,
-    "Snum": 70,
-    "SaleId": 448,
-    "SaleName": "Keeling Group",
+    "DocumentId": 846,
+    "Attention": "enim",
+    "Header": "est",
+    "Name": "Volkman-Moore",
+    "OurRef": "quia",
+    "YourRef": "cumque",
+    "Description": "Future-proofed national contingency",
+    "DocumentTemplate": "quam",
+    "IsPublished": true,
+    "PersonId": 276,
+    "PersonFullName": "Adam Mertz",
+    "AssociateFullName": "Prof. Hazle Kshlerin IV",
+    "ContactId": 983,
+    "ContactName": "Carroll-Little",
+    "ProjectId": 153,
+    "ProjectName": "Block, Robel and Kuvalis",
+    "AssociateId": 799,
+    "Snum": 970,
+    "SaleId": 866,
+    "SaleName": "Olson Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 432
+        "FieldLength": 963
       }
     }
   }

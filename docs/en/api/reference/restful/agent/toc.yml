@@ -357,61 +357,6 @@ items:
     href: Associate_Agent/v1AssociateAgent_LogOffWindowsUsers.md
   - name: SaveNote
     href: Associate_Agent/v1AssociateAgent_SaveNote.md
-- name: Audience
-  href: Audience_Agent/index.md
-  items:
-  - name: CreateDefaultAudienceLayoutEntity
-    href: Audience_Agent/v1AudienceAgent_CreateDefaultAudienceLayoutEntity.md
-  - name: DeleteAudienceLayoutEntity
-    href: Audience_Agent/v1AudienceAgent_DeleteAudienceLayoutEntity.md
-  - name: DeleteConfigParameter
-    href: Audience_Agent/v1AudienceAgent_DeleteConfigParameter.md
-  - name: GetAudienceLayoutByName
-    href: Audience_Agent/v1AudienceAgent_GetAudienceLayoutByName.md
-  - name: GetAudienceLayoutEntity
-    href: Audience_Agent/v1AudienceAgent_GetAudienceLayoutEntity.md
-  - name: GetAudienceLayoutOnPerson
-    href: Audience_Agent/v1AudienceAgent_GetAudienceLayoutOnPerson.md
-  - name: GetConfigParameter
-    href: Audience_Agent/v1AudienceAgent_GetConfigParameter.md
-  - name: GetConfigParameterOnPerson
-    href: Audience_Agent/v1AudienceAgent_GetConfigParameterOnPerson.md
-  - name: GetConfigParametersByLayoutName
-    href: Audience_Agent/v1AudienceAgent_GetConfigParametersByLayoutName.md
-  - name: GetConfigParametersOnPerson
-    href: Audience_Agent/v1AudienceAgent_GetConfigParametersOnPerson.md
-  - name: GetConfigParameterValue
-    href: Audience_Agent/v1AudienceAgent_GetConfigParameterValue.md
-  - name: GetConfigParameterValueOnPerson
-    href: Audience_Agent/v1AudienceAgent_GetConfigParameterValueOnPerson.md
-  - name: GetDefaultCountryFlag
-    href: Audience_Agent/v1AudienceAgent_GetDefaultCountryFlag.md
-  - name: GetDefaultPersonImage
-    href: Audience_Agent/v1AudienceAgent_GetDefaultPersonImage.md
-  - name: GetDefaultProjectImage
-    href: Audience_Agent/v1AudienceAgent_GetDefaultProjectImage.md
-  - name: GetLogoImage
-    href: Audience_Agent/v1AudienceAgent_GetLogoImage.md
-  - name: GetMyAudienceLayout
-    href: Audience_Agent/v1AudienceAgent_GetMyAudienceLayout.md
-  - name: GetMyConfigParameter
-    href: Audience_Agent/v1AudienceAgent_GetMyConfigParameter.md
-  - name: GetMyConfigParameters
-    href: Audience_Agent/v1AudienceAgent_GetMyConfigParameters.md
-  - name: GetMyConfigParameterValue
-    href: Audience_Agent/v1AudienceAgent_GetMyConfigParameterValue.md
-  - name: SaveAudienceLayoutEntity
-    href: Audience_Agent/v1AudienceAgent_SaveAudienceLayoutEntity.md
-  - name: SaveConfigParameter
-    href: Audience_Agent/v1AudienceAgent_SaveConfigParameter.md
-  - name: SetDefaultCountryFlag
-    href: Audience_Agent/v1AudienceAgent_SetDefaultCountryFlag.md
-  - name: SetDefaultPersonImage
-    href: Audience_Agent/v1AudienceAgent_SetDefaultPersonImage.md
-  - name: SetDefaultProjectImage
-    href: Audience_Agent/v1AudienceAgent_SetDefaultProjectImage.md
-  - name: SetLogoImage
-    href: Audience_Agent/v1AudienceAgent_SetLogoImage.md
 - name: Batch
   href: Batch_Agent/index.md
   items:
@@ -462,8 +407,6 @@ items:
     href: BLOB_Agent/v1BLOBAgent_CreateDefaultBlobEntity.md
   - name: DeleteBlobEntity
     href: BLOB_Agent/v1BLOBAgent_DeleteBlobEntity.md
-  - name: GetAppData
-    href: BLOB_Agent/v1BLOBAgent_GetAppData.md
   - name: GetBlobEntity
     href: BLOB_Agent/v1BLOBAgent_GetBlobEntity.md
   - name: GetBlobEntityOnContact
@@ -506,8 +449,6 @@ items:
     href: BLOB_Agent/v1BLOBAgent_SaveImageStream.md
   - name: SaveProjectImage
     href: BLOB_Agent/v1BLOBAgent_SaveProjectImage.md
-  - name: SetAppData
-    href: BLOB_Agent/v1BLOBAgent_SetAppData.md
   - name: SetBlobStream
     href: BLOB_Agent/v1BLOBAgent_SetBlobStream.md
   - name: SetContactImage
@@ -691,6 +632,10 @@ items:
     href: Configuration_Agent/v1ConfigurationAgent_GetWwwUrl.md
   - name: GetWwwUrlForSMWeb
     href: Configuration_Agent/v1ConfigurationAgent_GetWwwUrlForSMWeb.md
+  - name: RebuildCustomObjectArchivePanelDeltas
+    href: Configuration_Agent/v1ConfigurationAgent_RebuildCustomObjectArchivePanelDeltas.md
+  - name: RebuildTaskMenuDeltas
+    href: Configuration_Agent/v1ConfigurationAgent_RebuildTaskMenuDeltas.md
   - name: RebuildUdefDeltas
     href: Configuration_Agent/v1ConfigurationAgent_RebuildUdefDeltas.md
   - name: RebuildWebpanelDeltas
@@ -852,8 +797,6 @@ items:
     href: CustomerService_Agent/v1CustomerServiceAgent_CreateDefaultCustomerCenterConfig.md
   - name: CreateDefaultMailboxEntity
     href: CustomerService_Agent/v1CustomerServiceAgent_CreateDefaultMailboxEntity.md
-  - name: CreateDefaultSmsConfig
-    href: CustomerService_Agent/v1CustomerServiceAgent_CreateDefaultSmsConfig.md
   - name: CreateSession
     href: CustomerService_Agent/v1CustomerServiceAgent_CreateSession.md
   - name: CreateTicketFromMailData
@@ -912,8 +855,6 @@ items:
     href: CustomerService_Agent/v1CustomerServiceAgent_SaveCustomerCenterConfig.md
   - name: SaveMailboxEntity
     href: CustomerService_Agent/v1CustomerServiceAgent_SaveMailboxEntity.md
-  - name: SaveSmsConfig
-    href: CustomerService_Agent/v1CustomerServiceAgent_SaveSmsConfig.md
   - name: SaveSystemTemplateSettings
     href: CustomerService_Agent/v1CustomerServiceAgent_SaveSystemTemplateSettings.md
   - name: SessionIsValid
@@ -999,39 +940,6 @@ items:
     href: Dash_Agent/v1DashAgent_SaveDashTileHtmlList.md
   - name: SaveDashTiles
     href: Dash_Agent/v1DashAgent_SaveDashTiles.md
-- name: Dashboard
-  href: Dashboard_Agent/index.md
-  items:
-  - name: CreateDefaultDashboard
-    href: Dashboard_Agent/v1DashboardAgent_CreateDefaultDashboard.md
-  - name: CreateDefaultDashboardTile
-    href: Dashboard_Agent/v1DashboardAgent_CreateDefaultDashboardTile.md
-  - name: CreateNewFromTemplate
-    href: Dashboard_Agent/v1DashboardAgent_CreateNewFromTemplate.md
-  - name: DeleteDashboard
-    href: Dashboard_Agent/v1DashboardAgent_DeleteDashboard.md
-  - name: DeleteDashboardTile
-    href: Dashboard_Agent/v1DashboardAgent_DeleteDashboardTile.md
-  - name: GetDashboard
-    href: Dashboard_Agent/v1DashboardAgent_GetDashboard.md
-  - name: GetDashboards
-    href: Dashboard_Agent/v1DashboardAgent_GetDashboards.md
-  - name: GetDashboardTile
-    href: Dashboard_Agent/v1DashboardAgent_GetDashboardTile.md
-  - name: GetDashboardTiles
-    href: Dashboard_Agent/v1DashboardAgent_GetDashboardTiles.md
-  - name: GetData
-    href: Dashboard_Agent/v1DashboardAgent_GetData.md
-  - name: GetDataWithSelection
-    href: Dashboard_Agent/v1DashboardAgent_GetDataWithSelection.md
-  - name: GetStandardDashboardTileFromChartId
-    href: Dashboard_Agent/v1DashboardAgent_GetStandardDashboardTileFromChartId.md
-  - name: SaveDashboard
-    href: Dashboard_Agent/v1DashboardAgent_SaveDashboard.md
-  - name: SaveDashboardTile
-    href: Dashboard_Agent/v1DashboardAgent_SaveDashboardTile.md
-  - name: SetTile
-    href: Dashboard_Agent/v1DashboardAgent_SetTile.md
 - name: Database
   href: Database_Agent/index.md
   items:
@@ -1781,22 +1689,12 @@ items:
 - name: FreeText
   href: FreeText_Agent/index.md
   items:
-  - name: AddWords
-    href: FreeText_Agent/v1FreeTextAgent_AddWords.md
-  - name: DeleteStopWordsById
-    href: FreeText_Agent/v1FreeTextAgent_DeleteStopWordsById.md
   - name: FreetextIndexRows
     href: FreeText_Agent/v1FreeTextAgent_FreetextIndexRows.md
   - name: GetStatus
     href: FreeText_Agent/v1FreeTextAgent_GetStatus.md
-  - name: GetStopWordList
-    href: FreeText_Agent/v1FreeTextAgent_GetStopWordList.md
-  - name: GetSuggestedStopWords
-    href: FreeText_Agent/v1FreeTextAgent_GetSuggestedStopWords.md
   - name: RegenerateIndex
     href: FreeText_Agent/v1FreeTextAgent_RegenerateIndex.md
-  - name: SetAutoEnableTravelAreas
-    href: FreeText_Agent/v1FreeTextAgent_SetAutoEnableTravelAreas.md
   - name: SetEnabled
     href: FreeText_Agent/v1FreeTextAgent_SetEnabled.md
   - name: SetMultiWordOperator
@@ -1825,6 +1723,8 @@ items:
     href: License_Agent/v1LicenseAgent_AssignThirdPartyLicenses.md
   - name: ChangeSerialNumber
     href: License_Agent/v1LicenseAgent_ChangeSerialNumber.md
+  - name: GetCentralLicense
+    href: License_Agent/v1LicenseAgent_GetCentralLicense.md
   - name: GetLicenseForAllOwnersFromDB
     href: License_Agent/v1LicenseAgent_GetLicenseForAllOwnersFromDB.md
   - name: GetLicenseFromDB
@@ -1853,6 +1753,8 @@ items:
     href: License_Agent/v1LicenseAgent_GetUserLicensesMDOList.md
   - name: RemoveLicenseFromDB
     href: License_Agent/v1LicenseAgent_RemoveLicenseFromDB.md
+  - name: SaveCentralLicense
+    href: License_Agent/v1LicenseAgent_SaveCentralLicense.md
   - name: UnassignThirdPartyLicenses
     href: License_Agent/v1LicenseAgent_UnassignThirdPartyLicenses.md
   - name: ValidateLicenseInfo
@@ -2267,7 +2169,7 @@ items:
   - name: GetSources
     href: List_Agent/v1ListAgent_GetSources.md
   - name: GetTask
-    href: List_Agent/v1ListAgent_GetTask.md
+    href: List_Agent/v1ListAgent_GetSoTask.md
   - name: GetTaskList
     href: List_Agent/v1ListAgent_GetTaskList.md
   - name: GetTaskMenu
@@ -2529,8 +2431,6 @@ items:
   items:
   - name: GetNavigatorCompanies
     href: Navigator_Agent/v1NavigatorAgent_GetNavigatorCompanies.md
-  - name: GetNavigatorCompany
-    href: Navigator_Agent/v1NavigatorAgent_GetNavigatorCompany.md
   - name: GetNavigatorCompanyList
     href: Navigator_Agent/v1NavigatorAgent_GetNavigatorCompanyList.md
 - name: NumberAllocation
@@ -2657,6 +2557,8 @@ items:
     href: Person_Agent/v1PersonAgent_SavePersonEntity.md
   - name: SendConsentConfirmationEmail
     href: Person_Agent/v1PersonAgent_SendConsentConfirmationEmail.md
+  - name: SendCustomerCentrePasswordEmail
+    href: Person_Agent/v1PersonAgent_SendCustomerCentrePasswordEmail.md
   - name: SendEmail
     href: Person_Agent/v1PersonAgent_SendEmail.md
   - name: SendEmailWithEventName
@@ -3037,12 +2939,8 @@ items:
     href: Quote_Agent/v1QuoteAgent_GetQuoteLineConfiguration.md
   - name: GetQuoteLineConfigurationFromFieldName
     href: Quote_Agent/v1QuoteAgent_GetQuoteLineConfigurationFromFieldName.md
-  - name: GetQuoteLineImage
-    href: Quote_Agent/v1QuoteAgent_GetQuoteLineImage.md
   - name: GetQuoteLines
     href: Quote_Agent/v1QuoteAgent_GetQuoteLines.md
-  - name: GetQuoteList
-    href: Quote_Agent/v1QuoteAgent_GetQuoteList.md
   - name: GetQuoteVersion
     href: Quote_Agent/v1QuoteAgent_GetQuoteVersion.md
   - name: GetQuoteVersions
@@ -3095,8 +2993,6 @@ items:
     href: Quote_Agent/v1QuoteAgent_SaveQuoteLineConfiguration.md
   - name: SaveQuoteLineConfigurations
     href: Quote_Agent/v1QuoteAgent_SaveQuoteLineConfigurations.md
-  - name: SaveQuoteLineImage
-    href: Quote_Agent/v1QuoteAgent_SaveQuoteLineImage.md
   - name: SaveQuoteLines
     href: Quote_Agent/v1QuoteAgent_SaveQuoteLines.md
   - name: SaveQuoteVersion
@@ -3128,54 +3024,17 @@ items:
     href: Relation_Agent/v1RelationAgent_GetContactRelationEntity.md
   - name: SaveContactRelation
     href: Relation_Agent/v1RelationAgent_SaveContactRelation.md
-- name: Replication
-  href: Replication_Agent/index.md
-  items:
-  - name: CreateDefaultSatellite
-    href: Replication_Agent/v1ReplicationAgent_CreateDefaultSatellite.md
-  - name: GetArea
-    href: Replication_Agent/v1ReplicationAgent_GetArea.md
-  - name: GetAreaList
-    href: Replication_Agent/v1ReplicationAgent_GetAreaList.md
-  - name: GetCentralLicense
-    href: Replication_Agent/v1ReplicationAgent_GetCentralLicense.md
-  - name: GetSatellite
-    href: Replication_Agent/v1ReplicationAgent_GetSatellite.md
-  - name: SaveCentralLicense
-    href: Replication_Agent/v1ReplicationAgent_SaveCentralLicense.md
-  - name: SaveSatellite
-    href: Replication_Agent/v1ReplicationAgent_SaveSatellite.md
-  - name: SetFreetextSearchEnabledOnArea
-    href: Replication_Agent/v1ReplicationAgent_SetFreetextSearchEnabledOnArea.md
 - name: Report
   href: Report_Agent/index.md
   items:
-  - name: CreateDefaultReportEntity
-    href: Report_Agent/v1ReportAgent_CreateDefaultReportEntity.md
   - name: CreateDefaultReportLabelLayoutEntity
     href: Report_Agent/v1ReportAgent_CreateDefaultReportLabelLayoutEntity.md
-  - name: CreateFavorite
-    href: Report_Agent/v1ReportAgent_CreateFavorite.md
-  - name: DeleteFavorite
-    href: Report_Agent/v1ReportAgent_DeleteFavorite.md
-  - name: DeleteReport
-    href: Report_Agent/v1ReportAgent_DeleteReport.md
   - name: DeleteReportLabelLayoutEntity
     href: Report_Agent/v1ReportAgent_DeleteReportLabelLayoutEntity.md
-  - name: GenerateReport
-    href: Report_Agent/v1ReportAgent_GenerateReport.md
-  - name: GetReportEntity
-    href: Report_Agent/v1ReportAgent_GetReportEntity.md
   - name: GetReportLabelLayoutEntity
     href: Report_Agent/v1ReportAgent_GetReportLabelLayoutEntity.md
-  - name: ImportReport
-    href: Report_Agent/v1ReportAgent_ImportReport.md
-  - name: SaveReportEntity
-    href: Report_Agent/v1ReportAgent_SaveReportEntity.md
   - name: SaveReportLabelLayoutEntity
     href: Report_Agent/v1ReportAgent_SaveReportLabelLayoutEntity.md
-  - name: UpdateFavorite
-    href: Report_Agent/v1ReportAgent_UpdateFavorite.md
 - name: Resource
   href: Resource_Agent/index.md
   items:
@@ -3328,10 +3187,6 @@ items:
     href: Selection_Agent/v1SelectionAgent_CreateContactSelectionFromSelection.md
   - name: CreateContactSelectionFromShadowSelection
     href: Selection_Agent/v1SelectionAgent_CreateContactSelectionFromShadowSelection.md
-  - name: CreateDefaultMailMergeSettings
-    href: Selection_Agent/v1SelectionAgent_CreateDefaultMailMergeSettings.md
-  - name: CreateDefaultMailMergeTask
-    href: Selection_Agent/v1SelectionAgent_CreateDefaultMailMergeTask.md
   - name: CreateDefaultSelectionEntity
     href: Selection_Agent/v1SelectionAgent_CreateDefaultSelectionEntity.md
   - name: CreateNewEntry
@@ -3344,8 +3199,6 @@ items:
     href: Selection_Agent/v1SelectionAgent_CreateTemporaryContactSelection.md
   - name: CreateTemporaryContactSelectionFromContactPersonIds
     href: Selection_Agent/v1SelectionAgent_CreateTemporaryContactSelectionFromContactPersonIds.md
-  - name: CreateTemporaryContactSelectionFromProjectMembers
-    href: Selection_Agent/v1SelectionAgent_CreateTemporaryContactSelectionFromProjectMembers.md
   - name: CreateTemporaryContactSelectionFromSelectionMemberIds
     href: Selection_Agent/v1SelectionAgent_CreateTemporaryContactSelectionFromSelectionMemberIds.md
   - name: CreateTemporarySelectionFromIds
@@ -3416,8 +3269,6 @@ items:
     href: Selection_Agent/v1SelectionAgent_SetDynamicSelectionCriteria3.md
   - name: SetDynamicSelectionCriteriaGroups
     href: Selection_Agent/v1SelectionAgent_SetDynamicSelectionCriteriaGroups.md
-  - name: StartMailMerge
-    href: Selection_Agent/v1SelectionAgent_StartMailMerge.md
   - name: UpdateTypicalSearch
     href: Selection_Agent/v1SelectionAgent_UpdateTypicalSearch.md
 - name: Sentry
@@ -3714,8 +3565,8 @@ items:
     href: User_Agent/v1UserAgent_DeleteUserFromName.md
   - name: DeleteUserGroup
     href: User_Agent/v1UserAgent_DeleteUserGroup.md
-  - name: ExecuteUserCommand
-    href: User_Agent/v1UserAgent_ExecuteUserCommand.md
+  - name: ExecuteUserCommandAsync
+    href: User_Agent/v1UserAgent_ExecuteUserCommandAsync.md
   - name: FindCredentialsGroups
     href: User_Agent/v1UserAgent_FindCredentialsGroups.md
   - name: FindCredentialUsers
@@ -3770,8 +3621,8 @@ items:
     href: User_Agent/v1UserAgent_GetUntrustedCredentialsForAssociate.md
   - name: GetUser
     href: User_Agent/v1UserAgent_GetUser.md
-  - name: GetUserCommands
-    href: User_Agent/v1UserAgent_GetUserCommands.md
+  - name: GetUserCommandsAsync
+    href: User_Agent/v1UserAgent_GetUserCommandsAsync.md
   - name: GetUserFromEjUserId
     href: User_Agent/v1UserAgent_GetUserFromEjUserId.md
   - name: GetUserFromName

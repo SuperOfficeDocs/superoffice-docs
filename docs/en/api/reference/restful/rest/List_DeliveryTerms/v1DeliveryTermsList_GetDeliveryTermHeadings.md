@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 328,
-    "Name": "Cronin LLC",
-    "Tooltip": "ut",
+    "HeadingId": 125,
+    "Name": "Stokes, Streich and Terry",
+    "Tooltip": "ratione",
     "Deleted": false,
-    "Rank": 60,
-    "UdListDefinitionId": 581,
+    "Rank": 853,
+    "UdListDefinitionId": 156,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 930
+        "FieldType": "System.Int32",
+        "FieldLength": 560
       }
     }
   }

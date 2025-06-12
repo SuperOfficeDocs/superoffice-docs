@@ -26,7 +26,7 @@ Gets a BlobEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/BLOB/GetBlobEntity?blobEntityId=527
+POST /api/v1/Agents/BLOB/GetBlobEntity?blobEntityId=891
 POST /api/v1/Agents/BLOB/GetBlobEntity?$select=name,department,category/id
 ```
 
@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,25 +89,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 909,
-  "BlobSize": 592,
-  "Description": "Upgradable static secured line",
-  "ExtraInfo": "ea",
+  "BlobId": 40,
+  "BlobSize": 945,
+  "Description": "Organized object-oriented forecast",
+  "ExtraInfo": "dolorem",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "porro",
-  "OriginalSize": 166,
-  "CreatedDate": "2014-01-05T16:32:38.2116027+01:00",
-  "UpdatedDate": "2003-11-10T16:32:38.2116027+01:00",
+  "MimeType": "recusandae",
+  "OriginalSize": 536,
+  "CreatedDate": "2011-11-29T17:54:02.6639794+01:00",
+  "UpdatedDate": "2008-06-20T17:54:02.6639794+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "et",
+  "ConceptualType": "sint",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 388
+      "FieldType": "System.String",
+      "FieldLength": 831
     }
   }
 }

@@ -31,9 +31,9 @@ Get the list items in a named list.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/MDOList/{listname}?flat=False
-GET /api/v1/MDOList/{listname}?additional=dolorum
-GET /api/v1/MDOList/{listname}?query=ad
+GET /api/v1/MDOList/{listname}?flat=True
+GET /api/v1/MDOList/{listname}?additional=esse
+GET /api/v1/MDOList/{listname}?query=earum
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/MDOList/{listname}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,50 +95,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 391,
-    "Name": "Ritchie Group",
-    "ToolTip": "A corrupti id.",
+    "Id": 240,
+    "Name": "Fay LLC",
+    "ToolTip": "Delectus et ipsam qui aut qui.",
     "Deleted": true,
-    "Rank": 960,
-    "Type": "dolorum",
+    "Rank": 932,
+    "Type": "architecto",
     "ChildItems": [
       {
-        "Id": 616,
-        "Name": "Konopelski, Terry and Bechtelar",
-        "ToolTip": "Ut quia dolor voluptatem.",
+        "Id": 557,
+        "Name": "Bogisich LLC",
+        "ToolTip": "Sapiente fuga laudantium a quis.",
         "Deleted": false,
-        "Rank": 343,
-        "Type": "occaecati",
+        "Rank": 138,
+        "Type": "ea",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "suscipit",
-        "ColorBlock": 468,
-        "ExtraInfo": "quae",
-        "StyleHint": "rerum",
-        "FullName": "Antwon Homenick",
+        "IconHint": "ex",
+        "ColorBlock": 214,
+        "ExtraInfo": "amet",
+        "StyleHint": "voluptatibus",
+        "FullName": "Dr. Loren Dooley DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 494
+            "FieldType": "System.String",
+            "FieldLength": 586
           }
         }
       }
     ],
-    "IconHint": "dolores",
-    "ColorBlock": 632,
-    "ExtraInfo": "quia",
-    "StyleHint": "excepturi",
-    "FullName": "Era Smitham",
+    "IconHint": "consequatur",
+    "ColorBlock": 267,
+    "ExtraInfo": "et",
+    "StyleHint": "quo",
+    "FullName": "Agustin Abshire I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 497
+        "FieldType": "System.String",
+        "FieldLength": 253
       }
     }
   }

@@ -70,14 +70,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Project?$select=name,department,category/id
 GET /api/v1/Project?$filter=name begins 'S'
 GET /api/v1/Project?$orderBy=name asc
-GET /api/v1/Project?$entities=doloribus
-GET /api/v1/Project?$top=74
-GET /api/v1/Project?$skip=397
+GET /api/v1/Project?$entities=veniam
+GET /api/v1/Project?$top=617
+GET /api/v1/Project?$skip=185
 GET /api/v1/Project?$mode=Full
 GET /api/v1/Project?$options=GrandTotal=true
-GET /api/v1/Project?$context=dicta
+GET /api/v1/Project?$context=quo
 GET /api/v1/Project?$format=JSON
-GET /api/v1/Project?$jsonSafe=False
+GET /api/v1/Project?$jsonSafe=True
 GET /api/v1/Project?$output=Display
 ```
 
@@ -118,7 +118,7 @@ OK
 GET /api/v1/Project
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -129,19 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "provident",
+  "odata.nextLink": "id",
   "value": [
     {
-      "PrimaryKey": 3662,
-      "EntityName": "person",
-      "personId": 3662,
-      "fullName": "Clementine West"
+      "PrimaryKey": 7285,
+      "EntityName": "sale",
+      "saleId": 7285,
+      "contactId": 5873,
+      "name": "Bashirian Inc and Sons"
     },
     {
-      "PrimaryKey": 8145,
-      "EntityName": "person",
-      "personId": 8145,
-      "fullName": "Valerie Batz"
+      "PrimaryKey": 2964,
+      "EntityName": "sale",
+      "saleId": 2964,
+      "contactId": 257,
+      "name": "Tremblay Inc and Sons"
     }
   ]
 }

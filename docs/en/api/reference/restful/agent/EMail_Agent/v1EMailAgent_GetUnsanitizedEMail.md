@@ -108,8 +108,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 412,
-  "IncludeAttachments": true
+  "Id": 88,
+  "IncludeAttachments": false
 }
 ```
 
@@ -122,147 +122,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 969,
-      "ContactName": "Blick, Block and Cormier",
-      "PersonId": 526,
-      "PersonName": "D'Amore Inc and Sons",
-      "AssociateId": 851,
-      "Address": "quas",
-      "EmailId": 873,
+      "ContactId": 423,
+      "ContactName": "Klein, Waters and Cassin",
+      "PersonId": 496,
+      "PersonName": "Brakus-Mosciski",
+      "AssociateId": 673,
+      "Address": "quisquam",
+      "EmailId": 120,
       "DuplicatePersonIds": [
-        944,
-        884
+        60,
+        865
       ],
-      "Name": "Jakubowski, Green and Moore",
+      "Name": "Dicki Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 504
+          "FieldLength": 776
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 120,
-      "ContactName": "Braun-Rau",
-      "PersonId": 236,
-      "PersonName": "Effertz Inc and Sons",
-      "AssociateId": 113,
-      "Address": "veniam",
-      "EmailId": 31,
+      "ContactId": 509,
+      "ContactName": "Upton, Abshire and Mayer",
+      "PersonId": 697,
+      "PersonName": "Smith Group",
+      "AssociateId": 312,
+      "Address": "accusantium",
+      "EmailId": 506,
       "DuplicatePersonIds": [
-        53,
-        603
+        683,
+        790
       ],
-      "Name": "Green Group",
+      "Name": "Waelchi Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 273
+          "FieldLength": 418
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 10,
-      "ContactName": "Metz-Emmerich",
-      "PersonId": 688,
-      "PersonName": "Quigley Inc and Sons",
-      "AssociateId": 837,
-      "Address": "nam",
-      "EmailId": 890,
+      "ContactId": 860,
+      "ContactName": "Krajcik-Konopelski",
+      "PersonId": 901,
+      "PersonName": "Lebsack-Hagenes",
+      "AssociateId": 669,
+      "Address": "neque",
+      "EmailId": 322,
       "DuplicatePersonIds": [
-        944,
-        817
+        249,
+        514
       ],
-      "Name": "West, Bergstrom and Willms",
+      "Name": "Tromp-Schmidt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 528
+          "FieldLength": 768
         }
       }
     }
   ],
-  "Subject": "cumque",
-  "HTMLBody": "eius",
+  "Subject": "quasi",
+  "HTMLBody": "officia",
   "From": null,
-  "Sent": "2001-06-18T16:32:39.0707807+02:00",
-  "Size": 616,
+  "Sent": "2004-11-26T17:54:03.1170817+01:00",
+  "Size": 993,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "odio",
-  "PlainBody": "nisi",
+  "MessageID": "qui",
+  "PlainBody": "reprehenderit",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 311,
+  "ServerId": 58,
   "Attachments": [
     {
-      "Description": "Ergonomic real-time encoding",
-      "Filename": "totam",
-      "Size": 102,
-      "Type": "sint",
-      "Encoding": "eius",
-      "Id": "delectus",
-      "Disposition": "dolore",
+      "Description": "Cross-platform motivating policy",
+      "Filename": "aut",
+      "Size": 461,
+      "Type": "asperiores",
+      "Encoding": "possimus",
+      "Id": "ex",
+      "Disposition": "cumque",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 650
+          "FieldType": "System.Int32",
+          "FieldLength": 798
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Rogahn Inc and Sons",
+      "Name": "Swaniawski Group",
       "Values": [
-        "et",
-        "a"
+        "quia",
+        "ducimus"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 177
+          "FieldType": "System.String",
+          "FieldLength": 350
         }
       }
     },
     {
-      "Name": "Rogahn Inc and Sons",
+      "Name": "Swaniawski Group",
       "Values": [
-        "et",
-        "a"
+        "quia",
+        "ducimus"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 177
+          "FieldType": "System.String",
+          "FieldLength": 350
         }
       }
     }
   ],
-  "FolderName": "Mayert, Price and Lehner",
-  "EmailItemId": 827,
-  "AccountId": 79,
-  "ReceivedAt": "2015-08-22T16:32:39.0707807+02:00",
+  "FolderName": "Ruecker-Watsica",
+  "EmailItemId": 751,
+  "AccountId": 188,
+  "ReceivedAt": "2008-12-22T17:54:03.1170817+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2001-06-09T16:32:39.0707807+02:00",
+  "RepliedAt": "2004-12-02T17:54:03.1170817+01:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -270,8 +270,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 508
+      "FieldType": "System.Int32",
+      "FieldLength": 365
     }
   }
 }

@@ -166,18 +166,18 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeader2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Dooley Group",
-  "Columns": "dolore",
-  "SortOrder": "aut",
-  "Restriction": "id",
-  "Entities": "ad",
-  "Page": 275,
-  "PageSize": 52,
-  "Options": "molestiae"
+  "ProviderName": "Schoen-Ondricka",
+  "Columns": "sed",
+  "SortOrder": "reiciendis",
+  "Restriction": "et",
+  "Entities": "sunt",
+  "Page": 601,
+  "PageSize": 414,
+  "Options": "nulla"
 }
 ```
 
@@ -188,26 +188,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 110,
+  "RowCount": 327,
   "Rows": [
     {
-      "EntityName": "Bartoletti, Wuckert and Hahn",
-      "PrimaryKey": 195,
+      "EntityName": "Maggio, Konopelski and Gutmann",
+      "PrimaryKey": 810,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "eos",
-          "TooltipHint": "molestiae",
-          "LinkHint": "provident"
+          "DisplayValue": "assumenda",
+          "TooltipHint": "odit",
+          "LinkHint": "modi"
         }
       },
-      "LinkHint": "sed",
-      "StyleHint": "ea",
+      "LinkHint": "hic",
+      "StyleHint": "hic",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 762
+          "FieldLength": 336
         }
       }
     }
@@ -217,7 +217,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 752
+      "FieldLength": 680
     }
   }
 }

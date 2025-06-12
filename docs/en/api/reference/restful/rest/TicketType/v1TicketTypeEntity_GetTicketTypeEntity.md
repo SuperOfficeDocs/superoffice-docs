@@ -91,7 +91,7 @@ TicketTypeEntity found.
 GET /api/v1/TicketType/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -101,40 +101,40 @@ HTTP/1.1 200 TicketTypeEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 348,
-  "Name": "Boehm, Lakin and Senger",
-  "Rank": 523,
-  "Tooltip": "quia",
-  "Icon": "ab",
-  "DefaultTicketStatus": 841,
+  "TicketTypeId": 203,
+  "Name": "Will Group",
+  "Rank": 246,
+  "Tooltip": "consectetur",
+  "Icon": "ullam",
+  "DefaultTicketStatus": 857,
   "TicketStatuses": [
-    253,
-    36
+    834,
+    697
   ],
-  "DefaultTicketPriority": 751,
+  "DefaultTicketPriority": 245,
   "TicketPriorities": [
-    393,
-    588
+    803,
+    607
   ],
-  "ReplyTemplate": 195,
+  "ReplyTemplate": 27,
   "IsExternalVisible": false,
   "IsDefault": true,
   "ShowInNew": false,
-  "ExcludeSignature": false,
-  "ExcludeEmailRecipients": false,
-  "ExternalAsDefault": true,
+  "ExcludeSignature": true,
+  "ExcludeEmailRecipients": true,
+  "ExternalAsDefault": false,
   "VisibleForGroups": [
-    202,
-    786
+    308,
+    986
   ],
   "ReplyForwardNoSignature": true,
-  "ReplyExternalAsDefault": true,
+  "ReplyExternalAsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 808
+      "FieldType": "System.Int32",
+      "FieldLength": 153
     }
   },
   "_Links": {

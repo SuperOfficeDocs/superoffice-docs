@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Reason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 876,
-    "Name": "Gislason, O'Keefe and Hettinger",
-    "ToolTip": "Iusto deleniti ipsam.",
-    "Deleted": false,
-    "Rank": 18,
-    "Type": "ea",
-    "ColorBlock": 833,
-    "IconHint": "minima",
+    "Id": 249,
+    "Name": "O'Reilly, Heaney and Cruickshank",
+    "ToolTip": "Qui quis eveniet.",
+    "Deleted": true,
+    "Rank": 286,
+    "Type": "et",
+    "ColorBlock": 473,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2008-05-25T16:32:48.8994739+02:00",
+    "LastChanged": "1998-05-19T17:54:09.0858036+02:00",
     "ChildItems": [
       {
-        "Id": 738,
-        "Name": "Boehm, Hirthe and Purdy",
-        "ToolTip": "Est non quia eveniet et quod architecto.",
-        "Deleted": true,
-        "Rank": 407,
-        "Type": "sunt",
-        "ColorBlock": 43,
-        "IconHint": "officiis",
-        "Selected": true,
-        "LastChanged": "2000-05-20T16:32:48.8994739+02:00",
+        "Id": 450,
+        "Name": "Kunze-Okuneva",
+        "ToolTip": "Omnis ut aperiam delectus.",
+        "Deleted": false,
+        "Rank": 895,
+        "Type": "corporis",
+        "ColorBlock": 940,
+        "IconHint": "distinctio",
+        "Selected": false,
+        "LastChanged": "2013-02-24T17:54:09.0858036+01:00",
         "ChildItems": [
           {},
           {}
         ],
         "ExtraInfo": "est",
-        "StyleHint": "harum",
-        "Hidden": false,
-        "FullName": "Mrs. Nicklaus VonRueden PhD"
+        "StyleHint": "minus",
+        "Hidden": true,
+        "FullName": "Rudolph Auer DVM"
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "modi",
+    "ExtraInfo": "ut",
+    "StyleHint": "quia",
     "Hidden": true,
-    "FullName": "Bertram Dustin Quigley DDS"
+    "FullName": "London Kub"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 199,
-    "Name": "Parisian-Grimes",
-    "ToolTip": "Similique voluptatem sint qui.",
+    "Id": 222,
+    "Name": "Beahan-Hintz",
+    "ToolTip": "Possimus est perspiciatis praesentium et velit sint assumenda.",
     "Deleted": false,
-    "Rank": 50,
-    "Type": "nam",
-    "ColorBlock": 914,
-    "IconHint": "a",
-    "Selected": false,
-    "LastChanged": "2014-05-09T16:32:48.8994739+02:00",
+    "Rank": 651,
+    "Type": "ex",
+    "ColorBlock": 851,
+    "IconHint": "non",
+    "Selected": true,
+    "LastChanged": "2010-04-28T17:54:09.0858036+02:00",
     "ChildItems": [
       {
-        "Id": 676,
-        "Name": "Schoen, Halvorson and Nolan",
-        "ToolTip": "Ut optio adipisci minima.",
+        "Id": 724,
+        "Name": "Kshlerin Group",
+        "ToolTip": "Dolores eligendi eaque commodi sunt suscipit.",
         "Deleted": false,
-        "Rank": 419,
-        "Type": "qui",
-        "ColorBlock": 266,
-        "IconHint": "iste",
+        "Rank": 563,
+        "Type": "saepe",
+        "ColorBlock": 404,
+        "IconHint": "molestiae",
         "Selected": true,
-        "LastChanged": "2012-10-26T16:32:48.8994739+02:00",
+        "LastChanged": "2009-04-19T17:54:09.0858036+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "itaque",
-        "StyleHint": "rerum",
+        "ExtraInfo": "ratione",
+        "StyleHint": "amet",
         "Hidden": false,
-        "FullName": "Therese Tremblay IV",
+        "FullName": "Mrs. Tracy Stamm DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 134
+            "FieldType": "System.Int32",
+            "FieldLength": 23
           }
         }
       }
     ],
-    "ExtraInfo": "ex",
-    "StyleHint": "libero",
+    "ExtraInfo": "rerum",
+    "StyleHint": "quia",
     "Hidden": false,
-    "FullName": "Jewel Fisher",
+    "FullName": "Alena Stanton MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 767
+        "FieldLength": 745
       }
     }
   }

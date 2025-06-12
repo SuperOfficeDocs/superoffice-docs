@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DeliveryType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 195,
-    "Name": "Jast-Lebsack",
-    "ToolTip": "Ullam a nam ipsum.",
-    "Deleted": true,
-    "Rank": 471,
-    "Type": "impedit",
-    "ColorBlock": 564,
-    "IconHint": "minima",
+    "Id": 823,
+    "Name": "Becker, Hackett and Casper",
+    "ToolTip": "Fugiat soluta fugiat libero.",
+    "Deleted": false,
+    "Rank": 369,
+    "Type": "odit",
+    "ColorBlock": 898,
+    "IconHint": "assumenda",
     "Selected": false,
-    "LastChanged": "2016-01-12T16:32:48.6651528+01:00",
+    "LastChanged": "2000-02-18T17:54:08.9136741+01:00",
     "ChildItems": [
       {
-        "Id": 722,
-        "Name": "Jerde, Runolfsson and Schinner",
-        "ToolTip": "Nihil vel laboriosam aspernatur blanditiis et et doloremque.",
+        "Id": 19,
+        "Name": "O'Reilly-Larkin",
+        "ToolTip": "Sint libero eligendi deserunt deserunt qui adipisci.",
         "Deleted": false,
-        "Rank": 110,
-        "Type": "ut",
-        "ColorBlock": 703,
-        "IconHint": "hic",
+        "Rank": 357,
+        "Type": "aut",
+        "ColorBlock": 327,
+        "IconHint": "voluptatem",
         "Selected": false,
-        "LastChanged": "2006-11-19T16:32:48.6651528+01:00",
+        "LastChanged": "2018-05-28T17:54:08.9136741+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eos",
-        "StyleHint": "expedita",
+        "ExtraInfo": "ut",
+        "StyleHint": "voluptates",
         "Hidden": false,
-        "FullName": "Vladimir Shields"
+        "FullName": "Maybelle Kovacek"
       }
     ],
-    "ExtraInfo": "similique",
-    "StyleHint": "maiores",
+    "ExtraInfo": "doloremque",
+    "StyleHint": "dolore",
     "Hidden": false,
-    "FullName": "Gladys Kshlerin"
+    "FullName": "Abbie Rowe"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 96,
-    "Name": "Larkin, Brekke and Crona",
-    "ToolTip": "Est illum inventore blanditiis.",
+    "Id": 64,
+    "Name": "Murazik LLC",
+    "ToolTip": "Tenetur autem recusandae ut.",
     "Deleted": false,
-    "Rank": 828,
-    "Type": "qui",
-    "ColorBlock": 632,
-    "IconHint": "minus",
-    "Selected": true,
-    "LastChanged": "2001-06-30T16:32:48.6651528+02:00",
+    "Rank": 314,
+    "Type": "consequatur",
+    "ColorBlock": 101,
+    "IconHint": "esse",
+    "Selected": false,
+    "LastChanged": "2023-10-28T17:54:08.9136741+02:00",
     "ChildItems": [
       {
-        "Id": 145,
-        "Name": "Douglas, Zieme and Hayes",
-        "ToolTip": "Eum excepturi iusto optio asperiores excepturi sed.",
-        "Deleted": true,
-        "Rank": 18,
-        "Type": "eaque",
-        "ColorBlock": 246,
-        "IconHint": "officia",
-        "Selected": true,
-        "LastChanged": "2014-01-15T16:32:48.6651528+01:00",
+        "Id": 766,
+        "Name": "Johnson-Conn",
+        "ToolTip": "Nesciunt iusto soluta quo dolorem.",
+        "Deleted": false,
+        "Rank": 540,
+        "Type": "distinctio",
+        "ColorBlock": 24,
+        "IconHint": "fuga",
+        "Selected": false,
+        "LastChanged": "2021-10-17T17:54:08.9136741+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "culpa",
-        "StyleHint": "reiciendis",
+        "ExtraInfo": "numquam",
+        "StyleHint": "quisquam",
         "Hidden": false,
-        "FullName": "Milo Rempel DVM",
+        "FullName": "Lucie Reilly",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 444
+            "FieldLength": 494
           }
         }
       }
     ],
-    "ExtraInfo": "dolorem",
-    "StyleHint": "perferendis",
+    "ExtraInfo": "non",
+    "StyleHint": "debitis",
     "Hidden": false,
-    "FullName": "Prof. Abigail Harvey III",
+    "FullName": "Dion Frami",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 455
+        "FieldLength": 348
       }
     }
   }

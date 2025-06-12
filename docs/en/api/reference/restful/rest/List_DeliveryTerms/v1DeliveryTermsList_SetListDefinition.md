@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/DeliveryTerm
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 385,
-  "Name": "Muller LLC",
-  "Tooltip": "expedita",
-  "Deleted": true,
-  "Rank": 802,
-  "IsCustomList": true,
+  "Id": 8,
+  "Name": "Corkery Inc and Sons",
+  "Tooltip": "culpa",
+  "Deleted": false,
+  "Rank": 124,
+  "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "et",
-  "InUseByUserDefinedFields": true
+  "ListType": "accusantium",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 316,
-  "Name": "Rogahn, Wiegand and Shanahan",
-  "Tooltip": "quia",
+  "Id": 604,
+  "Name": "Fisher, Champlin and Kozey",
+  "Tooltip": "impedit",
   "Deleted": false,
-  "Rank": 976,
+  "Rank": 373,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "cumque",
+  "ListType": "dolorem",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 676
+      "FieldLength": 320
     }
   }
 }

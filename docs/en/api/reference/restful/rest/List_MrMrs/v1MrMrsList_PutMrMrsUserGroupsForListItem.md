@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/MrMrs/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 349,
-    "Name": "Kozey, Fay and Schiller",
-    "ToolTip": "Enim et deserunt.",
+    "Id": 674,
+    "Name": "Connelly-Leffler",
+    "ToolTip": "Quasi ratione iste occaecati sequi cum et mollitia.",
     "Deleted": false,
-    "Rank": 264,
-    "Type": "autem",
-    "ColorBlock": 230,
-    "IconHint": "illum",
-    "Selected": true,
-    "LastChanged": "2020-04-02T16:32:48.7120179+02:00",
+    "Rank": 282,
+    "Type": "nisi",
+    "ColorBlock": 646,
+    "IconHint": "dolorem",
+    "Selected": false,
+    "LastChanged": "2000-04-17T17:54:08.9292989+02:00",
     "ChildItems": [
       {
-        "Id": 951,
-        "Name": "Effertz, Spinka and Quigley",
-        "ToolTip": "Vel expedita et in id repudiandae cupiditate.",
+        "Id": 671,
+        "Name": "Bernhard-Terry",
+        "ToolTip": "Distinctio possimus non occaecati nobis id nihil.",
         "Deleted": false,
-        "Rank": 11,
-        "Type": "quia",
-        "ColorBlock": 280,
-        "IconHint": "ut",
-        "Selected": true,
-        "LastChanged": "2007-12-21T16:32:48.7120179+01:00",
+        "Rank": 536,
+        "Type": "et",
+        "ColorBlock": 425,
+        "IconHint": "non",
+        "Selected": false,
+        "LastChanged": "2024-01-30T17:54:08.9292989+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "recusandae",
-        "StyleHint": "amet",
+        "ExtraInfo": "nemo",
+        "StyleHint": "minima",
         "Hidden": false,
-        "FullName": "Michelle Balistreri"
+        "FullName": "Clifford Ward"
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "non",
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "soluta",
     "Hidden": false,
-    "FullName": "Mr. Raphaelle Jermaine Rohan"
+    "FullName": "Mr. Martin Roob PhD"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 432,
-    "Name": "Moen, Krajcik and Marquardt",
-    "ToolTip": "Libero beatae laborum ullam.",
+    "Id": 288,
+    "Name": "Bergnaum, Smith and Runte",
+    "ToolTip": "Veritatis placeat illo consequatur.",
     "Deleted": false,
-    "Rank": 46,
-    "Type": "at",
-    "ColorBlock": 477,
-    "IconHint": "veniam",
+    "Rank": 550,
+    "Type": "nihil",
+    "ColorBlock": 710,
+    "IconHint": "aut",
     "Selected": true,
-    "LastChanged": "2010-10-03T16:32:48.7120179+02:00",
+    "LastChanged": "2012-12-07T17:54:08.9292989+01:00",
     "ChildItems": [
       {
-        "Id": 120,
-        "Name": "Walker, Waelchi and Wunsch",
-        "ToolTip": "Alias voluptates et tempore illo odio at.",
-        "Deleted": true,
-        "Rank": 300,
-        "Type": "rerum",
-        "ColorBlock": 141,
-        "IconHint": "cum",
+        "Id": 912,
+        "Name": "Barton-Weber",
+        "ToolTip": "Amet distinctio.",
+        "Deleted": false,
+        "Rank": 806,
+        "Type": "temporibus",
+        "ColorBlock": 244,
+        "IconHint": "eos",
         "Selected": true,
-        "LastChanged": "2004-05-11T16:32:48.7120179+02:00",
+        "LastChanged": "2020-06-20T17:54:08.9292989+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "quisquam",
+        "ExtraInfo": "reprehenderit",
+        "StyleHint": "expedita",
         "Hidden": false,
-        "FullName": "Prof. Cory Arden Berge",
+        "FullName": "Nestor Lynch",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 4
+            "FieldLength": 248
           }
         }
       }
     ],
-    "ExtraInfo": "rem",
-    "StyleHint": "voluptatem",
-    "Hidden": false,
-    "FullName": "Dr. Neal Ondricka MD",
+    "ExtraInfo": "fugiat",
+    "StyleHint": "sed",
+    "Hidden": true,
+    "FullName": "Samantha Jakubowski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 623
+        "FieldLength": 461
       }
     }
   }

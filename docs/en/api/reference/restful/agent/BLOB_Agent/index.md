@@ -58,10 +58,6 @@ generated: true
 
 * [POST Agents/BLOB/GetQuoteLineImage](v1BLOBAgent_GetQuoteLineImage.md)
 
-* [POST Agents/BLOB/GetAppData](v1BLOBAgent_GetAppData.md)
-
-* [POST Agents/BLOB/SetAppData](v1BLOBAgent_SetAppData.md)
-
 * [POST Agents/BLOB/GetPersonImageWithSize](v1BLOBAgent_GetPersonImageWithSize.md)
 
 * [POST Agents/BLOB/GetProjectImageWithSize](v1BLOBAgent_GetProjectImageWithSize.md)

@@ -26,8 +26,8 @@ Get the MDO list items for "SaleType" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/SaleType/MDOItems?flat=True
-GET /api/v1/List/SaleType/MDOItems?query=doloribus
+GET /api/v1/List/SaleType/MDOItems?flat=False
+GET /api/v1/List/SaleType/MDOItems?query=officia
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/SaleType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 540,
-    "Name": "Lesch, Sauer and Ledner",
-    "ToolTip": "Nihil voluptas quia.",
-    "Deleted": true,
-    "Rank": 79,
-    "Type": "accusantium",
+    "Id": 782,
+    "Name": "Macejkovic Inc and Sons",
+    "ToolTip": "Itaque quia nisi sapiente aliquam eum.",
+    "Deleted": false,
+    "Rank": 291,
+    "Type": "non",
     "ChildItems": [
       {
-        "Id": 390,
-        "Name": "Hammes-Hettinger",
-        "ToolTip": "Aut saepe et.",
+        "Id": 959,
+        "Name": "Bailey-Okuneva",
+        "ToolTip": "Laudantium at cum.",
         "Deleted": true,
-        "Rank": 628,
-        "Type": "ut",
+        "Rank": 418,
+        "Type": "eos",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "pariatur",
-        "ColorBlock": 239,
-        "ExtraInfo": "repellendus",
-        "StyleHint": "esse",
-        "FullName": "Lonzo Streich",
+        "IconHint": "culpa",
+        "ColorBlock": 77,
+        "ExtraInfo": "iste",
+        "StyleHint": "similique",
+        "FullName": "Miss Ruthie Ludwig McGlynn IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 387
+            "FieldLength": 315
           }
         }
       }
     ],
-    "IconHint": "ea",
-    "ColorBlock": 269,
-    "ExtraInfo": "saepe",
-    "StyleHint": "qui",
-    "FullName": "Mr. Layla Alysha Lockman DDS",
+    "IconHint": "dolorem",
+    "ColorBlock": 599,
+    "ExtraInfo": "quia",
+    "StyleHint": "culpa",
+    "FullName": "Ms. Archibald Kitty Gottlieb",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 316
+        "FieldLength": 763
       }
     }
   }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Credited/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 477,
-    "Name": "Hayes-Beahan",
-    "ToolTip": "Tempora sunt quaerat eaque maxime et eveniet.",
-    "Deleted": true,
-    "Rank": 898,
-    "Type": "quia",
-    "ColorBlock": 159,
-    "IconHint": "sint",
-    "Selected": false,
-    "LastChanged": "2010-06-02T16:32:48.6182885+02:00",
+    "Id": 780,
+    "Name": "Homenick, Roob and Gusikowski",
+    "ToolTip": "Est nihil deleniti consequuntur et harum.",
+    "Deleted": false,
+    "Rank": 4,
+    "Type": "laborum",
+    "ColorBlock": 46,
+    "IconHint": "libero",
+    "Selected": true,
+    "LastChanged": "2023-07-28T17:54:08.8824262+02:00",
     "ChildItems": [
       {
-        "Id": 478,
-        "Name": "Blanda, Dicki and Predovic",
-        "ToolTip": "Id voluptas fugit natus ex culpa.",
+        "Id": 96,
+        "Name": "Pouros, Eichmann and Smitham",
+        "ToolTip": "Optio maxime in aperiam.",
         "Deleted": false,
-        "Rank": 640,
-        "Type": "temporibus",
-        "ColorBlock": 913,
-        "IconHint": "possimus",
+        "Rank": 211,
+        "Type": "atque",
+        "ColorBlock": 548,
+        "IconHint": "aliquam",
         "Selected": false,
-        "LastChanged": "2014-11-12T16:32:48.6182885+01:00",
+        "LastChanged": "2016-08-12T17:54:08.8824262+02:00",
         "ChildItems": [
           {},
           {}
         ],
         "ExtraInfo": "sint",
-        "StyleHint": "tenetur",
+        "StyleHint": "atque",
         "Hidden": true,
-        "FullName": "Fiona Stanford Koch PhD"
+        "FullName": "Domenic Kemmer"
       }
     ],
-    "ExtraInfo": "porro",
-    "StyleHint": "quisquam",
+    "ExtraInfo": "quisquam",
+    "StyleHint": "perferendis",
     "Hidden": false,
-    "FullName": "Dr. Leanne Frederick Larkin"
+    "FullName": "Laurence Alexandra Kilback DVM"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 260,
-    "Name": "Lehner Group",
-    "ToolTip": "Dolorem dolor unde animi.",
+    "Id": 444,
+    "Name": "Grant, Block and Ferry",
+    "ToolTip": "Id reiciendis.",
     "Deleted": false,
-    "Rank": 904,
-    "Type": "id",
-    "ColorBlock": 382,
-    "IconHint": "ad",
-    "Selected": true,
-    "LastChanged": "2011-03-04T16:32:48.6182885+01:00",
+    "Rank": 58,
+    "Type": "fugiat",
+    "ColorBlock": 891,
+    "IconHint": "perspiciatis",
+    "Selected": false,
+    "LastChanged": "2002-01-06T17:54:08.8824262+01:00",
     "ChildItems": [
       {
-        "Id": 944,
-        "Name": "Rippin-Rogahn",
-        "ToolTip": "Ratione nemo enim quibusdam commodi.",
-        "Deleted": true,
-        "Rank": 961,
-        "Type": "similique",
-        "ColorBlock": 872,
-        "IconHint": "adipisci",
-        "Selected": true,
-        "LastChanged": "2007-09-23T16:32:48.6182885+02:00",
+        "Id": 573,
+        "Name": "Walker, Purdy and Schiller",
+        "ToolTip": "Alias animi tempora dolor.",
+        "Deleted": false,
+        "Rank": 834,
+        "Type": "nam",
+        "ColorBlock": 406,
+        "IconHint": "numquam",
+        "Selected": false,
+        "LastChanged": "1999-02-21T17:54:08.8824262+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "et",
+        "ExtraInfo": "animi",
+        "StyleHint": "qui",
         "Hidden": false,
-        "FullName": "Luther Lehner",
+        "FullName": "Brooklyn Sauer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 195
+            "FieldLength": 995
           }
         }
       }
     ],
-    "ExtraInfo": "libero",
-    "StyleHint": "sint",
+    "ExtraInfo": "rem",
+    "StyleHint": "alias",
     "Hidden": true,
-    "FullName": "Adonis Ullrich III",
+    "FullName": "Jermaine Harris",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 363
+        "FieldLength": 489
       }
     }
   }

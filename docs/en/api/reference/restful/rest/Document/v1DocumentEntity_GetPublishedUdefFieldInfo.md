@@ -93,7 +93,7 @@ DocumentEntity found.
 GET /api/v1/Document/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 451,
-  "ColumnId": 107,
-  "FieldDefault": "consectetur",
-  "FieldHeight": 572,
-  "FieldLabel": "et",
-  "FieldLeft": 971,
-  "FieldTop": 543,
+  "UDefFieldId": 14,
+  "ColumnId": 950,
+  "FieldDefault": "quod",
+  "FieldHeight": 233,
+  "FieldLabel": "sed",
+  "FieldLeft": 553,
+  "FieldTop": 229,
   "FieldType": "Checkbox",
-  "FieldWidth": 531,
-  "FormatMask": "temporibus",
+  "FieldWidth": 305,
+  "FormatMask": "doloremque",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 212,
-  "LabelLeft": 643,
-  "LabelTop": 733,
-  "LabelWidth": 392,
-  "LastVersionId": 148,
-  "ListTableId": 799,
+  "LabelHeight": 792,
+  "LabelLeft": 23,
+  "LabelTop": 805,
+  "LabelWidth": 166,
+  "LastVersionId": 90,
+  "ListTableId": 472,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 331,
-  "ProgId": "aspernatur",
-  "IsReadOnly": false,
-  "ShortLabel": "consequatur",
-  "TabOrder": 752,
-  "TextLength": 659,
-  "Tooltip": "et",
-  "UdefIdentity": 522,
-  "UDListDefinitionId": 40,
+  "Page1LineNo": 990,
+  "ProgId": "sit",
+  "IsReadOnly": true,
+  "ShortLabel": "nam",
+  "TabOrder": 474,
+  "TextLength": 313,
+  "Tooltip": "molestiae",
+  "UdefIdentity": 855,
+  "UDListDefinitionId": 688,
   "Justification": "Center",
-  "Version": 642,
-  "TemplateVariableName": "Sipes LLC",
-  "HasBeenPublished": false,
-  "MdoListName": "Blick, Murphy and Kerluke",
+  "Version": 791,
+  "TemplateVariableName": "Pollich, Schmitt and Runolfsdottir",
+  "HasBeenPublished": true,
+  "MdoListName": "Cassin Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 611
+      "FieldLength": 838
     }
   }
 }

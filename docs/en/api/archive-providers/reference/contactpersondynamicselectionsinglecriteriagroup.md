@@ -118,14 +118,15 @@ Contact + Person selection archive using the selectionId as criterionmapping.
 |contactAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |contactAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |contactAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|contactAssociate/usergroupId|int|Group ID: The user's primary user group| x |
 |contactAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |contactAssociate/contactCategory|listAny|Category: Category| x |
 |contactAssociate/role|listAny|Role : Role| x |
-|contactAssociate/assocName|associate|User ID : User ID| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contactAssociate/assocName|associate|User ID : User ID| x |
 |contactAssociate/assocTooltip|string|Description : Description|  |
 |contactAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |contactAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
@@ -157,6 +158,7 @@ Contact + Person selection archive using the selectionId as criterionmapping.
 |contactUdef/SuperOffice:12|listAny|Udlist one: Static tooltip for udlist one| x |
 |contactUdef/SuperOffice:13|listAny|Udlist two: Static tooltip for udlist two| x |
 |contactExtra/x\_contact\_integer|int|Extra Integer: Custom integer field| x |
+|contactExtra/x\_contact\_hidden\_integer|int|Extra hidden integer: Custom integer field - hidden| x |
 |contactExtra/x\_contact\_default\_integer|int|Extra Default Integer: Custom integer field with default value 123.| x |
 |contactExtra/x\_contact\_float|decimal|Extra Float: Custom float field with 3 decimals| x |
 |contactExtra/x\_contact\_longtext|string|Extra LongText: Custom long text field. DO not keep HTML. 3 Line text area editor| x |
@@ -224,12 +226,12 @@ Contact + Person selection archive using the selectionId as criterionmapping.
 |sourceRelation/registeredBy|associate|Source - Registered by: The user who registered the data| x |
 |sourceRelation/registeredByFullName|associate|Source - Registered by - Full name: The user who registered the data| x |
 |sourceRelation/registeredDate|date|Source - Registered date: The date/time the data was registered in UTC.| x |
-|sourceRelation/contactSource|listAny|Source - Source: Source (Company)| x |
-|sourceRelation/contactDeleted|bool|Source - Deleted: Deleted| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|sourceRelation/contactSource|listAny|Source - Source: Source (Company)| x |
+|sourceRelation/contactDeleted|bool|Source - Deleted: Deleted| x |
 |sourceRelation/activeErpLinks|bool|Source - ERP connected: Is there an active ERP Sync?| x |
 |sourceRelation/deletedDate|datetime|Source - Deleted date: Deleted date|  |
 |sourceRelation/mainContact| *None* |Source - Main contact: Main contact for this company| x |
@@ -328,12 +330,12 @@ Contact + Person selection archive using the selectionId as criterionmapping.
 |sale/salePublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |sale/salePublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
 |sale/salePublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
-|sale/salePublish/publishedBy| *None* |Published by: Published by|  |
-|sale/associate/firstName|string|First name: Displays the contact's first name| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|sale/salePublish/publishedBy| *None* |Published by: Published by|  |
+|sale/associate/firstName|string|First name: Displays the contact's first name| x |
 |sale/associate/lastName|string|Last name: Displays the contact's last name| x |
 |sale/associate/middleName|string|Middle Name : Displays the contact's middle name.| x |
 |sale/associate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
@@ -345,6 +347,7 @@ Contact + Person selection archive using the selectionId as criterionmapping.
 |sale/associate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |sale/associate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |sale/associate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|sale/associate/usergroupId|int|Group ID: The user's primary user group| x |
 |sale/associate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |sale/associate/contactCategory|listAny|Category: Category| x |
 |sale/associate/role|listAny|Role : Role| x |
@@ -431,13 +434,13 @@ Contact + Person selection archive using the selectionId as criterionmapping.
 |appointment/appointmentUdef/SuperOffice:8|decimal|followupdecimal| x |
 |appointment/associate/firstName|string|First name: Displays the contact's first name| x |
 |appointment/associate/lastName|string|Last name: Displays the contact's last name| x |
-|appointment/associate/middleName|string|Middle Name : Displays the contact's middle name.| x |
-|appointment/associate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
-|appointment/associate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|appointment/associate/middleName|string|Middle Name : Displays the contact's middle name.| x |
+|appointment/associate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
+|appointment/associate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
 |appointment/associate/personId|int|Contact ID: Database ID of the contact row|  |
 |appointment/associate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |appointment/associate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
@@ -445,6 +448,7 @@ Contact + Person selection archive using the selectionId as criterionmapping.
 |appointment/associate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |appointment/associate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |appointment/associate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|appointment/associate/usergroupId|int|Group ID: The user's primary user group| x |
 |appointment/associate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |appointment/associate/contactCategory|listAny|Category: Category| x |
 |appointment/associate/role|listAny|Role : Role| x |
@@ -524,6 +528,7 @@ Contact + Person selection archive using the selectionId as criterionmapping.
 |document/associate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |document/associate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |document/associate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|document/associate/usergroupId|int|Group ID: The user's primary user group| x |
 |document/associate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |document/associate/contactCategory|listAny|Category: Category| x |
 |document/associate/role|listAny|Role : Role| x |
@@ -533,15 +538,15 @@ Contact + Person selection archive using the selectionId as criterionmapping.
 |document/associate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |document/associate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
 |document/associate/ejDisplayName|string|Nick name: User's nick name in Service| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |document/associate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |document/associate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |document/associate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
 |document/associate/isActive|bool|Active: Is this user active, and should be able to log in?| x |
 |document/associate/isActiveText|bool|Active status: Is this user active, and should be able to log in?| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |document/associate/portraitThumbnail| *None* |Person image: Person image|  |
 |document/associate/otherGroups|userGroup|Other groups: Other groups|  |
 |document/associate/userName|string|User name: User name| x |
@@ -637,15 +642,15 @@ Contact + Person selection archive using the selectionId as criterionmapping.
 |personAddress/city|string|Contact address - City: This criterion corresponds to the City field on the Company card.| x |
 |personAddress/zip|string|Contact address - Postcode: This criterion corresponds to the Zip Code field on the Company card.| x |
 |personAddress/state|string|Contact address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |personAddress/wgs84latitude|decimal|Contact address - Latitude: Latitude| x |
 |personAddress/wgs84longitude|decimal|Contact address - Longitude: Longitude| x |
 |personAddress/formattedAddress| *None* |Contact address - {formattedAddress}: {formattedAddress}|  |
 |personAddress/formattedMultiLineAddress| *None* |Contact address - {formattedAddress}: {formattedAddress}|  |
 |personInterestIds|listInterest|Contact interest: This criterion corresponds to a contact's interests.  It is available via the Contact dialog's Interests tab.|  |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |personUdef/SuperOffice:1|string|contactshorttext: tooltipshorttext| x |
 |personUdef/SuperOffice:2|string|contactlongtext: tooltiplongtext| x |
 |personUdef/SuperOffice:3|int|contactnumber| x |
@@ -658,6 +663,7 @@ Contact + Person selection archive using the selectionId as criterionmapping.
 |personUdef/SuperOffice:10|string|page1marketingonly| x |
 |personUdef/SuperOffice:11|string|page1adminonly| x |
 |personExtra/x\_person\_integer|int|Extra Integer: Custom person integer| x |
+|personExtra/x\_person\_hidden\_integer|int|Extra hidden integer: Custom integer field that is hidden| x |
 |personExtra/x\_person\_float|decimal|Extra float: Custom float field| x |
 |personExtra/x\_person\_longtext|string|Extra Long Text: Custom long text field on person, keep HTML tags. Simple input, not text area. Default value = 'Hello there'| x |
 |personExtra/x\_person\_date|date|Extra date: Custom date field on person. Default value = 28.03.2019| x |
@@ -740,16 +746,16 @@ Contact + Person selection archive using the selectionId as criterionmapping.
 |personTargetRelation/middleName|string|Target - Middle name: Displays the contact's middle name.| x |
 |personTargetRelation/fullName|stringorPK|Target - Contact: Displays the contact to which an item is linked| x |
 |personTargetRelation/contactId|int|Target - Company ID: Database ID of company| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |personTargetRelation/hasInfoText|bool|Target - Has note: Displays an icon indicating if there is additional information available about the contact| x |
 |personTargetRelation/hasInterests|bool|Target - Has interests: Displays an Icon indicating if the contact has active interests| x |
 |personTargetRelation/personHasInterests|bool|Target - Has interests: Displays an Icon indicating if the contact has active interests| x |
 |personTargetRelation/mrMrs|string|Target - Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |personTargetRelation/position|listAny|Target - Position| x |
 |personTargetRelation/personNumber|string|Target - Number: Displays the contact's number| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |personTargetRelation/title|string|Target - Title: Displays the contact's job title| x |
 |personTargetRelation/personCountry|listAny|Target - Country: Country| x |
 |personTargetRelation/personCountryId|int|Target - Country ID: Country ID| x |
@@ -806,6 +812,7 @@ Contact + Person selection archive using the selectionId as criterionmapping.
 |personAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |personAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |personAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|personAssociate/usergroupId|int|Group ID: The user's primary user group| x |
 |personAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |personAssociate/contactCategory|listAny|Category: Category| x |
 |personAssociate/role|listAny|Role : Role| x |
@@ -838,10 +845,15 @@ Contact + Person selection archive using the selectionId as criterionmapping.
 |correspondingAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |correspondingAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |correspondingAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|correspondingAssociate/usergroupId|int|Group ID: The user's primary user group| x |
 |correspondingAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |correspondingAssociate/contactCategory|listAny|Category: Category| x |
 |correspondingAssociate/role|listAny|Role : Role| x |
 |correspondingAssociate/assocName|associate|User ID : User ID| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |correspondingAssociate/assocTooltip|string|Description : Description|  |
 |correspondingAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |correspondingAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
@@ -850,10 +862,6 @@ Contact + Person selection archive using the selectionId as criterionmapping.
 |correspondingAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |correspondingAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |correspondingAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |correspondingAssociate/isActive|bool|Active: Is this user active, and should be able to log in?| x |
 |correspondingAssociate/isActiveText|bool|Active status: Is this user active, and should be able to log in?| x |
 |correspondingAssociate/portraitThumbnail| *None* |Person image: Person image|  |
@@ -935,6 +943,7 @@ Contact + Person selection archive using the selectionId as criterionmapping.
 |request/createdBy/contactName|string|Created by - Owning company: Name of the company the user belongs to| x |
 |request/createdBy/contactDepartment|string|Created by - Owning department: Name of the department at the company the user belongs to| x |
 |request/createdBy/usergroup|userGroup|Created by - Primary group: The user's primary user group| x |
+|request/createdBy/usergroupId|int|Created by - Group ID: The user's primary user group| x |
 |request/createdBy/contactFullName|string|Created by - Owner: Name and department of the company the user belongs to| x |
 |request/createdBy/contactCategory|listAny|Created by - Category: Category| x |
 |request/createdBy/role|listAny|Created by - Role: Role| x |
@@ -945,6 +954,10 @@ Contact + Person selection archive using the selectionId as criterionmapping.
 |request/createdBy/simultaneousEjUser|bool|Created by - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
 |request/createdBy/ejDisplayName|string|Created by - Nick name: User's nick name in Service| x |
 |request/createdBy/ejStatus|int|Created by - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |request/createdBy/credentialType| *None* |Created by - Auth. type: What type of credentials to use when this user logs in| x |
 |request/createdBy/credentialDisplayValue| *None* |Created by - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
 |request/createdBy/isActive|bool|Created by - Active: Is this user active, and should be able to log in?| x |
@@ -954,10 +967,6 @@ Contact + Person selection archive using the selectionId as criterionmapping.
 |request/createdBy/userName|string|Created by - User name: User name| x |
 |request/createdBy/personEmail|string|Created by - E-mail| x |
 |request/createdBy/locationAddress|string|Created by - Location: Location| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |request/createdBy/isLocation|bool|Created by - Is a location: Is a location| x |
 |request/ownedBy/firstName|string|Owner - First name: Displays the contact's first name| x |
 |request/ownedBy/lastName|string|Owner - Last name: Displays the contact's last name| x |
@@ -971,6 +980,7 @@ Contact + Person selection archive using the selectionId as criterionmapping.
 |request/ownedBy/contactName|string|Owner - Owning company: Name of the company the user belongs to| x |
 |request/ownedBy/contactDepartment|string|Owner - Owning department: Name of the department at the company the user belongs to| x |
 |request/ownedBy/usergroup|userGroup|Owner - Primary group: The user's primary user group| x |
+|request/ownedBy/usergroupId|int|Owner - Group ID: The user's primary user group| x |
 |request/ownedBy/contactFullName|string|Owner - Owner: Name and department of the company the user belongs to| x |
 |request/ownedBy/contactCategory|listAny|Owner - Category: Category| x |
 |request/ownedBy/role|listAny|Owner - Role: Role| x |
@@ -1001,6 +1011,7 @@ Contact + Person selection archive using the selectionId as criterionmapping.
 |request/extra/x\_ticket\_timespan|timeSpan|Extra timespan: Custom timespan field on Request. Default = 1 hr 25 minutes. Show in props| x |
 |request/extra/x\_ticket\_short\_text|string|Extra short text: Custom short text field on Request. Do not keep HTML tags. Display on new request| x |
 |request/extra/x\_ticket\_shorttext\_list|listAny|Extra Dropdown: Custom short text with list for Request Pink, Orange, Yellow, Polkadot| x |
+|request/extra/x\_ticket\_timestamp|datetime|Extra timestamp: Custom date time field on ticket with default = current date + time. Field cannot change. Hide field| x |
 |request/extra/x\_ticket\_project\_relation|stringorPK|Extra project: Custom project relation on Request| x |
 |request/extra/x\_ticket\_faq|stringorPK|Extra FAQ Relation| x |
 |request/extra/x\_ticket\_category\_relation|listAny|Extra category relation: Category relation on request| x |
@@ -1047,21 +1058,22 @@ Contact + Person selection archive using the selectionId as criterionmapping.
 |projectMembers/projectAssociate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
 |projectMembers/projectAssociate/personId|int|Contact ID: Database ID of the contact row|  |
 |projectMembers/projectAssociate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |projectMembers/projectAssociate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
 |projectMembers/projectAssociate/associateDbId|associate|ID| x |
 |projectMembers/projectAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |projectMembers/projectAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |projectMembers/projectAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|projectMembers/projectAssociate/usergroupId|int|Group ID: The user's primary user group| x |
 |projectMembers/projectAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |projectMembers/projectAssociate/contactCategory|listAny|Category: Category| x |
 |projectMembers/projectAssociate/role|listAny|Role : Role| x |
 |projectMembers/projectAssociate/assocName|associate|User ID : User ID| x |
 |projectMembers/projectAssociate/assocTooltip|string|Description : Description|  |
 |projectMembers/projectAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |projectMembers/projectAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |projectMembers/projectAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
 |projectMembers/projectAssociate/ejDisplayName|string|Nick name: User's nick name in Service| x |
@@ -1150,6 +1162,10 @@ Contact + Person selection archive using the selectionId as criterionmapping.
 |personAppointment/isMilestone|bool|Milestone: Shows whether or not the follow-ups in this row are milestones| x |
 |personAppointment/invitedPersonId|int|ID of invited person: appointment.invitedpersonid record - utility for rd| x |
 |personAppointment/recordTypeText|listAny|Activity type: The type of the activity (appointment, phone call, etc)| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |personAppointment/joinVideomeetUrl| *None* |Video meeting URL: URL for joining the video meeting| x |
 |personAppointment/duration|timeSpan|Duration: The duration of the chat session|  |
 |personAppointment/createdByWorkflow|listAny|Created by flow: Created by flow| x |
@@ -1162,10 +1178,6 @@ Contact + Person selection archive using the selectionId as criterionmapping.
 |personAppointment/appointmentUdef/SuperOffice:2|string|followuplongtext| x |
 |personAppointment/appointmentUdef/SuperOffice:3|int|followupnumber| x |
 |personAppointment/appointmentUdef/SuperOffice:4|date|followupdate| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |personAppointment/appointmentUdef/SuperOffice:5|unlimitedDate|followupunlimiteddate| x |
 |personAppointment/appointmentUdef/SuperOffice:6|bool|followupcheckbox| x |
 |personAppointment/appointmentUdef/SuperOffice:7|listAny|followupdropdownlistbox| x |
@@ -1182,6 +1194,7 @@ Contact + Person selection archive using the selectionId as criterionmapping.
 |personAppointment/associate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |personAppointment/associate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |personAppointment/associate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|personAppointment/associate/usergroupId|int|Group ID: The user's primary user group| x |
 |personAppointment/associate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |personAppointment/associate/contactCategory|listAny|Category: Category| x |
 |personAppointment/associate/role|listAny|Role : Role| x |
@@ -1253,6 +1266,10 @@ Contact + Person selection archive using the selectionId as criterionmapping.
 |workflowInstance/emailFlow/emailFlowHierarchyId|int|Hierarchy ID: Foreign key to hierarchy table| x |
 |workflowInstance/emailFlow/shipmentType|listAny|Mailing type: Mailing type this e-mail flow represents| x |
 |workflowInstance/emailFlow/overrideConsentSubscription|bool|Override consent: Should consent subscriptions be overridden for this flow?| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |workflowInstance/emailFlow/thumbnail| *None* |Thumbnail|  |
 |workflowInstance/emailFlow/mediumThumbnail| *None* |Thumbnail|  |
 |workflowInstance/emailFlow/workflowId|int|Flow id: Id of a flow definition| x |
@@ -1266,10 +1283,6 @@ Contact + Person selection archive using the selectionId as criterionmapping.
 |workflowInstance/emailFlow/workflowInProgressCount| *None* |In progress: How many participants are in progress|  |
 |workflowInstance/emailFlow/workflowCompletedCount| *None* |Completed: How many participants are completed|  |
 |workflowInstance/emailFlow/workflowSucceededCount| *None* |Succeeded: How many participants have successfully completed the flow (goal criteria met)?|  |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |workflowInstance/emailFlow/workflowSuccessRate| *None* |Success rate: Success rate, based on goals criteria met|  |
 |workflowInstance/emailFlow/updatedBy|associate|Updated by: The user who last updated the data| x |
 |workflowInstance/emailFlow/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
@@ -1357,6 +1370,10 @@ Contact + Person selection archive using the selectionId as criterionmapping.
 |sale/quote/version/alternative/quoteline/rank|int|Rank: Shows the rank of a product| x |
 |sale/quote/version/alternative/quoteline/quantity|decimal|Quantity: The quantity that is offered| x |
 |sale/quote/version/alternative/quoteline/name|string|Name: The name of the product that is being offered.  This name can be changed to accommodate the customer's needs.| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |sale/quote/version/alternative/quoteline/description|string|Description: Description of the product that is offered| x |
 |sale/quote/version/alternative/quoteline/code|string|Code: The product or article code. This code is created to help you quickly find products you offer regularly.| x |
 |sale/quote/version/alternative/quoteline/quantityUnit|string|Unit: The unit of the product that is offered.| x |
@@ -1370,10 +1387,6 @@ Contact + Person selection archive using the selectionId as criterionmapping.
 |sale/quote/version/alternative/quoteline/vatInfo|string|VAT info: | x |
 |sale/quote/version/alternative/quoteline/vat|decimal|VAT: May be filled out by the ERP system| x |
 |sale/quote/version/alternative/quoteline/unitCost|decimal|Cost: Cost per item.| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |sale/quote/version/alternative/quoteline/unitMinimumPrice|decimal|Unit minimum price: Minimum price per item. Users are not allowed to send quotes with prices lower than the minimum price.| x |
 |sale/quote/version/alternative/quoteline/unitListPrice|decimal|List price: List price of a unit| x |
 |sale/quote/version/alternative/quoteline/totalPrice|decimal|Total: List price * Quantity - Discount Amount| x |
@@ -1402,7 +1415,7 @@ Contact + Person selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactPersonDynamicSelectionSingleCriteriaGroup?$select=sale/associate/ejStatus,appointment/associate/middleName,document/who,personMobilePhone/description,personExtra/x_person_category_relation
+GET /api/v1/archive/ContactPersonDynamicSelectionSingleCriteriaGroup?$select=contactAssociate/usergroupId,contactAssociate/ejUserId,NumberOfSalesInPeriod,LastTicket,sale/personId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

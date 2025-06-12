@@ -125,18 +125,18 @@ PreferenceDescription  updated.
 PATCH /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "suscipit",
+    "path": "eligendi",
     "value": {}
   },
   {
     "op": "add",
-    "path": "suscipit",
+    "path": "eligendi",
     "value": {}
   }
 ]
@@ -149,35 +149,35 @@ HTTP/1.1 200 PreferenceDescription  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 565,
-  "Section": "adipisci",
-  "Key": "omnis",
-  "Name": "Hintz, Stiedemann and Spinka",
+  "PrefDescId": 474,
+  "Section": "doloremque",
+  "Key": "nam",
+  "Name": "Kunze-Cronin",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Multi-layered context-sensitive approach",
+  "Description": "Realigned homogeneous knowledge user",
   "IsBuiltin": false,
-  "TableName": "Gutkowski-Price",
-  "UserDefinedListId": 567,
-  "Rank": 886,
-  "SubGroup": "est",
-  "MinLevel": 56,
-  "MaxValue": 474,
-  "MinValue": 173,
-  "RequiredLicense": "nihil",
+  "TableName": "Abernathy Group",
+  "UserDefinedListId": 301,
+  "Rank": 30,
+  "SubGroup": "exercitationem",
+  "MinLevel": 503,
+  "MaxValue": 508,
+  "MinValue": 12,
+  "RequiredLicense": "vero",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 543
+      "FieldLength": 729
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

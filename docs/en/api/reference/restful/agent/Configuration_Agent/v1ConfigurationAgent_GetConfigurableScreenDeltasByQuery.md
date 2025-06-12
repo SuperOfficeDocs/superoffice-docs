@@ -101,28 +101,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConfigurableScreenDeltaId": 813,
-    "Name": "Turner, Stehr and Hamill",
-    "Description": "Monitored zero tolerance interface",
-    "DeltaJson": "rerum",
+    "ConfigurableScreenDeltaId": 641,
+    "Name": "Doyle-Zieme",
+    "Description": "Programmable dynamic utilisation",
+    "DeltaJson": "ab",
     "DeltaType": "CustomFields",
     "DeltaState": "Draft",
-    "RecipeId": "veniam",
-    "UpdatedDate": "2003-06-24T16:32:38.3834375+02:00",
-    "CreatedDate": "2009-04-10T16:32:38.3834375+02:00",
+    "RecipeId": "ipsum",
+    "UpdatedDate": "2001-03-24T17:54:02.8202276+01:00",
+    "CreatedDate": "2007-04-28T17:54:02.8202276+02:00",
     "UpdatedBy": null,
     "CreatedBy": null,
     "AppliesToIds": [
-      261,
-      822
+      789,
+      289
     ],
-    "AppliesToKey": "labore",
+    "AppliesToKey": "facere",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 733
+        "FieldLength": 85
       }
     }
   }

@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/EMail/Send
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -118,18 +118,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "Subject": "enim",
-      "HTMLBody": "quae",
+      "Subject": "recusandae",
+      "HTMLBody": "libero",
       "From": null,
-      "Sent": "2000-03-30T16:32:38.9301889+02:00",
-      "Size": 195,
+      "Sent": "2019-02-19T17:54:03.0389604+01:00",
+      "Size": 859,
       "Priority": "High",
       "Flags": "Answered",
-      "MessageID": "omnis",
-      "PlainBody": "tempora",
+      "MessageID": "et",
+      "PlainBody": "nobis",
       "IsSent": false,
       "EMailSOInfo": null,
-      "ServerId": 418,
+      "ServerId": 628,
       "Attachments": [
         {},
         {}
@@ -138,12 +138,12 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "FolderName": "Stokes, Armstrong and Denesik",
-      "EmailItemId": 995,
-      "AccountId": 841,
-      "ReceivedAt": "2005-10-08T16:32:38.9301889+02:00",
+      "FolderName": "Crona-Prosacco",
+      "EmailItemId": 595,
+      "AccountId": 459,
+      "ReceivedAt": "2012-10-05T17:54:03.0389604+02:00",
       "InReplyTo": null,
-      "RepliedAt": "2001-03-19T16:32:38.9301889+01:00",
+      "RepliedAt": "2018-03-21T17:54:03.0389604+01:00",
       "HasCalendarData": false,
       "CalMethod": "Add",
       "CalReplyStatus": "Accepted"
@@ -162,147 +162,147 @@ Content-Type: application/json; charset=utf-8
   {
     "To": [
       {
-        "ContactId": 95,
-        "ContactName": "Schowalter Group",
-        "PersonId": 583,
-        "PersonName": "Tremblay-Walsh",
-        "AssociateId": 87,
-        "Address": "dolorum",
-        "EmailId": 950,
+        "ContactId": 771,
+        "ContactName": "Tromp, Hessel and Nolan",
+        "PersonId": 661,
+        "PersonName": "Block-Littel",
+        "AssociateId": 836,
+        "Address": "maiores",
+        "EmailId": 954,
         "DuplicatePersonIds": [
-          677,
-          371
+          628,
+          141
         ],
-        "Name": "Hessel, Hoeger and Kub",
+        "Name": "White-Lockman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 629
+            "FieldType": "System.String",
+            "FieldLength": 916
           }
         }
       }
     ],
     "Cc": [
       {
-        "ContactId": 855,
-        "ContactName": "Lehner LLC",
-        "PersonId": 286,
-        "PersonName": "Kilback-Stroman",
-        "AssociateId": 711,
-        "Address": "sapiente",
-        "EmailId": 873,
+        "ContactId": 679,
+        "ContactName": "Schultz Inc and Sons",
+        "PersonId": 725,
+        "PersonName": "Stamm, Yost and Watsica",
+        "AssociateId": 472,
+        "Address": "et",
+        "EmailId": 585,
         "DuplicatePersonIds": [
-          368,
-          198
+          760,
+          997
         ],
-        "Name": "Orn LLC",
+        "Name": "Schultz LLC",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 287
+            "FieldLength": 666
           }
         }
       }
     ],
     "Bcc": [
       {
-        "ContactId": 559,
-        "ContactName": "Kunde Group",
-        "PersonId": 159,
-        "PersonName": "Lang-Yundt",
-        "AssociateId": 462,
+        "ContactId": 519,
+        "ContactName": "Pagac LLC",
+        "PersonId": 42,
+        "PersonName": "Luettgen Group",
+        "AssociateId": 262,
         "Address": "minima",
-        "EmailId": 71,
+        "EmailId": 631,
         "DuplicatePersonIds": [
-          314,
-          741
+          61,
+          853
         ],
-        "Name": "Jacobson Group",
+        "Name": "Vandervort Inc and Sons",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 49
+            "FieldLength": 560
           }
         }
       }
     ],
-    "Subject": "quia",
-    "HTMLBody": "ea",
+    "Subject": "voluptates",
+    "HTMLBody": "repudiandae",
     "From": null,
-    "Sent": "2013-01-08T16:32:38.9301889+01:00",
-    "Size": 868,
+    "Sent": "2025-01-31T17:54:03.0389604+01:00",
+    "Size": 635,
     "Priority": "High",
     "Flags": "Answered",
-    "MessageID": "blanditiis",
-    "PlainBody": "distinctio",
+    "MessageID": "et",
+    "PlainBody": "fugiat",
     "IsSent": false,
     "EMailSOInfo": null,
-    "ServerId": 944,
+    "ServerId": 896,
     "Attachments": [
       {
-        "Description": "Diverse system-worthy website",
-        "Filename": "ab",
-        "Size": 543,
-        "Type": "nobis",
-        "Encoding": "dolore",
-        "Id": "iure",
-        "Disposition": "voluptatem",
-        "IsSafeFileExtension": true,
+        "Description": "Persistent local moratorium",
+        "Filename": "quia",
+        "Size": 767,
+        "Type": "voluptas",
+        "Encoding": "consequatur",
+        "Id": "accusantium",
+        "Disposition": "iusto",
+        "IsSafeFileExtension": false,
         "Stream": "GIF89....File contents as raw bytes...",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 395
+            "FieldLength": 281
           }
         }
       }
     ],
     "CustomHeaderList": [
       {
-        "Name": "Thompson, Schultz and Gaylord",
+        "Name": "Doyle-Lehner",
         "Values": [
-          "assumenda",
-          "quasi"
+          "officiis",
+          "soluta"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 222
+            "FieldLength": 28
           }
         }
       },
       {
-        "Name": "Thompson, Schultz and Gaylord",
+        "Name": "Doyle-Lehner",
         "Values": [
-          "assumenda",
-          "quasi"
+          "officiis",
+          "soluta"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 222
+            "FieldLength": 28
           }
         }
       }
     ],
-    "FolderName": "Schulist-Dare",
-    "EmailItemId": 723,
-    "AccountId": 731,
-    "ReceivedAt": "2006-08-14T16:32:38.9301889+02:00",
+    "FolderName": "Haley LLC",
+    "EmailItemId": 971,
+    "AccountId": 71,
+    "ReceivedAt": "2005-07-20T17:54:03.054585+02:00",
     "InReplyTo": null,
-    "RepliedAt": "2023-01-13T16:32:38.9301889+01:00",
+    "RepliedAt": "2023-11-15T17:54:03.054585+01:00",
     "HasCalendarData": false,
     "CalMethod": "Add",
     "CalReplyStatus": "Accepted",
@@ -311,7 +311,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 116
+        "FieldLength": 508
       }
     }
   }

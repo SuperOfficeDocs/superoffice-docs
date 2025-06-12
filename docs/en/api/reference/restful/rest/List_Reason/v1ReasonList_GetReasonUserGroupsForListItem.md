@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Reason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 785,
-    "Name": "Will, Durgan and Zboncak",
-    "ToolTip": "Iure nemo est dolor corrupti.",
+    "Id": 930,
+    "Name": "Wiza, Dickens and Cronin",
+    "ToolTip": "Nihil facere.",
     "Deleted": true,
-    "Rank": 174,
-    "Type": "praesentium",
-    "ColorBlock": 316,
-    "IconHint": "in",
+    "Rank": 327,
+    "Type": "qui",
+    "ColorBlock": 731,
+    "IconHint": "saepe",
     "Selected": false,
-    "LastChanged": "2012-05-19T16:32:48.8994739+02:00",
+    "LastChanged": "2012-02-03T17:54:09.0858036+01:00",
     "ChildItems": [
       {
-        "Id": 611,
-        "Name": "Kreiger, Dach and Toy",
-        "ToolTip": "Adipisci impedit.",
-        "Deleted": false,
-        "Rank": 723,
-        "Type": "nihil",
-        "ColorBlock": 563,
-        "IconHint": "pariatur",
+        "Id": 37,
+        "Name": "Kub, Daugherty and Buckridge",
+        "ToolTip": "Mollitia impedit fuga et ut asperiores.",
+        "Deleted": true,
+        "Rank": 969,
+        "Type": "distinctio",
+        "ColorBlock": 373,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2025-04-23T16:32:48.8994739+02:00",
+        "LastChanged": "2022-12-31T17:54:09.0858036+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "reprehenderit",
-        "StyleHint": "ducimus",
-        "Hidden": false,
-        "FullName": "Winnifred West",
+        "ExtraInfo": "esse",
+        "StyleHint": "assumenda",
+        "Hidden": true,
+        "FullName": "Devon Hudson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 195
+            "FieldLength": 989
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "maxime",
+    "ExtraInfo": "tempore",
+    "StyleHint": "laudantium",
     "Hidden": false,
-    "FullName": "Ms. Rosina Ratke",
+    "FullName": "Malachi Lubowitz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 600
+        "FieldType": "System.String",
+        "FieldLength": 796
       }
     }
   }

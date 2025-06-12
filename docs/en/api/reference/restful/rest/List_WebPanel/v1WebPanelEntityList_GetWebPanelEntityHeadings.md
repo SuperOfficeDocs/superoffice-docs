@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/WebPanel/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 707,
-    "Name": "Koepp, Zemlak and Cronin",
-    "Tooltip": "magni",
+    "HeadingId": 665,
+    "Name": "Stanton-Toy",
+    "Tooltip": "quod",
     "Deleted": false,
-    "Rank": 542,
-    "UdListDefinitionId": 570,
+    "Rank": 320,
+    "UdListDefinitionId": 787,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 330
+        "FieldType": "System.String",
+        "FieldLength": 377
       }
     }
   }

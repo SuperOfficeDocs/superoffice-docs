@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/List/GetLanguageInfoList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,19 +87,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageInfoId": 707,
-    "LCID": 637,
-    "EnglishName": "Hoppe, Becker and Schumm",
-    "NativeName": "Cummings Group",
-    "ThreeLetterISOLanguageName": "Pagac, Schmidt and Beier",
-    "TwoLetterISOLanguageName": "Grimes LLC",
-    "IsBuiltIn": false,
+    "LanguageInfoId": 76,
+    "LCID": 323,
+    "EnglishName": "McCullough, Sporer and Robel",
+    "NativeName": "Collier, Jacobson and White",
+    "ThreeLetterISOLanguageName": "Mayer Group",
+    "TwoLetterISOLanguageName": "Farrell-Lehner",
+    "IsBuiltIn": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 556
+        "FieldLength": 900
       }
     }
   }

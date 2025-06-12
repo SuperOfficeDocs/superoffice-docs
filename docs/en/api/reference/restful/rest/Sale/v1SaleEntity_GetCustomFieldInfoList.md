@@ -68,7 +68,7 @@ OK
 GET /api/v1/Sale/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -80,19 +80,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Cole, Stoltenberg and Considine",
-    "DisplayName": "Dach Group",
-    "Description": "Robust object-oriented circuit",
-    "ShortLabel": "perspiciatis",
-    "HideLabel": true,
+    "FieldName": "Gleason, Zulauf and Oberbrunner",
+    "DisplayName": "Schmitt-Romaguera",
+    "Description": "Profit-focused intangible info-mediaries",
+    "ShortLabel": "qui",
+    "HideLabel": false,
     "HideField": false,
-    "IsIndexed": false,
+    "IsIndexed": true,
     "IsMandatory": false,
-    "IsReadOnly": false,
+    "IsReadOnly": true,
     "IsExternal": false,
-    "IsDisplayField": false,
-    "Rank": 748,
-    "TemplateVariableName": "Ledner, Treutel and Von"
+    "IsDisplayField": true,
+    "Rank": 464,
+    "TemplateVariableName": "Flatley, Streich and Torphy"
   }
 ]
 ```

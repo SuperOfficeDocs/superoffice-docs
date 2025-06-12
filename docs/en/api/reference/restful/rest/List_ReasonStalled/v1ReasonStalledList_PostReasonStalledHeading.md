@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ReasonStalled/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 344,
-  "Name": "McGlynn Group",
-  "Tooltip": "quae",
+  "HeadingId": 323,
+  "Name": "Lockman Group",
+  "Tooltip": "eos",
   "Deleted": false,
-  "Rank": 533,
-  "UdListDefinitionId": 330
+  "Rank": 322,
+  "UdListDefinitionId": 403
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 892,
-  "Name": "Swift-Pagac",
-  "Tooltip": "aut",
-  "Deleted": false,
-  "Rank": 897,
-  "UdListDefinitionId": 325,
+  "HeadingId": 264,
+  "Name": "Steuber Group",
+  "Tooltip": "sit",
+  "Deleted": true,
+  "Rank": 514,
+  "UdListDefinitionId": 355,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 492
+      "FieldType": "System.Int32",
+      "FieldLength": 235
     }
   }
 }

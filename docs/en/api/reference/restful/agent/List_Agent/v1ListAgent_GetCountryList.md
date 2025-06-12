@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/List/GetCountryList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -98,30 +98,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 215,
-    "Name": "Emard LLC",
-    "CurrencyId": 227,
-    "EnglishName": "Cronin, Kirlin and Ratke",
+    "CountryId": 893,
+    "Name": "Bauch, Dare and Murazik",
+    "CurrencyId": 787,
+    "EnglishName": "Hane Inc and Sons",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Multi-lateral content-based firmware",
-    "OrgNrText": "414174",
-    "InterAreaPrefix": "quasi",
-    "DialInPrefix": "velit",
-    "ZipPrefix": "eveniet",
-    "DomainName": "Miller-Murazik",
-    "AddressLayoutId": 801,
-    "DomesticAddressLayoutId": 345,
-    "ForeignAddressLayoutId": 624,
-    "Rank": 915,
-    "Tooltip": "commodi",
+    "ImageDescription": "Devolved bi-directional solution",
+    "OrgNrText": "348417",
+    "InterAreaPrefix": "sed",
+    "DialInPrefix": "quis",
+    "ZipPrefix": "assumenda",
+    "DomainName": "Douglas LLC",
+    "AddressLayoutId": 738,
+    "DomesticAddressLayoutId": 569,
+    "ForeignAddressLayoutId": 727,
+    "Rank": 62,
+    "Tooltip": "quasi",
     "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 577
+        "FieldType": "System.String",
+        "FieldLength": 92
       }
     }
   }

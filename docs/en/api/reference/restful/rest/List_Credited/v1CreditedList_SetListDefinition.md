@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/Credited
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 776,
-  "Name": "Stehr, Hansen and Adams",
-  "Tooltip": "minima",
-  "Deleted": true,
-  "Rank": 361,
-  "IsCustomList": false,
+  "Id": 778,
+  "Name": "Larson Inc and Sons",
+  "Tooltip": "sed",
+  "Deleted": false,
+  "Rank": 590,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "vitae",
-  "InUseByUserDefinedFields": true
+  "ListType": "tempore",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 10,
-  "Name": "Gulgowski Group",
-  "Tooltip": "quisquam",
+  "Id": 663,
+  "Name": "Breitenberg Inc and Sons",
+  "Tooltip": "eius",
   "Deleted": false,
-  "Rank": 701,
+  "Rank": 163,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "sit",
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "magnam",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 684
+      "FieldLength": 56
     }
   }
 }

@@ -149,6 +149,7 @@ the email_id.
 |contactAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |contactAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |contactAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|contactAssociate/usergroupId|int|Group ID: The user's primary user group| x |
 |contactAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |contactAssociate/contactCategory|listAny|Category: Category| x |
 |contactAssociate/role|listAny|Role : Role| x |
@@ -181,6 +182,7 @@ the email_id.
 |contactSupportAssociate/contactName|string|Our service contact - Owning company: Name of the company the user belongs to| x |
 |contactSupportAssociate/contactDepartment|string|Our service contact - Owning department: Name of the department at the company the user belongs to| x |
 |contactSupportAssociate/usergroup|userGroup|Our service contact - Primary group: The user's primary user group| x |
+|contactSupportAssociate/usergroupId|int|Our service contact - Group ID: The user's primary user group| x |
 |contactSupportAssociate/contactFullName|string|Our service contact - Owner: Name and department of the company the user belongs to| x |
 |contactSupportAssociate/contactCategory|listAny|Our service contact - Category: Category| x |
 |contactSupportAssociate/role|listAny|Our service contact - Role: Role| x |
@@ -230,12 +232,12 @@ the email_id.
 |contactSupportPerson/kanaLastName|string|User support contact - Last name, kana: Contact's last name, in kana alphabet| x |
 |contactSupportPerson/personUpdatedBy|associate|User support contact - Updated by: The user who last updated the data| x |
 |contactSupportPerson/personUpdatedByFullName|associate|User support contact - Updated by - Full name: The user who last updated the data| x |
-|contactSupportPerson/personUpdatedDate|date|User support contact - Updated: The date/time the data was last updated in UTC.| x |
-|contactSupportPerson/personRegisteredBy|associate|User support contact - Registered by: The user who registered the data| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contactSupportPerson/personUpdatedDate|date|User support contact - Updated: The date/time the data was last updated in UTC.| x |
+|contactSupportPerson/personRegisteredBy|associate|User support contact - Registered by: The user who registered the data| x |
 |contactSupportPerson/personRegisteredByFullName|associate|User support contact - Registered by - Full name: The user who registered the data| x |
 |contactSupportPerson/personRegisteredDate|date|User support contact - Registered date: The date/time the data was registered in UTC.| x |
 |contactSupportPerson/portraitThumbnail| *None* |User support contact - Person image: Person image|  |
@@ -270,6 +272,7 @@ the email_id.
 |contactSupportPerson/personUdef/SuperOffice:10|string|User support contact - page1marketingonly| x |
 |contactSupportPerson/personUdef/SuperOffice:11|string|User support contact - page1adminonly| x |
 |contactSupportPerson/personExtra/x\_person\_integer|int|User support contact - Extra Integer: Custom person integer| x |
+|contactSupportPerson/personExtra/x\_person\_hidden\_integer|int|User support contact - Extra hidden integer: Custom integer field that is hidden| x |
 |contactSupportPerson/personExtra/x\_person\_float|decimal|User support contact - Extra float: Custom float field| x |
 |contactSupportPerson/personExtra/x\_person\_longtext|string|User support contact - Extra Long Text: Custom long text field on person, keep HTML tags. Simple input, not text area. Default value = 'Hello there'| x |
 |contactSupportPerson/personExtra/x\_person\_date|date|User support contact - Extra date: Custom date field on person. Default value = 28.03.2019| x |
@@ -317,6 +320,7 @@ the email_id.
 |contactUdef/SuperOffice:12|listAny|Udlist one: Static tooltip for udlist one| x |
 |contactUdef/SuperOffice:13|listAny|Udlist two: Static tooltip for udlist two| x |
 |contactExtra/x\_contact\_integer|int|Extra Integer: Custom integer field| x |
+|contactExtra/x\_contact\_hidden\_integer|int|Extra hidden integer: Custom integer field - hidden| x |
 |contactExtra/x\_contact\_default\_integer|int|Extra Default Integer: Custom integer field with default value 123.| x |
 |contactExtra/x\_contact\_float|decimal|Extra Float: Custom float field with 3 decimals| x |
 |contactExtra/x\_contact\_longtext|string|Extra LongText: Custom long text field. DO not keep HTML. 3 Line text area editor| x |
@@ -332,14 +336,14 @@ the email_id.
 |contactExtra/x\_contact\_request\_relation|stringorPK|Extra Request relation: Request relation on company| x |
 |contactExtra/x\_contact\_contact|stringorPK|Extra contact relation: Contact relation on company| x |
 |contactExtra/y\_organization/x\_name|string|Organization - Name| x |
-|NumberOfActivities|int|Number of activities|  |
-|NumberOfActivitiesInPeriod|int|Number of activities in last 90 days|  |
-|NumberOfNotCompletedActivities|int|Number of non-completed activities|  |
-|NumberOfNotCompletedActivitiesInPeriod|int|Number of non-completed activities in last 90 days|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|NumberOfActivities|int|Number of activities|  |
+|NumberOfActivitiesInPeriod|int|Number of activities in last 90 days|  |
+|NumberOfNotCompletedActivities|int|Number of non-completed activities|  |
+|NumberOfNotCompletedActivitiesInPeriod|int|Number of non-completed activities in last 90 days|  |
 |LastActivity|date|Date of last activity|  |
 |LastCompletedActivity|date|Date of last completed activity|  |
 |LastDoByActivity|date|Date of last non-completed activity|  |
@@ -372,7 +376,7 @@ the email_id.
 ## Sample
 
 ```http!
-GET /api/v1/archive/emailcontactaddress?$select=restrictionPostalAddress/formattedAddress,contactSupportAssociate/locationAddress,NumberOfTickets,saintSaleStatus
+GET /api/v1/archive/emailcontactaddress?$select=emailProtocol,contactSupportAssociate/contactDepartment,contactSupportPerson/birthYear,contactSupportPerson/supportAssociateFullName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

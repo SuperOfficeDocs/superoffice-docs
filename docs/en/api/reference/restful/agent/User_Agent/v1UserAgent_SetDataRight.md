@@ -72,14 +72,14 @@ No Content
 POST /api/v1/Agents/User/SetDataRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 861,
-  "TableName": "Jast, Mitchell and Stoltenberg",
+  "RoleId": 114,
+  "TableName": "O'Connell Group",
   "RelationToOwner": "Anonymous",
-  "DataRightValue": "blanditiis"
+  "DataRightValue": "in"
 }
 ```
 

@@ -77,26 +77,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Cummings, Dach and Rowe",
-    "Records": 570,
+    "EntityName": "Dare, Towne and Altenwerth",
+    "Records": 705,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 700
+        "FieldLength": 857
       }
     }
   },
   {
-    "EntityName": "Cummings, Dach and Rowe",
-    "Records": 570,
+    "EntityName": "Dare, Towne and Altenwerth",
+    "Records": 705,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 700
+        "FieldLength": 857
       }
     }
   }

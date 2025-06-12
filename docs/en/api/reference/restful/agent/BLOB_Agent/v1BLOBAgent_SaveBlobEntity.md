@@ -87,23 +87,23 @@ OK
 POST /api/v1/Agents/BLOB/SaveBlobEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 358,
-  "BlobSize": 163,
-  "Description": "User-friendly bifurcated orchestration",
-  "ExtraInfo": "facilis",
+  "BlobId": 105,
+  "BlobSize": 116,
+  "Description": "Reverse-engineered background portal",
+  "ExtraInfo": "nisi",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "dignissimos",
-  "OriginalSize": 956,
-  "CreatedDate": "2004-08-24T16:32:38.2116027+02:00",
-  "UpdatedDate": "2008-01-24T16:32:38.2116027+01:00",
+  "MimeType": "adipisci",
+  "OriginalSize": 673,
+  "CreatedDate": "2020-03-31T17:54:02.6639794+02:00",
+  "UpdatedDate": "2009-06-21T17:54:02.6639794+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "dolorum"
+  "ConceptualType": "neque"
 }
 ```
 
@@ -114,25 +114,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 719,
-  "BlobSize": 530,
-  "Description": "Persistent system-worthy website",
-  "ExtraInfo": "voluptas",
+  "BlobId": 283,
+  "BlobSize": 30,
+  "Description": "Optimized fresh-thinking application",
+  "ExtraInfo": "tempore",
   "IsEncrypted": true,
-  "IsZipped": false,
-  "MimeType": "voluptatibus",
-  "OriginalSize": 680,
-  "CreatedDate": "2004-01-30T16:32:38.2116027+01:00",
-  "UpdatedDate": "2004-08-15T16:32:38.2116027+02:00",
+  "IsZipped": true,
+  "MimeType": "sed",
+  "OriginalSize": 122,
+  "CreatedDate": "2019-01-30T17:54:02.6639794+01:00",
+  "UpdatedDate": "2025-05-15T17:54:02.6639794+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "exercitationem",
+  "ConceptualType": "rerum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 99
+      "FieldLength": 849
     }
   }
 }

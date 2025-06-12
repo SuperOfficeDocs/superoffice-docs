@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Competitor/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 673,
-    "Name": "Luettgen LLC",
-    "Tooltip": "dolor",
+    "HeadingId": 357,
+    "Name": "Stiedemann Inc and Sons",
+    "Tooltip": "ut",
     "Deleted": false,
-    "Rank": 483,
-    "UdListDefinitionId": 350,
+    "Rank": 537,
+    "UdListDefinitionId": 704,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 566
+        "FieldType": "System.String",
+        "FieldLength": 764
       }
     }
   }

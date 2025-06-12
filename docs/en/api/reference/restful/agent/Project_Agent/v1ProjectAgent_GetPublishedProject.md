@@ -94,7 +94,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 571
+  "ProjectId": 213
 }
 ```
 
@@ -105,30 +105,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 315,
-  "Name": "Ebert-Tillman",
-  "Description": "Enterprise-wide disintermediate open system",
+  "ProjectId": 58,
+  "Name": "Hills, Walter and Stanton",
+  "Description": "Visionary discrete complexity",
   "URL": "http://www.example.com/",
-  "Type": "quia",
-  "AssociateId": 320,
-  "AssociateFullName": "Mr. Kelton Hilpert I",
-  "TypeId": 230,
-  "Updated": "1998-03-26T16:32:39.6490177+01:00",
-  "StatusId": 217,
-  "Status": "deserunt",
-  "TextId": 459,
-  "PublishTo": "2022-04-30T16:32:39.6490177+02:00",
-  "PublishFrom": "2011-09-22T16:32:39.6490177+02:00",
-  "IsPublished": false,
+  "Type": "et",
+  "AssociateId": 962,
+  "AssociateFullName": "Woodrow Greenfelder",
+  "TypeId": 32,
+  "Updated": "2023-11-10T17:54:03.4920634+01:00",
+  "StatusId": 963,
+  "Status": "deleniti",
+  "TextId": 835,
+  "PublishTo": "1999-07-15T17:54:03.4920634+02:00",
+  "PublishFrom": "2022-01-16T17:54:03.4920634+01:00",
+  "IsPublished": true,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "998396",
-  "ActiveErpLinks": 318,
+  "ProjectNumber": "900985",
+  "ActiveErpLinks": 713,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 143
+      "FieldType": "System.Int32",
+      "FieldLength": 908
     }
   }
 }

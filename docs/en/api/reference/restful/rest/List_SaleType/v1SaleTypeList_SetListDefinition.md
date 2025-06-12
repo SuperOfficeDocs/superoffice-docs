@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 831,
-  "Name": "Kuphal-Zemlak",
-  "Tooltip": "est",
+  "Id": 272,
+  "Name": "Metz, Hilpert and Schimmel",
+  "Tooltip": "tempore",
   "Deleted": false,
-  "Rank": 978,
+  "Rank": 597,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "omnis",
+  "ListType": "dolor",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 487,
-  "Name": "Hauck Inc and Sons",
-  "Tooltip": "itaque",
-  "Deleted": false,
-  "Rank": 498,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Id": 595,
+  "Name": "Emard, Smith and Borer",
+  "Tooltip": "dolores",
+  "Deleted": true,
+  "Rank": 303,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "ex",
-  "InUseByUserDefinedFields": false,
+  "ListType": "saepe",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 756
+      "FieldLength": 722
     }
   }
 }

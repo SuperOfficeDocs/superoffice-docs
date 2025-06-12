@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 575,
-    "Name": "Runte, Lowe and Abernathy",
-    "ToolTip": "Qui quam.",
+    "Id": 317,
+    "Name": "Block Group",
+    "ToolTip": "Et repellat corporis dolore et voluptatibus.",
     "Deleted": true,
-    "Rank": 588,
-    "Type": "expedita",
-    "ColorBlock": 340,
-    "IconHint": "ipsam",
-    "Selected": false,
-    "LastChanged": "1999-09-29T16:32:48.6807732+02:00",
+    "Rank": 215,
+    "Type": "aut",
+    "ColorBlock": 539,
+    "IconHint": "corporis",
+    "Selected": true,
+    "LastChanged": "2009-01-26T17:54:08.9136741+01:00",
     "ChildItems": [
       {
-        "Id": 242,
-        "Name": "Larkin-Runte",
-        "ToolTip": "Sunt iusto debitis omnis porro tempora.",
+        "Id": 520,
+        "Name": "Kuphal, Hand and Morissette",
+        "ToolTip": "Voluptatum non repellat reiciendis.",
         "Deleted": true,
-        "Rank": 164,
-        "Type": "distinctio",
-        "ColorBlock": 168,
-        "IconHint": "ullam",
-        "Selected": false,
-        "LastChanged": "2003-11-05T16:32:48.6807732+01:00",
+        "Rank": 829,
+        "Type": "labore",
+        "ColorBlock": 230,
+        "IconHint": "optio",
+        "Selected": true,
+        "LastChanged": "2009-02-21T17:54:08.9136741+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatibus",
-        "StyleHint": "odio",
-        "Hidden": true,
-        "FullName": "Adella Abernathy",
+        "ExtraInfo": "est",
+        "StyleHint": "aut",
+        "Hidden": false,
+        "FullName": "Valentine Wintheiser",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 692
+            "FieldLength": 345
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "ducimus",
+    "ExtraInfo": "ut",
+    "StyleHint": "est",
     "Hidden": false,
-    "FullName": "Coty Cruickshank",
+    "FullName": "Katelyn Kris",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 880
+        "FieldType": "System.Int32",
+        "FieldLength": 620
       }
     }
   }

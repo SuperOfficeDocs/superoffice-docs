@@ -27,7 +27,7 @@ Get the MDO list items for "DeliveryType" - with headings and filtering by user 
 
 ```http
 GET /api/v1/List/DeliveryType/MDOItems?flat=True
-GET /api/v1/List/DeliveryType/MDOItems?query=reiciendis
+GET /api/v1/List/DeliveryType/MDOItems?query=aut
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/DeliveryType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 118,
-    "Name": "Mohr-Graham",
-    "ToolTip": "Quos a sit quo ea aliquid sunt.",
-    "Deleted": false,
-    "Rank": 539,
-    "Type": "nihil",
+    "Id": 485,
+    "Name": "Kerluke-Spinka",
+    "ToolTip": "Alias nisi autem aliquam dolor ab aut.",
+    "Deleted": true,
+    "Rank": 277,
+    "Type": "blanditiis",
     "ChildItems": [
       {
-        "Id": 238,
-        "Name": "Predovic, Cummerata and Bartoletti",
-        "ToolTip": "Sed omnis at quo mollitia aut.",
+        "Id": 635,
+        "Name": "Kuhlman LLC",
+        "ToolTip": "Eum quam tempore enim quisquam nesciunt blanditiis.",
         "Deleted": false,
-        "Rank": 112,
-        "Type": "dolore",
+        "Rank": 406,
+        "Type": "repellat",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quas",
-        "ColorBlock": 675,
-        "ExtraInfo": "in",
-        "StyleHint": "molestiae",
-        "FullName": "Reinhold Marvin IV",
+        "IconHint": "fugiat",
+        "ColorBlock": 969,
+        "ExtraInfo": "explicabo",
+        "StyleHint": "dolore",
+        "FullName": "Mr. Martin Napoleon Koch DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 311
+            "FieldLength": 858
           }
         }
       }
     ],
-    "IconHint": "sed",
-    "ColorBlock": 948,
-    "ExtraInfo": "pariatur",
-    "StyleHint": "recusandae",
-    "FullName": "Mr. Naomie Jerrell Gaylord Sr.",
+    "IconHint": "hic",
+    "ColorBlock": 551,
+    "ExtraInfo": "iste",
+    "StyleHint": "hic",
+    "FullName": "Dolly Goyette",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 735
+        "FieldType": "System.String",
+        "FieldLength": 833
       }
     }
   }

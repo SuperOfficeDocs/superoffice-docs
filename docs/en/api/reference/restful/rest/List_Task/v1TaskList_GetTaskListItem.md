@@ -21,7 +21,7 @@ Calls the Appointment agent service GetTaskListItem.
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
-| id | int32 | The id of the Task to return. **Required** |
+| id | int32 | The id of the SoTask to return. **Required** |
 
 
 
@@ -84,25 +84,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskListItemId": 850,
-  "Value": "ducimus",
+  "TaskListItemId": 626,
+  "Value": "est",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "vitae",
+  "Tooltip": "unde",
   "Deleted": false,
-  "IntentId": 867,
-  "Rank": 932,
+  "IntentId": 711,
+  "Rank": 515,
   "IsDefaultAlldayEvent": false,
-  "IsDefaultFree": false,
-  "IsDefaultPublished": false,
+  "IsDefaultFree": true,
+  "IsDefaultPublished": true,
   "ColorIndex": "BlueAlt1",
   "DefaultVideomeetingStatus": "NoChange",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 196
+      "FieldType": "System.Int32",
+      "FieldLength": 435
     }
   }
 }

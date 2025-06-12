@@ -79,23 +79,23 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 643,
-  "Name": "Kovacek-Gleason",
-  "CreatedDate": "2024-01-16T16:32:39.1488892+01:00",
-  "UpdatedDate": "2017-12-11T16:32:39.1488892+01:00",
+  "ForeignAppId": 310,
+  "Name": "Dietrich-Robel",
+  "CreatedDate": "2017-10-02T17:54:03.1639551+02:00",
+  "UpdatedDate": "2020-10-24T17:54:03.1639551+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 363,
-      "Name": "Padberg, Fay and Mitchell",
-      "CreatedDate": "2021-12-29T16:32:39.1488892+01:00",
-      "UpdatedDate": "2024-05-09T16:32:39.1488892+02:00",
-      "AssociateFullName": "Mr. Delphia Irma McLaughlin",
-      "CreatedBy": "corporis",
-      "UpdatedBy": "quo",
-      "DeviceIdentifier": "est",
-      "ForeignAppId": 969
+      "ForeignDeviceId": 15,
+      "Name": "Jast, Ernser and Hickle",
+      "CreatedDate": "2003-09-07T17:54:03.1639551+02:00",
+      "UpdatedDate": "2011-03-02T17:54:03.1639551+01:00",
+      "AssociateFullName": "Prof. Cora Kali Wisozk",
+      "CreatedBy": "labore",
+      "UpdatedBy": "corporis",
+      "DeviceIdentifier": "qui",
+      "ForeignAppId": 452
     }
   ]
 }
@@ -108,29 +108,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 539,
-  "Name": "Sanford, Strosin and Oberbrunner",
-  "CreatedDate": "2017-10-06T16:32:39.1488892+02:00",
-  "UpdatedDate": "2018-03-10T16:32:39.1488892+01:00",
+  "ForeignAppId": 679,
+  "Name": "Reichert-Grimes",
+  "CreatedDate": "2002-07-03T17:54:03.1639551+02:00",
+  "UpdatedDate": "2005-07-28T17:54:03.1639551+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 343,
-      "Name": "Hintz-Glover",
-      "CreatedDate": "2014-05-16T16:32:39.1488892+02:00",
-      "UpdatedDate": "2003-02-25T16:32:39.1488892+01:00",
-      "AssociateFullName": "Deshawn McLaughlin I",
-      "CreatedBy": "harum",
-      "UpdatedBy": "et",
-      "DeviceIdentifier": "doloribus",
-      "ForeignAppId": 41,
+      "ForeignDeviceId": 862,
+      "Name": "Fisher-Maggio",
+      "CreatedDate": "2004-07-15T17:54:03.1639551+02:00",
+      "UpdatedDate": "2023-02-11T17:54:03.1639551+01:00",
+      "AssociateFullName": "Mr. Lincoln Frami",
+      "CreatedBy": "beatae",
+      "UpdatedBy": "fuga",
+      "DeviceIdentifier": "amet",
+      "ForeignAppId": 653,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 22
+          "FieldType": "System.String",
+          "FieldLength": 342
         }
       }
     }
@@ -140,7 +140,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 780
+      "FieldLength": 358
     }
   }
 }

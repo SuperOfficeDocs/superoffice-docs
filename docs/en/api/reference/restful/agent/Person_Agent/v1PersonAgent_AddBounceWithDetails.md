@@ -67,14 +67,14 @@ No Content
 POST /api/v1/Agents/Person/AddBounceWithDetails
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailAddress": "deonte@creminchamplin.ca",
-  "Counts": 638,
-  "Code": 228,
-  "Reason": ""
+  "EmailAddress": "trisha@mayer.name",
+  "Counts": 203,
+  "Code": 376,
+  "Reason": "aggregate open-source markets"
 }
 ```
 

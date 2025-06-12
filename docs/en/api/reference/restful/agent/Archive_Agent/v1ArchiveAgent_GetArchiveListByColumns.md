@@ -103,54 +103,54 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Nader, Ernser and Heaney",
+  "ProviderName": "Leffler, Harvey and Dickens",
   "Columns": [
-    "et",
-    "veniam"
+    "ipsum",
+    "est"
   ],
   "SortOrder": [
     {
-      "Name": "Abernathy, Aufderhar and Schmidt",
+      "Name": "Jast-Armstrong",
       "Direction": "ASC"
     },
     {
-      "Name": "Abernathy, Aufderhar and Schmidt",
+      "Name": "Jast-Armstrong",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Hills-Oberbrunner",
-      "Operator": "in",
+      "Name": "Boyle-Upton",
+      "Operator": "occaecati",
       "Values": [
-        "officiis",
-        "molestias"
+        "quasi",
+        "eaque"
       ],
       "DisplayValues": [
-        "delectus",
-        "ullam"
+        "magnam",
+        "nulla"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 550,
+      "InterParenthesis": 768,
       "InterOperator": "And",
-      "UniqueHash": 802
+      "UniqueHash": 55
     }
   ],
   "Entities": [
-    "perspiciatis",
-    "sed"
+    "libero",
+    "et"
   ],
-  "Page": 793,
-  "PageSize": 760
+  "Page": 266,
+  "PageSize": 918
 }
 ```
 
@@ -162,23 +162,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Ondricka, Towne and O'Hara",
-    "PrimaryKey": 496,
+    "EntityName": "Langworth, Rice and Wunsch",
+    "PrimaryKey": 595,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "sapiente",
-        "TooltipHint": "iste",
-        "LinkHint": "pariatur"
+        "DisplayValue": "quidem",
+        "TooltipHint": "sunt",
+        "LinkHint": "et"
       }
     },
-    "LinkHint": "dolores",
-    "StyleHint": "et",
+    "LinkHint": "facere",
+    "StyleHint": "mollitia",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 513
+        "FieldLength": 710
       }
     }
   }

@@ -70,16 +70,16 @@ Content-Type: application/json; charset=utf-8
 {
   "Rules": [
     {
-      "Name": "Wuckert, Beier and DuBuque",
-      "DisplayName": "Leannon LLC",
-      "DisplayTooltip": "molestias",
-      "IsActive": true
+      "Name": "Moen, Sanford and Anderson",
+      "DisplayName": "Ledner, Gibson and Kessler",
+      "DisplayTooltip": "officia",
+      "IsActive": false
     },
     {
-      "Name": "Wuckert, Beier and DuBuque",
-      "DisplayName": "Leannon LLC",
-      "DisplayTooltip": "molestias",
-      "IsActive": true
+      "Name": "Moen, Sanford and Anderson",
+      "DisplayName": "Ledner, Gibson and Kessler",
+      "DisplayTooltip": "officia",
+      "IsActive": false
     }
   ]
 }

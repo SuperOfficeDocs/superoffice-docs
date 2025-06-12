@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/Document/CreateDefaultDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -100,67 +100,67 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 755,
+  "DocumentId": 516,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "aut",
-  "Header": "deserunt",
-  "Name": "Hilll-Grimes",
-  "OurRef": "aut",
-  "YourRef": "facilis",
-  "CreatedDate": "2003-05-28T16:32:38.7895985+02:00",
-  "UpdatedDate": "2016-05-29T16:32:38.7895985+02:00",
-  "Description": "Face to face heuristic toolset",
+  "Attention": "eum",
+  "Header": "fugiat",
+  "Name": "Huel-Eichmann",
+  "OurRef": "tempora",
+  "YourRef": "quia",
+  "CreatedDate": "2016-05-07T17:54:02.9608392+02:00",
+  "UpdatedDate": "2013-10-26T17:54:02.9608392+02:00",
+  "Description": "Universal logistical parallelism",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2011-05-12T16:32:38.8052182+02:00",
-  "ExternalRef": "quia",
+  "Date": "2005-06-01T17:54:02.9764643+02:00",
+  "ExternalRef": "voluptatibus",
   "Completed": "Completed",
-  "ActiveLinks": 292,
+  "ActiveLinks": 202,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Strosin, Kovacek and Watsica",
-      "Id": 622,
-      "Description": "Ameliorated executive system engine",
-      "ExtraInfo": "eligendi",
-      "LinkId": 214,
+      "EntityName": "Abernathy LLC",
+      "Id": 483,
+      "Description": "Synergistic tangible hub",
+      "ExtraInfo": "occaecati",
+      "LinkId": 320,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 75
+          "FieldType": "System.Int32",
+          "FieldLength": 755
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 839,
-  "Snum": 796,
+  "SuggestedDocumentId": 454,
+  "Snum": 696,
   "UserDefinedFields": {
     "SuperOffice:1": "False",
-    "SuperOffice:2": "121813506"
+    "SuperOffice:2": "Mr. Pamela Yost"
   },
   "ExtraFields": {
-    "ExtraFields1": "minus",
-    "ExtraFields2": "ipsum"
+    "ExtraFields1": "et",
+    "ExtraFields2": "consectetur"
   },
   "CustomFields": {
-    "CustomFields1": "accusantium",
-    "CustomFields2": "at"
+    "CustomFields1": "et",
+    "CustomFields2": "nihil"
   },
-  "PublishEventDate": "2015-10-11T16:32:38.8052182+02:00",
-  "PublishTo": "2016-07-26T16:32:38.8052182+02:00",
-  "PublishFrom": "2010-12-11T16:32:38.8052182+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "2007-06-11T17:54:02.9764643+02:00",
+  "PublishTo": "1999-02-14T17:54:02.9764643+01:00",
+  "PublishFrom": "2016-02-18T17:54:02.9764643+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 77,
+      "VisibleId": 518,
       "Visibility": "All",
       "DisplayValue": "voluptatem",
       "TableRight": null,
@@ -168,12 +168,12 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 168
+          "FieldLength": 653
         }
       }
     },
     {
-      "VisibleId": 77,
+      "VisibleId": 518,
       "Visibility": "All",
       "DisplayValue": "voluptatem",
       "TableRight": null,
@@ -181,7 +181,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 168
+          "FieldLength": 653
         }
       }
     }
@@ -190,8 +190,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 983
+      "FieldType": "System.Int32",
+      "FieldLength": 145
     }
   }
 }

@@ -87,19 +87,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketStatusId": 426,
-    "Name": "Howell, McCullough and Zboncak",
+    "TicketStatusId": 129,
+    "Name": "Rogahn-Mosciski",
     "Status": "Active",
     "TimeCounter": "Externally",
-    "NoEmailReopen": true,
-    "IsDefault": true,
+    "NoEmailReopen": false,
+    "IsDefault": false,
     "UsedInQueue": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 896
+        "FieldType": "System.String",
+        "FieldLength": 15
       }
     }
   }

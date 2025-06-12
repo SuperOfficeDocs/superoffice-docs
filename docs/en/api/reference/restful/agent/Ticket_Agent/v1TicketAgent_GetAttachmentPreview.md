@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/Ticket/GetAttachmentPreview
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 897
+  "AttachmentId": 186
 }
 ```
 
@@ -99,31 +99,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Roob, Abbott and Lebsack",
-  "MimeType": "sint",
-  "Size": 329,
+  "Name": "Kassulke-Langosh",
+  "MimeType": "deleniti",
+  "Size": 834,
   "Content": "GIF89....File contents as raw bytes...",
-  "EmailSubject": "palma@herzogbednar.com",
-  "EmailFrom": "cullen_beier@damore.us",
-  "EmailTo": "grayson@cremin.us",
-  "EmailCc": "raoul.huels@lindgrenpfeffer.ca",
-  "EmailDate": "2002-12-05T16:32:40.3832248+01:00",
+  "EmailSubject": "bethel@rau.info",
+  "EmailFrom": "deon_batz@schumm.biz",
+  "EmailTo": "cali_stracke@darehaley.name",
+  "EmailCc": "ephraim_shanahan@kassulke.us",
+  "EmailDate": "2016-08-14T17:54:03.8357967+02:00",
   "EmailAttachmentsInfo": [
     {
-      "AttachmentId": 907,
-      "Name": "Crona, Nader and Jacobi",
-      "ContentType": "corrupti",
-      "AttSize": 284,
-      "InlineImage": false,
-      "ContentId": "alias",
-      "AuthKey": "ut",
+      "AttachmentId": 692,
+      "Name": "Yost-Parker",
+      "ContentType": "eveniet",
+      "AttSize": 925,
+      "InlineImage": true,
+      "ContentId": "non",
+      "AuthKey": "eum",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 160
+          "FieldLength": 945
         }
       }
     }
@@ -133,7 +133,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 987
+      "FieldLength": 197
     }
   }
 }

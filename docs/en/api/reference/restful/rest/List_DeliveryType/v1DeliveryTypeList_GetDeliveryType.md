@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/DeliveryType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 805,
-  "Name": "Murray Inc and Sons",
-  "Tooltip": "quae",
+  "Id": 893,
+  "Name": "Will-Shields",
+  "Tooltip": "voluptatem",
   "Deleted": false,
-  "UdListDefinitionId": 663,
-  "Rank": 501,
+  "UdListDefinitionId": 58,
+  "Rank": 445,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 840
+      "FieldLength": 343
     }
   }
 }

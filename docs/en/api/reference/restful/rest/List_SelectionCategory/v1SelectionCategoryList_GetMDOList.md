@@ -26,8 +26,8 @@ Get the MDO list items for "SearchCat" - with headings and filtering by user gro
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/SelectionCategory/MDOItems?flat=False
-GET /api/v1/List/SelectionCategory/MDOItems?query=aliquam
+GET /api/v1/List/SelectionCategory/MDOItems?flat=True
+GET /api/v1/List/SelectionCategory/MDOItems?query=porro
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/SelectionCategory/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 541,
-    "Name": "McDermott-Schoen",
-    "ToolTip": "Alias sequi illum sint id qui omnis harum.",
-    "Deleted": true,
-    "Rank": 293,
-    "Type": "eius",
+    "Id": 392,
+    "Name": "Reinger, Goyette and Larkin",
+    "ToolTip": "Molestias quasi eaque.",
+    "Deleted": false,
+    "Rank": 60,
+    "Type": "beatae",
     "ChildItems": [
       {
-        "Id": 561,
-        "Name": "Wintheiser-Hackett",
-        "ToolTip": "Corrupti magnam id facere sit qui.",
-        "Deleted": true,
-        "Rank": 19,
-        "Type": "sit",
+        "Id": 194,
+        "Name": "Schinner-Howell",
+        "ToolTip": "Odit distinctio quisquam eligendi ex ut.",
+        "Deleted": false,
+        "Rank": 327,
+        "Type": "hic",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "aut",
-        "ColorBlock": 668,
-        "ExtraInfo": "modi",
-        "StyleHint": "dolorem",
-        "FullName": "Prof. Laurianne Foster Cummerata",
+        "IconHint": "culpa",
+        "ColorBlock": 469,
+        "ExtraInfo": "consectetur",
+        "StyleHint": "illum",
+        "FullName": "Gudrun DuBuque",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 447
+            "FieldLength": 406
           }
         }
       }
     ],
-    "IconHint": "sequi",
-    "ColorBlock": 823,
-    "ExtraInfo": "odio",
-    "StyleHint": "inventore",
-    "FullName": "Prof. Katherine Annabelle Brown",
+    "IconHint": "rerum",
+    "ColorBlock": 285,
+    "ExtraInfo": "fuga",
+    "StyleHint": "rerum",
+    "FullName": "Ahmad Ryan II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 254
+        "FieldLength": 163
       }
     }
   }

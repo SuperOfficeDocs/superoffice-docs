@@ -87,11 +87,11 @@ OK
 POST /api/v1/Agents/BulkUpdate/GetAvailableFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Tablename": "contact"
+  "Tablename": "project"
 }
 ```
 
@@ -104,75 +104,75 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "CanSupportMultiUse": false,
-    "DefaultShowInGui": true,
+    "DefaultShowInGui": false,
     "DefaultShowInSelector": false,
-    "IsActive": false,
-    "Key": "et",
-    "ValueType": "perferendis",
+    "IsActive": true,
+    "Key": "nihil",
+    "ValueType": "ut",
     "Mandatory": true,
-    "EncodedDisplayName": "Barrows Inc and Sons",
-    "EncodedDisplayDescription": "Quality-focused executive analyzer",
-    "IconHint": "nulla",
+    "EncodedDisplayName": "Mante LLC",
+    "EncodedDisplayDescription": "Fundamental empowering open architecture",
+    "IconHint": "iusto",
     "ControlInfos": [
       {
-        "Type": "sed",
-        "Label": "sed",
-        "Dimension": 876,
-        "ListProviderName": "Pouros-Auer",
-        "ListProviderExtraInfo": "cupiditate",
-        "ListProviderPrimaryKeyName": "Bruen Inc and Sons",
-        "ListLeadText": "exercitationem",
+        "Type": "quia",
+        "Label": "veritatis",
+        "Dimension": 708,
+        "ListProviderName": "Prohaska Inc and Sons",
+        "ListProviderExtraInfo": "nobis",
+        "ListProviderPrimaryKeyName": "Feest-Hamill",
+        "ListLeadText": "at",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 731
+            "FieldLength": 771
           }
         }
       }
     ],
-    "EncodedDataCaption": "distinctio",
-    "EncodedDataCaptionDescription": "Triple-buffered web-enabled knowledge user",
-    "CurrentOperationType": "molestiae",
+    "EncodedDataCaption": "quibusdam",
+    "EncodedDataCaptionDescription": "Stand-alone eco-centric strategy",
+    "CurrentOperationType": "qui",
     "Values": [
-      "quia",
-      "nulla"
+      "aspernatur",
+      "vitae"
     ],
     "DisplayValues": [
-      "repellendus",
-      "consequatur"
+      "facilis",
+      "laudantium"
     ],
     "OperationInfos": [
       {
-        "Key": "et",
-        "EncodedDisplayName": "Murazik-Wiegand",
+        "Key": "architecto",
+        "EncodedDisplayName": "Johnson-Tillman",
         "EncodedLeadTexts": [
           "voluptates",
-          "distinctio"
+          "amet"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 752
+            "FieldLength": 69
           }
         }
       },
       {
-        "Key": "et",
-        "EncodedDisplayName": "Murazik-Wiegand",
+        "Key": "architecto",
+        "EncodedDisplayName": "Johnson-Tillman",
         "EncodedLeadTexts": [
           "voluptates",
-          "distinctio"
+          "amet"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 752
+            "FieldLength": 69
           }
         }
       }

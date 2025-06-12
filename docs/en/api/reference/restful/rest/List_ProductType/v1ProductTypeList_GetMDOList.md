@@ -27,7 +27,7 @@ Get the MDO list items for "ProductType" - with headings and filtering by user g
 
 ```http
 GET /api/v1/List/ProductType/MDOItems?flat=True
-GET /api/v1/List/ProductType/MDOItems?query=et
+GET /api/v1/List/ProductType/MDOItems?query=labore
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ProductType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 481,
-    "Name": "Stamm, Bins and McDermott",
-    "ToolTip": "Deleniti perferendis inventore eum tempora minima qui.",
+    "Id": 818,
+    "Name": "Ruecker LLC",
+    "ToolTip": "Sed cum.",
     "Deleted": true,
-    "Rank": 242,
-    "Type": "cum",
+    "Rank": 951,
+    "Type": "est",
     "ChildItems": [
       {
-        "Id": 116,
-        "Name": "Hamill-Kirlin",
-        "ToolTip": "Quos sunt enim consequatur nihil aut.",
+        "Id": 257,
+        "Name": "Torphy-Upton",
+        "ToolTip": "Quas eos et.",
         "Deleted": false,
-        "Rank": 436,
-        "Type": "iste",
+        "Rank": 209,
+        "Type": "laborum",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "iure",
-        "ColorBlock": 958,
-        "ExtraInfo": "maxime",
-        "StyleHint": "enim",
-        "FullName": "Dr. Nelson Quigley",
+        "IconHint": "accusantium",
+        "ColorBlock": 39,
+        "ExtraInfo": "aut",
+        "StyleHint": "consectetur",
+        "FullName": "Kiley Altenwerth",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 215
+            "FieldLength": 580
           }
         }
       }
     ],
-    "IconHint": "dolorem",
-    "ColorBlock": 103,
-    "ExtraInfo": "at",
-    "StyleHint": "beatae",
-    "FullName": "Elmore Rippin",
+    "IconHint": "ut",
+    "ColorBlock": 638,
+    "ExtraInfo": "modi",
+    "StyleHint": "quidem",
+    "FullName": "Ms. Benton Gottlieb Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 514
+        "FieldType": "System.String",
+        "FieldLength": 716
       }
     }
   }

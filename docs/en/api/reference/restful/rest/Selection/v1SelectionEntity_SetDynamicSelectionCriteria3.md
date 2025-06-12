@@ -100,44 +100,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Schneider-Kemmer",
-    "Operator": "asperiores",
+    "Name": "Fisher Group",
+    "Operator": "aut",
     "Values": [
-      "non",
-      "placeat"
+      "corporis",
+      "voluptates"
     ],
     "DisplayValues": [
-      "repellat",
-      "sed"
+      "consequuntur",
+      "iusto"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Blanda-Funk",
-        "Operator": "beatae",
+        "Name": "Wintheiser, Gusikowski and Stroman",
+        "Operator": "itaque",
         "Values": [
-          "corrupti",
-          "voluptatem"
+          "cum",
+          "est"
         ],
         "DisplayValues": [
-          "fugiat",
-          "tempora"
+          "eveniet",
+          "enim"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 683,
+        "InterParenthesis": 652,
         "InterOperator": "And",
-        "UniqueHash": 471
+        "UniqueHash": 422
       }
     ],
-    "InterParenthesis": 523,
+    "InterParenthesis": 726,
     "InterOperator": "And",
-    "UniqueHash": 550
+    "UniqueHash": 927
   }
 ]
 ```
@@ -150,29 +150,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Kuvalis-Gottlieb",
-    "Operator": "quas",
+    "Name": "Bode, Veum and Gottlieb",
+    "Operator": "voluptatem",
     "Values": [
-      "veritatis",
-      "nesciunt"
+      "ut",
+      "est"
     ],
     "DisplayValues": [
-      "incidunt",
-      "quisquam"
+      "eos",
+      "hic"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "McCullough-Volkman",
-        "Operator": "soluta",
+        "Name": "Roob Inc and Sons",
+        "Operator": "nemo",
         "Values": [
-          "aspernatur",
-          "eaque"
+          "sit",
+          "totam"
         ],
         "DisplayValues": [
-          "quibusdam",
-          "voluptas"
+          "doloribus",
+          "quis"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -180,14 +180,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 594,
+        "InterParenthesis": 228,
         "InterOperator": "And",
-        "UniqueHash": 625
+        "UniqueHash": 317
       }
     ],
-    "InterParenthesis": 105,
+    "InterParenthesis": 190,
     "InterOperator": "And",
-    "UniqueHash": 113
+    "UniqueHash": 698
   }
 ]
 ```

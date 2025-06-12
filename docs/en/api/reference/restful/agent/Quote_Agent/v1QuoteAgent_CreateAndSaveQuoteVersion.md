@@ -111,11 +111,11 @@ OK
 POST /api/v1/Agents/Quote/CreateAndSaveQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 990
+  "QuoteVersionId": 26
 }
 ```
 
@@ -126,75 +126,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 198,
-  "ERPQuoteVersionKey": "odio",
-  "QuoteId": 213,
-  "Description": "Advanced human-resource customer loyalty",
-  "Number": "597180",
+  "QuoteVersionId": 780,
+  "ERPQuoteVersionKey": "voluptates",
+  "QuoteId": 431,
+  "Description": "Phased 5th generation migration",
+  "Number": "410579",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
   "Reason": "",
-  "LikelyQuoteAlternativeId": 84,
-  "SentDate": "2002-05-03T16:32:39.680262+02:00",
-  "FollowupId": 882,
-  "ExpirationDate": "2010-05-01T16:32:39.680262+02:00",
-  "DeliveryCountryId": 420,
-  "HasOwnDeliveryAddress": false,
-  "InvoiceCountryId": 539,
-  "HasOwnInvoiceAddress": false,
-  "ERPPaymentTermsKey": "placeat",
-  "ERPPaymentTypeKey": "vitae",
-  "ERPDeliveryTermsKey": "aut",
-  "ERPDeliveryTypeKey": "temporibus",
-  "Rank": 827,
-  "ApprovedBy": 151,
-  "ApprovedText": "aperiam",
-  "ApprovedRegisteredBy": 180,
-  "ApprovedRegisteredDate": "1999-03-04T16:32:39.680262+01:00",
-  "ExtraField1": "quia",
-  "ExtraField2": "facere",
-  "ExtraField3": "distinctio",
-  "ExtraField4": "odit",
-  "ExtraField5": "cupiditate",
-  "LastRecalculated": "2024-03-25T16:32:39.680262+01:00",
-  "Updated": "2014-12-16T16:32:39.680262+01:00",
-  "UpdatedAssociateId": 644,
-  "Registered": "2018-10-30T16:32:39.680262+01:00",
-  "RegisteredAssociateId": 427,
-  "RequestAssociateId": 292,
-  "RequestComment": "aut",
+  "LikelyQuoteAlternativeId": 477,
+  "SentDate": "2001-08-27T17:54:03.5076876+02:00",
+  "FollowupId": 521,
+  "ExpirationDate": "2006-10-06T17:54:03.5076876+02:00",
+  "DeliveryCountryId": 950,
+  "HasOwnDeliveryAddress": true,
+  "InvoiceCountryId": 835,
+  "HasOwnInvoiceAddress": true,
+  "ERPPaymentTermsKey": "accusantium",
+  "ERPPaymentTypeKey": "earum",
+  "ERPDeliveryTermsKey": "qui",
+  "ERPDeliveryTypeKey": "labore",
+  "Rank": 935,
+  "ApprovedBy": 811,
+  "ApprovedText": "at",
+  "ApprovedRegisteredBy": 472,
+  "ApprovedRegisteredDate": "2012-12-22T17:54:03.5076876+01:00",
+  "ExtraField1": "neque",
+  "ExtraField2": "iure",
+  "ExtraField3": "dolore",
+  "ExtraField4": "ea",
+  "ExtraField5": "dolor",
+  "LastRecalculated": "2008-10-12T17:54:03.5076876+02:00",
+  "Updated": "2003-07-12T17:54:03.5076876+02:00",
+  "UpdatedAssociateId": 752,
+  "Registered": "2012-02-01T17:54:03.5076876+01:00",
+  "RegisteredAssociateId": 765,
+  "RequestAssociateId": 630,
+  "RequestComment": "tempora",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 901,
-      "ERPQuoteAlternativeKey": "itaque",
-      "QuoteVersionId": 441,
-      "Name": "McDermott Inc and Sons",
-      "Description": "Exclusive logistical support",
+      "QuoteAlternativeId": 107,
+      "ERPQuoteAlternativeKey": "et",
+      "QuoteVersionId": 835,
+      "Name": "Lesch, Gerlach and Muller",
+      "Description": "Persevering maximized support",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 16914.198,
-      "ERPDiscountAmount": 31155.093999999997,
-      "DiscountPercent": 6951.2119999999995,
-      "DiscountAmount": 2297.2219999999998,
+      "ERPDiscountPercent": 463.832,
+      "ERPDiscountAmount": 7205.066,
+      "DiscountPercent": 1059.292,
+      "DiscountAmount": 27679.487999999998,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "rem",
-      "VAT": 13871.083999999999,
-      "EarningPercent": 27920.806,
-      "EarningAmount": 30070.73,
-      "SubTotal": 25272.576,
-      "TotalPrice": 10100.882,
-      "ExtraField1": "porro",
-      "ExtraField2": "ut",
-      "ExtraField3": "error",
-      "ExtraField4": "hic",
-      "ExtraField5": "dolores",
+      "VATInfo": "cumque",
+      "VAT": 15168.56,
+      "EarningPercent": 24156.872,
+      "EarningAmount": 13103.253999999999,
+      "SubTotal": 21104.356,
+      "TotalPrice": 6465.442,
+      "ExtraField1": "reprehenderit",
+      "ExtraField2": "vel",
+      "ExtraField3": "ab",
+      "ExtraField4": "omnis",
+      "ExtraField5": "omnis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 78
+          "FieldLength": 507
         }
       }
     }
@@ -204,7 +204,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 646
+      "FieldLength": 876
     }
   }
 }

@@ -102,7 +102,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceDocumentTemplateId": 389,
+  "SourceDocumentTemplateId": 283,
   "DocumentTemplateEntity": null
 }
 ```
@@ -114,37 +114,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 635,
-  "Name": "Bayer LLC",
-  "Tooltip": "et",
-  "SaveInDb": 559,
-  "Filename": "ipsam",
-  "DefaultOref": "minus",
+  "DocumentTemplateId": 956,
+  "Name": "Morar LLC",
+  "Tooltip": "error",
+  "SaveInDb": 926,
+  "Filename": "architecto",
+  "DefaultOref": "quas",
   "RecordType": "Appointment",
   "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 156,
-  "IntentId": 140,
-  "IsDefaultPublished": false,
-  "Rank": 581,
-  "LoadTemplateFromPlugin": 463,
-  "MimeType": "exercitationem",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 389,
+  "AutoeventId": 358,
+  "IntentId": 525,
+  "IsDefaultPublished": true,
+  "Rank": 856,
+  "LoadTemplateFromPlugin": 351,
+  "MimeType": "sit",
+  "IsInUseInGuides": true,
+  "DocumentTypeKey": 923,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "carolyn@crooks.us",
+  "EmailSubject": "adah_harber@torphyritchie.com",
   "IncludeSignature": false,
-  "ShowCurrents": false,
+  "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "julia_grimes@doyle.ca",
+  "SenderEmailAddress": "jo@auer.uk",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 90
+      "FieldType": "System.Int32",
+      "FieldLength": 136
     }
   }
 }

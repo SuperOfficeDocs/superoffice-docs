@@ -88,11 +88,11 @@ OK
 POST /api/v1/Agents/CRMScript/SaveTriggerScriptByUniqueId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptUniqueId": "voluptatibus",
+  "TriggerScriptUniqueId": "aut",
   "Entity": null
 }
 ```
@@ -104,22 +104,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 469,
-  "Name": "Moore LLC",
+  "ScreenChooserId": 243,
+  "Name": "O'Connell, West and Purdy",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": true,
-  "UniqueIdentifier": "ut",
-  "Source": "reprehenderit",
-  "Registered": "2021-01-25T16:32:38.570895+01:00",
-  "RegisteredAssociateId": 68,
-  "Updated": "2008-04-22T16:32:38.570895+02:00",
-  "UpdatedAssociateId": 46,
+  "UniqueIdentifier": "ea",
+  "Source": "vero",
+  "Registered": "2018-04-29T17:54:02.9139671+02:00",
+  "RegisteredAssociateId": 286,
+  "Updated": "2006-06-14T17:54:02.9139671+02:00",
+  "UpdatedAssociateId": 683,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 910
+      "FieldType": "System.String",
+      "FieldLength": 870
     }
   }
 }

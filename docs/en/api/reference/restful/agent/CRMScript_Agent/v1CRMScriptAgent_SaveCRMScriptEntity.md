@@ -99,52 +99,52 @@ OK
 POST /api/v1/Agents/CRMScript/SaveCRMScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 695,
-  "UniqueIdentifier": "maxime",
-  "Name": "Hills Group",
-  "Description": "Up-sized zero tolerance conglomeration",
-  "IncludeId": "voluptate",
-  "AccessKey": "repellendus",
-  "HierarchyId": 66,
-  "Source": "iure",
-  "SourceCode": "ut",
+  "EjscriptId": 989,
+  "UniqueIdentifier": "voluptas",
+  "Name": "Purdy-Wyman",
+  "Description": "Object-based tertiary attitude",
+  "IncludeId": "id",
+  "AccessKey": "deleniti",
+  "HierarchyId": 50,
+  "Source": "quia",
+  "SourceCode": "quia",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 818,
+  "HtmlOutput": 784,
   "Includes": [
-    195,
-    482
+    565,
+    646
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 684,
-      "LineNumberTo": 286,
-      "Delta": 656,
-      "IncludeId": "dolorum",
+      "LineNumberFrom": 386,
+      "LineNumberTo": 161,
+      "Delta": 348,
+      "IncludeId": "eveniet",
       "IncludedFrom": [
         "maiores",
-        "necessitatibus"
+        "sed"
       ]
     },
     {
-      "LineNumberFrom": 684,
-      "LineNumberTo": 286,
-      "Delta": 656,
-      "IncludeId": "dolorum",
+      "LineNumberFrom": 386,
+      "LineNumberTo": 161,
+      "Delta": 348,
+      "IncludeId": "eveniet",
       "IncludedFrom": [
         "maiores",
-        "necessitatibus"
+        "sed"
       ]
     }
   ],
   "ValidationResult": null,
-  "Registered": "2001-12-25T16:32:38.5552758+01:00",
-  "RegisteredAssociateId": 495,
-  "Updated": "2024-10-12T16:32:38.5552758+02:00",
-  "UpdatedAssociateId": 899
+  "Registered": "2007-04-28T17:54:02.9139671+02:00",
+  "RegisteredAssociateId": 556,
+  "Updated": "2001-05-11T17:54:02.9139671+02:00",
+  "UpdatedAssociateId": 953
 }
 ```
 
@@ -155,52 +155,52 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 496,
-  "UniqueIdentifier": "voluptatem",
-  "Name": "Hoppe Group",
-  "Description": "Enhanced stable solution",
-  "IncludeId": "quia",
-  "AccessKey": "aut",
-  "HierarchyId": 249,
-  "Source": "sapiente",
-  "SourceCode": "ut",
+  "EjscriptId": 341,
+  "UniqueIdentifier": "vel",
+  "Name": "Lind, Kling and Wintheiser",
+  "Description": "Devolved global project",
+  "IncludeId": "sunt",
+  "AccessKey": "molestiae",
+  "HierarchyId": 727,
+  "Source": "fugit",
+  "SourceCode": "blanditiis",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 333,
+  "HtmlOutput": 105,
   "Includes": [
-    846,
-    260
+    951,
+    942
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 835,
-      "LineNumberTo": 652,
-      "Delta": 203,
-      "IncludeId": "eveniet",
+      "LineNumberFrom": 135,
+      "LineNumberTo": 617,
+      "Delta": 211,
+      "IncludeId": "est",
       "IncludedFrom": [
-        "aut",
-        "unde"
+        "doloribus",
+        "non"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 903
+          "FieldType": "System.Int32",
+          "FieldLength": 618
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "2008-05-06T16:32:38.5552758+02:00",
-  "RegisteredAssociateId": 904,
-  "Updated": "2005-04-12T16:32:38.5552758+02:00",
-  "UpdatedAssociateId": 32,
+  "Registered": "2001-10-10T17:54:02.9139671+02:00",
+  "RegisteredAssociateId": 678,
+  "Updated": "2006-08-31T17:54:02.9139671+02:00",
+  "UpdatedAssociateId": 975,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 290
+      "FieldType": "System.String",
+      "FieldLength": 811
     }
   }
 }

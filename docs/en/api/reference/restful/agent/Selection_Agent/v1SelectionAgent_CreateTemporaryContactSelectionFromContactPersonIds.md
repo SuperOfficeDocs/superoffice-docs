@@ -113,18 +113,18 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromContactPersonIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "ContactPersonIds": [
     {
-      "PersonId": 705,
-      "ContactId": 454
+      "PersonId": 201,
+      "ContactId": 714
     },
     {
-      "PersonId": 705,
-      "ContactId": 454
+      "PersonId": 201,
+      "ContactId": 714
     }
   ]
 }
@@ -137,70 +137,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Profound contextually-based project",
-  "Postit": "aut",
+  "Description": "Fundamental foreground analyzer",
+  "Postit": "cum",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 992,
-  "IncludePerson": 229,
+  "GroupIdx": 898,
+  "IncludePerson": 831,
   "MemberCount": 99.99,
-  "Name": "Davis-Rosenbaum",
-  "PostitTextId": 651,
-  "CreatedDate": "2009-03-25T16:32:39.8989674+01:00",
-  "SelectionId": 415,
-  "SoundEx": "autem",
-  "Source": 651,
-  "TextId": 706,
-  "UpdatedDate": "2018-04-30T16:32:39.8989674+02:00",
-  "UpdatedCount": 809,
-  "Visibility": 314,
+  "Name": "Morar, Johnson and Bailey",
+  "PostitTextId": 460,
+  "CreatedDate": "2005-05-22T17:54:03.6170572+02:00",
+  "SelectionId": 641,
+  "SoundEx": "cum",
+  "Source": 195,
+  "TextId": 960,
+  "UpdatedDate": "2010-07-06T17:54:03.6170572+02:00",
+  "UpdatedCount": 377,
+  "Visibility": 142,
   "SelectionType": "Combined",
   "CompanyUnique": false,
   "TargetTableNumber": 188,
-  "TargetTableName": "Green-Torphy",
+  "TargetTableName": "Botsford LLC",
   "Completed": true,
-  "LeftSelectionId": 826,
-  "RightSelectionId": 486,
+  "LeftSelectionId": 675,
+  "RightSelectionId": 81,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "White-Douglas",
-  "ShadowProviderName": "Thiel Inc and Sons",
-  "ChartKey": "nesciunt",
-  "LastLoaded": "2022-04-07T16:32:39.8989674+02:00",
-  "LastLoadedBy": 419,
+  "MainProviderName": "Rogahn-Conn",
+  "ShadowProviderName": "Huel Inc and Sons",
+  "ChartKey": "suscipit",
+  "LastLoaded": "2013-02-26T17:54:03.6170572+01:00",
+  "LastLoadedBy": 685,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2025-02-14T16:32:39.8989674+01:00",
-  "LastMembershipChangeBy": 189,
+  "LastMembershipChange": "2023-05-05T17:54:03.6170572+02:00",
+  "LastMembershipChangeBy": 461,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "autem",
-  "MemberTabHeading": "labore",
-  "MailingsProviderName": "Predovic-Bernier",
-  "DashboardTileDefinitionId": 966,
+  "MainHeading": "consequatur",
+  "MemberTabHeading": "dolorem",
+  "MailingsProviderName": "Ondricka Inc and Sons",
+  "DashboardTileDefinitionId": 352,
   "VisibleFor": [
     {
-      "VisibleId": 32,
+      "VisibleId": 66,
       "Visibility": "All",
-      "DisplayValue": "pariatur",
+      "DisplayValue": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 859
+          "FieldLength": 427
         }
       }
     },
     {
-      "VisibleId": 32,
+      "VisibleId": 66,
       "Visibility": "All",
-      "DisplayValue": "pariatur",
+      "DisplayValue": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 859
+          "FieldLength": 427
         }
       }
     }
@@ -209,8 +209,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 154
+      "FieldType": "System.Int32",
+      "FieldLength": 783
     }
   }
 }

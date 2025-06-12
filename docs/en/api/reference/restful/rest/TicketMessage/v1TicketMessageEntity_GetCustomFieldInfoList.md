@@ -68,7 +68,7 @@ OK
 GET /api/v1/TicketMessage/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,19 +80,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Cormier-Schiller",
-    "DisplayName": "Kilback-Jakubowski",
-    "Description": "Devolved assymetric contingency",
-    "ShortLabel": "eos",
-    "HideLabel": true,
-    "HideField": false,
+    "FieldName": "Ziemann-Pfeffer",
+    "DisplayName": "Nolan LLC",
+    "Description": "Open-architected fault-tolerant installation",
+    "ShortLabel": "et",
+    "HideLabel": false,
+    "HideField": true,
     "IsIndexed": false,
-    "IsMandatory": true,
+    "IsMandatory": false,
     "IsReadOnly": false,
     "IsExternal": false,
     "IsDisplayField": false,
-    "Rank": 527,
-    "TemplateVariableName": "Corwin Group"
+    "Rank": 104,
+    "TemplateVariableName": "Smith, Mosciski and Krajcik"
   }
 ]
 ```

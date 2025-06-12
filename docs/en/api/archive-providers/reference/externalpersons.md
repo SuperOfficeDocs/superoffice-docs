@@ -142,6 +142,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |personUdef/SuperOffice:10|string|page1marketingonly| x |
 |personUdef/SuperOffice:11|string|page1adminonly| x |
 |personExtra/x\_person\_integer|int|Extra Integer: Custom person integer| x |
+|personExtra/x\_person\_hidden\_integer|int|Extra hidden integer: Custom integer field that is hidden| x |
 |personExtra/x\_person\_float|decimal|Extra float: Custom float field| x |
 |personExtra/x\_person\_longtext|string|Extra Long Text: Custom long text field on person, keep HTML tags. Simple input, not text area. Default value = 'Hello there'| x |
 |personExtra/x\_person\_date|date|Extra date: Custom date field on person. Default value = 28.03.2019| x |
@@ -222,11 +223,11 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |personTargetRelation/firstName|string|Target - First name: Displays the contact's first name| x |
 |personTargetRelation/lastName|string|Target - Last name: Displays the contact's last name| x |
 |personTargetRelation/middleName|string|Target - Middle name: Displays the contact's middle name.| x |
-|personTargetRelation/fullName|stringorPK|Target - Contact: Displays the contact to which an item is linked| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personTargetRelation/fullName|stringorPK|Target - Contact: Displays the contact to which an item is linked| x |
 |personTargetRelation/contactId|int|Target - Company ID: Database ID of company| x |
 |personTargetRelation/hasInfoText|bool|Target - Has note: Displays an icon indicating if there is additional information available about the contact| x |
 |personTargetRelation/hasInterests|bool|Target - Has interests: Displays an Icon indicating if the contact has active interests| x |
@@ -290,6 +291,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |personAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |personAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |personAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|personAssociate/usergroupId|int|Group ID: The user's primary user group| x |
 |personAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |personAssociate/contactCategory|listAny|Category: Category| x |
 |personAssociate/role|listAny|Role : Role| x |
@@ -322,15 +324,16 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |correspondingAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |correspondingAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |correspondingAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|correspondingAssociate/usergroupId|int|Group ID: The user's primary user group| x |
 |correspondingAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |correspondingAssociate/contactCategory|listAny|Category: Category| x |
-|correspondingAssociate/role|listAny|Role : Role| x |
-|correspondingAssociate/assocName|associate|User ID : User ID| x |
-|correspondingAssociate/assocTooltip|string|Description : Description|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|correspondingAssociate/role|listAny|Role : Role| x |
+|correspondingAssociate/assocName|associate|User ID : User ID| x |
+|correspondingAssociate/assocTooltip|string|Description : Description|  |
 |correspondingAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |correspondingAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |correspondingAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
@@ -419,6 +422,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |request/createdBy/contactName|string|Created by - Owning company: Name of the company the user belongs to| x |
 |request/createdBy/contactDepartment|string|Created by - Owning department: Name of the department at the company the user belongs to| x |
 |request/createdBy/usergroup|userGroup|Created by - Primary group: The user's primary user group| x |
+|request/createdBy/usergroupId|int|Created by - Group ID: The user's primary user group| x |
 |request/createdBy/contactFullName|string|Created by - Owner: Name and department of the company the user belongs to| x |
 |request/createdBy/contactCategory|listAny|Created by - Category: Category| x |
 |request/createdBy/role|listAny|Created by - Role: Role| x |
@@ -427,14 +431,14 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |request/createdBy/assocType|listAny|Created by - Type: Type of user: associate, external user, system user, anonymous account| x |
 |request/createdBy/ejUserId|int|Created by - Service user ID: The database ID of a Service user|  |
 |request/createdBy/simultaneousEjUser|bool|Created by - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|request/createdBy/ejDisplayName|string|Created by - Nick name: User's nick name in Service| x |
-|request/createdBy/ejStatus|int|Created by - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
-|request/createdBy/credentialType| *None* |Created by - Auth. type: What type of credentials to use when this user logs in| x |
-|request/createdBy/credentialDisplayValue| *None* |Created by - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|request/createdBy/ejDisplayName|string|Created by - Nick name: User's nick name in Service| x |
+|request/createdBy/ejStatus|int|Created by - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
+|request/createdBy/credentialType| *None* |Created by - Auth. type: What type of credentials to use when this user logs in| x |
+|request/createdBy/credentialDisplayValue| *None* |Created by - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
 |request/createdBy/isActive|bool|Created by - Active: Is this user active, and should be able to log in?| x |
 |request/createdBy/isActiveText|bool|Created by - Active status: Is this user active, and should be able to log in?| x |
 |request/createdBy/portraitThumbnail| *None* |Created by - Person image: Person image|  |
@@ -455,6 +459,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |request/ownedBy/contactName|string|Owner - Owning company: Name of the company the user belongs to| x |
 |request/ownedBy/contactDepartment|string|Owner - Owning department: Name of the department at the company the user belongs to| x |
 |request/ownedBy/usergroup|userGroup|Owner - Primary group: The user's primary user group| x |
+|request/ownedBy/usergroupId|int|Owner - Group ID: The user's primary user group| x |
 |request/ownedBy/contactFullName|string|Owner - Owner: Name and department of the company the user belongs to| x |
 |request/ownedBy/contactCategory|listAny|Owner - Category: Category| x |
 |request/ownedBy/role|listAny|Owner - Role: Role| x |
@@ -485,6 +490,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |request/extra/x\_ticket\_timespan|timeSpan|Extra timespan: Custom timespan field on Request. Default = 1 hr 25 minutes. Show in props| x |
 |request/extra/x\_ticket\_short\_text|string|Extra short text: Custom short text field on Request. Do not keep HTML tags. Display on new request| x |
 |request/extra/x\_ticket\_shorttext\_list|listAny|Extra Dropdown: Custom short text with list for Request Pink, Orange, Yellow, Polkadot| x |
+|request/extra/x\_ticket\_timestamp|datetime|Extra timestamp: Custom date time field on ticket with default = current date + time. Field cannot change. Hide field| x |
 |request/extra/x\_ticket\_project\_relation|stringorPK|Extra project: Custom project relation on Request| x |
 |request/extra/x\_ticket\_faq|stringorPK|Extra FAQ Relation| x |
 |request/extra/x\_ticket\_category\_relation|listAny|Extra category relation: Category relation on request| x |
@@ -529,17 +535,18 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |projectMembers/projectAssociate/middleName|string|Middle Name : Displays the contact's middle name.| x |
 |projectMembers/projectAssociate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
 |projectMembers/projectAssociate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |projectMembers/projectAssociate/personId|int|Contact ID: Database ID of the contact row|  |
 |projectMembers/projectAssociate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |projectMembers/projectAssociate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
 |projectMembers/projectAssociate/associateDbId|associate|ID| x |
 |projectMembers/projectAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |projectMembers/projectAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |projectMembers/projectAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|projectMembers/projectAssociate/usergroupId|int|Group ID: The user's primary user group| x |
 |projectMembers/projectAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |projectMembers/projectAssociate/contactCategory|listAny|Category: Category| x |
 |projectMembers/projectAssociate/role|listAny|Role : Role| x |
@@ -632,6 +639,10 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |personAppointment/suggestedAppointmentId|int|Follow-up ID (suggestion: The database ID of a follow-up that originates in a suggestion| x |
 |personAppointment/completedDate|date|Completed date: Displays the actual date a follow-up/sale was marked as completed| x |
 |personAppointment/isMilestone|bool|Milestone: Shows whether or not the follow-ups in this row are milestones| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |personAppointment/invitedPersonId|int|ID of invited person: appointment.invitedpersonid record - utility for rd| x |
 |personAppointment/recordTypeText|listAny|Activity type: The type of the activity (appointment, phone call, etc)| x |
 |personAppointment/joinVideomeetUrl| *None* |Video meeting URL: URL for joining the video meeting| x |
@@ -639,10 +650,6 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |personAppointment/createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |personAppointment/visibleFor|listAny|Visible for|  |
 |personAppointment/appointmentPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |personAppointment/appointmentPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
 |personAppointment/appointmentPublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
 |personAppointment/appointmentPublish/publishedBy| *None* |Published by: Published by|  |
@@ -666,6 +673,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |personAppointment/associate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |personAppointment/associate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |personAppointment/associate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|personAppointment/associate/usergroupId|int|Group ID: The user's primary user group| x |
 |personAppointment/associate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |personAppointment/associate/contactCategory|listAny|Category: Category| x |
 |personAppointment/associate/role|listAny|Role : Role| x |
@@ -699,7 +707,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/ExternalPersons?$select=personExtra/x_person_float,personSourceRelation/personAssociateId,hasStoreConsent,request/suggestedCategory,projectMembers/projectPublish/publishedFrom
+GET /api/v1/archive/ExternalPersons?$select=personExtra/y_rental/x_amount,hasEmarketingConsent,request/firstReadByUser,request/createdBy/mrMrs,projectMembers/projectAssociate/credentialType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

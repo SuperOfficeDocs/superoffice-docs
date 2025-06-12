@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/DeliveryType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 232,
-    "Name": "Kohler, Bradtke and Hirthe",
-    "Tooltip": "natus",
-    "Deleted": false,
-    "Rank": 891,
-    "UdListDefinitionId": 957,
+    "HeadingId": 641,
+    "Name": "Gleason-Volkman",
+    "Tooltip": "ut",
+    "Deleted": true,
+    "Rank": 327,
+    "UdListDefinitionId": 541,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 555
+        "FieldType": "System.Int32",
+        "FieldLength": 743
       }
     }
   }

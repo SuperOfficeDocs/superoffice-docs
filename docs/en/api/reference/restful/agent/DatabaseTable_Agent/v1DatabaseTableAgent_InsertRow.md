@@ -73,10 +73,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Mosciski, Schuppe and Kris",
+  "TableName": "Yost, Lang and Doyle",
   "Values": {
-    "Values1": "voluptatibus",
-    "Values2": "odio"
+    "Values1": "quisquam",
+    "Values2": "placeat"
   }
 }
 ```
@@ -87,5 +87,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-385
+50
 ```

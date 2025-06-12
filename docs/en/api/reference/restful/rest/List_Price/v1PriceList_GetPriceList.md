@@ -82,7 +82,7 @@ PriceList found.
 GET /api/v1/Pricelist/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -92,22 +92,22 @@ HTTP/1.1 200 PriceList found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 726,
-  "ERPPriceListKey": "earum",
-  "QuoteConnectionId": 757,
-  "Name": "Kerluke Inc and Sons",
-  "Description": "Realigned empowering open architecture",
-  "Currency": "et",
-  "CurrencyName": "Baumbach, Brown and Bruen",
-  "ValidFrom": "2004-04-30T16:32:48.7588803+02:00",
-  "ValidTo": "2005-03-23T16:32:48.7588803+01:00",
+  "PriceListId": 87,
+  "ERPPriceListKey": "minima",
+  "QuoteConnectionId": 902,
+  "Name": "Waters Group",
+  "Description": "Synergized optimal encryption",
+  "Currency": "quam",
+  "CurrencyName": "Howe-Schinner",
+  "ValidFrom": "2004-01-03T17:54:08.9605465+01:00",
+  "ValidTo": "2013-10-13T17:54:08.9605465+02:00",
   "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 663
+      "FieldLength": 951
     }
   },
   "_Links": {

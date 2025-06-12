@@ -82,21 +82,21 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictionsColumnsOrderBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Jaskolski Inc and Sons",
-      "Operator": "deserunt",
+      "Name": "Rempel-Ondricka",
+      "Operator": "quia",
       "Values": [
-        "asperiores",
-        "et"
+        "iusto",
+        "ut"
       ],
       "DisplayValues": [
-        "sapiente",
-        "quam"
+        "et",
+        "harum"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -104,28 +104,28 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 830,
+      "InterParenthesis": 817,
       "InterOperator": "And",
-      "UniqueHash": 522
+      "UniqueHash": 234
     }
   ],
-  "ProviderName": "Effertz, Kiehn and Ernser",
+  "ProviderName": "Abshire, Koepp and King",
   "DesiredColumns": [
-    "et",
-    "dolor"
+    "eligendi",
+    "amet"
   ],
   "OrderBy": [
     {
-      "Name": "Veum-Gottlieb",
+      "Name": "Blick, Hirthe and Kuvalis",
       "Direction": "ASC"
     },
     {
-      "Name": "Veum-Gottlieb",
+      "Name": "Blick, Hirthe and Kuvalis",
       "Direction": "ASC"
     }
   ],
-  "PageSize": 373,
-  "PageNumber": 398
+  "PageSize": 606,
+  "PageNumber": 110
 }
 ```
 
@@ -138,51 +138,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Ryan, Rempel and Corkery",
-      "DisplayTooltip": "rerum",
-      "DisplayType": "optio",
-      "CanOrderBy": false,
-      "Name": "Kling, Deckow and Hyatt",
+      "DisplayName": "Wilderman Inc and Sons",
+      "DisplayTooltip": "autem",
+      "DisplayType": "quod",
+      "CanOrderBy": true,
+      "Name": "Turcotte, Hauck and Oberbrunner",
       "CanRestrictBy": false,
-      "RestrictionType": "ullam",
-      "RestrictionListName": "Pollich, Nolan and Streich",
-      "IsVisible": true,
-      "ExtraInfo": "ut",
-      "Width": "dolor",
-      "IconHint": "saepe",
-      "HeadingIconHint": "cum"
+      "RestrictionType": "quia",
+      "RestrictionListName": "Trantow, Pfannerstill and Mante",
+      "IsVisible": false,
+      "ExtraInfo": "earum",
+      "Width": "et",
+      "IconHint": "quia",
+      "HeadingIconHint": "corrupti"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Christiansen, Koelpin and Turner",
-      "PrimaryKey": 381,
+      "EntityName": "McGlynn, Hills and Bernhard",
+      "PrimaryKey": 398,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "aut",
-          "TooltipHint": "nihil",
-          "LinkHint": "libero"
+          "DisplayValue": "atque",
+          "TooltipHint": "in",
+          "LinkHint": "nihil"
         }
       },
-      "LinkHint": "cum",
-      "StyleHint": "incidunt",
+      "LinkHint": "aliquam",
+      "StyleHint": "minima",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 566
+          "FieldLength": 110
         }
       }
     }
   ],
-  "RowCount": 57,
+  "RowCount": 788,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 919
+      "FieldLength": 440
     }
   }
 }

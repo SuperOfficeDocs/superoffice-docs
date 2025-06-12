@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/Ticket/CreateDefaultTicketMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -92,79 +92,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 443,
+  "EjMessageId": 723,
   "Ticket": null,
-  "CreatedAt": "2013-08-14T16:32:40.2113903+02:00",
+  "CreatedAt": "2019-02-17T17:54:03.7420683+01:00",
   "CreatedBy": null,
-  "Author": "voluptates",
+  "Author": "vel",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "beatae",
-  "TimeSpent": 510,
-  "Body": "aut",
-  "HtmlBody": "fugiat",
-  "EmailHeader": "hilario_rice@nikolausdavis.com",
-  "DebugInfo": "vel",
-  "MailSorter": "unde",
+  "MessageId": "fugiat",
+  "TimeSpent": 495,
+  "Body": "id",
+  "HtmlBody": "tempore",
+  "EmailHeader": "euna.wisoky@macejkovic.co.uk",
+  "DebugInfo": "aliquid",
+  "MailSorter": "modi",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "nemo",
+  "SearchTitle": "aut",
   "MessageHeaders": [
     {
-      "Id": 84,
-      "Name": "Lakin LLC",
-      "Value": "ut",
+      "Id": 136,
+      "Name": "Hermann, Nader and Murphy",
+      "Value": "atque",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 941
+          "FieldType": "System.Int32",
+          "FieldLength": 67
         }
       }
     }
   ],
   "Important": false,
-  "Language": "omnis",
-  "Sentiment": 642,
-  "SentimentConfidence": 688,
+  "Language": "sunt",
+  "Sentiment": 606,
+  "SentimentConfidence": 532,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 601,
-      "Name": "Fadel Inc and Sons",
-      "ContentType": "eligendi",
-      "AttSize": 812,
-      "InlineImage": false,
-      "ContentId": "voluptatem",
-      "AuthKey": "et",
-      "IsSafeFileExtension": true,
+      "AttachmentId": 221,
+      "Name": "Ziemann, Hirthe and Pfeffer",
+      "ContentType": "quia",
+      "AttSize": 187,
+      "InlineImage": true,
+      "ContentId": "aspernatur",
+      "AuthKey": "sapiente",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 767
+          "FieldType": "System.Int32",
+          "FieldLength": 594
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "libero",
-    "ExtraFields2": "reprehenderit"
+    "ExtraFields1": "quia",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "itaque",
-    "CustomFields2": "consectetur"
+    "CustomFields1": "in",
+    "CustomFields2": "velit"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 585
+      "FieldLength": 771
     }
   }
 }

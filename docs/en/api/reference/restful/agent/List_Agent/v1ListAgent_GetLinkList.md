@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/List/GetLinkList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,17 +85,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Kuhic-Brakus",
-    "Id": 923,
-    "Description": "Phased multimedia open architecture",
-    "ExtraInfo": "consequatur",
-    "LinkId": 414,
+    "EntityName": "Jacobs Group",
+    "Id": 735,
+    "Description": "User-friendly 3rd generation help-desk",
+    "ExtraInfo": "dicta",
+    "LinkId": 991,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 167
+        "FieldLength": 699
       }
     }
   }

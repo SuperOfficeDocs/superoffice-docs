@@ -73,19 +73,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 760,
-  "Name": "Rodriguez Group",
-  "Rank": 581,
-  "Tooltip": "quaerat",
+  "ResourceId": 351,
+  "Name": "Olson-Flatley",
+  "Rank": 280,
+  "Tooltip": "magni",
   "Deleted": false,
-  "IsLocation": true,
-  "LocationAddress": "placeat",
+  "IsLocation": false,
+  "LocationAddress": "magni",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 305
+      "FieldType": "System.String",
+      "FieldLength": 204
     }
   }
 }

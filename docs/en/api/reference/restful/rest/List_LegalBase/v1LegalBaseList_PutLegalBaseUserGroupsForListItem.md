@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/LegalBase/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 31,
-    "Name": "Mayert-Feest",
-    "ToolTip": "Molestias tempore ipsam facilis voluptatem voluptatibus.",
-    "Deleted": true,
-    "Rank": 688,
-    "Type": "et",
-    "ColorBlock": 983,
-    "IconHint": "architecto",
+    "Id": 10,
+    "Name": "Hamill, White and Murray",
+    "ToolTip": "Consequuntur modi commodi maxime quod doloremque.",
+    "Deleted": false,
+    "Rank": 248,
+    "Type": "aspernatur",
+    "ColorBlock": 179,
+    "IconHint": "voluptatum",
     "Selected": false,
-    "LastChanged": "2007-09-29T16:32:48.6963928+02:00",
+    "LastChanged": "2010-12-19T17:54:08.9292989+01:00",
     "ChildItems": [
       {
-        "Id": 806,
-        "Name": "Lehner LLC",
-        "ToolTip": "Veritatis excepturi nihil dolorem itaque qui.",
+        "Id": 507,
+        "Name": "Stokes LLC",
+        "ToolTip": "Hic sequi odit sed labore repellendus nemo.",
         "Deleted": false,
-        "Rank": 101,
-        "Type": "sit",
-        "ColorBlock": 946,
-        "IconHint": "non",
-        "Selected": true,
-        "LastChanged": "2022-02-10T16:32:48.6963928+01:00",
+        "Rank": 449,
+        "Type": "ratione",
+        "ColorBlock": 882,
+        "IconHint": "tempora",
+        "Selected": false,
+        "LastChanged": "2018-08-20T17:54:08.9292989+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "corporis",
-        "StyleHint": "quibusdam",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "est",
         "Hidden": false,
-        "FullName": "Buck Streich"
+        "FullName": "Hermina Simonis"
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "dolor",
-    "Hidden": false,
-    "FullName": "Emmanuelle Hershel Daniel IV"
+    "ExtraInfo": "rerum",
+    "StyleHint": "facere",
+    "Hidden": true,
+    "FullName": "Emilio Spencer"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 918,
-    "Name": "Bins, Muller and Altenwerth",
-    "ToolTip": "Accusantium consequatur amet quo ad libero.",
+    "Id": 589,
+    "Name": "Kerluke Group",
+    "ToolTip": "Eius iure illum ut autem non totam quia.",
     "Deleted": true,
-    "Rank": 273,
-    "Type": "voluptas",
-    "ColorBlock": 861,
-    "IconHint": "totam",
-    "Selected": false,
-    "LastChanged": "2017-07-20T16:32:48.6963928+02:00",
+    "Rank": 157,
+    "Type": "error",
+    "ColorBlock": 531,
+    "IconHint": "nostrum",
+    "Selected": true,
+    "LastChanged": "2019-12-23T17:54:08.9292989+01:00",
     "ChildItems": [
       {
-        "Id": 311,
-        "Name": "Spinka-Simonis",
-        "ToolTip": "Voluptas est nihil repellat sed laudantium et.",
+        "Id": 146,
+        "Name": "West, Waters and Rath",
+        "ToolTip": "Error aliquam quis ea et aut beatae.",
         "Deleted": false,
-        "Rank": 351,
-        "Type": "dolorem",
-        "ColorBlock": 852,
-        "IconHint": "dolor",
+        "Rank": 720,
+        "Type": "amet",
+        "ColorBlock": 195,
+        "IconHint": "ad",
         "Selected": false,
-        "LastChanged": "2018-12-20T16:32:48.6963928+01:00",
+        "LastChanged": "2017-12-06T17:54:08.9292989+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptates",
-        "StyleHint": "alias",
-        "Hidden": true,
-        "FullName": "Mr. Parker Rowe",
+        "ExtraInfo": "eum",
+        "StyleHint": "qui",
+        "Hidden": false,
+        "FullName": "Anastacio Dickinson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 165
+            "FieldType": "System.String",
+            "FieldLength": 913
           }
         }
       }
     ],
-    "ExtraInfo": "voluptates",
-    "StyleHint": "qui",
+    "ExtraInfo": "qui",
+    "StyleHint": "commodi",
     "Hidden": true,
-    "FullName": "Sebastian Larkin",
+    "FullName": "Amos Anderson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 807
+        "FieldLength": 37
       }
     }
   }

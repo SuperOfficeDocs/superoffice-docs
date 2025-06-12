@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/Preference/CreateDefaultPreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -84,30 +84,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 822,
-  "Section": "maxime",
-  "Key": "ut",
-  "Name": "Kling-Willms",
+  "PrefDescId": 329,
+  "Section": "suscipit",
+  "Key": "enim",
+  "Name": "Ortiz-Frami",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Managed tertiary pricing structure",
-  "IsBuiltin": false,
-  "TableName": "Powlowski LLC",
-  "UserDefinedListId": 641,
-  "Rank": 300,
-  "SubGroup": "harum",
-  "MinLevel": 152,
-  "MaxValue": 804,
-  "MinValue": 830,
-  "RequiredLicense": "corporis",
+  "Description": "Switchable homogeneous success",
+  "IsBuiltin": true,
+  "TableName": "McLaughlin Inc and Sons",
+  "UserDefinedListId": 781,
+  "Rank": 190,
+  "SubGroup": "et",
+  "MinLevel": 471,
+  "MaxValue": 246,
+  "MinValue": 432,
+  "RequiredLicense": "enim",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 121
+      "FieldType": "System.Int32",
+      "FieldLength": 927
     }
   }
 }

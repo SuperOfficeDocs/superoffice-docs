@@ -67,22 +67,22 @@ No Content
 POST /api/v1/Agents/Favourite/AddTicketsToFavouritesByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Borer, Flatley and Dach",
+  "ProviderName": "Weissnat-Kohler",
   "Restrictions": [
     {
-      "Name": "Reinger Group",
-      "Operator": "voluptatem",
+      "Name": "Sporer-Brown",
+      "Operator": "cupiditate",
       "Values": [
-        "temporibus",
-        "quos"
+        "alias",
+        "mollitia"
       ],
       "DisplayValues": [
-        "voluptatem",
-        "eos"
+        "rerum",
+        "suscipit"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -90,13 +90,13 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 197,
+      "InterParenthesis": 272,
       "InterOperator": "And",
-      "UniqueHash": 458
+      "UniqueHash": 470
     }
   ],
-  "AssociateId": 579,
-  "ExtraInfo": "dolore"
+  "AssociateId": 122,
+  "ExtraInfo": "ipsa"
 }
 ```
 

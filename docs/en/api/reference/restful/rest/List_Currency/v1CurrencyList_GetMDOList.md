@@ -27,7 +27,7 @@ Get the MDO list items for "Currency" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Currency/MDOItems?flat=False
-GET /api/v1/List/Currency/MDOItems?query=vero
+GET /api/v1/List/Currency/MDOItems?query=delectus
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 879,
-    "Name": "Botsford Group",
-    "ToolTip": "Ea eligendi iste.",
+    "Id": 488,
+    "Name": "Howell, O'Keefe and Orn",
+    "ToolTip": "Qui at earum.",
     "Deleted": false,
-    "Rank": 696,
-    "Type": "molestiae",
+    "Rank": 555,
+    "Type": "est",
     "ChildItems": [
       {
-        "Id": 669,
-        "Name": "Mayert, Schaefer and Dach",
-        "ToolTip": "Nihil minus voluptatem nihil culpa repellendus provident inventore.",
+        "Id": 658,
+        "Name": "Wilderman LLC",
+        "ToolTip": "Voluptas dignissimos praesentium.",
         "Deleted": false,
-        "Rank": 890,
-        "Type": "minus",
+        "Rank": 567,
+        "Type": "molestiae",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "eaque",
-        "ColorBlock": 248,
-        "ExtraInfo": "eius",
-        "StyleHint": "aut",
-        "FullName": "Flossie Flatley",
+        "IconHint": "nihil",
+        "ColorBlock": 804,
+        "ExtraInfo": "labore",
+        "StyleHint": "enim",
+        "FullName": "Loy Morissette",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 928
+            "FieldLength": 760
           }
         }
       }
     ],
-    "IconHint": "suscipit",
-    "ColorBlock": 78,
-    "ExtraInfo": "eveniet",
-    "StyleHint": "et",
-    "FullName": "Miss Jayce Ila Heathcote DVM",
+    "IconHint": "autem",
+    "ColorBlock": 522,
+    "ExtraInfo": "et",
+    "StyleHint": "architecto",
+    "FullName": "Arjun Gaylord",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 701
+        "FieldLength": 451
       }
     }
   }

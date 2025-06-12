@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Competitor/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 537,
-    "Name": "Ratke, Gaylord and Wolff",
-    "ToolTip": "Numquam commodi nulla rerum qui et ipsam.",
-    "Deleted": true,
-    "Rank": 838,
-    "Type": "sint",
-    "ColorBlock": 326,
-    "IconHint": "et",
+    "Id": 919,
+    "Name": "Krajcik Inc and Sons",
+    "ToolTip": "Autem dolor dolores repellat ipsum quam voluptas illo.",
+    "Deleted": false,
+    "Rank": 231,
+    "Type": "ipsa",
+    "ColorBlock": 890,
+    "IconHint": "aspernatur",
     "Selected": false,
-    "LastChanged": "2001-09-13T16:32:48.5558051+02:00",
+    "LastChanged": "2024-09-03T17:54:08.8043048+02:00",
     "ChildItems": [
       {
-        "Id": 154,
-        "Name": "D'Amore-O'Keefe",
-        "ToolTip": "Modi asperiores voluptatem excepturi.",
+        "Id": 871,
+        "Name": "Collins, Lynch and Spinka",
+        "ToolTip": "Quo ut.",
         "Deleted": false,
-        "Rank": 615,
-        "Type": "iste",
-        "ColorBlock": 914,
-        "IconHint": "voluptatem",
-        "Selected": true,
-        "LastChanged": "2020-03-24T16:32:48.5558051+01:00",
+        "Rank": 281,
+        "Type": "omnis",
+        "ColorBlock": 279,
+        "IconHint": "voluptates",
+        "Selected": false,
+        "LastChanged": "2000-08-28T17:54:08.8043048+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "sapiente",
+        "ExtraInfo": "culpa",
+        "StyleHint": "dolores",
         "Hidden": false,
-        "FullName": "Lyla Aufderhar",
+        "FullName": "Madalyn McKenzie",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 898
+            "FieldLength": 706
           }
         }
       }
     ],
-    "ExtraInfo": "ipsam",
-    "StyleHint": "explicabo",
-    "Hidden": true,
-    "FullName": "Lysanne Nolan",
+    "ExtraInfo": "maxime",
+    "StyleHint": "nam",
+    "Hidden": false,
+    "FullName": "Joyce Swaniawski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 187
+        "FieldLength": 420
       }
     }
   }

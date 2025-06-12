@@ -62,7 +62,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultListItemEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 563,
-  "Name": "Deckow, Keeling and Reynolds",
-  "Tooltip": "unde",
+  "Id": 489,
+  "Name": "Hills Inc and Sons",
+  "Tooltip": "inventore",
   "Deleted": false,
-  "UdListDefinitionId": 914,
-  "Rank": 673,
+  "UdListDefinitionId": 518,
+  "Rank": 630,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 763
+      "FieldType": "System.String",
+      "FieldLength": 899
     }
   }
 }

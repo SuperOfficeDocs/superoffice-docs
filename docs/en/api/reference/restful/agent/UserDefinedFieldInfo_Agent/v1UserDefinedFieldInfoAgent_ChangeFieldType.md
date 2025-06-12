@@ -108,7 +108,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/ChangeFieldType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -125,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 326,
-  "ColumnId": 22,
-  "FieldDefault": "sunt",
-  "FieldHeight": 264,
-  "FieldLabel": "et",
-  "FieldLeft": 779,
-  "FieldTop": 822,
+  "UDefFieldId": 680,
+  "ColumnId": 992,
+  "FieldDefault": "et",
+  "FieldHeight": 664,
+  "FieldLabel": "repellendus",
+  "FieldLeft": 96,
+  "FieldTop": 967,
   "FieldType": "Checkbox",
-  "FieldWidth": 97,
-  "FormatMask": "nisi",
-  "HideLabel": true,
-  "IsIndexed": true,
-  "LabelHeight": 458,
-  "LabelLeft": 153,
-  "LabelTop": 105,
-  "LabelWidth": 535,
-  "LastVersionId": 445,
-  "ListTableId": 402,
-  "IsMandatory": true,
+  "FieldWidth": 561,
+  "FormatMask": "quae",
+  "HideLabel": false,
+  "IsIndexed": false,
+  "LabelHeight": 35,
+  "LabelLeft": 367,
+  "LabelTop": 960,
+  "LabelWidth": 286,
+  "LastVersionId": 721,
+  "ListTableId": 665,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 722,
-  "ProgId": "et",
+  "Page1LineNo": 40,
+  "ProgId": "dicta",
   "IsReadOnly": false,
-  "ShortLabel": "molestias",
-  "TabOrder": 248,
-  "TextLength": 744,
-  "Tooltip": "vero",
-  "UdefIdentity": 573,
-  "UDListDefinitionId": 968,
+  "ShortLabel": "in",
+  "TabOrder": 551,
+  "TextLength": 806,
+  "Tooltip": "error",
+  "UdefIdentity": 395,
+  "UDListDefinitionId": 350,
   "Justification": "Center",
-  "Version": 300,
-  "TemplateVariableName": "Sawayn-Hauck",
+  "Version": 378,
+  "TemplateVariableName": "Littel LLC",
   "HasBeenPublished": false,
-  "MdoListName": "Collins, Crist and Crooks",
+  "MdoListName": "Legros LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 279
+      "FieldLength": 703
     }
   }
 }

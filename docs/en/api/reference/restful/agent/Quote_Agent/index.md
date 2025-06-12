@@ -16,10 +16,6 @@ generated: true
 
 * [POST Agents/Quote/RecalculateQuoteLine](v1QuoteAgent_RecalculateQuoteLine.md)
 
-* [POST Agents/Quote/GetQuoteLineImage](v1QuoteAgent_GetQuoteLineImage.md)
-
-* [POST Agents/Quote/SaveQuoteLineImage](v1QuoteAgent_SaveQuoteLineImage.md)
-
 * [POST Agents/Quote/GetExtraInfo](v1QuoteAgent_GetExtraInfo.md)
 
 * [POST Agents/Quote/CreateAndSaveQuoteLines](v1QuoteAgent_CreateAndSaveQuoteLines.md)
@@ -35,8 +31,6 @@ generated: true
 * [POST Agents/Quote/SaveQuoteLineConfiguration](v1QuoteAgent_SaveQuoteLineConfiguration.md)
 
 * [POST Agents/Quote/SaveQuoteLineConfigurations](v1QuoteAgent_SaveQuoteLineConfigurations.md)
-
-* [POST Agents/Quote/GetQuoteList](v1QuoteAgent_GetQuoteList.md)
 
 * [POST Agents/Quote/ValidateQuoteVersion](v1QuoteAgent_ValidateQuoteVersion.md)
 

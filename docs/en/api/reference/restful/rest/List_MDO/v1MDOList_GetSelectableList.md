@@ -30,8 +30,8 @@ Return the selectable list items
 | flat | bool |  true/false |
 
 ```http
-GET /api/v1/MDOList/{listname}/selectable?additional=iste
-GET /api/v1/MDOList/{listname}/selectable?flat=True
+GET /api/v1/MDOList/{listname}/selectable?additional=voluptatem
+GET /api/v1/MDOList/{listname}/selectable?flat=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/MDOList/{listname}/selectable
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 600,
-    "Name": "Leuschke LLC",
-    "ToolTip": "Vitae culpa praesentium magnam sit impedit velit.",
+    "Id": 348,
+    "Name": "Nicolas-Abshire",
+    "ToolTip": "Ut voluptatem aut nulla distinctio quod ab.",
     "Deleted": false,
-    "Rank": 318,
-    "Type": "dolores",
-    "ColorBlock": 36,
-    "IconHint": "quia",
+    "Rank": 136,
+    "Type": "aliquam",
+    "ColorBlock": 135,
+    "IconHint": "soluta",
     "Selected": true,
-    "LastChanged": "2009-03-30T16:32:48.7120179+02:00",
+    "LastChanged": "2007-05-21T17:54:08.9292989+02:00",
     "ChildItems": [
       {
-        "Id": 918,
-        "Name": "Farrell, Bauch and Volkman",
-        "ToolTip": "Repellendus numquam similique.",
+        "Id": 201,
+        "Name": "West, Robel and Aufderhar",
+        "ToolTip": "Rerum ex et voluptatem dolor et.",
         "Deleted": false,
-        "Rank": 574,
-        "Type": "earum",
-        "ColorBlock": 129,
-        "IconHint": "et",
+        "Rank": 355,
+        "Type": "dolorem",
+        "ColorBlock": 645,
+        "IconHint": "quibusdam",
         "Selected": false,
-        "LastChanged": "2007-08-19T16:32:48.7120179+02:00",
+        "LastChanged": "2011-12-12T17:54:08.9292989+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "velit",
-        "StyleHint": "nemo",
-        "Hidden": true,
-        "FullName": "Bailee Heathcote",
+        "ExtraInfo": "consequatur",
+        "StyleHint": "veritatis",
+        "Hidden": false,
+        "FullName": "Erin Fahey",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 747
+            "FieldLength": 882
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "similique",
+    "ExtraInfo": "vero",
+    "StyleHint": "impedit",
     "Hidden": false,
-    "FullName": "Dudley Turner",
+    "FullName": "Vincenza Heller",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 991
+        "FieldType": "System.Int32",
+        "FieldLength": 114
       }
     }
   }

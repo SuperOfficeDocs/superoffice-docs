@@ -66,13 +66,13 @@ No Content
 POST /api/v1/Agents/Ticket/UndeleteByIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "TicketIds": [
-    973,
-    464
+    443,
+    230
   ]
 }
 ```

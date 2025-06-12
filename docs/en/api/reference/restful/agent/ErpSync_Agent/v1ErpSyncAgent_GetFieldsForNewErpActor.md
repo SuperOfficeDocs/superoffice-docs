@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetFieldsForNewErpActor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 429,
+  "ErpConnectionId": 874,
   "ErpActorType": "Customer"
 }
 ```
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "FieldKey": "consectetur",
-    "Rank": 11,
-    "DisplayName": "Mante, Kemmer and Wiegand",
-    "DisplayDescription": "Vision-oriented stable local area network",
+    "FieldKey": "quidem",
+    "Rank": 489,
+    "DisplayName": "Murazik-Ruecker",
+    "DisplayDescription": "Streamlined solution-oriented orchestration",
     "FieldType": "Checkbox",
-    "ListName": "O'Keefe Inc and Sons",
-    "DefaultValue": "saepe",
-    "MaxLength": 570,
+    "ListName": "Macejkovic, Lubowitz and Gleichner",
+    "DefaultValue": "nisi",
+    "MaxLength": 165,
     "Access": "Mandatory",
-    "ShowInSearch": true,
+    "ShowInSearch": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 388
+        "FieldType": "System.String",
+        "FieldLength": 114
       }
     }
   }

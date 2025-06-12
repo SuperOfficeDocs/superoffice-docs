@@ -90,25 +90,25 @@ HTTP/1.1 200 ShipmentMessageBlockEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 367,
-  "AssociateId": 420,
-  "Block": "impedit",
-  "Registered": "2024-12-02T16:32:48.1025764+01:00",
-  "RegisteredAssociateId": 436,
-  "Updated": "2012-08-10T16:32:48.1025764+02:00",
-  "UpdatedAssociateId": 697,
-  "UpdatedCount": 417,
+  "ShipmentMessageBlockId": 697,
+  "AssociateId": 179,
+  "Block": "quo",
+  "Registered": "2002-04-23T17:54:08.5386928+02:00",
+  "RegisteredAssociateId": 479,
+  "Updated": "2019-04-15T17:54:08.5386928+02:00",
+  "UpdatedAssociateId": 895,
+  "UpdatedCount": 406,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 319
+      "FieldLength": 238
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

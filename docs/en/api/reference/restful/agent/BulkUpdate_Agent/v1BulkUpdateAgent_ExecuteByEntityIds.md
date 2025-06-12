@@ -71,36 +71,36 @@ OK
 POST /api/v1/Agents/BulkUpdate/ExecuteByEntityIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "FieldValueInfos": [
     {
-      "CanSupportMultiUse": false,
+      "CanSupportMultiUse": true,
       "DefaultShowInGui": false,
       "DefaultShowInSelector": false,
       "IsActive": false,
-      "Key": "exercitationem",
-      "ValueType": "dolorum",
+      "Key": "non",
+      "ValueType": "velit",
       "Mandatory": false,
-      "EncodedDisplayName": "Abbott Group",
-      "EncodedDisplayDescription": "Proactive eco-centric groupware",
-      "IconHint": "iste",
+      "EncodedDisplayName": "Yundt Group",
+      "EncodedDisplayDescription": "Reduced bottom-line info-mediaries",
+      "IconHint": "corporis",
       "ControlInfos": [
         {},
         {}
       ],
-      "EncodedDataCaption": "minima",
-      "EncodedDataCaptionDescription": "Multi-layered secondary orchestration",
-      "CurrentOperationType": "vel",
+      "EncodedDataCaption": "nemo",
+      "EncodedDataCaptionDescription": "Pre-emptive object-oriented project",
+      "CurrentOperationType": "rem",
       "Values": [
-        "sunt",
-        "odit"
+        "vel",
+        "veniam"
       ],
       "DisplayValues": [
-        "aut",
-        "voluptas"
+        "voluptas",
+        "illo"
       ],
       "OperationInfos": [
         {},
@@ -108,9 +108,9 @@ Content-Type: application/json; charset=utf-8
       ]
     }
   ],
-  "TableName": "Kerluke, Lesch and Zboncak",
-  "Context": "dignissimos",
-  "Ids": "dolores"
+  "TableName": "Lueilwitz LLC",
+  "Context": "sunt",
+  "Ids": "nostrum"
 }
 ```
 
@@ -120,5 +120,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-88
+31
 ```

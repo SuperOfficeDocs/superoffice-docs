@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ProductFamily/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 923,
-  "Name": "Hills Inc and Sons",
-  "Tooltip": "vitae",
+  "HeadingId": 629,
+  "Name": "O'Conner-Pagac",
+  "Tooltip": "atque",
   "Deleted": false,
-  "Rank": 560,
-  "UdListDefinitionId": 663
+  "Rank": 15,
+  "UdListDefinitionId": 218
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 742,
-  "Name": "Padberg, Abshire and Gaylord",
-  "Tooltip": "ipsum",
-  "Deleted": false,
-  "Rank": 320,
-  "UdListDefinitionId": 880,
+  "HeadingId": 408,
+  "Name": "Casper-Herzog",
+  "Tooltip": "quae",
+  "Deleted": true,
+  "Rank": 429,
+  "UdListDefinitionId": 154,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 452
+      "FieldLength": 28
     }
   }
 }

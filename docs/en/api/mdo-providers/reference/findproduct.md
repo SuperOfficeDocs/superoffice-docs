@@ -44,7 +44,7 @@ Accept-Language: *
 
 ## Sample Code
 ```cs
-var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("findproduct", forceFlatList: true);
+var listProvider = ClassFactory.CreateRequired<SuperOffice.CRM.Lists.ISoListProviderFactory>().Create("findproduct", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
     Console.WriteLine("{0} {1} {2} {3}", 
          item.Id, ResourceManager.ParseInlineResources(item.Name), item.StyleHint, item.ExtraInfo);

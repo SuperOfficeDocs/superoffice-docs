@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/QuoteDenyReason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,11 +75,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 964,
-  "Name": "Kulas-Goodwin",
-  "Tooltip": "distinctio",
-  "Deleted": true,
-  "Rank": 828,
+  "Id": 306,
+  "Name": "Bergstrom, Funk and Johns",
+  "Tooltip": "consequatur",
+  "Deleted": false,
+  "Rank": 424,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
@@ -89,8 +89,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 202
+      "FieldType": "System.String",
+      "FieldLength": 569
     }
   },
   "_Links": {

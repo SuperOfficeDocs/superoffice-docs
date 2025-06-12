@@ -57,21 +57,21 @@ No Content
 PUT /api/v1/Contact/DuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Murazik Group",
-    "DisplayName": "White-Feil",
-    "DisplayTooltip": "tempora",
-    "IsActive": false
+    "Name": "Strosin-Weber",
+    "DisplayName": "Bashirian, Kulas and Doyle",
+    "DisplayTooltip": "molestias",
+    "IsActive": true
   },
   {
-    "Name": "Murazik Group",
-    "DisplayName": "White-Feil",
-    "DisplayTooltip": "tempora",
-    "IsActive": false
+    "Name": "Strosin-Weber",
+    "DisplayName": "Bashirian, Kulas and Doyle",
+    "DisplayTooltip": "molestias",
+    "IsActive": true
   }
 ]
 ```

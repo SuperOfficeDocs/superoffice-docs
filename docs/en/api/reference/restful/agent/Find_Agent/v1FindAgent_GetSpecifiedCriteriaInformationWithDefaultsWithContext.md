@@ -83,22 +83,22 @@ OK
 POST /api/v1/Agents/Find/GetSpecifiedCriteriaInformationWithDefaultsWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "qui",
-  "ProviderName": "Dooley, Cartwright and Beer",
-  "StorageKey": "hic",
+  "StorageType": "in",
+  "ProviderName": "Hickle Group",
+  "StorageKey": "est",
   "DesiredColumnNames": [
-    "Bernier-Balistreri",
-    "Steuber, McClure and Jerde"
+    "Hermann-Schaden",
+    "Braun-Kertzmann"
   ],
   "StaticColumns": [
-    "quos",
-    "blanditiis"
+    "iste",
+    "voluptatem"
   ],
-  "Context": "vitae"
+  "Context": "quia"
 }
 ```
 
@@ -111,15 +111,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Connelly-Carroll",
-      "Operator": "ut",
+      "Name": "Stokes, Haag and Thompson",
+      "Operator": "sit",
       "Values": [
-        "id",
-        "non"
+        "voluptas",
+        "a"
       ],
       "DisplayValues": [
-        "ipsam",
-        "dignissimos"
+        "adipisci",
+        "deleniti"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -127,65 +127,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 337,
+      "InterParenthesis": 397,
       "InterOperator": "And",
-      "UniqueHash": 793
+      "UniqueHash": 103
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Kunze, O'Conner and Paucek",
-      "DisplayTooltip": "in",
-      "DisplayType": "saepe",
+      "DisplayName": "Pacocha, Wuckert and Cruickshank",
+      "DisplayTooltip": "illum",
+      "DisplayType": "consequatur",
       "CanOrderBy": false,
-      "Name": "Volkman-Pacocha",
-      "CanRestrictBy": true,
-      "RestrictionType": "nihil",
-      "RestrictionListName": "Ebert-Bayer",
+      "Name": "Berge, Altenwerth and Medhurst",
+      "CanRestrictBy": false,
+      "RestrictionType": "beatae",
+      "RestrictionListName": "Yundt, Gerlach and Buckridge",
       "IsVisible": false,
-      "ExtraInfo": "sed",
-      "Width": "temporibus",
-      "IconHint": "occaecati",
-      "HeadingIconHint": "sunt"
+      "ExtraInfo": "voluptatem",
+      "Width": "minus",
+      "IconHint": "nihil",
+      "HeadingIconHint": "vero"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Collier-Romaguera",
-      "PrimaryKey": 649,
+      "EntityName": "Funk-Graham",
+      "PrimaryKey": 385,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "dolore",
-          "TooltipHint": "ut",
-          "LinkHint": "dignissimos"
+          "DisplayValue": "necessitatibus",
+          "TooltipHint": "qui",
+          "LinkHint": "doloremque"
         }
       },
-      "LinkHint": "sed",
+      "LinkHint": "qui",
       "StyleHint": "non",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 763
+          "FieldLength": 889
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Boyer-Buckridge",
-      "Description": "Extended high-level structure",
-      "Rank": 712,
+      "Name": "Leuschke-Homenick",
+      "Description": "Virtual attitude-oriented service-desk",
+      "Rank": 744,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Boyer-Buckridge",
-      "Description": "Extended high-level structure",
-      "Rank": 712,
+      "Name": "Leuschke-Homenick",
+      "Description": "Virtual attitude-oriented service-desk",
+      "Rank": 744,
       "Restrictions": [
         {},
         {}
@@ -197,7 +197,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 918
+      "FieldLength": 414
     }
   }
 }

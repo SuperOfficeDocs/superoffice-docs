@@ -29,7 +29,7 @@ Get summary of contact and its recent activity.
 | limit | int32 |  Max number of items to include in summary lists. |
 
 ```http
-GET /api/v1/Contact/{contactId}/Summary?limit=499
+GET /api/v1/Contact/{contactId}/Summary?limit=646
 ```
 
 
@@ -85,79 +85,79 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "Tickets": [
     {
-      "TicketId": 460,
-      "TicketStatus": 584,
-      "Title": "voluptatem",
-      "Registered": "2003-08-24T16:32:47.3839895+02:00",
-      "IconHint": "fugiat"
+      "TicketId": 504,
+      "TicketStatus": 683,
+      "Title": "asperiores",
+      "Registered": "2017-05-19T17:54:08.1168303+02:00",
+      "IconHint": "nihil"
     },
     {
-      "TicketId": 460,
-      "TicketStatus": 584,
-      "Title": "voluptatem",
-      "Registered": "2003-08-24T16:32:47.3839895+02:00",
-      "IconHint": "fugiat"
+      "TicketId": 504,
+      "TicketStatus": 683,
+      "Title": "asperiores",
+      "Registered": "2017-05-19T17:54:08.1168303+02:00",
+      "IconHint": "nihil"
     }
   ],
   "Followups": [
     {
-      "AppointmentId": 973,
-      "DocumentId": 439,
-      "Date": "2015-02-14T16:32:47.3839895+01:00",
-      "Description": "Horizontal content-based adapter",
+      "AppointmentId": 884,
+      "DocumentId": 589,
+      "Date": "2015-12-29T17:54:08.1168303+01:00",
+      "Description": "Mandatory multimedia projection",
       "Completed": "Completed",
-      "Registered": "2022-08-11T16:32:47.3839895+02:00"
+      "Registered": "2003-01-11T17:54:08.1168303+01:00"
     },
     {
-      "AppointmentId": 973,
-      "DocumentId": 439,
-      "Date": "2015-02-14T16:32:47.3839895+01:00",
-      "Description": "Horizontal content-based adapter",
+      "AppointmentId": 884,
+      "DocumentId": 589,
+      "Date": "2015-12-29T17:54:08.1168303+01:00",
+      "Description": "Mandatory multimedia projection",
       "Completed": "Completed",
-      "Registered": "2022-08-11T16:32:47.3839895+02:00"
+      "Registered": "2003-01-11T17:54:08.1168303+01:00"
     }
   ],
   "Documents": [
     {
-      "AppointmentId": 685,
-      "DocumentId": 984,
-      "Date": "2019-01-16T16:32:47.3839895+01:00",
-      "Description": "Down-sized cohesive access",
+      "AppointmentId": 989,
+      "DocumentId": 36,
+      "Date": "2002-11-10T17:54:08.1168303+01:00",
+      "Description": "Switchable empowering process improvement",
       "Completed": "Completed",
-      "Registered": "2012-12-30T16:32:47.3839895+01:00"
+      "Registered": "2013-07-26T17:54:08.1168303+02:00"
     },
     {
-      "AppointmentId": 685,
-      "DocumentId": 984,
-      "Date": "2019-01-16T16:32:47.3839895+01:00",
-      "Description": "Down-sized cohesive access",
+      "AppointmentId": 989,
+      "DocumentId": 36,
+      "Date": "2002-11-10T17:54:08.1168303+01:00",
+      "Description": "Switchable empowering process improvement",
       "Completed": "Completed",
-      "Registered": "2012-12-30T16:32:47.3839895+01:00"
+      "Registered": "2013-07-26T17:54:08.1168303+02:00"
     }
   ],
   "Sales": [
     {
-      "SaleId": 869,
-      "SaleDate": "2008-03-01T16:32:47.3839895+01:00",
-      "Probability": 319,
-      "Heading": "facere",
-      "Amount": 23191.6,
-      "Currency": "rerum",
-      "AmountInBaseCurrency": 10878.114,
+      "SaleId": 375,
+      "SaleDate": "2024-03-17T17:54:08.1168303+01:00",
+      "Probability": 306,
+      "Heading": "in",
+      "Amount": 9890.904,
+      "Currency": "autem",
+      "AmountInBaseCurrency": 18.804,
       "Status": "Lost",
       "Completed": "Completed",
-      "Registered": "2009-08-25T16:32:47.3839895+02:00"
+      "Registered": "2007-12-13T17:54:08.1168303+01:00"
     }
   ],
   "Chats": [
     {
-      "ChatSessionId": 970,
-      "Name": "Hackett, Purdy and Hickle",
-      "CompanyName": "Russel-Torphy",
-      "FirstMessage": "reprehenderit",
-      "LastMessage": "ut",
-      "WhenRequested": "2014-12-14T16:32:47.3839895+01:00",
-      "WhenEnded": "2008-12-01T16:32:47.3839895+01:00"
+      "ChatSessionId": 306,
+      "Name": "Terry, Morar and Kautzer",
+      "CompanyName": "Koch, Schoen and Toy",
+      "FirstMessage": "excepturi",
+      "LastMessage": "aut",
+      "WhenRequested": "2022-06-14T17:54:08.1168303+02:00",
+      "WhenEnded": "1999-11-21T17:54:08.1168303+01:00"
     }
   ]
 }

@@ -101,20 +101,20 @@ OK
 POST /api/v1/Role
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 165,
-  "Name": "Hoeger Inc and Sons",
-  "Tooltip": "porro",
+  "RoleId": 652,
+  "Name": "Stroman-Hilll",
+  "Tooltip": "quod",
   "RoleType": "Anonymous",
-  "Deleted": 460,
-  "Rank": 350,
-  "Created": "2015-12-03T16:32:47.7589038+01:00",
-  "UseCategories": 706,
+  "Deleted": 524,
+  "Rank": 566,
+  "Created": "2014-04-07T17:54:08.4136991+02:00",
+  "UseCategories": 948,
   "CreatedBy": null,
-  "Updated": "2008-07-15T16:32:47.7589038+02:00",
+  "Updated": "2022-08-05T17:54:08.4136991+02:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -127,16 +127,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 37,
-  "Name": "Stokes, Hoeger and White",
-  "Tooltip": "aut",
+  "RoleId": 866,
+  "Name": "Bernhard Group",
+  "Tooltip": "esse",
   "RoleType": "Anonymous",
-  "Deleted": 151,
-  "Rank": 623,
-  "Created": "2019-08-11T16:32:47.7589038+02:00",
-  "UseCategories": 687,
+  "Deleted": 540,
+  "Rank": 477,
+  "Created": "2021-07-11T17:54:08.4136991+02:00",
+  "UseCategories": 96,
   "CreatedBy": null,
-  "Updated": "2008-08-19T16:32:47.7589038+02:00",
+  "Updated": "2017-10-12T17:54:08.4136991+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -144,7 +144,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 292
+      "FieldLength": 481
     }
   },
   "_Links": {

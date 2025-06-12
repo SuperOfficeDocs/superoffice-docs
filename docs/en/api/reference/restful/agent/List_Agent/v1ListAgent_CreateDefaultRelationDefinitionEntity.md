@@ -64,7 +64,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultRelationDefinitionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -74,12 +74,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 507,
-  "Name": "Haley Inc and Sons",
-  "Tooltip": "temporibus",
-  "PassiveText": "sapiente",
-  "Deleted": false,
-  "Rank": 280,
+  "ReldefId": 539,
+  "Name": "Gottlieb, Weissnat and Reichel",
+  "Tooltip": "ad",
+  "PassiveText": "voluptate",
+  "Deleted": true,
+  "Rank": 641,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -87,7 +87,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 497
+      "FieldLength": 615
     }
   }
 }

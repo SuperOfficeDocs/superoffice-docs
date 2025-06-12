@@ -80,14 +80,14 @@ OK
 POST /api/v1/Agents/CustomerService/GetParsedTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 456,
-  "LanguageId": 633,
-  "PersonId": 524,
-  "TicketId": 549
+  "ReplyTemplateId": 620,
+  "LanguageId": 370,
+  "PersonId": 959,
+  "TicketId": 575
 }
 ```
 
@@ -98,36 +98,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 380,
-  "PlainParsed": "et",
-  "HtmlParsed": "expedita",
+  "ReplyTemplateId": 809,
+  "PlainParsed": "esse",
+  "HtmlParsed": "nihil",
   "Attachments": [
     {
-      "AttachmentId": 64,
-      "Name": "Braun Group",
-      "ContentType": "iure",
-      "AttSize": 723,
-      "InlineImage": false,
-      "ContentId": "quia",
-      "AuthKey": "pariatur",
-      "IsSafeFileExtension": true,
+      "AttachmentId": 436,
+      "Name": "Goodwin, Dooley and Gerhold",
+      "ContentType": "libero",
+      "AttSize": 41,
+      "InlineImage": true,
+      "ContentId": "ea",
+      "AuthKey": "officia",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 646
+          "FieldLength": 697
         }
       }
     }
   ],
-  "Subject": "neque",
+  "Subject": "voluptas",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 398
+      "FieldLength": 322
     }
   }
 }

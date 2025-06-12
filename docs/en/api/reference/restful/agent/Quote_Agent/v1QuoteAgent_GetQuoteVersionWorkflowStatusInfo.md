@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteVersionWorkflowStatusInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 385
+  "QuoteVersionId": 896
 }
 ```
 
@@ -94,15 +94,15 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Status": "Error",
-  "IconHint": "et",
-  "DisplayMessage": "et",
-  "DisplayTooltip": "et",
+  "IconHint": "aut",
+  "DisplayMessage": "adipisci",
+  "DisplayTooltip": "optio",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 243
+      "FieldType": "System.String",
+      "FieldLength": 912
     }
   }
 }

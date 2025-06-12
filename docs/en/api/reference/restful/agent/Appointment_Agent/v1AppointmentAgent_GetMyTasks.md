@@ -128,11 +128,11 @@ OK
 POST /api/v1/Agents/Appointment/GetMyTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Count": 57
+  "Count": 745
 }
 ```
 
@@ -144,66 +144,66 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 782,
-    "StartDate": "2015-01-02T16:32:37.5865481+01:00",
-    "EndDate": "2022-09-05T16:32:37.5865481+02:00",
+    "AppointmentId": 92,
+    "StartDate": "2004-01-11T17:54:02.3514942+01:00",
+    "EndDate": "2012-05-15T17:54:02.3514942+02:00",
     "Type": "BookingForChecklist",
-    "Task": "aperiam",
-    "AssociateFullName": "Prof. Barton Padberg",
-    "ContactName": "Lueilwitz, Hermiston and Ebert",
-    "Description": "Networked systematic parallelism",
-    "PersonFullName": "Carlie Davis Sr.",
-    "PersonId": 208,
-    "ContactId": 785,
-    "ProjectId": 75,
-    "ProjectName": "Schroeder, Schultz and Hand",
-    "IsPublished": true,
-    "AssociateId": 627,
-    "ColorIndex": 313,
-    "IsFree": false,
+    "Task": "voluptatem",
+    "AssociateFullName": "Prof. Christelle Swift IV",
+    "ContactName": "Gerlach LLC",
+    "Description": "Up-sized 6th generation emulation",
+    "PersonFullName": "Maeve Kassulke",
+    "PersonId": 614,
+    "ContactId": 927,
+    "ProjectId": 592,
+    "ProjectName": "Stoltenberg LLC",
+    "IsPublished": false,
+    "AssociateId": 754,
+    "ColorIndex": 452,
+    "IsFree": true,
     "HasAlarm": false,
-    "IsAlldayEvent": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 940,
-    "PriorityName": "Mitchell Inc and Sons",
+    "PriorityId": 769,
+    "PriorityName": "Mertz Inc and Sons",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": true,
-    "IsBooking": false,
-    "ActiveDate": "2023-01-27T16:32:37.5865481+01:00",
+    "IsBooking": true,
+    "ActiveDate": "1999-10-22T17:54:02.3514942+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2017-04-02T16:32:37.5865481+02:00",
-    "RecurringEndDate": "2011-03-01T16:32:37.5865481+01:00",
-    "MotherId": 44,
-    "AssignedBy": 746,
-    "AssignedByFullName": "Prof. Annabell Cassie Kautzer I",
-    "RejectReason": "integrate magnetic models",
-    "Location": "voluptatibus",
-    "AlarmLeadTime": "tenetur",
-    "SaleId": 650,
-    "SaleName": "Wehner, Gusikowski and Goodwin",
-    "AssociateName": "Hickle, Roob and Cremin",
-    "CreatedDate": "2014-09-05T16:32:37.5865481+02:00",
-    "CreatedBy": "harum",
-    "CreatedByFullName": "Dr. Eden Herzog",
-    "CreatedByAssociateId": 874,
+    "RecurringStartDate": "2005-07-09T17:54:02.3514942+02:00",
+    "RecurringEndDate": "2001-01-12T17:54:02.3514942+01:00",
+    "MotherId": 418,
+    "AssignedBy": 385,
+    "AssignedByFullName": "Franz Bogan",
+    "RejectReason": "",
+    "Location": "laudantium",
+    "AlarmLeadTime": "sed",
+    "SaleId": 368,
+    "SaleName": "Leffler-Tromp",
+    "AssociateName": "Carter, Boehm and Rowe",
+    "CreatedDate": "2008-09-16T17:54:02.3514942+02:00",
+    "CreatedBy": "ad",
+    "CreatedByFullName": "Prof. Iva Rudy Gaylord III",
+    "CreatedByAssociateId": 847,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 550,
-    "Title": "a",
-    "Agenda": "explicabo",
-    "InternalNotes": "labore",
+    "PreferredTZLocation": 241,
+    "Title": "qui",
+    "Agenda": "consequuntur",
+    "InternalNotes": "impedit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 289
+        "FieldType": "System.Int32",
+        "FieldLength": 730
       }
     }
   }

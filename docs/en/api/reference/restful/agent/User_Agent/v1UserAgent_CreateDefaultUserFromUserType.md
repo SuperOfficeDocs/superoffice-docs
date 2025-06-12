@@ -102,7 +102,7 @@ OK
 POST /api/v1/Agents/User/CreateDefaultUserFromUserType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -117,14 +117,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 364,
-  "Name": "Conroy LLC",
-  "Rank": 821,
-  "Tooltip": "itaque",
+  "AssociateId": 292,
+  "Name": "Simonis Group",
+  "Rank": 538,
+  "Tooltip": "aspernatur",
   "LicenseOwners": [
     {
-      "Name": "Kassulke-Smith",
-      "Description": "Intuitive content-based portal",
+      "Name": "Ferry Inc and Sons",
+      "Description": "Self-enabling explicit flexibility",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -137,14 +137,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 305
+          "FieldType": "System.String",
+          "FieldLength": 855
         }
       }
     },
     {
-      "Name": "Kassulke-Smith",
-      "Description": "Intuitive content-based portal",
+      "Name": "Ferry Inc and Sons",
+      "Description": "Self-enabling explicit flexibility",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -157,8 +157,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 305
+          "FieldType": "System.String",
+          "FieldLength": 855
         }
       }
     }
@@ -167,110 +167,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "error",
-      "Tooltip": "qui",
-      "Id": 620,
-      "Rank": 360,
-      "Deleted": false,
+      "Value": "veniam",
+      "Tooltip": "et",
+      "Id": 561,
+      "Rank": 5,
+      "Deleted": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 221
+          "FieldLength": 966
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": true,
-  "Lastlogin": "2023-09-05T16:32:40.4925766+02:00",
-  "Lastlogout": "2001-02-20T16:32:40.4925766+01:00",
-  "EjUserId": 293,
-  "RequestSignature": "occaecati",
+  "Deleted": false,
+  "Lastlogin": "2004-08-22T17:54:03.8982941+02:00",
+  "Lastlogout": "2009-01-23T17:54:03.8982941+01:00",
+  "EjUserId": 618,
+  "RequestSignature": "eaque",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "nihil",
-      "DisplayValue": "officia",
+      "Value": "omnis",
+      "DisplayValue": "veniam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 463
+          "FieldLength": 420
         }
       }
     },
     {
       "Type": null,
-      "Value": "nihil",
-      "DisplayValue": "officia",
+      "Value": "omnis",
+      "DisplayValue": "veniam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 463
+          "FieldLength": 420
         }
       }
     }
   ],
-  "UserName": "Ritchie, Hickle and Ryan",
+  "UserName": "Mohr Group",
   "TicketCategories": [
     {
-      "Id": 839,
-      "Name": "Runolfsson Group",
-      "ToolTip": "Qui et sit nemo rerum.",
+      "Id": 722,
+      "Name": "Oberbrunner Inc and Sons",
+      "ToolTip": "Et soluta consequatur asperiores vel illo quasi.",
       "Deleted": false,
-      "Rank": 799,
-      "Type": "iure",
+      "Rank": 532,
+      "Type": "et",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "maxime",
-      "ColorBlock": 93,
-      "ExtraInfo": "modi",
-      "StyleHint": "harum",
-      "FullName": "Ella Morissette",
+      "IconHint": "excepturi",
+      "ColorBlock": 237,
+      "ExtraInfo": "quia",
+      "StyleHint": "qui",
+      "FullName": "Paris Romaguera",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 517
+          "FieldLength": 148
         }
       }
     }
   ],
-  "NickName": "Rutherford Group",
-  "WaitingForApproval": false,
+  "NickName": "Ferry, Parker and Lebsack",
+  "WaitingForApproval": true,
   "ExtraFields": {
-    "ExtraFields1": "excepturi",
-    "ExtraFields2": "odio"
+    "ExtraFields1": "totam",
+    "ExtraFields2": "dolor"
   },
   "CustomFields": {
-    "CustomFields1": "ea",
-    "CustomFields2": "quis"
+    "CustomFields1": "cum",
+    "CustomFields2": "exercitationem"
   },
   "PostSaveCommands": [
     {
-      "Name": "Torphy-Ortiz",
-      "DisplayName": "Grady, Oberbrunner and Swaniawski",
-      "Description": "Re-engineered secondary throughput",
-      "ToolTip": "Dignissimos qui illum doloribus ut.",
+      "Name": "Bartell-Rempel",
+      "DisplayName": "Zemlak, Hane and Lowe",
+      "Description": "Digitized eco-centric monitoring",
+      "ToolTip": "Eaque est et sint velit.",
       "Actions": "Implicit",
-      "ActionData": "consequatur",
+      "ActionData": "vitae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 982
+          "FieldType": "System.Int32",
+          "FieldLength": 85
         }
       }
     }
@@ -279,8 +279,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 662
+      "FieldType": "System.String",
+      "FieldLength": 490
     }
   }
 }

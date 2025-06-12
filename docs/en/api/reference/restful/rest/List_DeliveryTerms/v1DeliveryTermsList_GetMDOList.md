@@ -27,7 +27,7 @@ Get the MDO list items for "DeliveryTerms" - with headings and filtering by user
 
 ```http
 GET /api/v1/List/DeliveryTerm/MDOItems?flat=True
-GET /api/v1/List/DeliveryTerm/MDOItems?query=beatae
+GET /api/v1/List/DeliveryTerm/MDOItems?query=quis
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 496,
-    "Name": "Gusikowski, Ebert and Rolfson",
-    "ToolTip": "Itaque ad.",
+    "Id": 118,
+    "Name": "Rice LLC",
+    "ToolTip": "Consequatur velit doloribus aut excepturi sunt autem.",
     "Deleted": false,
-    "Rank": 803,
-    "Type": "voluptatem",
+    "Rank": 1002,
+    "Type": "porro",
     "ChildItems": [
       {
-        "Id": 68,
-        "Name": "Skiles Inc and Sons",
-        "ToolTip": "Animi eius nemo vel.",
+        "Id": 666,
+        "Name": "Dibbert-Stamm",
+        "ToolTip": "Libero culpa facilis.",
         "Deleted": false,
-        "Rank": 940,
-        "Type": "sunt",
+        "Rank": 235,
+        "Type": "incidunt",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "et",
-        "ColorBlock": 654,
-        "ExtraInfo": "facilis",
-        "StyleHint": "omnis",
-        "FullName": "Virgie Wolf PhD",
+        "IconHint": "a",
+        "ColorBlock": 370,
+        "ExtraInfo": "libero",
+        "StyleHint": "deleniti",
+        "FullName": "Vince Dibbert",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 5
+            "FieldLength": 272
           }
         }
       }
     ],
-    "IconHint": "incidunt",
-    "ColorBlock": 659,
-    "ExtraInfo": "consequatur",
-    "StyleHint": "nulla",
-    "FullName": "Gabriella Wehner",
+    "IconHint": "velit",
+    "ColorBlock": 124,
+    "ExtraInfo": "possimus",
+    "StyleHint": "velit",
+    "FullName": "Lorenz Turner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 957
+        "FieldLength": 703
       }
     }
   }

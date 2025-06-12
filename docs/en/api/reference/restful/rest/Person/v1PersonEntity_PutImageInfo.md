@@ -97,19 +97,19 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 298,
-  "BlobSize": 317,
-  "Description": "Front-line solution-oriented moratorium",
-  "ExtraInfo": "rerum",
+  "BlobId": 136,
+  "BlobSize": 781,
+  "Description": "Object-based national toolset",
+  "ExtraInfo": "reiciendis",
   "IsEncrypted": false,
   "IsZipped": true,
-  "MimeType": "odio",
-  "OriginalSize": 889,
-  "CreatedDate": "2010-10-03T16:32:47.6807968+02:00",
-  "UpdatedDate": "2001-07-16T16:32:47.6807968+02:00",
+  "MimeType": "molestiae",
+  "OriginalSize": 758,
+  "CreatedDate": "2020-09-13T17:54:08.3824501+02:00",
+  "UpdatedDate": "2004-07-25T17:54:08.3824501+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "maxime"
+  "ConceptualType": "sequi"
 }
 ```
 
@@ -120,25 +120,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 461,
-  "BlobSize": 707,
-  "Description": "Future-proofed 24/7 time-frame",
-  "ExtraInfo": "deleniti",
-  "IsEncrypted": false,
+  "BlobId": 995,
+  "BlobSize": 810,
+  "Description": "Virtual systemic emulation",
+  "ExtraInfo": "et",
+  "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "itaque",
-  "OriginalSize": 269,
-  "CreatedDate": "2005-11-19T16:32:47.6964194+01:00",
-  "UpdatedDate": "2013-08-02T16:32:47.6964194+02:00",
+  "MimeType": "voluptatem",
+  "OriginalSize": 356,
+  "CreatedDate": "2023-04-30T17:54:08.3824501+02:00",
+  "UpdatedDate": "2024-01-30T17:54:08.3824501+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "inventore",
+  "ConceptualType": "ut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 253
+      "FieldLength": 807
     }
   }
 }

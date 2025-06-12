@@ -68,7 +68,7 @@ OK
 POST /api/v1/Agents/Report/CreateDefaultReportLabelLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -78,24 +78,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 361,
-  "Name": "Kunde-Swaniawski",
-  "Description": "Managed mission-critical database",
+  "ReportLabelLayoutId": 538,
+  "Name": "Wintheiser, Leuschke and Kessler",
+  "Description": "Reactive background framework",
   "Orientation": "Landscape",
-  "PaperWidth": 665,
-  "PaperHeight": 294,
-  "LeftMargin": 736,
-  "RightMargin": 221,
-  "TopMargin": 75,
-  "BottomMargin": 600,
-  "CountColumns": 690,
-  "CountRows": 744,
+  "PaperWidth": 84,
+  "PaperHeight": 648,
+  "LeftMargin": 205,
+  "RightMargin": 84,
+  "TopMargin": 571,
+  "BottomMargin": 977,
+  "CountColumns": 780,
+  "CountRows": 832,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 717
+      "FieldType": "System.Int32",
+      "FieldLength": 571
     }
   }
 }

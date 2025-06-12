@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ReasonStalled/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 283,
-    "Name": "Marquardt-DuBuque",
-    "Tooltip": "laborum",
+    "HeadingId": 570,
+    "Name": "Ward-Tromp",
+    "Tooltip": "voluptas",
     "Deleted": false,
-    "Rank": 168,
-    "UdListDefinitionId": 421
+    "Rank": 471,
+    "UdListDefinitionId": 924
   },
   {
-    "HeadingId": 283,
-    "Name": "Marquardt-DuBuque",
-    "Tooltip": "laborum",
+    "HeadingId": 570,
+    "Name": "Ward-Tromp",
+    "Tooltip": "voluptas",
     "Deleted": false,
-    "Rank": 168,
-    "UdListDefinitionId": 421
+    "Rank": 471,
+    "UdListDefinitionId": 924
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 440,
-    "Name": "Kuphal, Mertz and Sawayn",
-    "Tooltip": "ex",
+    "HeadingId": 817,
+    "Name": "Wuckert Group",
+    "Tooltip": "ipsum",
     "Deleted": false,
-    "Rank": 626,
-    "UdListDefinitionId": 456,
+    "Rank": 796,
+    "UdListDefinitionId": 22,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 755
+        "FieldLength": 456
       }
     }
   }

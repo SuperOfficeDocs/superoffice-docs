@@ -126,18 +126,18 @@ TicketTypeEntity  updated.
 PATCH /api/v1/TicketType/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "quisquam",
+    "path": "possimus",
     "value": {}
   },
   {
     "op": "add",
-    "path": "quisquam",
+    "path": "possimus",
     "value": {}
   }
 ]
@@ -150,31 +150,31 @@ HTTP/1.1 200 TicketTypeEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 142,
-  "Name": "Ward, Olson and Hansen",
-  "Rank": 182,
-  "Tooltip": "nemo",
-  "Icon": "nam",
-  "DefaultTicketStatus": 928,
+  "TicketTypeId": 621,
+  "Name": "Wilderman LLC",
+  "Rank": 813,
+  "Tooltip": "repellendus",
+  "Icon": "sit",
+  "DefaultTicketStatus": 683,
   "TicketStatuses": [
-    93,
-    230
+    209,
+    852
   ],
-  "DefaultTicketPriority": 627,
+  "DefaultTicketPriority": 979,
   "TicketPriorities": [
-    976,
-    242
+    107,
+    492
   ],
-  "ReplyTemplate": 413,
-  "IsExternalVisible": false,
-  "IsDefault": true,
+  "ReplyTemplate": 387,
+  "IsExternalVisible": true,
+  "IsDefault": false,
   "ShowInNew": false,
   "ExcludeSignature": false,
   "ExcludeEmailRecipients": false,
   "ExternalAsDefault": true,
   "VisibleForGroups": [
-    831,
-    870
+    903,
+    553
   ],
   "ReplyForwardNoSignature": false,
   "ReplyExternalAsDefault": false,
@@ -183,7 +183,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 268
+      "FieldLength": 8
     }
   },
   "_Links": {

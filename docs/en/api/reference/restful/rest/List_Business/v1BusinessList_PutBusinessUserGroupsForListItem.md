@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Business/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 237,
-    "Name": "Leffler-Reichert",
-    "ToolTip": "Hic id perferendis accusantium unde blanditiis.",
-    "Deleted": false,
-    "Rank": 892,
-    "Type": "sequi",
-    "ColorBlock": 514,
-    "IconHint": "quis",
-    "Selected": false,
-    "LastChanged": "2013-07-10T16:32:48.5245595+02:00",
+    "Id": 468,
+    "Name": "Bauch-Jaskolski",
+    "ToolTip": "Aut eveniet et veritatis quae quo.",
+    "Deleted": true,
+    "Rank": 453,
+    "Type": "distinctio",
+    "ColorBlock": 797,
+    "IconHint": "consequatur",
+    "Selected": true,
+    "LastChanged": "2006-11-19T17:54:08.7886801+01:00",
     "ChildItems": [
       {
-        "Id": 708,
-        "Name": "Stracke, Jaskolski and Wiegand",
-        "ToolTip": "Sapiente quisquam.",
+        "Id": 520,
+        "Name": "Romaguera, Jewess and Wilkinson",
+        "ToolTip": "Ex odio et.",
         "Deleted": false,
-        "Rank": 426,
-        "Type": "eos",
-        "ColorBlock": 930,
-        "IconHint": "cum",
+        "Rank": 806,
+        "Type": "ut",
+        "ColorBlock": 85,
+        "IconHint": "eligendi",
         "Selected": false,
-        "LastChanged": "2003-10-15T16:32:48.5245595+02:00",
+        "LastChanged": "2022-07-03T17:54:08.7886801+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "aut",
-        "Hidden": false,
-        "FullName": "Esteban Johnston"
+        "ExtraInfo": "impedit",
+        "StyleHint": "asperiores",
+        "Hidden": true,
+        "FullName": "Ms. Brett Howe"
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "aspernatur",
+    "ExtraInfo": "optio",
+    "StyleHint": "inventore",
     "Hidden": true,
-    "FullName": "Amber O'Connell"
+    "FullName": "Ettie Gottlieb"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 862,
-    "Name": "Harber Inc and Sons",
-    "ToolTip": "Est esse.",
+    "Id": 770,
+    "Name": "Zboncak Inc and Sons",
+    "ToolTip": "Quae enim doloremque at iure natus rerum voluptas.",
     "Deleted": false,
-    "Rank": 839,
-    "Type": "maxime",
-    "ColorBlock": 389,
-    "IconHint": "optio",
-    "Selected": false,
-    "LastChanged": "2022-12-30T16:32:48.5245595+01:00",
+    "Rank": 163,
+    "Type": "numquam",
+    "ColorBlock": 414,
+    "IconHint": "et",
+    "Selected": true,
+    "LastChanged": "2007-06-26T17:54:08.7886801+02:00",
     "ChildItems": [
       {
-        "Id": 8,
-        "Name": "Purdy, Collins and Shanahan",
-        "ToolTip": "Dignissimos suscipit assumenda voluptate aut ex rerum.",
-        "Deleted": false,
-        "Rank": 906,
-        "Type": "aut",
-        "ColorBlock": 185,
-        "IconHint": "porro",
+        "Id": 84,
+        "Name": "Ankunding LLC",
+        "ToolTip": "Sapiente consequatur.",
+        "Deleted": true,
+        "Rank": 440,
+        "Type": "voluptas",
+        "ColorBlock": 501,
+        "IconHint": "animi",
         "Selected": false,
-        "LastChanged": "2023-07-29T16:32:48.5245595+02:00",
+        "LastChanged": "2001-11-17T17:54:08.7886801+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quae",
-        "StyleHint": "porro",
-        "Hidden": true,
-        "FullName": "Reinhold Strosin",
+        "ExtraInfo": "fuga",
+        "StyleHint": "deserunt",
+        "Hidden": false,
+        "FullName": "Evans Gerhold",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 795
+            "FieldType": "System.String",
+            "FieldLength": 526
           }
         }
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "et",
+    "ExtraInfo": "aut",
+    "StyleHint": "recusandae",
     "Hidden": false,
-    "FullName": "Gladys Walter",
+    "FullName": "Daisha Roselyn Buckridge V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 563
+        "FieldLength": 272
       }
     }
   }

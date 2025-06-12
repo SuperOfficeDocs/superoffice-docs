@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/MrMrs/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 546,
-  "Name": "Bogan Group",
-  "Tooltip": "tempore",
+  "Id": 286,
+  "Name": "Howell-Jerde",
+  "Tooltip": "sint",
   "Deleted": false,
-  "UdListDefinitionId": 326,
-  "Rank": 117
+  "UdListDefinitionId": 569,
+  "Rank": 909
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 265,
-  "Name": "Kessler-O'Hara",
-  "Tooltip": "ut",
-  "Deleted": true,
-  "UdListDefinitionId": 951,
-  "Rank": 598,
+  "Id": 960,
+  "Name": "Green, Mayer and Marquardt",
+  "Tooltip": "assumenda",
+  "Deleted": false,
+  "UdListDefinitionId": 593,
+  "Rank": 863,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 255
+      "FieldLength": 339
     }
   }
 }

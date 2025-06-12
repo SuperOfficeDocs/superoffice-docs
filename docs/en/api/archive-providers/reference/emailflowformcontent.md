@@ -59,7 +59,7 @@ Lists all email flow form content
 ## Sample
 
 ```http!
-GET /api/v1/archive/EmailFlowFormContent?$select=formName,emailFlow/emailFlowId,emailFlow/workflowId
+GET /api/v1/archive/EmailFlowFormContent?$select=emailFlow/emailFlowId,emailFlow/workflowId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

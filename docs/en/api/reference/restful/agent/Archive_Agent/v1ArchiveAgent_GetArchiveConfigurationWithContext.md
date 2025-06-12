@@ -80,13 +80,13 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveConfigurationWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Lang Inc and Sons",
-  "ProviderName": "Boehm-Kling",
-  "Context": "ut"
+  "GuiName": "Schmeler Inc and Sons",
+  "ProviderName": "Balistreri Inc and Sons",
+  "Context": "qui"
 }
 ```
 
@@ -99,68 +99,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Olson Inc and Sons",
-      "DisplayTooltip": "optio",
-      "DisplayType": "quia",
+      "DisplayName": "Gerlach, Davis and Armstrong",
+      "DisplayTooltip": "ea",
+      "DisplayType": "veniam",
       "CanOrderBy": false,
-      "Name": "Durgan Group",
+      "Name": "Hammes LLC",
       "CanRestrictBy": false,
-      "RestrictionType": "libero",
-      "RestrictionListName": "Greenfelder-O'Keefe",
+      "RestrictionType": "eum",
+      "RestrictionListName": "Haag, Kerluke and Wolff",
       "IsVisible": true,
-      "ExtraInfo": "inventore",
-      "Width": "modi",
-      "IconHint": "qui",
-      "HeadingIconHint": "beatae"
+      "ExtraInfo": "esse",
+      "Width": "error",
+      "IconHint": "quia",
+      "HeadingIconHint": "impedit"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 605,
-      "Name": "Gaylord-Sipes",
-      "ToolTip": "Quam adipisci impedit ut.",
+      "Id": 853,
+      "Name": "Ferry Inc and Sons",
+      "ToolTip": "Nesciunt corporis assumenda consequuntur veniam aliquam.",
       "Deleted": false,
-      "Rank": 207,
-      "Type": "dolore",
-      "ColorBlock": 190,
-      "IconHint": "tenetur",
-      "Selected": true,
-      "LastChanged": "2024-12-31T16:32:38.1491165+01:00",
+      "Rank": 668,
+      "Type": "mollitia",
+      "ColorBlock": 758,
+      "IconHint": "necessitatibus",
+      "Selected": false,
+      "LastChanged": "2015-08-10T17:54:02.6483551+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quas",
-      "StyleHint": "nam",
+      "ExtraInfo": "hic",
+      "StyleHint": "quia",
       "Hidden": false,
-      "FullName": "Edgar Wiza",
+      "FullName": "Miss Ena Jameson Schneider",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 357
+          "FieldType": "System.String",
+          "FieldLength": 358
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Mayert, Boyer and Jacobs",
+      "Name": "Nader, Mayert and Hermiston",
       "Direction": "ASC"
     },
     {
-      "Name": "Mayert, Boyer and Jacobs",
+      "Name": "Nader, Mayert and Hermiston",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "sit",
+  "OwnerKeys": "doloremque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 575
+      "FieldLength": 588
     }
   }
 }

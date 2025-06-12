@@ -292,6 +292,7 @@ the email_id.
 |contactAssociate/contactName| *None* |Owning company: Name of the company the user belongs to|  |
 |contactAssociate/contactDepartment| *None* |Owning department: Name of the department at the company the user belongs to|  |
 |contactAssociate/usergroup| *None* |Primary group: The user's primary user group|  |
+|contactAssociate/usergroupId| *None* |Group ID: The user's primary user group|  |
 |contactAssociate/contactFullName| *None* |Owner: Name and department of the company the user belongs to|  |
 |contactAssociate/contactCategory| *None* |Category: Category|  |
 |contactAssociate/role| *None* |Role : Role|  |
@@ -324,6 +325,7 @@ the email_id.
 |contactSupportAssociate/contactName| *None* |Our service contact - Owning company: Name of the company the user belongs to|  |
 |contactSupportAssociate/contactDepartment| *None* |Our service contact - Owning department: Name of the department at the company the user belongs to|  |
 |contactSupportAssociate/usergroup| *None* |Our service contact - Primary group: The user's primary user group|  |
+|contactSupportAssociate/usergroupId| *None* |Our service contact - Group ID: The user's primary user group|  |
 |contactSupportAssociate/contactFullName| *None* |Our service contact - Owner: Name and department of the company the user belongs to|  |
 |contactSupportAssociate/contactCategory| *None* |Our service contact - Category: Category|  |
 |contactSupportAssociate/role| *None* |Our service contact - Role: Role|  |
@@ -337,12 +339,12 @@ the email_id.
 |contactSupportAssociate/credentialType| *None* |Our service contact - Auth. type: What type of credentials to use when this user logs in|  |
 |contactSupportAssociate/credentialDisplayValue| *None* |Our service contact - Auth. value: Credential value (public, visible part) to be used when this user logs in|  |
 |contactSupportAssociate/isActive| *None* |Our service contact - Active: Is this user active, and should be able to log in?|  |
-|contactSupportAssociate/isActiveText| *None* |Our service contact - Active status: Is this user active, and should be able to log in?|  |
-|contactSupportAssociate/portraitThumbnail| *None* |Our service contact - Person image: Person image|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contactSupportAssociate/isActiveText| *None* |Our service contact - Active status: Is this user active, and should be able to log in?|  |
+|contactSupportAssociate/portraitThumbnail| *None* |Our service contact - Person image: Person image|  |
 |contactSupportAssociate/otherGroups| *None* |Our service contact - Other groups: Other groups|  |
 |contactSupportAssociate/userName| *None* |Our service contact - User name: User name|  |
 |contactSupportAssociate/personEmail| *None* |Our service contact - E-mail|  |
@@ -413,6 +415,7 @@ the email_id.
 |contactSupportPerson/personUdef/SuperOffice:10| *None* |User support contact - page1marketingonly|  |
 |contactSupportPerson/personUdef/SuperOffice:11| *None* |User support contact - page1adminonly|  |
 |contactSupportPerson/personExtra/x\_person\_integer| *None* |User support contact - Extra Integer: Custom person integer|  |
+|contactSupportPerson/personExtra/x\_person\_hidden\_integer| *None* |User support contact - Extra hidden integer: Custom integer field that is hidden|  |
 |contactSupportPerson/personExtra/x\_person\_float| *None* |User support contact - Extra float: Custom float field|  |
 |contactSupportPerson/personExtra/x\_person\_longtext| *None* |User support contact - Extra Long Text: Custom long text field on person, keep HTML tags. Simple input, not text area. Default value = 'Hello there'|  |
 |contactSupportPerson/personExtra/x\_person\_date| *None* |User support contact - Extra date: Custom date field on person. Default value = 28.03.2019|  |
@@ -440,13 +443,13 @@ the email_id.
 |contactSupportPerson/withdrawnStoreConsent| *None* |User support contact - Consent is withdrawn - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
 |contactSupportPerson/hasEmarketingConsent| *None* |User support contact - Consent - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
 |contactSupportPerson/withdrawnEmarketingConsent| *None* |User support contact - Consent is withdrawn - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
-|contactSupportPerson/subscription| *None* |User support contact - Subscription: Subscription for marketing|  |
-|contactSupportPerson/legalBaseStore| *None* |User support contact - Legal basis - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
-|contactSupportPerson/legalBaseEmarketing| *None* |User support contact - Legal basis - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contactSupportPerson/subscription| *None* |User support contact - Subscription: Subscription for marketing|  |
+|contactSupportPerson/legalBaseStore| *None* |User support contact - Legal basis - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
+|contactSupportPerson/legalBaseEmarketing| *None* |User support contact - Legal basis - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
 |contactSupportPerson/consentSourceStore| *None* |User support contact - Source - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
 |contactSupportPerson/consentSourceEmarketing| *None* |User support contact - Source - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
 |contactInterestIds| *None* |Company Interest: This criterion corresponds to the Interests tab on the Company card.|  |
@@ -464,6 +467,7 @@ the email_id.
 |contactUdef/SuperOffice:12| *None* |Udlist one: Static tooltip for udlist one|  |
 |contactUdef/SuperOffice:13| *None* |Udlist two: Static tooltip for udlist two|  |
 |contactExtra/x\_contact\_integer| *None* |Extra Integer: Custom integer field|  |
+|contactExtra/x\_contact\_hidden\_integer| *None* |Extra hidden integer: Custom integer field - hidden|  |
 |contactExtra/x\_contact\_default\_integer| *None* |Extra Default Integer: Custom integer field with default value 123.|  |
 |contactExtra/x\_contact\_float| *None* |Extra Float: Custom float field with 3 decimals|  |
 |contactExtra/x\_contact\_longtext| *None* |Extra LongText: Custom long text field. DO not keep HTML. 3 Line text area editor|  |
@@ -515,7 +519,7 @@ the email_id.
 ## Sample
 
 ```http!
-GET /api/v1/archive/EmailAddress?$select=personContact/restrictionAddress/city,personContact/restrictionAddress/wgs84latitude,restrictionAddress/state,contactExtra/x_contact_shorttext
+GET /api/v1/archive/EmailAddress?$select=personPager/formattedNumber,personAddress/addressId,contactAssociate/personEmail,contactExtra/x_contact_short_dropdown
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

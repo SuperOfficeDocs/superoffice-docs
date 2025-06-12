@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/ProjectStatus/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 508,
-  "Name": "Beatty, Koss and Lubowitz",
-  "Tooltip": "ea",
-  "Deleted": true,
-  "UdListDefinitionId": 869,
-  "Rank": 384
+  "Id": 897,
+  "Name": "Marquardt Group",
+  "Tooltip": "omnis",
+  "Deleted": false,
+  "UdListDefinitionId": 848,
+  "Rank": 190
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 601,
-  "Name": "Parker, Rath and O'Connell",
-  "Tooltip": "sunt",
+  "Id": 255,
+  "Name": "Toy-Waters",
+  "Tooltip": "provident",
   "Deleted": false,
-  "UdListDefinitionId": 135,
-  "Rank": 619,
+  "UdListDefinitionId": 830,
+  "Rank": 483,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 84
+      "FieldType": "System.Int32",
+      "FieldLength": 577
     }
   }
 }

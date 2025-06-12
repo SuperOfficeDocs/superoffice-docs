@@ -85,12 +85,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "non",
-  "ProviderName": "McCullough Inc and Sons",
-  "StorageKey": "recusandae",
+  "StorageType": "aut",
+  "ProviderName": "Hessel, Murazik and Robel",
+  "StorageKey": "praesentium",
   "StaticColumns": [
-    "est",
-    "molestiae"
+    "quasi",
+    "quasi"
   ]
 }
 ```
@@ -104,81 +104,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "McDermott LLC",
-      "Operator": "ducimus",
+      "Name": "Mills, Braun and Abshire",
+      "Operator": "sit",
       "Values": [
-        "omnis",
-        "et"
+        "dolorem",
+        "expedita"
       ],
       "DisplayValues": [
-        "eum",
-        "sit"
+        "sed",
+        "voluptas"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 40,
+      "InterParenthesis": 170,
       "InterOperator": "And",
-      "UniqueHash": 908
+      "UniqueHash": 157
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Rogahn Group",
-      "DisplayTooltip": "sint",
-      "DisplayType": "quibusdam",
-      "CanOrderBy": true,
-      "Name": "Mertz LLC",
-      "CanRestrictBy": false,
-      "RestrictionType": "ducimus",
-      "RestrictionListName": "Marvin Inc and Sons",
+      "DisplayName": "Berge, Senger and Hand",
+      "DisplayTooltip": "odio",
+      "DisplayType": "aut",
+      "CanOrderBy": false,
+      "Name": "Johns Group",
+      "CanRestrictBy": true,
+      "RestrictionType": "est",
+      "RestrictionListName": "Gutkowski-Buckridge",
       "IsVisible": true,
-      "ExtraInfo": "omnis",
-      "Width": "natus",
-      "IconHint": "recusandae",
-      "HeadingIconHint": "in"
+      "ExtraInfo": "nam",
+      "Width": "rem",
+      "IconHint": "dignissimos",
+      "HeadingIconHint": "sint"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Conroy Inc and Sons",
-      "PrimaryKey": 873,
+      "EntityName": "Baumbach Inc and Sons",
+      "PrimaryKey": 751,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "aperiam",
-          "TooltipHint": "sapiente",
-          "LinkHint": "excepturi"
+          "DisplayValue": "expedita",
+          "TooltipHint": "repudiandae",
+          "LinkHint": "dolorum"
         }
       },
-      "LinkHint": "rerum",
-      "StyleHint": "est",
+      "LinkHint": "reprehenderit",
+      "StyleHint": "molestiae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 917
+          "FieldType": "System.String",
+          "FieldLength": 903
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Johnston Inc and Sons",
-      "Description": "Persistent coherent infrastructure",
-      "Rank": 862,
+      "Name": "Barrows-Jacobson",
+      "Description": "Fully-configurable impactful service-desk",
+      "Rank": 11,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Johnston Inc and Sons",
-      "Description": "Persistent coherent infrastructure",
-      "Rank": 862,
+      "Name": "Barrows-Jacobson",
+      "Description": "Fully-configurable impactful service-desk",
+      "Rank": 11,
       "Restrictions": [
         {},
         {}
@@ -189,8 +189,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 774
+      "FieldType": "System.Int32",
+      "FieldLength": 728
     }
   }
 }

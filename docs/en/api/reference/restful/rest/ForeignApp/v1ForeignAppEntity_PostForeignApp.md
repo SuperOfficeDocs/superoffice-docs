@@ -67,7 +67,7 @@ OK
 POST /api/v1/ForeignApp/{appName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -77,29 +77,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 337,
-  "Name": "McKenzie-Blick",
-  "CreatedDate": "2011-01-02T16:32:47.5245817+01:00",
-  "UpdatedDate": "2001-07-20T16:32:47.5245817+02:00",
+  "ForeignAppId": 998,
+  "Name": "Fahey-Von",
+  "CreatedDate": "2002-11-08T17:54:08.2418376+01:00",
+  "UpdatedDate": "2009-10-07T17:54:08.2418376+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 32,
-      "Name": "Reilly-Doyle",
-      "CreatedDate": "2001-01-17T16:32:47.5245817+01:00",
-      "UpdatedDate": "2020-06-23T16:32:47.5245817+02:00",
-      "AssociateFullName": "Ernie Bogan",
-      "CreatedBy": "et",
-      "UpdatedBy": "nostrum",
-      "DeviceIdentifier": "omnis",
-      "ForeignAppId": 585,
+      "ForeignDeviceId": 831,
+      "Name": "Blick-Abbott",
+      "CreatedDate": "2021-09-06T17:54:08.2574567+02:00",
+      "UpdatedDate": "2022-06-03T17:54:08.2574567+02:00",
+      "AssociateFullName": "Miss Baby Arnulfo Orn",
+      "CreatedBy": "sit",
+      "UpdatedBy": "et",
+      "DeviceIdentifier": "libero",
+      "ForeignAppId": 51,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 326
+          "FieldType": "System.Int32",
+          "FieldLength": 905
         }
       }
     }
@@ -109,7 +109,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 112
+      "FieldLength": 470
     }
   }
 }

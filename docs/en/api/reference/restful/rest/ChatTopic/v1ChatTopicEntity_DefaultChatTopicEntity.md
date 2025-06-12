@@ -87,7 +87,7 @@ OK
 GET /api/v1/ChatTopic/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,22 +97,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 898,
-  "Name": "Koss, Muller and Howe",
-  "Description": "User-centric tangible instruction set",
-  "WelcomeMessage": "debitis",
+  "ChatTopicId": 572,
+  "Name": "Marks Inc and Sons",
+  "Description": "Phased fresh-thinking contingency",
+  "WelcomeMessage": "saepe",
   "Language": null,
-  "LastAccept": "2024-07-20T16:32:47.2430089+02:00",
-  "SecondsPrAccept": 415,
-  "AlertRecipient": "sint",
+  "LastAccept": "2015-02-18T17:54:08.0543344+01:00",
+  "SecondsPrAccept": 854,
+  "AlertRecipient": "error",
   "AlertTemplate": null,
-  "CollectConsent": false,
-  "BadgeHeader": "vero",
+  "CollectConsent": true,
+  "BadgeHeader": "quasi",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "impedit",
-  "WarnNewChatMinutes": 445,
-  "WarnManagerNewChatMinutes": 685,
-  "TicketEnabled": false,
+  "CustomQueueText": "aut",
+  "WarnNewChatMinutes": 131,
+  "WarnManagerNewChatMinutes": 351,
+  "TicketEnabled": true,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": false,
@@ -121,19 +121,19 @@ Content-Type: application/json; charset=utf-8
   "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 112,
-  "WarnManagerChatMessageMinutes": 519,
+  "WarnChatMessageMinutes": 538,
+  "WarnManagerChatMessageMinutes": 630,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 399,
-  "OfflineFormQueueLength": 506,
-  "WidgetEnableRating": true,
-  "WidgetRatingText": "recusandae",
+  "OfflineFormTimeLimit": 929,
+  "OfflineFormQueueLength": 326,
+  "WidgetEnableRating": false,
+  "WidgetRatingText": "est",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 581
+      "FieldLength": 628
     }
   }
 }

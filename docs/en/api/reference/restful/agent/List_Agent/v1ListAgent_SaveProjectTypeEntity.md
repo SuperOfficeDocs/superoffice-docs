@@ -81,39 +81,39 @@ OK
 POST /api/v1/Agents/List/SaveProjectTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 463,
-  "Name": "Nitzsche-Nitzsche",
-  "Tooltip": "nemo",
-  "Rank": 998,
+  "ProjTypeId": 855,
+  "Name": "Wisoky-Lebsack",
+  "Tooltip": "eos",
+  "Rank": 638,
   "DurationUnit": "Century",
-  "ProjectDuration": 424,
+  "ProjectDuration": 239,
   "Deleted": false,
   "HasGuide": false,
   "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 924,
-      "Name": "VonRueden Group",
-      "ToolTip": "Ipsam eos saepe quia commodi aut perspiciatis itaque.",
+      "Id": 879,
+      "Name": "Yost Inc and Sons",
+      "ToolTip": "Repellendus placeat.",
       "Deleted": false,
-      "Rank": 226,
-      "Type": "delectus",
-      "ColorBlock": 79,
-      "IconHint": "et",
+      "Rank": 652,
+      "Type": "eius",
+      "ColorBlock": 858,
+      "IconHint": "eos",
       "Selected": false,
-      "LastChanged": "2009-10-29T16:32:39.3051024+01:00",
+      "LastChanged": "2003-01-28T17:54:03.3045907+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "voluptas",
-      "StyleHint": "et",
+      "ExtraInfo": "repellendus",
+      "StyleHint": "corporis",
       "Hidden": true,
-      "FullName": "Helene Baumbach"
+      "FullName": "Miss Curt Quigley"
     }
   ]
 }
@@ -126,41 +126,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 377,
-  "Name": "Botsford-Mueller",
-  "Tooltip": "mollitia",
-  "Rank": 134,
+  "ProjTypeId": 293,
+  "Name": "Hilll-Abbott",
+  "Tooltip": "aut",
+  "Rank": 672,
   "DurationUnit": "Century",
-  "ProjectDuration": 313,
-  "Deleted": false,
+  "ProjectDuration": 776,
+  "Deleted": true,
   "HasGuide": false,
-  "IsAutoAdvance": false,
+  "IsAutoAdvance": true,
   "Stages": [
     {
-      "Id": 413,
-      "Name": "Shields Inc and Sons",
-      "ToolTip": "Assumenda voluptatibus voluptas voluptas distinctio.",
+      "Id": 85,
+      "Name": "Corwin-Cormier",
+      "ToolTip": "Et ut sit quidem illum.",
       "Deleted": true,
-      "Rank": 880,
-      "Type": "omnis",
-      "ColorBlock": 840,
-      "IconHint": "autem",
+      "Rank": 557,
+      "Type": "rerum",
+      "ColorBlock": 110,
+      "IconHint": "ut",
       "Selected": false,
-      "LastChanged": "2013-10-07T16:32:39.320696+02:00",
+      "LastChanged": "2023-09-12T17:54:03.3045907+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "omnis",
-      "StyleHint": "ex",
-      "Hidden": false,
-      "FullName": "Brian Thiel",
+      "ExtraInfo": "aliquam",
+      "StyleHint": "soluta",
+      "Hidden": true,
+      "FullName": "Ms. Ben Eduardo Streich",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 844
+          "FieldType": "System.String",
+          "FieldLength": 626
         }
       }
     }
@@ -170,7 +170,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 796
+      "FieldLength": 368
     }
   }
 }

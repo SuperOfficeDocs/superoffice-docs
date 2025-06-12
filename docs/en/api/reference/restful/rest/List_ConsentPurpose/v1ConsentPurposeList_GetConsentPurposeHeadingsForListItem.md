@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ConsentPurpose/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ConsentPurpose/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 357,
-    "Name": "Bauch-Friesen",
-    "ToolTip": "Consequatur labore voluptas sed.",
+    "Id": 684,
+    "Name": "McLaughlin Group",
+    "ToolTip": "Perferendis dolorem magni aperiam dolorem a.",
     "Deleted": false,
-    "Rank": 301,
-    "Type": "adipisci",
-    "ColorBlock": 917,
-    "IconHint": "quis",
+    "Rank": 876,
+    "Type": "autem",
+    "ColorBlock": 42,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2023-11-03T16:32:48.5714211+01:00",
+    "LastChanged": "2008-09-26T17:54:08.8199285+02:00",
     "ChildItems": [
       {
-        "Id": 374,
-        "Name": "Harvey-Schneider",
-        "ToolTip": "Voluptates placeat aperiam voluptas libero nobis.",
+        "Id": 124,
+        "Name": "Conn-Botsford",
+        "ToolTip": "Ut eveniet voluptatem eligendi accusamus inventore quia.",
         "Deleted": false,
-        "Rank": 956,
-        "Type": "et",
-        "ColorBlock": 768,
-        "IconHint": "distinctio",
+        "Rank": 108,
+        "Type": "dolores",
+        "ColorBlock": 17,
+        "IconHint": "sit",
         "Selected": false,
-        "LastChanged": "2007-05-15T16:32:48.5714211+02:00",
+        "LastChanged": "2024-11-29T17:54:08.8199285+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quo",
-        "StyleHint": "quo",
-        "Hidden": true,
-        "FullName": "Brant Marks",
+        "ExtraInfo": "et",
+        "StyleHint": "rem",
+        "Hidden": false,
+        "FullName": "Sydnie Schultz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 526
+            "FieldType": "System.String",
+            "FieldLength": 948
           }
         }
       }
     ],
-    "ExtraInfo": "consequatur",
-    "StyleHint": "consectetur",
+    "ExtraInfo": "aspernatur",
+    "StyleHint": "impedit",
     "Hidden": true,
-    "FullName": "Clark Heller Jr.",
+    "FullName": "Sarah Hickle",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 197
+        "FieldLength": 962
       }
     }
   }

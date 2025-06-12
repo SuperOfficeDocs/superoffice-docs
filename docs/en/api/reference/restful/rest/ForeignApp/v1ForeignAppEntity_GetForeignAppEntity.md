@@ -80,7 +80,7 @@ ForeignAppEntity found.
 GET /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,32 +88,32 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 ForeignAppEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 31 Aug 1998 16:32:47 G8T
+Last-Modified: Wed, 22 Jul 2015 17:54:08 G7T
 
 {
-  "ForeignAppId": 112,
-  "Name": "Rowe Inc and Sons",
-  "CreatedDate": "2009-06-24T16:32:47.5402031+02:00",
-  "UpdatedDate": "1998-08-31T16:32:47.5402031+02:00",
+  "ForeignAppId": 52,
+  "Name": "Schuster, Muller and Bartoletti",
+  "CreatedDate": "2014-09-27T17:54:08.2574567+02:00",
+  "UpdatedDate": "2015-07-22T17:54:08.2574567+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 232,
-      "Name": "Dickinson-Bernhard",
-      "CreatedDate": "2013-02-27T16:32:47.5402031+01:00",
-      "UpdatedDate": "2007-05-14T16:32:47.5402031+02:00",
-      "AssociateFullName": "Freida Trantow DDS",
-      "CreatedBy": "voluptas",
-      "UpdatedBy": "dolorem",
-      "DeviceIdentifier": "hic",
-      "ForeignAppId": 433,
+      "ForeignDeviceId": 180,
+      "Name": "Runolfsdottir, Will and Crooks",
+      "CreatedDate": "2023-02-15T17:54:08.2574567+01:00",
+      "UpdatedDate": "2004-11-24T17:54:08.2574567+01:00",
+      "AssociateFullName": "Dr. Quentin Torp V",
+      "CreatedBy": "cum",
+      "UpdatedBy": "est",
+      "DeviceIdentifier": "consequuntur",
+      "ForeignAppId": 279,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 486
+          "FieldLength": 465
         }
       }
     }
@@ -122,13 +122,13 @@ Last-Modified: Mon, 31 Aug 1998 16:32:47 G8T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 563
+      "FieldType": "System.String",
+      "FieldLength": 35
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

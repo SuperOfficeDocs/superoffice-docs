@@ -242,61 +242,6 @@
       href: Services84/Associate/LogOffWindowsUsers.md
     - name: SaveNote
       href: Services84/Associate/SaveNote.md
-  - name: Audience
-    href: Services84/Audience/index.md
-    items:
-    - name: CreateDefaultAudienceLayoutEntity
-      href: Services84/Audience/CreateDefaultAudienceLayoutEntity.md
-    - name: DeleteAudienceLayoutEntity
-      href: Services84/Audience/DeleteAudienceLayoutEntity.md
-    - name: DeleteConfigParameter
-      href: Services84/Audience/DeleteConfigParameter.md
-    - name: GetAudienceLayoutByName
-      href: Services84/Audience/GetAudienceLayoutByName.md
-    - name: GetAudienceLayoutEntity
-      href: Services84/Audience/GetAudienceLayoutEntity.md
-    - name: GetAudienceLayoutOnPerson
-      href: Services84/Audience/GetAudienceLayoutOnPerson.md
-    - name: GetConfigParameter
-      href: Services84/Audience/GetConfigParameter.md
-    - name: GetConfigParameterOnPerson
-      href: Services84/Audience/GetConfigParameterOnPerson.md
-    - name: GetConfigParametersByLayoutName
-      href: Services84/Audience/GetConfigParametersByLayoutName.md
-    - name: GetConfigParametersOnPerson
-      href: Services84/Audience/GetConfigParametersOnPerson.md
-    - name: GetConfigParameterValue
-      href: Services84/Audience/GetConfigParameterValue.md
-    - name: GetConfigParameterValueOnPerson
-      href: Services84/Audience/GetConfigParameterValueOnPerson.md
-    - name: GetDefaultCountryFlag
-      href: Services84/Audience/GetDefaultCountryFlag.md
-    - name: GetDefaultPersonImage
-      href: Services84/Audience/GetDefaultPersonImage.md
-    - name: GetDefaultProjectImage
-      href: Services84/Audience/GetDefaultProjectImage.md
-    - name: GetLogoImage
-      href: Services84/Audience/GetLogoImage.md
-    - name: GetMyAudienceLayout
-      href: Services84/Audience/GetMyAudienceLayout.md
-    - name: GetMyConfigParameter
-      href: Services84/Audience/GetMyConfigParameter.md
-    - name: GetMyConfigParameters
-      href: Services84/Audience/GetMyConfigParameters.md
-    - name: GetMyConfigParameterValue
-      href: Services84/Audience/GetMyConfigParameterValue.md
-    - name: SaveAudienceLayoutEntity
-      href: Services84/Audience/SaveAudienceLayoutEntity.md
-    - name: SaveConfigParameter
-      href: Services84/Audience/SaveConfigParameter.md
-    - name: SetDefaultCountryFlag
-      href: Services84/Audience/SetDefaultCountryFlag.md
-    - name: SetDefaultPersonImage
-      href: Services84/Audience/SetDefaultPersonImage.md
-    - name: SetDefaultProjectImage
-      href: Services84/Audience/SetDefaultProjectImage.md
-    - name: SetLogoImage
-      href: Services84/Audience/SetLogoImage.md
   - name: Batch
     href: Services84/Batch/index.md
     items:
@@ -335,8 +280,6 @@
       href: Services84/BLOB/CreateDefaultBlobEntity.md
     - name: DeleteBlobEntity
       href: Services84/BLOB/DeleteBlobEntity.md
-    - name: GetAppData
-      href: Services84/BLOB/GetAppData.md
     - name: GetBlobEntity
       href: Services84/BLOB/GetBlobEntity.md
     - name: GetBlobEntityOnCountry
@@ -371,8 +314,6 @@
       href: Services84/BLOB/SaveImageStream.md
     - name: SaveProjectImage
       href: Services84/BLOB/SaveProjectImage.md
-    - name: SetAppData
-      href: Services84/BLOB/SetAppData.md
     - name: SetBlobStream
       href: Services84/BLOB/SetBlobStream.md
     - name: SetPersonImage
@@ -550,8 +491,6 @@
     items:
     - name: ChatSessionsForUser
       href: Services84/CustomerService/ChatSessionsForUser.md
-    - name: CreateDefaultSmsConfig
-      href: Services84/CustomerService/CreateDefaultSmsConfig.md
     - name: CreateSession
       href: Services84/CustomerService/CreateSession.md
     - name: DeleteChatSessions
@@ -566,43 +505,10 @@
       href: Services84/CustomerService/HasChatNotify.md
     - name: RemoveSession
       href: Services84/CustomerService/RemoveSession.md
-    - name: SaveSmsConfig
-      href: Services84/CustomerService/SaveSmsConfig.md
     - name: SessionIsValid
       href: Services84/CustomerService/SessionIsValid.md
     - name: UpdateFeatureToggles
       href: Services84/CustomerService/UpdateFeatureToggles.md
-  - name: Dashboard
-    href: Services84/Dashboard/index.md
-    items:
-    - name: CreateDefaultDashboard
-      href: Services84/Dashboard/CreateDefaultDashboard.md
-    - name: CreateDefaultDashboardTile
-      href: Services84/Dashboard/CreateDefaultDashboardTile.md
-    - name: CreateNewFromTemplate
-      href: Services84/Dashboard/CreateNewFromTemplate.md
-    - name: DeleteDashboard
-      href: Services84/Dashboard/DeleteDashboard.md
-    - name: DeleteDashboardTile
-      href: Services84/Dashboard/DeleteDashboardTile.md
-    - name: GetDashboard
-      href: Services84/Dashboard/GetDashboard.md
-    - name: GetDashboards
-      href: Services84/Dashboard/GetDashboards.md
-    - name: GetDashboardTile
-      href: Services84/Dashboard/GetDashboardTile.md
-    - name: GetDashboardTiles
-      href: Services84/Dashboard/GetDashboardTiles.md
-    - name: GetData
-      href: Services84/Dashboard/GetData.md
-    - name: GetDataWithSelection
-      href: Services84/Dashboard/GetDataWithSelection.md
-    - name: SaveDashboard
-      href: Services84/Dashboard/SaveDashboard.md
-    - name: SaveDashboardTile
-      href: Services84/Dashboard/SaveDashboardTile.md
-    - name: SetTile
-      href: Services84/Dashboard/SetTile.md
   - name: Database
     href: Services84/Database/index.md
     items:
@@ -1790,8 +1696,6 @@
       href: Services84/Navigator/GetAllNavigatorCompany.md
     - name: GetNavigatorCompanies
       href: Services84/Navigator/GetNavigatorCompanies.md
-    - name: GetNavigatorCompany
-      href: Services84/Navigator/GetNavigatorCompany.md
     - name: GetNavigatorCompanyList
       href: Services84/Navigator/GetNavigatorCompanyList.md
   - name: NumberAllocation
@@ -2218,12 +2122,8 @@
       href: Services84/Quote/GetQuoteLineConfiguration.md
     - name: GetQuoteLineConfigurationFromFieldName
       href: Services84/Quote/GetQuoteLineConfigurationFromFieldName.md
-    - name: GetQuoteLineImage
-      href: Services84/Quote/GetQuoteLineImage.md
     - name: GetQuoteLines
       href: Services84/Quote/GetQuoteLines.md
-    - name: GetQuoteList
-      href: Services84/Quote/GetQuoteList.md
     - name: GetQuoteVersion
       href: Services84/Quote/GetQuoteVersion.md
     - name: GetQuoteVersions
@@ -2274,8 +2174,6 @@
       href: Services84/Quote/SaveQuoteLineConfiguration.md
     - name: SaveQuoteLineConfigurations
       href: Services84/Quote/SaveQuoteLineConfigurations.md
-    - name: SaveQuoteLineImage
-      href: Services84/Quote/SaveQuoteLineImage.md
     - name: SaveQuoteVersion
       href: Services84/Quote/SaveQuoteVersion.md
     - name: SaveQuoteVersionNumber
@@ -2305,54 +2203,17 @@
       href: Services84/Relation/GetContactRelationEntity.md
     - name: SaveContactRelation
       href: Services84/Relation/SaveContactRelation.md
-  - name: Replication
-    href: Services84/Replication/index.md
-    items:
-    - name: CreateDefaultSatellite
-      href: Services84/Replication/CreateDefaultSatellite.md
-    - name: GetArea
-      href: Services84/Replication/GetArea.md
-    - name: GetAreaList
-      href: Services84/Replication/GetAreaList.md
-    - name: GetCentralLicense
-      href: Services84/Replication/GetCentralLicense.md
-    - name: GetSatellite
-      href: Services84/Replication/GetSatellite.md
-    - name: SaveCentralLicense
-      href: Services84/Replication/SaveCentralLicense.md
-    - name: SaveSatellite
-      href: Services84/Replication/SaveSatellite.md
-    - name: SetFreetextSearchEnabledOnArea
-      href: Services84/Replication/SetFreetextSearchEnabledOnArea.md
   - name: Report
     href: Services84/Report/index.md
     items:
-    - name: CreateDefaultReportEntity
-      href: Services84/Report/CreateDefaultReportEntity.md
     - name: CreateDefaultReportLabelLayoutEntity
       href: Services84/Report/CreateDefaultReportLabelLayoutEntity.md
-    - name: CreateFavorite
-      href: Services84/Report/CreateFavorite.md
-    - name: DeleteFavorite
-      href: Services84/Report/DeleteFavorite.md
-    - name: DeleteReport
-      href: Services84/Report/DeleteReport.md
     - name: DeleteReportLabelLayoutEntity
       href: Services84/Report/DeleteReportLabelLayoutEntity.md
-    - name: GenerateReport
-      href: Services84/Report/GenerateReport.md
-    - name: GetReportEntity
-      href: Services84/Report/GetReportEntity.md
     - name: GetReportLabelLayoutEntity
       href: Services84/Report/GetReportLabelLayoutEntity.md
-    - name: ImportReport
-      href: Services84/Report/ImportReport.md
-    - name: SaveReportEntity
-      href: Services84/Report/SaveReportEntity.md
     - name: SaveReportLabelLayoutEntity
       href: Services84/Report/SaveReportLabelLayoutEntity.md
-    - name: UpdateFavorite
-      href: Services84/Report/UpdateFavorite.md
   - name: Resource
     href: Services84/Resource/index.md
     items:
@@ -2487,10 +2348,6 @@
       href: Services84/Selection/CreateContactSelectionFromSelection.md
     - name: CreateContactSelectionFromShadowSelection
       href: Services84/Selection/CreateContactSelectionFromShadowSelection.md
-    - name: CreateDefaultMailMergeSettings
-      href: Services84/Selection/CreateDefaultMailMergeSettings.md
-    - name: CreateDefaultMailMergeTask
-      href: Services84/Selection/CreateDefaultMailMergeTask.md
     - name: CreateDefaultSelectionEntity
       href: Services84/Selection/CreateDefaultSelectionEntity.md
     - name: CreateNewEntry
@@ -2501,8 +2358,6 @@
       href: Services84/Selection/CreateTemporaryContactSelection.md
     - name: CreateTemporaryContactSelectionFromContactPersonIds
       href: Services84/Selection/CreateTemporaryContactSelectionFromContactPersonIds.md
-    - name: CreateTemporaryContactSelectionFromProjectMembers
-      href: Services84/Selection/CreateTemporaryContactSelectionFromProjectMembers.md
     - name: CreateTemporaryContactSelectionFromSelectionMemberIds
       href: Services84/Selection/CreateTemporaryContactSelectionFromSelectionMemberIds.md
     - name: CreateTemporarySelectionFromIds
@@ -2561,8 +2416,6 @@
       href: Services84/Selection/SetDynamicSelectionCriteria2.md
     - name: SetDynamicSelectionCriteria3
       href: Services84/Selection/SetDynamicSelectionCriteria3.md
-    - name: StartMailMerge
-      href: Services84/Selection/StartMailMerge.md
   - name: Sentry
     href: Services84/Sentry/index.md
     items:
@@ -3108,61 +2961,6 @@
       href: Services85/Associate/LogOffWindowsUsers.md
     - name: SaveNote
       href: Services85/Associate/SaveNote.md
-  - name: Audience
-    href: Services85/Audience/index.md
-    items:
-    - name: CreateDefaultAudienceLayoutEntity
-      href: Services85/Audience/CreateDefaultAudienceLayoutEntity.md
-    - name: DeleteAudienceLayoutEntity
-      href: Services85/Audience/DeleteAudienceLayoutEntity.md
-    - name: DeleteConfigParameter
-      href: Services85/Audience/DeleteConfigParameter.md
-    - name: GetAudienceLayoutByName
-      href: Services85/Audience/GetAudienceLayoutByName.md
-    - name: GetAudienceLayoutEntity
-      href: Services85/Audience/GetAudienceLayoutEntity.md
-    - name: GetAudienceLayoutOnPerson
-      href: Services85/Audience/GetAudienceLayoutOnPerson.md
-    - name: GetConfigParameter
-      href: Services85/Audience/GetConfigParameter.md
-    - name: GetConfigParameterOnPerson
-      href: Services85/Audience/GetConfigParameterOnPerson.md
-    - name: GetConfigParametersByLayoutName
-      href: Services85/Audience/GetConfigParametersByLayoutName.md
-    - name: GetConfigParametersOnPerson
-      href: Services85/Audience/GetConfigParametersOnPerson.md
-    - name: GetConfigParameterValue
-      href: Services85/Audience/GetConfigParameterValue.md
-    - name: GetConfigParameterValueOnPerson
-      href: Services85/Audience/GetConfigParameterValueOnPerson.md
-    - name: GetDefaultCountryFlag
-      href: Services85/Audience/GetDefaultCountryFlag.md
-    - name: GetDefaultPersonImage
-      href: Services85/Audience/GetDefaultPersonImage.md
-    - name: GetDefaultProjectImage
-      href: Services85/Audience/GetDefaultProjectImage.md
-    - name: GetLogoImage
-      href: Services85/Audience/GetLogoImage.md
-    - name: GetMyAudienceLayout
-      href: Services85/Audience/GetMyAudienceLayout.md
-    - name: GetMyConfigParameter
-      href: Services85/Audience/GetMyConfigParameter.md
-    - name: GetMyConfigParameters
-      href: Services85/Audience/GetMyConfigParameters.md
-    - name: GetMyConfigParameterValue
-      href: Services85/Audience/GetMyConfigParameterValue.md
-    - name: SaveAudienceLayoutEntity
-      href: Services85/Audience/SaveAudienceLayoutEntity.md
-    - name: SaveConfigParameter
-      href: Services85/Audience/SaveConfigParameter.md
-    - name: SetDefaultCountryFlag
-      href: Services85/Audience/SetDefaultCountryFlag.md
-    - name: SetDefaultPersonImage
-      href: Services85/Audience/SetDefaultPersonImage.md
-    - name: SetDefaultProjectImage
-      href: Services85/Audience/SetDefaultProjectImage.md
-    - name: SetLogoImage
-      href: Services85/Audience/SetLogoImage.md
   - name: Batch
     href: Services85/Batch/index.md
     items:
@@ -3201,8 +2999,6 @@
       href: Services85/BLOB/CreateDefaultBlobEntity.md
     - name: DeleteBlobEntity
       href: Services85/BLOB/DeleteBlobEntity.md
-    - name: GetAppData
-      href: Services85/BLOB/GetAppData.md
     - name: GetBlobEntity
       href: Services85/BLOB/GetBlobEntity.md
     - name: GetBlobEntityOnCountry
@@ -3237,8 +3033,6 @@
       href: Services85/BLOB/SaveImageStream.md
     - name: SaveProjectImage
       href: Services85/BLOB/SaveProjectImage.md
-    - name: SetAppData
-      href: Services85/BLOB/SetAppData.md
     - name: SetBlobStream
       href: Services85/BLOB/SetBlobStream.md
     - name: SetPersonImage
@@ -3420,8 +3214,6 @@
     items:
     - name: ChatSessionsForUser
       href: Services85/CustomerService/ChatSessionsForUser.md
-    - name: CreateDefaultSmsConfig
-      href: Services85/CustomerService/CreateDefaultSmsConfig.md
     - name: CreateSession
       href: Services85/CustomerService/CreateSession.md
     - name: DeleteChatSessions
@@ -3436,43 +3228,10 @@
       href: Services85/CustomerService/HasChatNotify.md
     - name: RemoveSession
       href: Services85/CustomerService/RemoveSession.md
-    - name: SaveSmsConfig
-      href: Services85/CustomerService/SaveSmsConfig.md
     - name: SessionIsValid
       href: Services85/CustomerService/SessionIsValid.md
     - name: UpdateFeatureToggles
       href: Services85/CustomerService/UpdateFeatureToggles.md
-  - name: Dashboard
-    href: Services85/Dashboard/index.md
-    items:
-    - name: CreateDefaultDashboard
-      href: Services85/Dashboard/CreateDefaultDashboard.md
-    - name: CreateDefaultDashboardTile
-      href: Services85/Dashboard/CreateDefaultDashboardTile.md
-    - name: CreateNewFromTemplate
-      href: Services85/Dashboard/CreateNewFromTemplate.md
-    - name: DeleteDashboard
-      href: Services85/Dashboard/DeleteDashboard.md
-    - name: DeleteDashboardTile
-      href: Services85/Dashboard/DeleteDashboardTile.md
-    - name: GetDashboard
-      href: Services85/Dashboard/GetDashboard.md
-    - name: GetDashboards
-      href: Services85/Dashboard/GetDashboards.md
-    - name: GetDashboardTile
-      href: Services85/Dashboard/GetDashboardTile.md
-    - name: GetDashboardTiles
-      href: Services85/Dashboard/GetDashboardTiles.md
-    - name: GetData
-      href: Services85/Dashboard/GetData.md
-    - name: GetDataWithSelection
-      href: Services85/Dashboard/GetDataWithSelection.md
-    - name: SaveDashboard
-      href: Services85/Dashboard/SaveDashboard.md
-    - name: SaveDashboardTile
-      href: Services85/Dashboard/SaveDashboardTile.md
-    - name: SetTile
-      href: Services85/Dashboard/SetTile.md
   - name: Database
     href: Services85/Database/index.md
     items:
@@ -4682,8 +4441,6 @@
       href: Services85/Navigator/GetAllNavigatorCompany.md
     - name: GetNavigatorCompanies
       href: Services85/Navigator/GetNavigatorCompanies.md
-    - name: GetNavigatorCompany
-      href: Services85/Navigator/GetNavigatorCompany.md
     - name: GetNavigatorCompanyList
       href: Services85/Navigator/GetNavigatorCompanyList.md
   - name: NumberAllocation
@@ -5112,12 +4869,8 @@
       href: Services85/Quote/GetQuoteLineConfiguration.md
     - name: GetQuoteLineConfigurationFromFieldName
       href: Services85/Quote/GetQuoteLineConfigurationFromFieldName.md
-    - name: GetQuoteLineImage
-      href: Services85/Quote/GetQuoteLineImage.md
     - name: GetQuoteLines
       href: Services85/Quote/GetQuoteLines.md
-    - name: GetQuoteList
-      href: Services85/Quote/GetQuoteList.md
     - name: GetQuoteVersion
       href: Services85/Quote/GetQuoteVersion.md
     - name: GetQuoteVersions
@@ -5168,8 +4921,6 @@
       href: Services85/Quote/SaveQuoteLineConfiguration.md
     - name: SaveQuoteLineConfigurations
       href: Services85/Quote/SaveQuoteLineConfigurations.md
-    - name: SaveQuoteLineImage
-      href: Services85/Quote/SaveQuoteLineImage.md
     - name: SaveQuoteVersion
       href: Services85/Quote/SaveQuoteVersion.md
     - name: SaveQuoteVersionNumber
@@ -5199,54 +4950,17 @@
       href: Services85/Relation/GetContactRelationEntity.md
     - name: SaveContactRelation
       href: Services85/Relation/SaveContactRelation.md
-  - name: Replication
-    href: Services85/Replication/index.md
-    items:
-    - name: CreateDefaultSatellite
-      href: Services85/Replication/CreateDefaultSatellite.md
-    - name: GetArea
-      href: Services85/Replication/GetArea.md
-    - name: GetAreaList
-      href: Services85/Replication/GetAreaList.md
-    - name: GetCentralLicense
-      href: Services85/Replication/GetCentralLicense.md
-    - name: GetSatellite
-      href: Services85/Replication/GetSatellite.md
-    - name: SaveCentralLicense
-      href: Services85/Replication/SaveCentralLicense.md
-    - name: SaveSatellite
-      href: Services85/Replication/SaveSatellite.md
-    - name: SetFreetextSearchEnabledOnArea
-      href: Services85/Replication/SetFreetextSearchEnabledOnArea.md
   - name: Report
     href: Services85/Report/index.md
     items:
-    - name: CreateDefaultReportEntity
-      href: Services85/Report/CreateDefaultReportEntity.md
     - name: CreateDefaultReportLabelLayoutEntity
       href: Services85/Report/CreateDefaultReportLabelLayoutEntity.md
-    - name: CreateFavorite
-      href: Services85/Report/CreateFavorite.md
-    - name: DeleteFavorite
-      href: Services85/Report/DeleteFavorite.md
-    - name: DeleteReport
-      href: Services85/Report/DeleteReport.md
     - name: DeleteReportLabelLayoutEntity
       href: Services85/Report/DeleteReportLabelLayoutEntity.md
-    - name: GenerateReport
-      href: Services85/Report/GenerateReport.md
-    - name: GetReportEntity
-      href: Services85/Report/GetReportEntity.md
     - name: GetReportLabelLayoutEntity
       href: Services85/Report/GetReportLabelLayoutEntity.md
-    - name: ImportReport
-      href: Services85/Report/ImportReport.md
-    - name: SaveReportEntity
-      href: Services85/Report/SaveReportEntity.md
     - name: SaveReportLabelLayoutEntity
       href: Services85/Report/SaveReportLabelLayoutEntity.md
-    - name: UpdateFavorite
-      href: Services85/Report/UpdateFavorite.md
   - name: Resource
     href: Services85/Resource/index.md
     items:
@@ -5387,10 +5101,6 @@
       href: Services85/Selection/CreateContactSelectionFromSelection.md
     - name: CreateContactSelectionFromShadowSelection
       href: Services85/Selection/CreateContactSelectionFromShadowSelection.md
-    - name: CreateDefaultMailMergeSettings
-      href: Services85/Selection/CreateDefaultMailMergeSettings.md
-    - name: CreateDefaultMailMergeTask
-      href: Services85/Selection/CreateDefaultMailMergeTask.md
     - name: CreateDefaultSelectionEntity
       href: Services85/Selection/CreateDefaultSelectionEntity.md
     - name: CreateNewEntry
@@ -5401,8 +5111,6 @@
       href: Services85/Selection/CreateTemporaryContactSelection.md
     - name: CreateTemporaryContactSelectionFromContactPersonIds
       href: Services85/Selection/CreateTemporaryContactSelectionFromContactPersonIds.md
-    - name: CreateTemporaryContactSelectionFromProjectMembers
-      href: Services85/Selection/CreateTemporaryContactSelectionFromProjectMembers.md
     - name: CreateTemporaryContactSelectionFromSelectionMemberIds
       href: Services85/Selection/CreateTemporaryContactSelectionFromSelectionMemberIds.md
     - name: CreateTemporarySelectionFromIds
@@ -5465,8 +5173,6 @@
       href: Services85/Selection/SetDynamicSelectionCriteria2.md
     - name: SetDynamicSelectionCriteria3
       href: Services85/Selection/SetDynamicSelectionCriteria3.md
-    - name: StartMailMerge
-      href: Services85/Selection/StartMailMerge.md
   - name: Sentry
     href: Services85/Sentry/index.md
     items:
@@ -6037,61 +5743,6 @@
       href: Services86/Associate/LogOffWindowsUsers.md
     - name: SaveNote
       href: Services86/Associate/SaveNote.md
-  - name: Audience
-    href: Services86/Audience/index.md
-    items:
-    - name: CreateDefaultAudienceLayoutEntity
-      href: Services86/Audience/CreateDefaultAudienceLayoutEntity.md
-    - name: DeleteAudienceLayoutEntity
-      href: Services86/Audience/DeleteAudienceLayoutEntity.md
-    - name: DeleteConfigParameter
-      href: Services86/Audience/DeleteConfigParameter.md
-    - name: GetAudienceLayoutByName
-      href: Services86/Audience/GetAudienceLayoutByName.md
-    - name: GetAudienceLayoutEntity
-      href: Services86/Audience/GetAudienceLayoutEntity.md
-    - name: GetAudienceLayoutOnPerson
-      href: Services86/Audience/GetAudienceLayoutOnPerson.md
-    - name: GetConfigParameter
-      href: Services86/Audience/GetConfigParameter.md
-    - name: GetConfigParameterOnPerson
-      href: Services86/Audience/GetConfigParameterOnPerson.md
-    - name: GetConfigParametersByLayoutName
-      href: Services86/Audience/GetConfigParametersByLayoutName.md
-    - name: GetConfigParametersOnPerson
-      href: Services86/Audience/GetConfigParametersOnPerson.md
-    - name: GetConfigParameterValue
-      href: Services86/Audience/GetConfigParameterValue.md
-    - name: GetConfigParameterValueOnPerson
-      href: Services86/Audience/GetConfigParameterValueOnPerson.md
-    - name: GetDefaultCountryFlag
-      href: Services86/Audience/GetDefaultCountryFlag.md
-    - name: GetDefaultPersonImage
-      href: Services86/Audience/GetDefaultPersonImage.md
-    - name: GetDefaultProjectImage
-      href: Services86/Audience/GetDefaultProjectImage.md
-    - name: GetLogoImage
-      href: Services86/Audience/GetLogoImage.md
-    - name: GetMyAudienceLayout
-      href: Services86/Audience/GetMyAudienceLayout.md
-    - name: GetMyConfigParameter
-      href: Services86/Audience/GetMyConfigParameter.md
-    - name: GetMyConfigParameters
-      href: Services86/Audience/GetMyConfigParameters.md
-    - name: GetMyConfigParameterValue
-      href: Services86/Audience/GetMyConfigParameterValue.md
-    - name: SaveAudienceLayoutEntity
-      href: Services86/Audience/SaveAudienceLayoutEntity.md
-    - name: SaveConfigParameter
-      href: Services86/Audience/SaveConfigParameter.md
-    - name: SetDefaultCountryFlag
-      href: Services86/Audience/SetDefaultCountryFlag.md
-    - name: SetDefaultPersonImage
-      href: Services86/Audience/SetDefaultPersonImage.md
-    - name: SetDefaultProjectImage
-      href: Services86/Audience/SetDefaultProjectImage.md
-    - name: SetLogoImage
-      href: Services86/Audience/SetLogoImage.md
   - name: Batch
     href: Services86/Batch/index.md
     items:
@@ -6130,8 +5781,6 @@
       href: Services86/BLOB/CreateDefaultBlobEntity.md
     - name: DeleteBlobEntity
       href: Services86/BLOB/DeleteBlobEntity.md
-    - name: GetAppData
-      href: Services86/BLOB/GetAppData.md
     - name: GetBlobEntity
       href: Services86/BLOB/GetBlobEntity.md
     - name: GetBlobEntityOnCountry
@@ -6166,8 +5815,6 @@
       href: Services86/BLOB/SaveImageStream.md
     - name: SaveProjectImage
       href: Services86/BLOB/SaveProjectImage.md
-    - name: SetAppData
-      href: Services86/BLOB/SetAppData.md
     - name: SetBlobStream
       href: Services86/BLOB/SetBlobStream.md
     - name: SetPersonImage
@@ -6389,8 +6036,6 @@
       href: Services86/CustomerService/ChatSessionsForUser.md
     - name: CheckSymmetricEncryption
       href: Services86/CustomerService/CheckSymmetricEncryption.md
-    - name: CreateDefaultSmsConfig
-      href: Services86/CustomerService/CreateDefaultSmsConfig.md
     - name: CreateSession
       href: Services86/CustomerService/CreateSession.md
     - name: CreateTicketFromMailData
@@ -6413,43 +6058,10 @@
       href: Services86/CustomerService/HasChatNotify.md
     - name: RemoveSession
       href: Services86/CustomerService/RemoveSession.md
-    - name: SaveSmsConfig
-      href: Services86/CustomerService/SaveSmsConfig.md
     - name: SessionIsValid
       href: Services86/CustomerService/SessionIsValid.md
     - name: UpdateFeatureToggles
       href: Services86/CustomerService/UpdateFeatureToggles.md
-  - name: Dashboard
-    href: Services86/Dashboard/index.md
-    items:
-    - name: CreateDefaultDashboard
-      href: Services86/Dashboard/CreateDefaultDashboard.md
-    - name: CreateDefaultDashboardTile
-      href: Services86/Dashboard/CreateDefaultDashboardTile.md
-    - name: CreateNewFromTemplate
-      href: Services86/Dashboard/CreateNewFromTemplate.md
-    - name: DeleteDashboard
-      href: Services86/Dashboard/DeleteDashboard.md
-    - name: DeleteDashboardTile
-      href: Services86/Dashboard/DeleteDashboardTile.md
-    - name: GetDashboard
-      href: Services86/Dashboard/GetDashboard.md
-    - name: GetDashboards
-      href: Services86/Dashboard/GetDashboards.md
-    - name: GetDashboardTile
-      href: Services86/Dashboard/GetDashboardTile.md
-    - name: GetDashboardTiles
-      href: Services86/Dashboard/GetDashboardTiles.md
-    - name: GetData
-      href: Services86/Dashboard/GetData.md
-    - name: GetDataWithSelection
-      href: Services86/Dashboard/GetDataWithSelection.md
-    - name: SaveDashboard
-      href: Services86/Dashboard/SaveDashboard.md
-    - name: SaveDashboardTile
-      href: Services86/Dashboard/SaveDashboardTile.md
-    - name: SetTile
-      href: Services86/Dashboard/SetTile.md
   - name: Database
     href: Services86/Database/index.md
     items:
@@ -7742,8 +7354,6 @@
       href: Services86/Navigator/GetAllNavigatorCompany.md
     - name: GetNavigatorCompanies
       href: Services86/Navigator/GetNavigatorCompanies.md
-    - name: GetNavigatorCompany
-      href: Services86/Navigator/GetNavigatorCompany.md
     - name: GetNavigatorCompanyList
       href: Services86/Navigator/GetNavigatorCompanyList.md
   - name: NumberAllocation
@@ -8176,12 +7786,8 @@
       href: Services86/Quote/GetQuoteLineConfiguration.md
     - name: GetQuoteLineConfigurationFromFieldName
       href: Services86/Quote/GetQuoteLineConfigurationFromFieldName.md
-    - name: GetQuoteLineImage
-      href: Services86/Quote/GetQuoteLineImage.md
     - name: GetQuoteLines
       href: Services86/Quote/GetQuoteLines.md
-    - name: GetQuoteList
-      href: Services86/Quote/GetQuoteList.md
     - name: GetQuoteVersion
       href: Services86/Quote/GetQuoteVersion.md
     - name: GetQuoteVersions
@@ -8232,8 +7838,6 @@
       href: Services86/Quote/SaveQuoteLineConfiguration.md
     - name: SaveQuoteLineConfigurations
       href: Services86/Quote/SaveQuoteLineConfigurations.md
-    - name: SaveQuoteLineImage
-      href: Services86/Quote/SaveQuoteLineImage.md
     - name: SaveQuoteVersion
       href: Services86/Quote/SaveQuoteVersion.md
     - name: SaveQuoteVersionNumber
@@ -8263,54 +7867,17 @@
       href: Services86/Relation/GetContactRelationEntity.md
     - name: SaveContactRelation
       href: Services86/Relation/SaveContactRelation.md
-  - name: Replication
-    href: Services86/Replication/index.md
-    items:
-    - name: CreateDefaultSatellite
-      href: Services86/Replication/CreateDefaultSatellite.md
-    - name: GetArea
-      href: Services86/Replication/GetArea.md
-    - name: GetAreaList
-      href: Services86/Replication/GetAreaList.md
-    - name: GetCentralLicense
-      href: Services86/Replication/GetCentralLicense.md
-    - name: GetSatellite
-      href: Services86/Replication/GetSatellite.md
-    - name: SaveCentralLicense
-      href: Services86/Replication/SaveCentralLicense.md
-    - name: SaveSatellite
-      href: Services86/Replication/SaveSatellite.md
-    - name: SetFreetextSearchEnabledOnArea
-      href: Services86/Replication/SetFreetextSearchEnabledOnArea.md
   - name: Report
     href: Services86/Report/index.md
     items:
-    - name: CreateDefaultReportEntity
-      href: Services86/Report/CreateDefaultReportEntity.md
     - name: CreateDefaultReportLabelLayoutEntity
       href: Services86/Report/CreateDefaultReportLabelLayoutEntity.md
-    - name: CreateFavorite
-      href: Services86/Report/CreateFavorite.md
-    - name: DeleteFavorite
-      href: Services86/Report/DeleteFavorite.md
-    - name: DeleteReport
-      href: Services86/Report/DeleteReport.md
     - name: DeleteReportLabelLayoutEntity
       href: Services86/Report/DeleteReportLabelLayoutEntity.md
-    - name: GenerateReport
-      href: Services86/Report/GenerateReport.md
-    - name: GetReportEntity
-      href: Services86/Report/GetReportEntity.md
     - name: GetReportLabelLayoutEntity
       href: Services86/Report/GetReportLabelLayoutEntity.md
-    - name: ImportReport
-      href: Services86/Report/ImportReport.md
-    - name: SaveReportEntity
-      href: Services86/Report/SaveReportEntity.md
     - name: SaveReportLabelLayoutEntity
       href: Services86/Report/SaveReportLabelLayoutEntity.md
-    - name: UpdateFavorite
-      href: Services86/Report/UpdateFavorite.md
   - name: Resource
     href: Services86/Resource/index.md
     items:
@@ -8451,10 +8018,6 @@
       href: Services86/Selection/CreateContactSelectionFromSelection.md
     - name: CreateContactSelectionFromShadowSelection
       href: Services86/Selection/CreateContactSelectionFromShadowSelection.md
-    - name: CreateDefaultMailMergeSettings
-      href: Services86/Selection/CreateDefaultMailMergeSettings.md
-    - name: CreateDefaultMailMergeTask
-      href: Services86/Selection/CreateDefaultMailMergeTask.md
     - name: CreateDefaultSelectionEntity
       href: Services86/Selection/CreateDefaultSelectionEntity.md
     - name: CreateNewEntry
@@ -8465,8 +8028,6 @@
       href: Services86/Selection/CreateTemporaryContactSelection.md
     - name: CreateTemporaryContactSelectionFromContactPersonIds
       href: Services86/Selection/CreateTemporaryContactSelectionFromContactPersonIds.md
-    - name: CreateTemporaryContactSelectionFromProjectMembers
-      href: Services86/Selection/CreateTemporaryContactSelectionFromProjectMembers.md
     - name: CreateTemporaryContactSelectionFromSelectionMemberIds
       href: Services86/Selection/CreateTemporaryContactSelectionFromSelectionMemberIds.md
     - name: CreateTemporarySelectionFromIds
@@ -8529,8 +8090,6 @@
       href: Services86/Selection/SetDynamicSelectionCriteria2.md
     - name: SetDynamicSelectionCriteria3
       href: Services86/Selection/SetDynamicSelectionCriteria3.md
-    - name: StartMailMerge
-      href: Services86/Selection/StartMailMerge.md
   - name: Sentry
     href: Services86/Sentry/index.md
     items:
@@ -9150,61 +8709,6 @@
       href: Services87/Associate/LogOffWindowsUsers.md
     - name: SaveNote
       href: Services87/Associate/SaveNote.md
-  - name: Audience
-    href: Services87/Audience/index.md
-    items:
-    - name: CreateDefaultAudienceLayoutEntity
-      href: Services87/Audience/CreateDefaultAudienceLayoutEntity.md
-    - name: DeleteAudienceLayoutEntity
-      href: Services87/Audience/DeleteAudienceLayoutEntity.md
-    - name: DeleteConfigParameter
-      href: Services87/Audience/DeleteConfigParameter.md
-    - name: GetAudienceLayoutByName
-      href: Services87/Audience/GetAudienceLayoutByName.md
-    - name: GetAudienceLayoutEntity
-      href: Services87/Audience/GetAudienceLayoutEntity.md
-    - name: GetAudienceLayoutOnPerson
-      href: Services87/Audience/GetAudienceLayoutOnPerson.md
-    - name: GetConfigParameter
-      href: Services87/Audience/GetConfigParameter.md
-    - name: GetConfigParameterOnPerson
-      href: Services87/Audience/GetConfigParameterOnPerson.md
-    - name: GetConfigParametersByLayoutName
-      href: Services87/Audience/GetConfigParametersByLayoutName.md
-    - name: GetConfigParametersOnPerson
-      href: Services87/Audience/GetConfigParametersOnPerson.md
-    - name: GetConfigParameterValue
-      href: Services87/Audience/GetConfigParameterValue.md
-    - name: GetConfigParameterValueOnPerson
-      href: Services87/Audience/GetConfigParameterValueOnPerson.md
-    - name: GetDefaultCountryFlag
-      href: Services87/Audience/GetDefaultCountryFlag.md
-    - name: GetDefaultPersonImage
-      href: Services87/Audience/GetDefaultPersonImage.md
-    - name: GetDefaultProjectImage
-      href: Services87/Audience/GetDefaultProjectImage.md
-    - name: GetLogoImage
-      href: Services87/Audience/GetLogoImage.md
-    - name: GetMyAudienceLayout
-      href: Services87/Audience/GetMyAudienceLayout.md
-    - name: GetMyConfigParameter
-      href: Services87/Audience/GetMyConfigParameter.md
-    - name: GetMyConfigParameters
-      href: Services87/Audience/GetMyConfigParameters.md
-    - name: GetMyConfigParameterValue
-      href: Services87/Audience/GetMyConfigParameterValue.md
-    - name: SaveAudienceLayoutEntity
-      href: Services87/Audience/SaveAudienceLayoutEntity.md
-    - name: SaveConfigParameter
-      href: Services87/Audience/SaveConfigParameter.md
-    - name: SetDefaultCountryFlag
-      href: Services87/Audience/SetDefaultCountryFlag.md
-    - name: SetDefaultPersonImage
-      href: Services87/Audience/SetDefaultPersonImage.md
-    - name: SetDefaultProjectImage
-      href: Services87/Audience/SetDefaultProjectImage.md
-    - name: SetLogoImage
-      href: Services87/Audience/SetLogoImage.md
   - name: Batch
     href: Services87/Batch/index.md
     items:
@@ -9243,8 +8747,6 @@
       href: Services87/BLOB/CreateDefaultBlobEntity.md
     - name: DeleteBlobEntity
       href: Services87/BLOB/DeleteBlobEntity.md
-    - name: GetAppData
-      href: Services87/BLOB/GetAppData.md
     - name: GetBlobEntity
       href: Services87/BLOB/GetBlobEntity.md
     - name: GetBlobEntityOnCountry
@@ -9279,8 +8781,6 @@
       href: Services87/BLOB/SaveImageStream.md
     - name: SaveProjectImage
       href: Services87/BLOB/SaveProjectImage.md
-    - name: SetAppData
-      href: Services87/BLOB/SetAppData.md
     - name: SetBlobStream
       href: Services87/BLOB/SetBlobStream.md
     - name: SetPersonImage
@@ -9508,8 +9008,6 @@
       href: Services87/CustomerService/CheckSymmetricEncryption.md
     - name: CreateDefaultCustomerCenterConfig
       href: Services87/CustomerService/CreateDefaultCustomerCenterConfig.md
-    - name: CreateDefaultSmsConfig
-      href: Services87/CustomerService/CreateDefaultSmsConfig.md
     - name: CreateSession
       href: Services87/CustomerService/CreateSession.md
     - name: CreateTicketFromMailData
@@ -9546,45 +9044,12 @@
       href: Services87/CustomerService/SaveAllCustomerCenterConfigs.md
     - name: SaveCustomerCenterConfig
       href: Services87/CustomerService/SaveCustomerCenterConfig.md
-    - name: SaveSmsConfig
-      href: Services87/CustomerService/SaveSmsConfig.md
     - name: SessionIsValid
       href: Services87/CustomerService/SessionIsValid.md
     - name: TestSmtpServer
       href: Services87/CustomerService/TestSmtpServer.md
     - name: UpdateFeatureToggles
       href: Services87/CustomerService/UpdateFeatureToggles.md
-  - name: Dashboard
-    href: Services87/Dashboard/index.md
-    items:
-    - name: CreateDefaultDashboard
-      href: Services87/Dashboard/CreateDefaultDashboard.md
-    - name: CreateDefaultDashboardTile
-      href: Services87/Dashboard/CreateDefaultDashboardTile.md
-    - name: CreateNewFromTemplate
-      href: Services87/Dashboard/CreateNewFromTemplate.md
-    - name: DeleteDashboard
-      href: Services87/Dashboard/DeleteDashboard.md
-    - name: DeleteDashboardTile
-      href: Services87/Dashboard/DeleteDashboardTile.md
-    - name: GetDashboard
-      href: Services87/Dashboard/GetDashboard.md
-    - name: GetDashboards
-      href: Services87/Dashboard/GetDashboards.md
-    - name: GetDashboardTile
-      href: Services87/Dashboard/GetDashboardTile.md
-    - name: GetDashboardTiles
-      href: Services87/Dashboard/GetDashboardTiles.md
-    - name: GetData
-      href: Services87/Dashboard/GetData.md
-    - name: GetDataWithSelection
-      href: Services87/Dashboard/GetDataWithSelection.md
-    - name: SaveDashboard
-      href: Services87/Dashboard/SaveDashboard.md
-    - name: SaveDashboardTile
-      href: Services87/Dashboard/SaveDashboardTile.md
-    - name: SetTile
-      href: Services87/Dashboard/SetTile.md
   - name: Database
     href: Services87/Database/index.md
     items:
@@ -10911,8 +10376,6 @@
       href: Services87/Navigator/GetAllNavigatorCompany.md
     - name: GetNavigatorCompanies
       href: Services87/Navigator/GetNavigatorCompanies.md
-    - name: GetNavigatorCompany
-      href: Services87/Navigator/GetNavigatorCompany.md
     - name: GetNavigatorCompanyList
       href: Services87/Navigator/GetNavigatorCompanyList.md
   - name: NumberAllocation
@@ -11357,12 +10820,8 @@
       href: Services87/Quote/GetQuoteLineConfiguration.md
     - name: GetQuoteLineConfigurationFromFieldName
       href: Services87/Quote/GetQuoteLineConfigurationFromFieldName.md
-    - name: GetQuoteLineImage
-      href: Services87/Quote/GetQuoteLineImage.md
     - name: GetQuoteLines
       href: Services87/Quote/GetQuoteLines.md
-    - name: GetQuoteList
-      href: Services87/Quote/GetQuoteList.md
     - name: GetQuoteVersion
       href: Services87/Quote/GetQuoteVersion.md
     - name: GetQuoteVersions
@@ -11413,8 +10872,6 @@
       href: Services87/Quote/SaveQuoteLineConfiguration.md
     - name: SaveQuoteLineConfigurations
       href: Services87/Quote/SaveQuoteLineConfigurations.md
-    - name: SaveQuoteLineImage
-      href: Services87/Quote/SaveQuoteLineImage.md
     - name: SaveQuoteLines
       href: Services87/Quote/SaveQuoteLines.md
     - name: SaveQuoteVersion
@@ -11446,54 +10903,17 @@
       href: Services87/Relation/GetContactRelationEntity.md
     - name: SaveContactRelation
       href: Services87/Relation/SaveContactRelation.md
-  - name: Replication
-    href: Services87/Replication/index.md
-    items:
-    - name: CreateDefaultSatellite
-      href: Services87/Replication/CreateDefaultSatellite.md
-    - name: GetArea
-      href: Services87/Replication/GetArea.md
-    - name: GetAreaList
-      href: Services87/Replication/GetAreaList.md
-    - name: GetCentralLicense
-      href: Services87/Replication/GetCentralLicense.md
-    - name: GetSatellite
-      href: Services87/Replication/GetSatellite.md
-    - name: SaveCentralLicense
-      href: Services87/Replication/SaveCentralLicense.md
-    - name: SaveSatellite
-      href: Services87/Replication/SaveSatellite.md
-    - name: SetFreetextSearchEnabledOnArea
-      href: Services87/Replication/SetFreetextSearchEnabledOnArea.md
   - name: Report
     href: Services87/Report/index.md
     items:
-    - name: CreateDefaultReportEntity
-      href: Services87/Report/CreateDefaultReportEntity.md
     - name: CreateDefaultReportLabelLayoutEntity
       href: Services87/Report/CreateDefaultReportLabelLayoutEntity.md
-    - name: CreateFavorite
-      href: Services87/Report/CreateFavorite.md
-    - name: DeleteFavorite
-      href: Services87/Report/DeleteFavorite.md
-    - name: DeleteReport
-      href: Services87/Report/DeleteReport.md
     - name: DeleteReportLabelLayoutEntity
       href: Services87/Report/DeleteReportLabelLayoutEntity.md
-    - name: GenerateReport
-      href: Services87/Report/GenerateReport.md
-    - name: GetReportEntity
-      href: Services87/Report/GetReportEntity.md
     - name: GetReportLabelLayoutEntity
       href: Services87/Report/GetReportLabelLayoutEntity.md
-    - name: ImportReport
-      href: Services87/Report/ImportReport.md
-    - name: SaveReportEntity
-      href: Services87/Report/SaveReportEntity.md
     - name: SaveReportLabelLayoutEntity
       href: Services87/Report/SaveReportLabelLayoutEntity.md
-    - name: UpdateFavorite
-      href: Services87/Report/UpdateFavorite.md
   - name: Resource
     href: Services87/Resource/index.md
     items:
@@ -11634,10 +11054,6 @@
       href: Services87/Selection/CreateContactSelectionFromSelection.md
     - name: CreateContactSelectionFromShadowSelection
       href: Services87/Selection/CreateContactSelectionFromShadowSelection.md
-    - name: CreateDefaultMailMergeSettings
-      href: Services87/Selection/CreateDefaultMailMergeSettings.md
-    - name: CreateDefaultMailMergeTask
-      href: Services87/Selection/CreateDefaultMailMergeTask.md
     - name: CreateDefaultSelectionEntity
       href: Services87/Selection/CreateDefaultSelectionEntity.md
     - name: CreateNewEntry
@@ -11648,8 +11064,6 @@
       href: Services87/Selection/CreateTemporaryContactSelection.md
     - name: CreateTemporaryContactSelectionFromContactPersonIds
       href: Services87/Selection/CreateTemporaryContactSelectionFromContactPersonIds.md
-    - name: CreateTemporaryContactSelectionFromProjectMembers
-      href: Services87/Selection/CreateTemporaryContactSelectionFromProjectMembers.md
     - name: CreateTemporaryContactSelectionFromSelectionMemberIds
       href: Services87/Selection/CreateTemporaryContactSelectionFromSelectionMemberIds.md
     - name: CreateTemporarySelectionFromIds
@@ -11712,8 +11126,6 @@
       href: Services87/Selection/SetDynamicSelectionCriteria2.md
     - name: SetDynamicSelectionCriteria3
       href: Services87/Selection/SetDynamicSelectionCriteria3.md
-    - name: StartMailMerge
-      href: Services87/Selection/StartMailMerge.md
   - name: Sentry
     href: Services87/Sentry/index.md
     items:
@@ -12444,61 +11856,6 @@
       href: Services88/Associate/LogOffWindowsUsers.md
     - name: SaveNote
       href: Services88/Associate/SaveNote.md
-  - name: Audience
-    href: Services88/Audience/index.md
-    items:
-    - name: CreateDefaultAudienceLayoutEntity
-      href: Services88/Audience/CreateDefaultAudienceLayoutEntity.md
-    - name: DeleteAudienceLayoutEntity
-      href: Services88/Audience/DeleteAudienceLayoutEntity.md
-    - name: DeleteConfigParameter
-      href: Services88/Audience/DeleteConfigParameter.md
-    - name: GetAudienceLayoutByName
-      href: Services88/Audience/GetAudienceLayoutByName.md
-    - name: GetAudienceLayoutEntity
-      href: Services88/Audience/GetAudienceLayoutEntity.md
-    - name: GetAudienceLayoutOnPerson
-      href: Services88/Audience/GetAudienceLayoutOnPerson.md
-    - name: GetConfigParameter
-      href: Services88/Audience/GetConfigParameter.md
-    - name: GetConfigParameterOnPerson
-      href: Services88/Audience/GetConfigParameterOnPerson.md
-    - name: GetConfigParametersByLayoutName
-      href: Services88/Audience/GetConfigParametersByLayoutName.md
-    - name: GetConfigParametersOnPerson
-      href: Services88/Audience/GetConfigParametersOnPerson.md
-    - name: GetConfigParameterValue
-      href: Services88/Audience/GetConfigParameterValue.md
-    - name: GetConfigParameterValueOnPerson
-      href: Services88/Audience/GetConfigParameterValueOnPerson.md
-    - name: GetDefaultCountryFlag
-      href: Services88/Audience/GetDefaultCountryFlag.md
-    - name: GetDefaultPersonImage
-      href: Services88/Audience/GetDefaultPersonImage.md
-    - name: GetDefaultProjectImage
-      href: Services88/Audience/GetDefaultProjectImage.md
-    - name: GetLogoImage
-      href: Services88/Audience/GetLogoImage.md
-    - name: GetMyAudienceLayout
-      href: Services88/Audience/GetMyAudienceLayout.md
-    - name: GetMyConfigParameter
-      href: Services88/Audience/GetMyConfigParameter.md
-    - name: GetMyConfigParameters
-      href: Services88/Audience/GetMyConfigParameters.md
-    - name: GetMyConfigParameterValue
-      href: Services88/Audience/GetMyConfigParameterValue.md
-    - name: SaveAudienceLayoutEntity
-      href: Services88/Audience/SaveAudienceLayoutEntity.md
-    - name: SaveConfigParameter
-      href: Services88/Audience/SaveConfigParameter.md
-    - name: SetDefaultCountryFlag
-      href: Services88/Audience/SetDefaultCountryFlag.md
-    - name: SetDefaultPersonImage
-      href: Services88/Audience/SetDefaultPersonImage.md
-    - name: SetDefaultProjectImage
-      href: Services88/Audience/SetDefaultProjectImage.md
-    - name: SetLogoImage
-      href: Services88/Audience/SetLogoImage.md
   - name: Batch
     href: Services88/Batch/index.md
     items:
@@ -12549,8 +11906,6 @@
       href: Services88/BLOB/CreateDefaultBlobEntity.md
     - name: DeleteBlobEntity
       href: Services88/BLOB/DeleteBlobEntity.md
-    - name: GetAppData
-      href: Services88/BLOB/GetAppData.md
     - name: GetBlobEntity
       href: Services88/BLOB/GetBlobEntity.md
     - name: GetBlobEntityOnContact
@@ -12593,8 +11948,6 @@
       href: Services88/BLOB/SaveImageStream.md
     - name: SaveProjectImage
       href: Services88/BLOB/SaveProjectImage.md
-    - name: SetAppData
-      href: Services88/BLOB/SetAppData.md
     - name: SetBlobStream
       href: Services88/BLOB/SetBlobStream.md
     - name: SetContactImage
@@ -12791,6 +12144,10 @@
       href: Services88/Configuration/GetWwwUrl.md
     - name: GetWwwUrlForSMWeb
       href: Services88/Configuration/GetWwwUrlForSMWeb.md
+    - name: RebuildCustomObjectArchivePanelDeltas
+      href: Services88/Configuration/RebuildCustomObjectArchivePanelDeltas.md
+    - name: RebuildTaskMenuDeltas
+      href: Services88/Configuration/RebuildTaskMenuDeltas.md
     - name: RebuildUdefDeltas
       href: Services88/Configuration/RebuildUdefDeltas.md
     - name: RebuildWebpanelDeltas
@@ -12954,8 +12311,6 @@
       href: Services88/CustomerService/CreateDefaultCustomerCenterConfig.md
     - name: CreateDefaultMailboxEntity
       href: Services88/CustomerService/CreateDefaultMailboxEntity.md
-    - name: CreateDefaultSmsConfig
-      href: Services88/CustomerService/CreateDefaultSmsConfig.md
     - name: CreateSession
       href: Services88/CustomerService/CreateSession.md
     - name: CreateTicketFromMailData
@@ -13016,8 +12371,6 @@
       href: Services88/CustomerService/SaveCustomerCenterConfig.md
     - name: SaveMailboxEntity
       href: Services88/CustomerService/SaveMailboxEntity.md
-    - name: SaveSmsConfig
-      href: Services88/CustomerService/SaveSmsConfig.md
     - name: SaveSystemTemplateSettings
       href: Services88/CustomerService/SaveSystemTemplateSettings.md
     - name: SessionIsValid
@@ -13103,39 +12456,6 @@
       href: Services88/Dash/SaveDashTileHtmlList.md
     - name: SaveDashTiles
       href: Services88/Dash/SaveDashTiles.md
-  - name: Dashboard
-    href: Services88/Dashboard/index.md
-    items:
-    - name: CreateDefaultDashboard
-      href: Services88/Dashboard/CreateDefaultDashboard.md
-    - name: CreateDefaultDashboardTile
-      href: Services88/Dashboard/CreateDefaultDashboardTile.md
-    - name: CreateNewFromTemplate
-      href: Services88/Dashboard/CreateNewFromTemplate.md
-    - name: DeleteDashboard
-      href: Services88/Dashboard/DeleteDashboard.md
-    - name: DeleteDashboardTile
-      href: Services88/Dashboard/DeleteDashboardTile.md
-    - name: GetDashboard
-      href: Services88/Dashboard/GetDashboard.md
-    - name: GetDashboards
-      href: Services88/Dashboard/GetDashboards.md
-    - name: GetDashboardTile
-      href: Services88/Dashboard/GetDashboardTile.md
-    - name: GetDashboardTiles
-      href: Services88/Dashboard/GetDashboardTiles.md
-    - name: GetData
-      href: Services88/Dashboard/GetData.md
-    - name: GetDataWithSelection
-      href: Services88/Dashboard/GetDataWithSelection.md
-    - name: GetStandardDashboardTileFromChartId
-      href: Services88/Dashboard/GetStandardDashboardTileFromChartId.md
-    - name: SaveDashboard
-      href: Services88/Dashboard/SaveDashboard.md
-    - name: SaveDashboardTile
-      href: Services88/Dashboard/SaveDashboardTile.md
-    - name: SetTile
-      href: Services88/Dashboard/SetTile.md
   - name: Database
     href: Services88/Database/index.md
     items:
@@ -13906,22 +13226,12 @@
   - name: FreeText
     href: Services88/FreeText/index.md
     items:
-    - name: AddWords
-      href: Services88/FreeText/AddWords.md
-    - name: DeleteStopWordsById
-      href: Services88/FreeText/DeleteStopWordsById.md
     - name: FreetextIndexRows
       href: Services88/FreeText/FreetextIndexRows.md
     - name: GetStatus
       href: Services88/FreeText/GetStatus.md
-    - name: GetStopWordList
-      href: Services88/FreeText/GetStopWordList.md
-    - name: GetSuggestedStopWords
-      href: Services88/FreeText/GetSuggestedStopWords.md
     - name: RegenerateIndex
       href: Services88/FreeText/RegenerateIndex.md
-    - name: SetAutoEnableTravelAreas
-      href: Services88/FreeText/SetAutoEnableTravelAreas.md
     - name: SetEnabled
       href: Services88/FreeText/SetEnabled.md
     - name: SetMultiWordOperator
@@ -13950,6 +13260,8 @@
       href: Services88/License/AssignThirdPartyLicenses.md
     - name: ChangeSerialNumber
       href: Services88/License/ChangeSerialNumber.md
+    - name: GetCentralLicense
+      href: Services88/License/GetCentralLicense.md
     - name: GetLicenseForAllOwnersFromDB
       href: Services88/License/GetLicenseForAllOwnersFromDB.md
     - name: GetLicenseFromDB
@@ -13978,6 +13290,8 @@
       href: Services88/License/GetUserLicensesMDOList.md
     - name: RemoveLicenseFromDB
       href: Services88/License/RemoveLicenseFromDB.md
+    - name: SaveCentralLicense
+      href: Services88/License/SaveCentralLicense.md
     - name: UnassignThirdPartyLicenses
       href: Services88/License/UnassignThirdPartyLicenses.md
     - name: ValidateLicenseInfo
@@ -14681,8 +13995,6 @@
       href: Services88/Navigator/GetAllNavigatorCompany.md
     - name: GetNavigatorCompanies
       href: Services88/Navigator/GetNavigatorCompanies.md
-    - name: GetNavigatorCompany
-      href: Services88/Navigator/GetNavigatorCompany.md
     - name: GetNavigatorCompanyList
       href: Services88/Navigator/GetNavigatorCompanyList.md
   - name: NumberAllocation
@@ -14809,6 +14121,8 @@
       href: Services88/Person/SavePersonEntity.md
     - name: SendConsentConfirmationEmail
       href: Services88/Person/SendConsentConfirmationEmail.md
+    - name: SendCustomerCentrePasswordEmail
+      href: Services88/Person/SendCustomerCentrePasswordEmail.md
     - name: SendEmail
       href: Services88/Person/SendEmail.md
     - name: SendEmailWithEventName
@@ -15189,12 +14503,8 @@
       href: Services88/Quote/GetQuoteLineConfiguration.md
     - name: GetQuoteLineConfigurationFromFieldName
       href: Services88/Quote/GetQuoteLineConfigurationFromFieldName.md
-    - name: GetQuoteLineImage
-      href: Services88/Quote/GetQuoteLineImage.md
     - name: GetQuoteLines
       href: Services88/Quote/GetQuoteLines.md
-    - name: GetQuoteList
-      href: Services88/Quote/GetQuoteList.md
     - name: GetQuoteVersion
       href: Services88/Quote/GetQuoteVersion.md
     - name: GetQuoteVersions
@@ -15247,8 +14557,6 @@
       href: Services88/Quote/SaveQuoteLineConfiguration.md
     - name: SaveQuoteLineConfigurations
       href: Services88/Quote/SaveQuoteLineConfigurations.md
-    - name: SaveQuoteLineImage
-      href: Services88/Quote/SaveQuoteLineImage.md
     - name: SaveQuoteLines
       href: Services88/Quote/SaveQuoteLines.md
     - name: SaveQuoteVersion
@@ -15280,54 +14588,17 @@
       href: Services88/Relation/GetContactRelationEntity.md
     - name: SaveContactRelation
       href: Services88/Relation/SaveContactRelation.md
-  - name: Replication
-    href: Services88/Replication/index.md
-    items:
-    - name: CreateDefaultSatellite
-      href: Services88/Replication/CreateDefaultSatellite.md
-    - name: GetArea
-      href: Services88/Replication/GetArea.md
-    - name: GetAreaList
-      href: Services88/Replication/GetAreaList.md
-    - name: GetCentralLicense
-      href: Services88/Replication/GetCentralLicense.md
-    - name: GetSatellite
-      href: Services88/Replication/GetSatellite.md
-    - name: SaveCentralLicense
-      href: Services88/Replication/SaveCentralLicense.md
-    - name: SaveSatellite
-      href: Services88/Replication/SaveSatellite.md
-    - name: SetFreetextSearchEnabledOnArea
-      href: Services88/Replication/SetFreetextSearchEnabledOnArea.md
   - name: Report
     href: Services88/Report/index.md
     items:
-    - name: CreateDefaultReportEntity
-      href: Services88/Report/CreateDefaultReportEntity.md
     - name: CreateDefaultReportLabelLayoutEntity
       href: Services88/Report/CreateDefaultReportLabelLayoutEntity.md
-    - name: CreateFavorite
-      href: Services88/Report/CreateFavorite.md
-    - name: DeleteFavorite
-      href: Services88/Report/DeleteFavorite.md
-    - name: DeleteReport
-      href: Services88/Report/DeleteReport.md
     - name: DeleteReportLabelLayoutEntity
       href: Services88/Report/DeleteReportLabelLayoutEntity.md
-    - name: GenerateReport
-      href: Services88/Report/GenerateReport.md
-    - name: GetReportEntity
-      href: Services88/Report/GetReportEntity.md
     - name: GetReportLabelLayoutEntity
       href: Services88/Report/GetReportLabelLayoutEntity.md
-    - name: ImportReport
-      href: Services88/Report/ImportReport.md
-    - name: SaveReportEntity
-      href: Services88/Report/SaveReportEntity.md
     - name: SaveReportLabelLayoutEntity
       href: Services88/Report/SaveReportLabelLayoutEntity.md
-    - name: UpdateFavorite
-      href: Services88/Report/UpdateFavorite.md
   - name: Resource
     href: Services88/Resource/index.md
     items:
@@ -15480,10 +14751,6 @@
       href: Services88/Selection/CreateContactSelectionFromSelection.md
     - name: CreateContactSelectionFromShadowSelection
       href: Services88/Selection/CreateContactSelectionFromShadowSelection.md
-    - name: CreateDefaultMailMergeSettings
-      href: Services88/Selection/CreateDefaultMailMergeSettings.md
-    - name: CreateDefaultMailMergeTask
-      href: Services88/Selection/CreateDefaultMailMergeTask.md
     - name: CreateDefaultSelectionEntity
       href: Services88/Selection/CreateDefaultSelectionEntity.md
     - name: CreateNewEntry
@@ -15496,8 +14763,6 @@
       href: Services88/Selection/CreateTemporaryContactSelection.md
     - name: CreateTemporaryContactSelectionFromContactPersonIds
       href: Services88/Selection/CreateTemporaryContactSelectionFromContactPersonIds.md
-    - name: CreateTemporaryContactSelectionFromProjectMembers
-      href: Services88/Selection/CreateTemporaryContactSelectionFromProjectMembers.md
     - name: CreateTemporaryContactSelectionFromSelectionMemberIds
       href: Services88/Selection/CreateTemporaryContactSelectionFromSelectionMemberIds.md
     - name: CreateTemporarySelectionFromIds
@@ -15568,8 +14833,6 @@
       href: Services88/Selection/SetDynamicSelectionCriteria3.md
     - name: SetDynamicSelectionCriteriaGroups
       href: Services88/Selection/SetDynamicSelectionCriteriaGroups.md
-    - name: StartMailMerge
-      href: Services88/Selection/StartMailMerge.md
     - name: UpdateTypicalSearch
       href: Services88/Selection/UpdateTypicalSearch.md
   - name: Sentry

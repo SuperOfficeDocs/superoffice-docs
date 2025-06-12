@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Ticket/GetAttachmentInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 35
+  "TicketMessageEntityId": 280
 }
 ```
 
@@ -96,20 +96,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 560,
-    "Name": "Osinski-Haley",
-    "ContentType": "qui",
-    "AttSize": 586,
-    "InlineImage": false,
-    "ContentId": "eaque",
-    "AuthKey": "et",
-    "IsSafeFileExtension": false,
+    "AttachmentId": 747,
+    "Name": "Hahn-Williamson",
+    "ContentType": "iste",
+    "AttSize": 450,
+    "InlineImage": true,
+    "ContentId": "distinctio",
+    "AuthKey": "repellat",
+    "IsSafeFileExtension": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 595
+        "FieldLength": 374
       }
     }
   }

@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -79,37 +79,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 346,
-  "UniqueId": "praesentium",
-  "Name": "Kirlin-Vandervort",
-  "Description": "Balanced 24/7 concept",
-  "AssociateId": 326,
-  "Columns": 168,
+  "DashboardId": 298,
+  "UniqueId": "aliquam",
+  "Name": "Kub-Grady",
+  "Description": "User-friendly holistic structure",
+  "AssociateId": 74,
+  "Columns": 840,
   "Theme": null,
-  "VisibleForAll": 116,
+  "VisibleForAll": 44,
   "VisibleForAssociates": [
-    854,
-    123
+    479,
+    326
   ],
   "VisibleForGroups": [
-    96,
-    243
+    257,
+    780
   ],
-  "PinForAll": 575,
+  "PinForAll": 590,
   "PinForAssociates": [
-    931,
-    93
+    749,
+    627
   ],
   "PinForGroups": [
-    833,
-    553
+    229,
+    110
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 982
+      "FieldType": "System.String",
+      "FieldLength": 531
     }
   }
 }

@@ -83,11 +83,11 @@ OK
 POST /api/v1/Agents/Preference/GetPreference
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 693
+  "Id": 880
 }
 ```
 
@@ -99,22 +99,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "voluptas",
+  "RawValue": "magni",
   "Specification": null,
-  "DisplayValue": "et",
-  "DisplayTooltip": "iste",
+  "DisplayValue": "voluptate",
+  "DisplayTooltip": "quaerat",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 454,
-  "PrefDescId": 475,
-  "TableName": "Heller LLC",
-  "UserPreferenceId": 565,
+  "TargetId": 592,
+  "PrefDescId": 694,
+  "TableName": "Haley-Emmerich",
+  "UserPreferenceId": 446,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 212
+      "FieldType": "System.Int32",
+      "FieldLength": 915
     }
   }
 }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Position/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 354,
-    "Name": "Senger Inc and Sons",
-    "ToolTip": "Magni non numquam.",
+    "Id": 907,
+    "Name": "Boyer, Lang and Schiller",
+    "ToolTip": "Ipsam quasi iure reiciendis.",
     "Deleted": false,
-    "Rank": 63,
-    "Type": "eveniet",
-    "ColorBlock": 856,
-    "IconHint": "molestiae",
-    "Selected": true,
-    "LastChanged": "2008-11-16T16:32:48.7588803+01:00",
+    "Rank": 631,
+    "Type": "enim",
+    "ColorBlock": 319,
+    "IconHint": "deleniti",
+    "Selected": false,
+    "LastChanged": "2017-12-17T17:54:08.9605465+01:00",
     "ChildItems": [
       {
-        "Id": 261,
-        "Name": "Emmerich-Stamm",
-        "ToolTip": "Est soluta occaecati eos.",
-        "Deleted": true,
-        "Rank": 897,
-        "Type": "minima",
-        "ColorBlock": 806,
-        "IconHint": "asperiores",
+        "Id": 977,
+        "Name": "Conroy, Ryan and Denesik",
+        "ToolTip": "Natus maiores molestiae aspernatur aut facilis.",
+        "Deleted": false,
+        "Rank": 678,
+        "Type": "suscipit",
+        "ColorBlock": 693,
+        "IconHint": "suscipit",
         "Selected": false,
-        "LastChanged": "2019-03-28T16:32:48.7588803+01:00",
+        "LastChanged": "2007-02-16T17:54:08.9605465+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "alias",
-        "StyleHint": "quas",
+        "ExtraInfo": "nisi",
+        "StyleHint": "voluptates",
         "Hidden": false,
-        "FullName": "Erick Toy"
+        "FullName": "Rhea Beier IV"
       }
     ],
-    "ExtraInfo": "quam",
-    "StyleHint": "illo",
+    "ExtraInfo": "nemo",
+    "StyleHint": "accusamus",
     "Hidden": false,
-    "FullName": "Pasquale Cordelia Bergnaum I"
+    "FullName": "Miss Berenice Telly Hahn"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 440,
-    "Name": "Ferry Group",
-    "ToolTip": "Modi placeat porro quam qui animi id sit.",
-    "Deleted": false,
-    "Rank": 809,
-    "Type": "ut",
-    "ColorBlock": 711,
-    "IconHint": "beatae",
-    "Selected": true,
-    "LastChanged": "2009-09-23T16:32:48.7588803+02:00",
+    "Id": 249,
+    "Name": "Larson-Gottlieb",
+    "ToolTip": "Voluptas eveniet.",
+    "Deleted": true,
+    "Rank": 195,
+    "Type": "quos",
+    "ColorBlock": 529,
+    "IconHint": "eos",
+    "Selected": false,
+    "LastChanged": "2020-10-15T17:54:08.9605465+02:00",
     "ChildItems": [
       {
-        "Id": 567,
-        "Name": "Morissette-Dach",
-        "ToolTip": "Sapiente aut placeat voluptas voluptate reprehenderit excepturi.",
+        "Id": 361,
+        "Name": "Wehner, Roberts and Huels",
+        "ToolTip": "Quia ut error et aut tempora.",
         "Deleted": false,
-        "Rank": 478,
-        "Type": "mollitia",
-        "ColorBlock": 893,
-        "IconHint": "eaque",
+        "Rank": 285,
+        "Type": "quo",
+        "ColorBlock": 820,
+        "IconHint": "sed",
         "Selected": false,
-        "LastChanged": "2003-09-29T16:32:48.7588803+02:00",
+        "LastChanged": "2022-03-12T17:54:08.9605465+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "exercitationem",
-        "StyleHint": "quia",
+        "ExtraInfo": "nisi",
+        "StyleHint": "sint",
         "Hidden": true,
-        "FullName": "Lucius Mertz",
+        "FullName": "Miss Willy Jamel Kautzer IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 45
+            "FieldType": "System.String",
+            "FieldLength": 536
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "non",
-    "Hidden": true,
-    "FullName": "Miss Maegan Wava Will DVM",
+    "ExtraInfo": "ipsa",
+    "StyleHint": "quam",
+    "Hidden": false,
+    "FullName": "Connie Violette Hirthe V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 637
+        "FieldLength": 894
       }
     }
   }

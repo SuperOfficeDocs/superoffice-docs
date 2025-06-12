@@ -704,33 +704,6 @@ title: Services88.BLOBAgent WSDL
           </xs:sequence>
         </xs:complexType>
       </xs:element>
-      <xs:element name="GetAppData">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="Key" nillable="true" type="xs:string" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="GetAppDataResponse">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="xs:string" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="SetAppData">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="Key" nillable="true" type="xs:string" />
-            <xs:element minOccurs="0" name="Data" nillable="true" type="xs:string" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="SetAppDataResponse">
-        <xs:complexType>
-          <xs:sequence />
-        </xs:complexType>
-      </xs:element>
       <xs:element name="GetPersonImageWithSize">
         <xs:complexType>
           <xs:sequence>
@@ -1326,40 +1299,6 @@ title: Services88.BLOBAgent WSDL
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
-  <wsdl:message name="GetAppDataRequest">
-    <wsdl:part name="parameters" element="tns:GetAppData" />
-  </wsdl:message>
-  <wsdl:message name="GetAppDataRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="GetAppDataResponse">
-    <wsdl:part name="parameters" element="tns:GetAppDataResponse" />
-  </wsdl:message>
-  <wsdl:message name="GetAppDataResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="SetAppDataRequest">
-    <wsdl:part name="parameters" element="tns:SetAppData" />
-  </wsdl:message>
-  <wsdl:message name="SetAppDataRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="SetAppDataResponse">
-    <wsdl:part name="parameters" element="tns:SetAppDataResponse" />
-  </wsdl:message>
-  <wsdl:message name="SetAppDataResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
   <wsdl:message name="GetPersonImageWithSizeRequest">
     <wsdl:part name="parameters" element="tns:GetPersonImageWithSize" />
   </wsdl:message>
@@ -1626,14 +1565,6 @@ title: Services88.BLOBAgent WSDL
     <wsdl:operation name="GetQuoteLineImage">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/GetQuoteLineImage" name="GetQuoteLineImageRequest" message="tns:GetQuoteLineImageRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/GetQuoteLineImageResponse" name="GetQuoteLineImageResponse" message="tns:GetQuoteLineImageResponse" />
-    </wsdl:operation>
-    <wsdl:operation name="GetAppData">
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/GetAppData" name="GetAppDataRequest" message="tns:GetAppDataRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/GetAppDataResponse" name="GetAppDataResponse" message="tns:GetAppDataResponse" />
-    </wsdl:operation>
-    <wsdl:operation name="SetAppData">
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/SetAppData" name="SetAppDataRequest" message="tns:SetAppDataRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/SetAppDataResponse" name="SetAppDataResponse" message="tns:SetAppDataResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetPersonImageWithSize">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/GetPersonImageWithSize" name="GetPersonImageWithSizeRequest" message="tns:GetPersonImageWithSizeRequest" />
@@ -2059,38 +1990,6 @@ title: Services88.BLOBAgent WSDL
         <soap:header message="tns:GetQuoteLineImageResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:GetQuoteLineImageResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:GetQuoteLineImageResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="GetAppData">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/GetAppData" style="document" />
-      <wsdl:input name="GetAppDataRequest">
-        <soap:header message="tns:GetAppDataRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:GetAppDataRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:GetAppDataRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="GetAppDataResponse">
-        <soap:header message="tns:GetAppDataResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:GetAppDataResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:GetAppDataResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:GetAppDataResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="SetAppData">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/SetAppData" style="document" />
-      <wsdl:input name="SetAppDataRequest">
-        <soap:header message="tns:SetAppDataRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:SetAppDataRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:SetAppDataRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="SetAppDataResponse">
-        <soap:header message="tns:SetAppDataResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:SetAppDataResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:SetAppDataResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:SetAppDataResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>

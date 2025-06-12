@@ -53,16 +53,16 @@ The SystemEventEntity to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| SystemEventId | Integer | Primary key |
-| Scope | String | 1 = system-wide, 2= database, 3 = group, 4 = user |
-| Eta | String | Estimated Time of Arrival, i.e., when will this event finish? |
-| Eventkey | String | Event key, predefined in code |
-| Eventmess | String | Message to be shown, entered by administrator |
-| ExtraInfo | Integer | Extra information (area id for prototype rebuild, etc) |
-| Owner | Integer | 0, 0, group_id, assoc id (see over) |
-| UpdatedCount | Integer | Number of updates made to this record |
-| Registered | String | Registered when  in UTC. |
-| ActivatedBy | Associate | The associate that first created the SystemEvent. |
+| SystemEventId | Integer |  |
+| Scope | String |  |
+| Eta | String |  |
+| Eventkey | String |  |
+| Eventmess | String |  |
+| ExtraInfo | Integer |  |
+| Owner | Integer |  |
+| UpdatedCount | Integer |  |
+| Registered | String |  |
+| ActivatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
 
 ## Response:
 
@@ -77,16 +77,16 @@ SystemEventEntity updated.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| SystemEventId | int32 | Primary key |
-| Scope | string | 1 = system-wide, 2= database, 3 = group, 4 = user |
-| Eta | date-time | Estimated Time of Arrival, i.e., when will this event finish? |
-| Eventkey | string | Event key, predefined in code |
-| Eventmess | string | Message to be shown, entered by administrator |
-| ExtraInfo | int32 | Extra information (area id for prototype rebuild, etc) |
-| Owner | int32 | 0, 0, group_id, assoc id (see over) |
-| UpdatedCount | int32 | Number of updates made to this record |
-| Registered | date-time | Registered when  in UTC. |
-| ActivatedBy | Associate | The associate that first created the SystemEvent. |
+| SystemEventId | int32 |  |
+| Scope | string |  |
+| Eta | date-time |  |
+| Eventkey | string |  |
+| Eventmess | string |  |
+| ExtraInfo | int32 |  |
+| Owner | int32 |  |
+| UpdatedCount | int32 |  |
+| Registered | date-time |  |
+| ActivatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the Associate Agent. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
@@ -97,19 +97,19 @@ SystemEventEntity updated.
 PUT /api/v1/SystemEvent/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 886,
+  "SystemEventId": 354,
   "Scope": "Database",
-  "Eta": "2019-01-23T16:32:48.118198+01:00",
-  "Eventkey": "ea",
-  "Eventmess": "qui",
-  "ExtraInfo": 720,
-  "Owner": 399,
-  "UpdatedCount": 34,
-  "Registered": "2011-07-04T16:32:48.118198+02:00",
+  "Eta": "2000-10-13T17:54:08.5543174+02:00",
+  "Eventkey": "et",
+  "Eventmess": "error",
+  "ExtraInfo": 498,
+  "Owner": 556,
+  "UpdatedCount": 289,
+  "Registered": "2010-04-17T17:54:08.5543174+02:00",
   "ActivatedBy": null
 }
 ```
@@ -121,22 +121,22 @@ HTTP/1.1 200 SystemEventEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 85,
+  "SystemEventId": 415,
   "Scope": "Database",
-  "Eta": "2010-07-06T16:32:48.118198+02:00",
-  "Eventkey": "soluta",
-  "Eventmess": "nulla",
-  "ExtraInfo": 807,
-  "Owner": 778,
-  "UpdatedCount": 832,
-  "Registered": "2022-08-27T16:32:48.118198+02:00",
+  "Eta": "2000-01-05T17:54:08.5543174+01:00",
+  "Eventkey": "praesentium",
+  "Eventmess": "consequatur",
+  "ExtraInfo": 152,
+  "Owner": 130,
+  "UpdatedCount": 581,
+  "Registered": "2020-12-07T17:54:08.5543174+01:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 19
+      "FieldType": "System.Int32",
+      "FieldLength": 836
     }
   },
   "_Links": {

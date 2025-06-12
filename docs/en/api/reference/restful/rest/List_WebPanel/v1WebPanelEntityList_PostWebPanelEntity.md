@@ -111,14 +111,14 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 478,
-  "Name": "Conn LLC",
-  "Tooltip": "iure",
+  "WebPanelId": 134,
+  "Name": "Williamson-Smitham",
+  "Tooltip": "distinctio",
   "Deleted": false,
-  "Rank": 761,
+  "Rank": 502,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
+  "OnCentral": false,
   "OnSatellite": true,
   "OnTravel": false,
   "OnSalesMarketingWeb": true,
@@ -127,12 +127,12 @@ Content-Type: application/json; charset=utf-8
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Pfannerstill-Kautzer",
+  "WindowName": "Torp, Heller and Metz",
   "Url": "http://www.example.com/",
-  "ProgId": "consequatur",
-  "Icon": 281,
-  "AlwaysReloadOnShow": false,
-  "NeverReloadOnCurrentChange": true
+  "ProgId": "nesciunt",
+  "Icon": 306,
+  "AlwaysReloadOnShow": true,
+  "NeverReloadOnCurrentChange": false
 }
 ```
 
@@ -143,26 +143,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 330,
-  "Name": "Romaguera, Smith and Cronin",
-  "Tooltip": "voluptatem",
+  "WebPanelId": 619,
+  "Name": "Weissnat LLC",
+  "Tooltip": "minus",
   "Deleted": false,
-  "Rank": 33,
+  "Rank": 704,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
+  "OnCentral": false,
   "OnSatellite": false,
   "OnTravel": false,
   "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": false,
+  "ShowInMenuBar": true,
   "ShowInToolBar": false,
-  "ShowInAddressBar": false,
-  "ShowInStatusBar": false,
-  "WindowName": "Mayer LLC",
+  "ShowInAddressBar": true,
+  "ShowInStatusBar": true,
+  "WindowName": "Larson, Runte and Rolfson",
   "Url": "http://www.example.com/",
-  "ProgId": "sed",
-  "Icon": 884,
+  "ProgId": "dicta",
+  "Icon": 443,
   "AlwaysReloadOnShow": false,
   "NeverReloadOnCurrentChange": false,
   "TableRight": null,
@@ -170,7 +170,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 905
+      "FieldLength": 807
     }
   }
 }

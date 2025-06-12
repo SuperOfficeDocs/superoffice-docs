@@ -26,8 +26,8 @@ Get the MDO list items for "MrMrs" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/MrMrs/MDOItems?flat=False
-GET /api/v1/List/MrMrs/MDOItems?query=quibusdam
+GET /api/v1/List/MrMrs/MDOItems?flat=True
+GET /api/v1/List/MrMrs/MDOItems?query=quis
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/MrMrs/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 863,
-    "Name": "Leannon-Dooley",
-    "ToolTip": "Nisi est aspernatur quia tempora tenetur sint optio.",
-    "Deleted": false,
-    "Rank": 514,
-    "Type": "est",
+    "Id": 349,
+    "Name": "Price Group",
+    "ToolTip": "Iste esse illum.",
+    "Deleted": true,
+    "Rank": 420,
+    "Type": "exercitationem",
     "ChildItems": [
       {
-        "Id": 497,
-        "Name": "Bogisich Group",
-        "ToolTip": "Harum exercitationem consequatur.",
-        "Deleted": false,
-        "Rank": 572,
-        "Type": "et",
+        "Id": 452,
+        "Name": "Wiegand, Tromp and Bayer",
+        "ToolTip": "Aperiam animi fuga sed saepe ipsam.",
+        "Deleted": true,
+        "Rank": 21,
+        "Type": "quae",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "fugit",
-        "ColorBlock": 111,
-        "ExtraInfo": "accusamus",
-        "StyleHint": "quia",
-        "FullName": "Prof. Tyree Kaci Kovacek",
+        "IconHint": "perspiciatis",
+        "ColorBlock": 947,
+        "ExtraInfo": "delectus",
+        "StyleHint": "aut",
+        "FullName": "Roger VonRueden V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 850
+            "FieldLength": 305
           }
         }
       }
     ],
-    "IconHint": "iste",
-    "ColorBlock": 671,
-    "ExtraInfo": "non",
-    "StyleHint": "nemo",
-    "FullName": "Jakob Hegmann II",
+    "IconHint": "amet",
+    "ColorBlock": 934,
+    "ExtraInfo": "in",
+    "StyleHint": "porro",
+    "FullName": "Riley Kemmer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 566
+        "FieldLength": 25
       }
     }
   }

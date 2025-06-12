@@ -77,20 +77,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 692,
-    "Name": "Nader-Nolan",
-    "ContentType": "aut",
-    "AttSize": 684,
+    "AttachmentId": 434,
+    "Name": "Blick LLC",
+    "ContentType": "numquam",
+    "AttSize": 139,
     "InlineImage": false,
-    "ContentId": "at",
-    "AuthKey": "ullam",
+    "ContentId": "dolorem",
+    "AuthKey": "iste",
     "IsSafeFileExtension": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 664
+        "FieldType": "System.String",
+        "FieldLength": 404
       }
     }
   }

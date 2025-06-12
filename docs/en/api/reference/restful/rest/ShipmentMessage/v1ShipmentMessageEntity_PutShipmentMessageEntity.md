@@ -119,31 +119,31 @@ ShipmentMessageEntity updated.
 PUT /api/v1/ShipmentMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 335,
-  "PlainMessage": "deleniti",
-  "HtmlMessage": "similique",
-  "SmsMessage": "eos",
-  "Description": "Versatile 24 hour protocol",
-  "Subject": "iste",
-  "FolderId": 352,
-  "HeaderField": "dolores",
-  "Design": "velit",
+  "ShipmentMessageId": 941,
+  "PlainMessage": "dolore",
+  "HtmlMessage": "laudantium",
+  "SmsMessage": "sint",
+  "Description": "Configurable fault-tolerant solution",
+  "Subject": "minima",
+  "FolderId": 683,
+  "HeaderField": "hic",
+  "Design": "nesciunt",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Distributed optimizing orchestration",
-  "AccessKey": "libero",
-  "DocumentMessage": 719,
-  "Registered": "2023-10-02T16:32:48.1025764+02:00",
-  "RegisteredAssociateId": 692,
-  "Updated": "2024-06-25T16:32:48.1025764+02:00",
-  "UpdatedAssociateId": 867,
-  "UpdatedCount": 722
+  "LongDescription": "Proactive 3rd generation instruction set",
+  "AccessKey": "dolorem",
+  "DocumentMessage": 829,
+  "Registered": "2023-02-14T17:54:08.5386928+01:00",
+  "RegisteredAssociateId": 205,
+  "Updated": "2012-01-23T17:54:08.5386928+01:00",
+  "UpdatedAssociateId": 428,
+  "UpdatedCount": 871
 }
 ```
 
@@ -154,38 +154,38 @@ HTTP/1.1 200 ShipmentMessageEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 956,
-  "PlainMessage": "incidunt",
-  "HtmlMessage": "dolorem",
-  "SmsMessage": "autem",
-  "Description": "Public-key intangible encoding",
-  "Subject": "dolores",
-  "FolderId": 213,
-  "HeaderField": "unde",
-  "Design": "doloremque",
+  "ShipmentMessageId": 215,
+  "PlainMessage": "dignissimos",
+  "HtmlMessage": "sed",
+  "SmsMessage": "dignissimos",
+  "Description": "Business-focused system-worthy throughput",
+  "Subject": "sit",
+  "FolderId": 240,
+  "HeaderField": "ea",
+  "Design": "consectetur",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": true,
-  "LongDescription": "Focused solution-oriented budgetary management",
+  "InlineImages": false,
+  "LongDescription": "Future-proofed dynamic encryption",
   "AccessKey": "qui",
-  "DocumentMessage": 511,
-  "Registered": "2023-12-25T16:32:48.1025764+01:00",
-  "RegisteredAssociateId": 589,
-  "Updated": "2019-05-05T16:32:48.1025764+02:00",
-  "UpdatedAssociateId": 487,
-  "UpdatedCount": 54,
+  "DocumentMessage": 754,
+  "Registered": "2019-11-30T17:54:08.5386928+01:00",
+  "RegisteredAssociateId": 551,
+  "Updated": "2021-04-15T17:54:08.5386928+02:00",
+  "UpdatedAssociateId": 860,
+  "UpdatedCount": 722,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 193
+      "FieldType": "System.Int32",
+      "FieldLength": 456
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

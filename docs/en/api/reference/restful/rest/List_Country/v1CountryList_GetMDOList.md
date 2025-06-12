@@ -26,8 +26,8 @@ Get the MDO list items for "Country" - with headings and filtering by user group
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Country/MDOItems?flat=False
-GET /api/v1/List/Country/MDOItems?query=minus
+GET /api/v1/List/Country/MDOItems?flat=True
+GET /api/v1/List/Country/MDOItems?query=dolorem
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Country/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 286,
-    "Name": "Pfeffer-Kuhlman",
-    "ToolTip": "Laborum molestias perspiciatis et et.",
+    "Id": 956,
+    "Name": "Sauer-Corkery",
+    "ToolTip": "Nesciunt quisquam.",
     "Deleted": false,
-    "Rank": 894,
-    "Type": "omnis",
+    "Rank": 410,
+    "Type": "illo",
     "ChildItems": [
       {
-        "Id": 692,
-        "Name": "Lynch Group",
-        "ToolTip": "Iusto recusandae dolorum.",
+        "Id": 808,
+        "Name": "McLaughlin-Ratke",
+        "ToolTip": "Non voluptas aut velit maxime.",
         "Deleted": false,
-        "Rank": 722,
-        "Type": "assumenda",
+        "Rank": 103,
+        "Type": "quisquam",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "nesciunt",
-        "ColorBlock": 866,
-        "ExtraInfo": "similique",
-        "StyleHint": "accusamus",
-        "FullName": "Serena Effertz",
+        "IconHint": "aut",
+        "ColorBlock": 680,
+        "ExtraInfo": "rerum",
+        "StyleHint": "ipsam",
+        "FullName": "Broderick Cummerata",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 191
+            "FieldType": "System.String",
+            "FieldLength": 683
           }
         }
       }
     ],
-    "IconHint": "aut",
-    "ColorBlock": 131,
-    "ExtraInfo": "sit",
-    "StyleHint": "quia",
-    "FullName": "Cade Lebsack",
+    "IconHint": "quis",
+    "ColorBlock": 453,
+    "ExtraInfo": "ut",
+    "StyleHint": "cumque",
+    "FullName": "Ilene Hegmann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 899
+        "FieldLength": 788
       }
     }
   }

@@ -31,7 +31,7 @@ The actual bitmap is accessible via /api/Services80/project/123/image/content.
 | projectId | int32 | **Required** Project id |
 
 ```http
-PUT /api/v1/Project/{id}/ImageInfo?projectId=749
+PUT /api/v1/Project/{id}/ImageInfo?projectId=395
 ```
 
 
@@ -104,23 +104,23 @@ OK
 PUT /api/v1/Project/{id}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 299,
-  "BlobSize": 175,
-  "Description": "Total mobile capacity",
-  "ExtraInfo": "qui",
-  "IsEncrypted": false,
+  "BlobId": 223,
+  "BlobSize": 656,
+  "Description": "Reduced grid-enabled synergy",
+  "ExtraInfo": "omnis",
+  "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "deserunt",
-  "OriginalSize": 164,
-  "CreatedDate": "2003-12-25T16:32:47.7589038+01:00",
-  "UpdatedDate": "2005-05-10T16:32:47.7589038+02:00",
+  "MimeType": "et",
+  "OriginalSize": 454,
+  "CreatedDate": "2001-12-20T17:54:08.4136991+01:00",
+  "UpdatedDate": "2017-08-01T17:54:08.4136991+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "deserunt"
+  "ConceptualType": "cum"
 }
 ```
 
@@ -131,25 +131,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 25,
-  "BlobSize": 763,
-  "Description": "Switchable global leverage",
-  "ExtraInfo": "voluptates",
-  "IsEncrypted": true,
+  "BlobId": 194,
+  "BlobSize": 414,
+  "Description": "Quality-focused asynchronous orchestration",
+  "ExtraInfo": "expedita",
+  "IsEncrypted": false,
   "IsZipped": true,
-  "MimeType": "dicta",
-  "OriginalSize": 619,
-  "CreatedDate": "2008-03-13T16:32:47.7589038+01:00",
-  "UpdatedDate": "2017-12-28T16:32:47.7589038+01:00",
+  "MimeType": "non",
+  "OriginalSize": 446,
+  "CreatedDate": "2022-07-24T17:54:08.4136991+02:00",
+  "UpdatedDate": "2001-03-12T17:54:08.4136991+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "enim",
+  "ConceptualType": "dolorem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 373
+      "FieldLength": 287
     }
   }
 }

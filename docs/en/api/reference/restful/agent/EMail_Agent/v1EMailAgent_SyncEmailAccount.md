@@ -10,7 +10,10 @@ generated: true
 POST /api/v1/Agents/EMail/SyncEmailAccount
 ```
 
-Sync the given account
+Sync the given account, from mail server to SuperOffice database cache.
+
+
+This API has no throttling, so please be careful with multiple concurrent calls. Mail servers may become angry.
 
 
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
@@ -66,7 +69,7 @@ No Content
 POST /api/v1/Agents/EMail/SyncEmailAccount
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {

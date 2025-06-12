@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsForListItemFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Lesch Inc and Sons",
-  "ListItemId": 774,
+  "UdListDefinitionName": "Hauck Inc and Sons",
+  "ListItemId": 404,
   "Headings": [
     {
-      "Id": 396,
-      "Name": "Abernathy, Miller and Mraz",
-      "ToolTip": "Vitae incidunt et id debitis voluptatibus voluptatem.",
-      "Deleted": true,
-      "Rank": 625,
-      "Type": "qui",
-      "ColorBlock": 482,
-      "IconHint": "quibusdam",
+      "Id": 294,
+      "Name": "Cronin, McLaughlin and West",
+      "ToolTip": "Sint quo aut ut error.",
+      "Deleted": false,
+      "Rank": 981,
+      "Type": "et",
+      "ColorBlock": 689,
+      "IconHint": "ut",
       "Selected": false,
-      "LastChanged": "2012-12-29T16:32:39.2582391+01:00",
+      "LastChanged": "2008-04-29T17:54:03.2264522+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "voluptatem",
-      "StyleHint": "necessitatibus",
+      "ExtraInfo": "accusamus",
+      "StyleHint": "et",
       "Hidden": true,
-      "FullName": "Trent Wuckert"
+      "FullName": "Theron Howe"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 737,
-    "Name": "Lindgren, Grimes and Connelly",
-    "ToolTip": "Non velit voluptatem nisi facilis.",
-    "Deleted": true,
-    "Rank": 667,
-    "Type": "aut",
-    "ColorBlock": 787,
-    "IconHint": "sed",
-    "Selected": false,
-    "LastChanged": "2021-12-13T16:32:39.2582391+01:00",
+    "Id": 497,
+    "Name": "Hagenes-D'Amore",
+    "ToolTip": "Sapiente omnis mollitia totam animi.",
+    "Deleted": false,
+    "Rank": 210,
+    "Type": "tenetur",
+    "ColorBlock": 224,
+    "IconHint": "aut",
+    "Selected": true,
+    "LastChanged": "2025-02-13T17:54:03.2264522+01:00",
     "ChildItems": [
       {
-        "Id": 788,
-        "Name": "Hirthe, Batz and Senger",
-        "ToolTip": "Provident minus maxime ut assumenda blanditiis laudantium.",
+        "Id": 218,
+        "Name": "Stoltenberg-Auer",
+        "ToolTip": "Saepe doloremque quia id eaque accusamus voluptatem.",
         "Deleted": false,
-        "Rank": 470,
-        "Type": "qui",
-        "ColorBlock": 320,
-        "IconHint": "amet",
+        "Rank": 782,
+        "Type": "veritatis",
+        "ColorBlock": 542,
+        "IconHint": "quia",
         "Selected": false,
-        "LastChanged": "2012-05-06T16:32:39.2582391+02:00",
+        "LastChanged": "1999-04-07T17:54:03.2420756+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "suscipit",
-        "StyleHint": "cupiditate",
+        "ExtraInfo": "nihil",
+        "StyleHint": "dolores",
         "Hidden": false,
-        "FullName": "Audrey Crist",
+        "FullName": "Mr. Norwood Purdy",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 996
+            "FieldType": "System.Int32",
+            "FieldLength": 788
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "quidem",
-    "Hidden": false,
-    "FullName": "Ally O'Keefe",
+    "ExtraInfo": "iste",
+    "StyleHint": "quos",
+    "Hidden": true,
+    "FullName": "Emmalee Shanahan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 770
+        "FieldLength": 344
       }
     }
   }

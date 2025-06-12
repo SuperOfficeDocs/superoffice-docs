@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDeltasByDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -101,28 +101,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConfigurableScreenDeltaId": 589,
-    "Name": "Von-Marks",
-    "Description": "Down-sized explicit access",
-    "DeltaJson": "debitis",
+    "ConfigurableScreenDeltaId": 834,
+    "Name": "Wisozk Group",
+    "Description": "Open-architected fresh-thinking moratorium",
+    "DeltaJson": "molestiae",
     "DeltaType": "CustomFields",
     "DeltaState": "Draft",
-    "RecipeId": "id",
-    "UpdatedDate": "2014-07-31T16:32:38.3834375+02:00",
-    "CreatedDate": "2008-11-09T16:32:38.3834375+01:00",
+    "RecipeId": "enim",
+    "UpdatedDate": "2008-12-05T17:54:02.8202276+01:00",
+    "CreatedDate": "2010-04-25T17:54:02.8202276+02:00",
     "UpdatedBy": null,
     "CreatedBy": null,
     "AppliesToIds": [
-      965,
-      18
+      733,
+      305
     ],
-    "AppliesToKey": "id",
+    "AppliesToKey": "error",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 290
+        "FieldLength": 251
       }
     }
   }

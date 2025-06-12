@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/ErpSync/SaveActorTypeMapping
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -94,33 +94,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 565,
+  "ErpConnectionId": 160,
   "IsActive": false,
   "FieldMappings": [
     {
-      "ErpFieldId": 382,
-      "CrmFieldKey": "debitis",
-      "CrmDisplayName": "Wolf, Hudson and O'Conner",
-      "CrmDisplayTooltip": "totam",
-      "ErpFieldKey": "dignissimos",
+      "ErpFieldId": 381,
+      "CrmFieldKey": "atque",
+      "CrmDisplayName": "Feeney, Stehr and Schamberger",
+      "CrmDisplayTooltip": "nam",
+      "ErpFieldKey": "architecto",
       "FieldType": "Checkbox",
-      "ErpDisplayName": "Bode-Schinner",
-      "ErpDisplayTooltip": "in",
+      "ErpDisplayName": "Doyle, Berge and Aufderhar",
+      "ErpDisplayTooltip": "et",
       "SyncToCrm": true,
-      "SyncToErp": false,
-      "ShowInGui": false,
-      "ShowInSearch": true,
+      "SyncToErp": true,
+      "ShowInGui": true,
+      "ShowInSearch": false,
       "AlreadyMapped": false,
       "MissingInERP": false,
-      "MissingInCRM": false,
+      "MissingInCRM": true,
       "Access": "Mandatory",
-      "ListReference": "provident",
+      "ListReference": "facilis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 651
+          "FieldLength": 723
         }
       }
     }
@@ -131,8 +131,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 704
+      "FieldType": "System.String",
+      "FieldLength": 750
     }
   }
 }

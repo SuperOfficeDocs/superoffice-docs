@@ -79,12 +79,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 253,
-  "Name": "Reynolds-Hilpert",
-  "Tooltip": "est",
-  "Deleted": false,
-  "Rank": 392,
-  "UdListDefinitionId": 753
+  "HeadingId": 875,
+  "Name": "Halvorson, Kertzmann and Considine",
+  "Tooltip": "occaecati",
+  "Deleted": true,
+  "Rank": 822,
+  "UdListDefinitionId": 470
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 125,
-  "Name": "Jaskolski Group",
-  "Tooltip": "dolor",
-  "Deleted": true,
-  "Rank": 71,
-  "UdListDefinitionId": 51,
+  "HeadingId": 880,
+  "Name": "Hane Group",
+  "Tooltip": "voluptatum",
+  "Deleted": false,
+  "Rank": 694,
+  "UdListDefinitionId": 785,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 218
+      "FieldType": "System.Int32",
+      "FieldLength": 459
     }
   }
 }

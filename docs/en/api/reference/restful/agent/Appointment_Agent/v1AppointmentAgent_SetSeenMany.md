@@ -72,8 +72,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "AppointmentIds": [
-    127,
-    438
+    320,
+    493
   ],
   "UpdateMode": "OnlyThis"
 }

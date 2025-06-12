@@ -70,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Relation?$select=name,department,category/id
 GET /api/v1/Relation?$filter=name begins 'S'
 GET /api/v1/Relation?$orderBy=name asc
-GET /api/v1/Relation?$entities=voluptatem
-GET /api/v1/Relation?$top=713
-GET /api/v1/Relation?$skip=678
+GET /api/v1/Relation?$entities=earum
+GET /api/v1/Relation?$top=997
+GET /api/v1/Relation?$skip=214
 GET /api/v1/Relation?$mode=Full
 GET /api/v1/Relation?$options=GrandTotal=true
-GET /api/v1/Relation?$context=quae
+GET /api/v1/Relation?$context=id
 GET /api/v1/Relation?$format=JSON
 GET /api/v1/Relation?$jsonSafe=False
 GET /api/v1/Relation?$output=Display
@@ -118,7 +118,7 @@ OK
 GET /api/v1/Relation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -129,19 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "repellat",
+  "odata.nextLink": "sequi",
   "value": [
     {
-      "PrimaryKey": 970,
-      "EntityName": "person",
-      "personId": 970,
-      "fullName": "Guy Romaguera"
+      "PrimaryKey": 4469,
+      "EntityName": "sale",
+      "saleId": 4469,
+      "contactId": 7788,
+      "name": "Cormier Inc and Sons"
     },
     {
-      "PrimaryKey": 2942,
-      "EntityName": "person",
-      "personId": 2942,
-      "fullName": "Mrs. Durward Reuben Douglas"
+      "PrimaryKey": 7586,
+      "EntityName": "sale",
+      "saleId": 7586,
+      "contactId": 6990,
+      "name": "Williamson LLC"
     }
   ]
 }

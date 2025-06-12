@@ -127,7 +127,7 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 14 Jan 2001 16:32:47 G1T
+Last-Modified: Fri, 07 Apr 2006 17:54:08 G4T
 
 {
   "Appointment": null,
@@ -136,7 +136,7 @@ Last-Modified: Sun, 14 Jan 2001 16:32:47 G1T
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "veniam",
+  "SaleText": "aliquam",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -145,113 +145,113 @@ Last-Modified: Sun, 14 Jan 2001 16:32:47 G1T
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2021-02-20T16:32:47.9932265+01:00",
-  "Amount": 18998.308,
-  "SaleId": 590,
-  "Earning": 5700.746,
-  "EarningPercent": 6014.146,
-  "Heading": "ipsa",
-  "Number": "768603",
-  "Probability": 864,
-  "CreatedDate": "2016-10-26T16:32:47.9932265+02:00",
-  "UpdatedDate": "2001-01-14T16:32:47.9932265+01:00",
+  "Saledate": "2019-06-20T17:54:08.4449468+02:00",
+  "Amount": 9988.0579999999991,
+  "SaleId": 859,
+  "Earning": 7217.602,
+  "EarningPercent": 13742.59,
+  "Heading": "tempora",
+  "Number": "1414701",
+  "Probability": 642,
+  "CreatedDate": "2017-08-15T17:54:08.4449468+02:00",
+  "UpdatedDate": "2006-04-07T17:54:08.4449468+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 369,
+  "ActiveLinks": 103,
   "Links": [
     {
-      "EntityName": "Roob-Gerhold",
-      "Id": 341,
-      "Description": "Stand-alone background projection",
-      "ExtraInfo": "commodi",
-      "LinkId": 326,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 1002
-        }
-      }
-    }
-  ],
-  "NextDueDate": "2022-09-19T16:32:47.9932265+02:00",
-  "Postit": "enim",
-  "SaleType": null,
-  "ReasonSold": null,
-  "ReasonStalled": null,
-  "ReopenDate": "2019-05-10T16:32:47.9932265+02:00",
-  "SaleStakeholders": [
-    {
-      "StakeholderRoleName": "Kuhic, Friesen and Dietrich",
-      "Comment": "voluptas",
-      "StakeholderRoleId": 32,
-      "CountryId": 611,
-      "PersonId": 751,
-      "EmailDescription": "ruby.konopelski@abshire.uk",
-      "EmailId": 27,
-      "EmailAddress": "edward@koss.us",
-      "PhoneId": 527,
-      "ContactName": "Kris Group",
-      "ContactId": 351,
-      "SaleId": 432,
-      "Mrmrs": "excepturi",
-      "Firstname": "Vern",
-      "MiddleName": "Thiel-Leannon",
-      "Lastname": "Ryan",
-      "SaleStakeholderId": 774,
-      "Rank": 759,
-      "Phone": "823.337.4186",
+      "EntityName": "Jaskolski Inc and Sons",
+      "Id": 20,
+      "Description": "Function-based client-server local area network",
+      "ExtraInfo": "laborum",
+      "LinkId": 911,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 265
+          "FieldLength": 838
         }
       }
     }
   ],
-  "ActiveErpLinks": 143,
-  "UserDefinedFields": {
-    "SuperOffice:1": "Mr. Verlie Jones DDS",
-    "SuperOffice:2": "1695830772"
-  },
-  "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "illum"
-  },
-  "CustomFields": {
-    "CustomFields1": "id",
-    "CustomFields2": "accusantium"
-  },
-  "PublishEventDate": "2005-05-21T16:32:47.9932265+02:00",
-  "PublishTo": "2024-05-28T16:32:47.9932265+02:00",
-  "PublishFrom": "2003-09-25T16:32:47.9932265+02:00",
-  "IsPublished": false,
-  "VisibleFor": [
+  "NextDueDate": "2014-09-06T17:54:08.4449468+02:00",
+  "Postit": "autem",
+  "SaleType": null,
+  "ReasonSold": null,
+  "ReasonStalled": null,
+  "ReopenDate": "2010-01-02T17:54:08.4449468+01:00",
+  "SaleStakeholders": [
     {
-      "VisibleId": 71,
-      "Visibility": "All",
-      "DisplayValue": "earum",
+      "StakeholderRoleName": "Donnelly Group",
+      "Comment": "qui",
+      "StakeholderRoleId": 679,
+      "CountryId": 798,
+      "PersonId": 356,
+      "EmailDescription": "clinton@balistreri.biz",
+      "EmailId": 90,
+      "EmailAddress": "madonna@langbarrows.info",
+      "PhoneId": 394,
+      "ContactName": "Jakubowski LLC",
+      "ContactId": 29,
+      "SaleId": 811,
+      "Mrmrs": "dolor",
+      "Firstname": "Sabrina",
+      "MiddleName": "Jones, Rowe and Rath",
+      "Lastname": "Shanahan",
+      "SaleStakeholderId": 576,
+      "Rank": 233,
+      "Phone": "556.879.1243",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 351
+          "FieldLength": 925
+        }
+      }
+    }
+  ],
+  "ActiveErpLinks": 151,
+  "UserDefinedFields": {
+    "SuperOffice:1": "Mrs. Karina Hahn",
+    "SuperOffice:2": "Dr. Jaida Schmidt"
+  },
+  "ExtraFields": {
+    "ExtraFields1": "dolore",
+    "ExtraFields2": "quia"
+  },
+  "CustomFields": {
+    "CustomFields1": "eos",
+    "CustomFields2": "ullam"
+  },
+  "PublishEventDate": "2009-01-13T17:54:08.4449468+01:00",
+  "PublishTo": "2021-04-20T17:54:08.4449468+02:00",
+  "PublishFrom": "2007-01-12T17:54:08.4449468+01:00",
+  "IsPublished": false,
+  "VisibleFor": [
+    {
+      "VisibleId": 291,
+      "Visibility": "All",
+      "DisplayValue": "dicta",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 420
         }
       }
     },
     {
-      "VisibleId": 71,
+      "VisibleId": 291,
       "Visibility": "All",
-      "DisplayValue": "earum",
+      "DisplayValue": "dicta",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 351
+          "FieldLength": 420
         }
       }
     }
@@ -261,7 +261,7 @@ Last-Modified: Sun, 14 Jan 2001 16:32:47 G1T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 210
+      "FieldLength": 153
     }
   },
   "_Links": {

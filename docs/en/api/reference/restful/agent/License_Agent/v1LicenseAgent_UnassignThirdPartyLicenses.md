@@ -88,15 +88,15 @@ OK
 POST /api/v1/Agents/License/UnassignThirdPartyLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 420,
-  "ModuleOwner": "tempora",
+  "AssociateId": 597,
+  "ModuleOwner": "repudiandae",
   "ModuleLicenseNames": [
-    "Gorczany-Hauck",
-    "Waelchi-Lesch"
+    "Bednar LLC",
+    "Kirlin, Schmeler and Dibbert"
   ]
 }
 ```
@@ -110,25 +110,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 321,
-    "Tooltip": "molestiae",
-    "CanAssign": true,
-    "Free": 369,
-    "InUse": 901,
-    "IsHidden": true,
-    "Assigned": true,
-    "ModuleLicenseId": 150,
-    "Name": "Crona, White and Wisoky",
-    "Description": "Operative user-facing capability",
-    "PrerequisiteModuleName": "Renner-Kohler",
-    "SortOrder": 576,
-    "ExtraFlags": 729,
+    "Total": 973,
+    "Tooltip": "sit",
+    "CanAssign": false,
+    "Free": 849,
+    "InUse": 989,
+    "IsHidden": false,
+    "Assigned": false,
+    "ModuleLicenseId": 859,
+    "Name": "Stark, Boehm and Wolff",
+    "Description": "Multi-channelled assymetric projection",
+    "PrerequisiteModuleName": "Rath-Lowe",
+    "SortOrder": 687,
+    "ExtraFlags": 916,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 550
+        "FieldLength": 12
       }
     }
   }

@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultDashTileDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,31 +85,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 578,
-  "Name": "Bahringer LLC",
-  "Description": "Streamlined value-added Graphical User Interface",
-  "DefaultHeight": 702,
-  "DefaultWidth": 672,
+  "DashboardTileDefinitionId": 815,
+  "Name": "Schmidt Group",
+  "Description": "Focused 4th generation flexibility",
+  "DefaultHeight": 330,
+  "DefaultWidth": 811,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Tromp, Ondricka and Nienow",
-  "SelectionId": 524,
+  "EntityName": "Gleichner-Reinger",
+  "SelectionId": 91,
   "CurrencyMode": "Base",
-  "CurrencyCode": "vel",
+  "CurrencyCode": "amet",
   "Measure": "Average",
-  "MeasureField": "numquam",
-  "SortBy": "consequatur",
-  "LayoutConfig": "veniam",
-  "SecondarySelectionId": 248,
-  "MeasureByField": "veniam",
+  "MeasureField": "eligendi",
+  "SortBy": "accusamus",
+  "LayoutConfig": "distinctio",
+  "SecondarySelectionId": 33,
+  "MeasureByField": "debitis",
   "Usage": "Dashboard",
-  "ProviderName": "Thompson, Botsford and Von",
+  "ProviderName": "Roob, Swift and Anderson",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 377
+      "FieldLength": 460
     }
   }
 }

@@ -77,14 +77,14 @@ OK
 POST /api/v1/Agents/Find/CreateRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "labore",
-  "ProviderName": "Olson, Pouros and Windler",
-  "StorageKey": "perspiciatis",
-  "Context": "voluptatem"
+  "StorageType": "fugit",
+  "ProviderName": "Wuckert-Hartmann",
+  "StorageKey": "et",
+  "Context": "et"
 }
 ```
 
@@ -95,30 +95,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Williamson, Schaefer and Considine",
-  "Description": "Exclusive 24 hour paradigm",
-  "Rank": 85,
+  "Name": "Greenfelder, Ward and Predovic",
+  "Description": "Compatible exuding challenge",
+  "Rank": 352,
   "Restrictions": [
     {
-      "Name": "Kunde-Marks",
-      "Operator": "sit",
+      "Name": "Deckow-Gutkowski",
+      "Operator": "magni",
       "Values": [
-        "qui",
-        "non"
+        "pariatur",
+        "sed"
       ],
       "DisplayValues": [
-        "voluptatibus",
-        "harum"
+        "autem",
+        "aut"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 770,
+      "InterParenthesis": 823,
       "InterOperator": "And",
-      "UniqueHash": 119
+      "UniqueHash": 399
     }
   ]
 }

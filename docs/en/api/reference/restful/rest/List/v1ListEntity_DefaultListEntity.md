@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 537,
-  "Name": "Fay-O'Reilly",
-  "Tooltip": "et",
-  "Deleted": true,
-  "Rank": 302,
-  "IsCustomList": false,
+  "Id": 77,
+  "Name": "Kertzmann Inc and Sons",
+  "Tooltip": "voluptatem",
+  "Deleted": false,
+  "Rank": 777,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "voluptatem",
+  "UseGroupsAndHeadings": false,
+  "ListType": "ipsam",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 369
+      "FieldType": "System.Int32",
+      "FieldLength": 76
     }
   }
 }

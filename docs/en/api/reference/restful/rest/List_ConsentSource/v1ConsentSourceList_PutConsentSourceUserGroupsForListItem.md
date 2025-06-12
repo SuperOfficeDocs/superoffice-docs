@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ConsentSource/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 220,
-    "Name": "Raynor, Kertzmann and Reilly",
-    "ToolTip": "Numquam debitis distinctio vel.",
+    "Id": 141,
+    "Name": "Rolfson-Rogahn",
+    "ToolTip": "Provident sit sunt est impedit.",
     "Deleted": true,
-    "Rank": 534,
-    "Type": "dignissimos",
-    "ColorBlock": 525,
-    "IconHint": "autem",
+    "Rank": 275,
+    "Type": "dolores",
+    "ColorBlock": 284,
+    "IconHint": "fugit",
     "Selected": false,
-    "LastChanged": "1998-10-02T16:32:48.5870472+02:00",
+    "LastChanged": "2018-03-16T17:54:08.8199285+01:00",
     "ChildItems": [
       {
-        "Id": 97,
-        "Name": "Adams, Cremin and Lemke",
-        "ToolTip": "Ipsa excepturi qui occaecati dicta ipsa.",
-        "Deleted": true,
-        "Rank": 82,
-        "Type": "nesciunt",
-        "ColorBlock": 494,
-        "IconHint": "esse",
+        "Id": 152,
+        "Name": "Farrell, Lind and Gleichner",
+        "ToolTip": "Enim cupiditate.",
+        "Deleted": false,
+        "Rank": 936,
+        "Type": "eius",
+        "ColorBlock": 168,
+        "IconHint": "dignissimos",
         "Selected": false,
-        "LastChanged": "2004-07-28T16:32:48.5870472+02:00",
+        "LastChanged": "2018-07-24T17:54:08.8199285+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "excepturi",
-        "StyleHint": "eveniet",
-        "Hidden": true,
-        "FullName": "Jordy Orn"
+        "ExtraInfo": "laborum",
+        "StyleHint": "quae",
+        "Hidden": false,
+        "FullName": "Elise Bailey IV"
       }
     ],
-    "ExtraInfo": "ab",
-    "StyleHint": "minus",
+    "ExtraInfo": "occaecati",
+    "StyleHint": "deserunt",
     "Hidden": false,
-    "FullName": "Elyssa Stanton"
+    "FullName": "Miss Tessie Elva Blanda III"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 983,
-    "Name": "Steuber-Huels",
-    "ToolTip": "Est aut consequatur accusantium aut.",
-    "Deleted": true,
-    "Rank": 487,
-    "Type": "qui",
-    "ColorBlock": 68,
-    "IconHint": "dolorem",
+    "Id": 562,
+    "Name": "Ziemann, Dare and Bartell",
+    "ToolTip": "Omnis incidunt sit eius et cupiditate.",
+    "Deleted": false,
+    "Rank": 392,
+    "Type": "accusantium",
+    "ColorBlock": 128,
+    "IconHint": "dignissimos",
     "Selected": false,
-    "LastChanged": "2010-07-07T16:32:48.5870472+02:00",
+    "LastChanged": "1999-07-08T17:54:08.8511769+02:00",
     "ChildItems": [
       {
-        "Id": 629,
-        "Name": "Wehner Inc and Sons",
-        "ToolTip": "Ea ex blanditiis sint.",
+        "Id": 269,
+        "Name": "Bogisich-Harris",
+        "ToolTip": "Culpa aut libero.",
         "Deleted": false,
-        "Rank": 748,
-        "Type": "est",
-        "ColorBlock": 931,
-        "IconHint": "corporis",
-        "Selected": false,
-        "LastChanged": "1999-10-05T16:32:48.5870472+02:00",
+        "Rank": 668,
+        "Type": "et",
+        "ColorBlock": 433,
+        "IconHint": "quam",
+        "Selected": true,
+        "LastChanged": "2008-04-26T17:54:08.8511769+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "repudiandae",
-        "StyleHint": "praesentium",
-        "Hidden": false,
-        "FullName": "Garret Sasha Morar III",
+        "ExtraInfo": "velit",
+        "StyleHint": "odio",
+        "Hidden": true,
+        "FullName": "Dakota Bartoletti",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 391
+            "FieldType": "System.String",
+            "FieldLength": 48
           }
         }
       }
     ],
-    "ExtraInfo": "maxime",
-    "StyleHint": "deleniti",
-    "Hidden": false,
-    "FullName": "Grayce Mante",
+    "ExtraInfo": "debitis",
+    "StyleHint": "saepe",
+    "Hidden": true,
+    "FullName": "Thurman Stokes",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 218
+        "FieldLength": 909
       }
     }
   }

@@ -80,20 +80,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 329,
-    "Name": "Bahringer-Cormier",
-    "Tooltip": "tenetur",
-    "Deleted": false,
-    "Rank": 101,
-    "UdListDefinitionId": 686
+    "HeadingId": 30,
+    "Name": "Stoltenberg-Purdy",
+    "Tooltip": "nihil",
+    "Deleted": true,
+    "Rank": 755,
+    "UdListDefinitionId": 559
   },
   {
-    "HeadingId": 329,
-    "Name": "Bahringer-Cormier",
-    "Tooltip": "tenetur",
-    "Deleted": false,
-    "Rank": 101,
-    "UdListDefinitionId": 686
+    "HeadingId": 30,
+    "Name": "Stoltenberg-Purdy",
+    "Tooltip": "nihil",
+    "Deleted": true,
+    "Rank": 755,
+    "UdListDefinitionId": 559
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 17,
-    "Name": "Doyle-Stark",
-    "Tooltip": "reprehenderit",
-    "Deleted": false,
-    "Rank": 744,
-    "UdListDefinitionId": 603,
+    "HeadingId": 91,
+    "Name": "Legros Group",
+    "Tooltip": "cum",
+    "Deleted": true,
+    "Rank": 13,
+    "UdListDefinitionId": 890,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 107
+        "FieldType": "System.Int32",
+        "FieldLength": 179
       }
     }
   }

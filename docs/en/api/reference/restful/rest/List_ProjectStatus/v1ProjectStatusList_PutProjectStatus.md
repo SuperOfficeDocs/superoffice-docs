@@ -78,16 +78,16 @@ OK
 PUT /api/v1/List/ProjectStatus/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 835,
-  "Name": "Torphy-Nienow",
-  "Tooltip": "odio",
+  "Id": 408,
+  "Name": "Renner, Conn and Gibson",
+  "Tooltip": "illum",
   "Deleted": true,
-  "UdListDefinitionId": 562,
-  "Rank": 195
+  "UdListDefinitionId": 261,
+  "Rank": 921
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 229,
-  "Name": "Haag Inc and Sons",
-  "Tooltip": "et",
+  "Id": 878,
+  "Name": "Rempel LLC",
+  "Tooltip": "tenetur",
   "Deleted": true,
-  "UdListDefinitionId": 993,
-  "Rank": 870,
+  "UdListDefinitionId": 522,
+  "Rank": 410,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 400
+      "FieldType": "System.Int32",
+      "FieldLength": 499
     }
   }
 }

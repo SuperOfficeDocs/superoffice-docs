@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/EMail/GetEMailAccountFromEMailAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromAddress": "est"
+  "FromAddress": "non"
 }
 ```
 
@@ -101,24 +101,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 163,
-  "EMailAddress": "assumenda",
-  "AssociateId": 861,
+  "EMailAccountId": 372,
+  "EMailAddress": "iusto",
+  "AssociateId": 126,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 95,
-  "ErrorCount": 148,
-  "ErrorReason": "evolve seamless paradigms",
-  "InboxFolder": "cum",
-  "SentFolder": "quas",
-  "SimpleMode": 303,
-  "LastFetch": "2022-09-11T16:32:39.0082952+02:00",
+  "AccountStatus": 89,
+  "ErrorCount": 65,
+  "ErrorReason": "",
+  "InboxFolder": "qui",
+  "SentFolder": "perspiciatis",
+  "SimpleMode": 459,
+  "LastFetch": "2022-04-18T17:54:03.0858331+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 948
+      "FieldType": "System.Int32",
+      "FieldLength": 761
     }
   }
 }
