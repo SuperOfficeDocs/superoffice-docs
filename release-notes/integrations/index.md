@@ -1,11 +1,13 @@
 ---
-uid: release-notes-integrations
+uid: news-integrations
 title: What's new in SuperOffice Integrations
 description: Release notes. What's new in SuperOffice Integrations
 keywords: integration, app
 author: SuperOffice AS – Product and Engineering
-date: 06.09.2025
+date: 06.17.2025
 topic: reference
+audience: person
+audience_tooltip: SuperOffice CRM
 ---
 
 # What's new for Product integrations - Details of new features
@@ -32,6 +34,7 @@ See all the [new or updated apps][2]
 * [SuperOffice Mobile CRM (10.06.2025)][7] from SuperOffice AS
 * [Online Signature (10.06.2025)][8] from Beezy365 A/S
 * [NPS For SuperOffice (05.06.2025)][9] from Beezy365 A/S
+* [Trale (01.06.2025)][11] from Supercompany AS
 * [Scrive for SuperOffice (20.05.2025)][10] from Scrive AB
 * [ezSync (16.05.2025)][3] from Schneider & Wulf EDV-Beratung GmbH & Co KG
 * [ezSync - Dynamics 365 Business Central (16.05.2025)][4] from Schneider & Wulf EDV-Beratung GmbH & Co KG
@@ -48,5 +51,6 @@ See all the [new or updated apps][2]
 [8]: https://appstore.superoffice.com/beezy365-a-s/online-signature
 [9]: https://appstore.superoffice.com/beezy365-a-s/nps-for-superoffice
 [10]: https://appstore.superoffice.com/scrive-ab/scrive-for-superoffice
+[11]: https://appstore.superoffice.com/supercompany-as/trale
 
 <!-- Referenced images -->
