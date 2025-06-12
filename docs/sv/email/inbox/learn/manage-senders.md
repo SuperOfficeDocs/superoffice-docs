@@ -1,47 +1,59 @@
 ---
 uid: help-sv-email-inbox-senders
-title: Hantera avsändare med inkorgen i SuperOffice
-description: Hantera avsändare med inkorgen i SuperOffice
-author: SuperOffice RnD
-date: 07.04.2022
-keywords: e-post
+title: Hantera avsändare med SuperOffice Inkorg
+description: Läs om hur du registrerar eller matchar okända avsändare i SuperOffice CRM
+keywords: okänd avsändare, avsändare, lägg till kontakt, e-posthuvud, e-postadress, SuperOffice Inkorg, inkorg
+author: Bergfrid Dias
+date: 05.28.2025
+version: 10.5
 topic: howto
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: sv
 ---
 
 # Hantera avsändare
 
-## Leta efter avsändare i SuperOffice
+SuperOffice Inkorg hjälper dig att identifiera och hantera e-postavsändare. Om e-postadressen inte redan finns registrerad i SuperOffice CRM uppmanas du att lägga till den som en person. Du kan även visa avsändarens information eller registrera fler adresser direkt från e-posthuvudet.
 
-I SuperOffice CRM kan du enkelt hitta information om en avsändare.
+## Visa känd kontakt
 
-1. Markera ett e-postmeddelande i inkorgen.
-2. Klicka på avsändarens namn och e-postadress överst i meddelandet.
-3. Vad som händer sedan beror på om avsändarens e-postadress finns i SuperOffice eller inte:
-    * Om e-postadressen finns under ett företag/en kontakt öppnas företags-/kontaktkortet.
-    * Om e-postadressen är registrerad på flera företag/kontakter öppnas en dialogruta där du kan välja ett av alternativen.
-    * Om e-postadressen inte är registrerad i SuperOffice CRM kan du klicka på **Skapa nytt företag och ny kontakt**.
+Du kan visa kontaktinformation för avsändare och mottagare i e-posthuvudet.
 
-## Lägg till avsändarens e-postadress i en ny eller befintlig kontakt i SuperOffice
+* **Håll muspekaren över** namnet för att se en förhandsvisning med namn, titel, företag och telefonnummer.
+* **Klicka** för att öppna hela kontaktkortet.
 
-1. Gå till inkorgen.
+Om flera personer matchar e-postadressen visas en lista så att du kan välja rätt kontakt.
 
-2. Markera ett meddelande i inkorgen.
+## Lägg till okänd avsändare i SuperOffice
 
-3. Klicka på avsändarens namn och e-postadress överst i meddelandet.
+När avsändaren inte känns igen visas en gul informationsruta ovanför förhandsgranskningen.
 
-4. Klicka på **Skapa nytt företag och ny kontakt**.
+1. Klicka på länken **Okänd avsändare** i bannern för att öppna dialogrutan **Lägg till kontakt i SuperOffice**.
 
-5. Välj något av följande alternativ i dialogrutan **Lägg till kontakt i SuperOffice**:
-    * Sök: Sök efter ett företag eller en kontakt som du vill lägga till avsändarens e-postadress i.
-    * **Kontakten kan vara...** SuperOffice försöker matcha avsändaren mot alla befintliga kontakter i databasen. Klicka på den föreslagna kontakt som eventuellt överensstämmer med avsändaren.
-    * **Skapa nytt företag och ny kontakt**: Klicka på den här knappen om avsändaren är en ny kontakt från ett företag som inte finns registrerat i SuperOffice sedan tidigare.
-    * **Lägg inte till person i SuperOffice**: Om du arkiverar ett e-postmeddelande eller skapar en uppgift kan du klicka på den här knappen om du vill registrera avsändarens e-postadress.
+    ![Gul banner med dialogrutan Lägg till kontakt -screenshot][img1]
 
-6. Fyll i de relevanta fälten och klicka på **Lägg till**.
+1. I dialogrutan kan du:
 
-Om du arkiverar ett e-postmeddelande eller skapar en uppgift öppnas dialogrutan **Dokument** eller **Uppgift**.
+    * Söka efter en befintlig person eller ett företag.
+    * Välja ett företag under **Kontakten kan arbeta på** om förslag visas.
+    * Klicka på **Skapa nytt företag och ny kontakt** om avsändaren ännu inte finns i SuperOffice CRM.
 
-<!-- Referenced links -->
+    ![Dialogrutan Lägg till kontakt i SuperOffice Inkorg -screenshot][img2]
 
-<!-- Referenced images -->
+> [!TIP]
+> Du kan även klicka på en okänd e-postadress i fältet *Till* eller *Kopia*. Samma dialogruta öppnas. Om domänen känns igen visas matchande företag. Om inte, kan du ändå söka eller skapa en ny post.
+
+## Relaterat innehåll
+
+* [Arkivera e-post][2]
+* [Om personer][3]
+
+<!-- Refererade länkar -->
+[2]: archive.md
+[3]: ../../../contact/learn/index.md
+
+<!-- Refererade bilder -->
+[img1]: ../../../../media/loc/en/email/inbox-unknown-sender.png
+[img2]: ../../../../media/loc/en/email/inbox-add-contact.png

@@ -1,51 +1,161 @@
 ---
 uid: help-sv-email-inbox-compose
-title: Skriva e-postmeddelanden
-description: Skriva e-postmeddelanden
-keywords: e-post
-author: SuperOffice RnD
-date: 02.25.2025
+title: Skriva e-post
+description: Läs om hur du skriver och skickar e-post med inkorgen i SuperOffice
+keywords: skriva e-post, ny e-post, e-postmeddelanden
+author: Bergfrid Dias
+date: 05.28.2025
+version: 10.5
 topic: howto
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: sv
 ---
 
-# Skriva ett e-postmeddelande
+# Skriva e-post
+
+Använd inkorgen i SuperOffice för att skriva nya meddelanden och svara på inkommande e-post. Du kan lägga till bilagor, infoga återanvändbart innehåll och arkivera meddelanden i SuperOffice CRM.
+
+## Skapa ett nytt e-postmeddelande
+
+1. Klicka på **Ny e-post** uppe till vänster i inkorgen.
+
+    * Du kan också klicka på **Nytt** i det toppraden och välja **E-post**.
+
+1. I dialogrutan **Ny e-post**:
+
+    * Börja skriva ett namn eller en e-postadress i fältet **Till** och välj ett resultat från söklistan. Alternativt kan du klicka på <i class="ph ph-clock" aria-label="History list icon"></i> för att välja en kontakt från historiken.
+    * Klicka på **Kopia/Hemlig kopia** för att lägga till fler mottagare.
+    * Ange ett ämne.
+
+    ![Dialogrutan Ny e-post -screenshot][img1]
+
+1. Skriv ditt meddelande i huvudfältet.
+
+    * Din [personliga signatur][3] läggs in automatiskt.
+    * Använd formateringsfältet för att lägga till stil, länkar, tabeller och bilder.
+    * Klicka på knappen **Glittra** (<i class="ph ph-sparkle" aria-hidden="true"></i>) för att kontrollera stavning, översätta eller omformulera meddelandet med AI-hjälp.
+
+1. Om du vill infoga fördefinierat innehåll placerar du markören där texten ska läggas in. Klicka sedan på <i class="ph ph-article" aria-label="Insert"></i> och välj bland följande alternativ:
+
+    * **FAQ:** Infogar en länk till en publicerad [FAQ][4].
+    * **Svarsmallar:** Infogar en delad [svarsmall][5].
+    * **Snabbsvar:** Infogar ett personligt [snabbsvar](#snabbsvar).
+
+    ![Infoga innehåll i e-postmeddelande -screenshot][img2]
+
+1. Lägg till bilagor (valfritt):
+
+    * Klicka på **Ladda upp fil** eller dra och släpp filer.
+    * Eller, klicka på **Välj ett CRM-dokument** för att bifoga ett befintligt dokument.
+
+1. Klicka på **Skicka** eller **Skicka och arkivera**.
+
+    * Om du arkiverar meddelandet öppnas [dialogrutan Dokument][1] med uppgifter förifyllda.
+
+## Börja från en mall
+
+1. Klicka på pilen bredvid knappen **Ny e-post** längst upp till vänster i inkorgen och välj en mall.
+
+    ![Rullgardinsmeny med e-postmallar -screenshot][img4]
+
+    De tillgängliga [e-postmallarna][6] definieras under Inställningar och underhåll.
+
+1. Om mallen innehåller variabler som **Försäljning**, **Projekt** eller **Språk** visas en dialogruta där du anger den informationen.
+
+    ![Dialogruta med fält för försäljning, projekt och språk -screenshot][img5]
+
+    Fyll i fälten och klicka på **Skapa**.
+
+1. Redigeringsfönstret för e-post öppnas med ämne och meddelandetext förifyllda. Lägg till mottagare och komplettera med övriga uppgifter.
+
+    ![Redigeringsfönster med förifyllt ämne och meddelandetext -screenshot][img6]
+
+1. Klicka på **Skicka** eller **Skicka och arkivera** för att avsluta.
+
+## Svara på ett e-postmeddelande
+
+1. Markera ett meddelande i inkorgen.
+
+1. Klicka på <i class="ph ph-arrow-bend-up-left" aria-label="Reply"></i> eller <i class="ph ph-arrow-bend-double-up-left" aria-label="Reply all"></i> i meddelandets huvud.
+
+1. Ett utkast öppnas i den högra rutan med:
+    * Fältet **Till** ifyllt.
+    * Originalmeddelandet citerat nedanför markören.
+    * Din [personliga signatur][3] inlagd automatiskt.
+
+1. Redigera ämne eller meddelande vid behov.
+
+1. Klicka på **Skicka** eller **Skicka och arkivera**.
 
 > [!TIP]
-> Nedan beskrivs hur du skriver ett e-postmeddelande från inkorgen. Du kan också skriva ett e-postmeddelande genom att klicka på **Nytt** > **E-postmeddelande** i det övre fältet.
+> Om meddelandet är en kundförfrågan kan det vara bättre att [arkivera det som ett ärende][2] i stället för att svara direkt. Då hanteras ärendet i SuperOffice Service och spåras korrekt.
 
-## Skapa e-postmeddelande från inkorgen i SuperOffice
+## <a id="snabbsvar"></a>Snabbsvar
 
-[!include[How to compose an email](../../learn/includes/howto-compose-email.md)]
+Ett snabbsvar är en personlig, återanvändbar text som du kan infoga i e-postmeddelanden. Till skillnad från svarsmallar skapas och hanteras snabbsvar av dig och syns bara för dig.
 
-## Ange information i dialogrutan Nytt e-postmeddelande
+### Infoga ett snabbsvar
 
-Om du skapar ett nytt e-postmeddelande utifrån en mall visas dialogrutan **Nytt e-postmeddelande** i vissa fall eftersom en inställning i mallen gör det möjligt att lägga till ytterligare information i e-postmeddelandet. Det är särskilt relevant när du använder mallar med mallvariabler för försäljning och projekt där du måste välja rätt försäljning eller projekt för de variabler som ska fyllas i när du skickar e-postmeddelandet.
+1. Klicka på <i class="ph ph-article" aria-label="Insert"></i> i meddelandets verktygsfält.
+1. Välj **Snabbsvar**.
+1. Välj den text du vill infoga. Texten läggs in vid markören.
 
-Fyll i fälten nedan, klicka på **Skapa** och skriv e-postmeddelandet enligt beskrivningen ovan.
+### Skapa ett nytt snabbsvar
 
-| Fält | Beskrivning |
+1. Klicka på knappen **Redigera** i dialogrutan **Infoga**.
+1. Klicka på **Lägg till**.
+1. Ange ett namn i fältet **Ny rubrik** (inte synligt för mottagare).
+1. Skriv texten i fältet **Nytt innehåll**.
+1. Klicka på **Spara**.
+
+![Redigera nytt snabbsvar -screenshot][img3]
+
+## Utkast
+
+Klicka på <i class="ph ph-x" aria-label="Close icon"></i> i hörnet för att stänga meddelandefönstret. Utkastet sparas automatiskt i mappen **Utkast**.
+
+## Skickade meddelanden
+
+Som standard sparas skickade meddelanden i mappen **Skickat**. Du kan ändra detta under **Alternativ för e-post**.
+
+Om du glömmer att arkivera meddelandet kan du [arkivera det manuellt][1] från mappen **Skickat**.
+
+## Alternativ för e-post
+
+Under **Alternativ för e-post** anpassar du hur inkorgen hanterar utgående meddelanden, formatering och lagring.
+
+Så här kommer du åt inställningarna:
+
+1. Gå till **Personliga inställningar** (<i class="ph ph-user-circle" aria-hidden="true"></i>) och välj **Alternativ för e-post**.
+1. Justera dina preferenser under fliken **Allmänt**.
+
+| Alternativ | Beskrivning |
 |---|---|
-| Dokumentmall | Om du klickar på <i class="ph ph-caret-down" aria-label="Chevron"></i> bredvid fältet för typ högst upp i dialogrutan visas en lista över dokumentmallar du kan välja bland. Vilka mallar som kan väljas definieras under Inställningar och underhåll. |
-| Företag | Här skriver du in namnet på den kontakt du skriver dokumentet till. |
-| Kontaktperson | När du klickar på pilen efter detta fält visas en lista över kontakter som är registrerade för företaget. |
-| Projekt | Skriv in namnet på det projekt som e-postmeddelandet ska kopplas till. |
-| Försäljning | Skriv in namnet på den försäljning som e-postmeddelandet ska kopplas till. |
-| Synlig för | Klicka i fältet **Synlig för** om du vill visa en lista där du kan välja om e-postmeddelandet ska vara synligt för alla, synligt bara för dig, eller synligt för alla användare i en av de användargrupper som ägaren tillhör. |
-| Språk | Om den valda mallen innehåller översatta versioner kan du välja ett språk för mallen. |
+| **Använd signatur i ny e-post** | Infogar din [personliga signatur][3] automatiskt i nya meddelanden. |
+| **Använd signatur för Svara/Vidarebefordra** | Lägger till signaturen vid svar och vidarebefordran. |
+| **Teckensnitt/storlek/färg** | Ställer in standardformat för meddelanden. |
+| **Mall för utgående e-post** | Anger standardmall vid nya meddelanden. |
+| **Spara kopia av skickat e-postmeddelande** | Sparar skickade meddelanden i mappen **Skickat** (standard). |
 
-## Skicka
+## Relaterat innehåll
 
-När du är klar med meddelandet och vill skicka det har du följande alternativ:
+* [Arkivera e-postmeddelanden][1]
+* [Redigera e-postsignatur][3]
 
-* Om du vill skicka meddelandet direkt klickar du på **Skicka**.
-* Om du vill skicka meddelandet och arkivera det som ett dokument i SuperOffice CRM klickar du på **Skicka och arkivera**. Dialogrutan **Dokument** öppnas. [Så skapar du ett dokument][1].
+<!-- Refererade länkar -->
+[1]: archive.md
+[2]: create-request.md
+[3]: ../../../learn/getting-started/edit-email-signature.md
+[4]: ../../../faq/learn/index.md
+[5]: ../../../request/reply-templates/learn/index.md
+[6]: ../../../admin/lists/learn/add-email-template.md
 
-> [!TIP]
-> Om du inte arkiverar meddelandet när du skickar det kan du fortfarande [gå till mappen Skickat och arkivera meddelandet][2].
->
-> Du kan redigera signaturmallen nederst i meddelandet under <i class="ph ph-user-circle" aria-hidden="true"></i> **Personliga inställningar** > **Redigera personlig e-postsignatur**.
-
-<!-- Referenced links -->
-[1]: ../../../document/learn/create.md
-[2]: archive.md
+<!-- Refererade bilder -->
+[img1]: ../../../../media/loc/en/email/inbox-new-email.png
+[img2]: ../../../../media/loc/en/email/inbox-insert-options.png
+[img3]: ../../../../media/loc/en/email/add-quick-reply.png
+[img4]: ../../../../media/loc/en/email/inbox-choose-template.png
+[img5]: ../../../../media/loc/en/email/inbox-template-prompt-dialog.png
+[img6]: ../../../../media/loc/en/email/new-email-from-template.png
